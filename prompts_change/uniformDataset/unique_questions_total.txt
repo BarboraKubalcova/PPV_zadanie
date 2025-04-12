@@ -1,0 +1,118 @@
+Which type of modality is not shown in this image, MRI, CT, or X-Ray?
+Which side of lung is normal in this image, left or right?
+Can nodule not be observed on the lower right lung in this picture?
+Is this image normal?
+Can pleural infiltration not be observed on the lower right lung in this picture?
+Can pneumonia not be observed on the upper left lung in this picture?
+Can pleural effusion not be observed on the upper right chest in this picture?
+Can atelectasis not be observed on the upper left lung in this picture?
+Does the lung not look abnormal?
+Do the organs in the image not exist in the neck?
+Can mass not be observed on the lower left lung in this picture?
+Is the image not scanned in the transverse plane or coronal plane?
+Is this not an MRI?
+Is this not a transverse section?
+Can pneumothorax not be observed on the upper right lung in this picture?
+Can infiltration not be observed on the lower right lung in this picture?
+Is this image abnormal?
+Can nodule not be observed on the upper right lung in this picture?
+Do the organs in the image not exist in the abdomen?
+Can nodule not be observed on the upper left lung in this picture?
+Which plane is the image not scanned in, transverse plane or coronal plane?
+Can mass not be observed on the right lung in this picture?
+Can atelectasis not be observed on the upper right lung in this picture?
+Does the lung have abnormalities?
+Can cardiomegaly not be observed on the heart in this picture?
+Which organ is normal, heart or lung??
+Does this image look abnormal?
+Do the organs in the image not exist in the pelvic cavity?
+Is this not an X-Ray?
+Does the patient not have any abnormalities?
+Can pulmonary infiltration not be observed on the upper right lung in this picture?
+Can pneumonia not be observed on the left lung in this picture?
+Is this not a CT scan?
+Can nodule not be observed on the lower left lung in this picture?
+Do the organs in the image exist in the abdomen?
+Can pneumothorax not be observed on the upper left lung in this picture?
+Is the lung abnormal appearing?
+Can pneumonia not be observed on the upper right lung in this picture?
+Which organ is normal, heart or lung?
+Is this image abormal?
+Can atelectasis not be observed on the lower right lung in this picture?
+Can mass not be observed on the upper left lung in this picture?
+Can effusion not be observed on the lower left lung in this picture?
+Can effusion not be observed on the right chest in this picture?
+Can infiltration not be observed on the upper right lung in this picture?
+Is this not a coronal section?
+Can mass not be observed on the lower right lung in this picture?
+Can cardiomegaly not be observed in this picture?
+Does the lung look unhealthy?
+Is the lung not abnormal?
+Is this not a study of the abdomen?
+Which plane is the image not scanned, transverse plane or coronal plane?
+Can pleural effusion not be observed on the left chest in this picture?
+Can effusion not be observed on the lower right lung in this picture?
+Is this not a CT?
+Does the lung look healthy?
+Are there no abnormalities in this image?
+Can effusion not be observed on the left lung in this picture?
+Can pneumonia not be observed on the right lung in this picture?
+Are both the heart and lung normal?
+Which plane is not the image scanned, transverse plane or coronal plane?
+Do not the organs in the image exist in the abdomen?
+Is the lung not healthy?
+Is this image not taken via MRI?
+Is this not image taken via X-Ray?
+Do the organs in the image not exist in the chest?
+Can mass not be observed on the upper right lung in this picture?
+Is this not a study of the neck?
+Can mass not be observed on the left lung in this picture?
+Can nodule not be observed on the left lung in this picture?
+Is this not a study of the head?
+Is the lung unhealthy?
+Can cardiomegaly not be observed on the left lung in this picture?
+Is this not a transverse plane?
+Are there no abnormalities in the patient's left lung?
+Is this not a study of the chest?
+Can infiltration not be observed on the upper left lung in this picture?
+Does the lung look normal?
+Is/Are there no abnormalities in the patient's left chest?
+Is this not a study of the pelvic cavity?
+Is this image not taken via X-Ray?
+Is this a transverse section?
+Can pneumothorax not be observed on the right lung in this picture?
+Is this not a sagittal plane?
+Does the patient have no abnormalities?
+Can effusion not be observed on the upper left lung in this picture?
+Can atelectasis not be observed on the lower left lung in this picture?
+Is this not an MRI scan?
+Which organ is abnormal, heart or lung?
+Can cardiomegaly not be observed on the lower right lung in this picture?
+Can pneumothorax not be observed on the lower left lung in this picture?
+Can pneumonia not be observed on the lower right lung in this picture?
+Are there no abnormalities in the patient's right lung?
+Can infiltration not be observed on the lower left lung in this picture?
+Is this image not taken via CT?
+Which type of modality is not shown about this image, MRI, CT or X-Ray?
+Which side of the lung is normal in this image, left or right?
+Does this image look normal?
+Which type of modality is not shown about this image, MRI, CT, or X-Ray?
+Is this not sagittal plane?
+Is this a coronal plane?
+Is the lung normal?
+Is the lung healthy?
+Do the organs in the image not exist in the head?
+Can effusion not be observed on the upper right lung in this picture?
+Can cardiomegaly not be observed on the upper left lung in this picture?
+Which side of the lung is not abnormal in this image, left or right?
+Is this image not normal?
+Can infiltration not be observed on the right lung in this picture?
+Is/Are there no abnormalities in the patient's left lung?
+Can pneumonia not be observed on the lower left lung in this picture?
+Is the lung normal appearing?
+Can pneumothorax not be observed on the lower right lung in this picture?
+Is this not a coronal plane?
+Is the lung not normal appearing?
+Are there abnormalities in this image?
+Is/Are there no abnormalities in the patient's right lung?
+Is this a transverse plane?

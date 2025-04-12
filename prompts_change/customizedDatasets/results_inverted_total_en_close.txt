@@ -1,0 +1,10 @@
+
+original
+accuracy": 95.47511312217195,
+    "total_questions": 663,
+    "correct_predictions": 633,
+
+inverted:
+  "accuracy": 60.18099547511312,
+    "total_questions": 663,
+    "correct_predictions": 399,
