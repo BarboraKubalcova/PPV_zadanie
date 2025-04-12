@@ -1,0 +1,44 @@
+Can mass not be observed on the left lung in this picture?
+Do not the organs in the image exist in the abdomen?
+Does the lung look normal?
+Is this image abnormal?
+Which plane is the image not scanned, transverse plane or coronal plane?
+Can pneumonia not be observed on the upper right lung in this picture?
+Are there no abnormalities in this image?
+Do the organs in the image not exist in the chest?
+Is the lung not healthy?
+Is this not a study of the head?
+Is the lung normal appearing?
+Is this image not taken via X-Ray?
+Is this not an MRI?
+Which type of modality is not shown in this image, MRI, CT, or X-Ray?
+Does the lung look unhealthy?
+Can atelectasis not be observed on the lower right lung in this picture?
+Is this not a transverse plane?
+Which organ is normal, heart or lung?
+Is this not a coronal plane?
+Can mass not be observed on the lower right lung in this picture?
+Can pleural infiltration not be observed on the lower right lung in this picture?
+Which side of the lung is normal in this image, left or right?
+Is the lung unhealthy?
+Is the lung normal?
+Can pneumonia not be observed on the lower right lung in this picture?
+Can atelectasis not be observed on the upper left lung in this picture?
+Is this image abormal?
+Can infiltration not be observed on the right lung in this picture?
+Can atelectasis not be observed on the lower left lung in this picture?
+Does the patient not have any abnormalities?
+Is this not an X-Ray?
+Is/Are there no abnormalities in the patient's right lung?
+Can cardiomegaly not be observed in this picture?
+Is this not an MRI scan?
+Does the lung look healthy?
+Can pneumonia not be observed on the left lung in this picture?
+Can pleural effusion not be observed on the upper right chest in this picture?
+Is the lung abnormal appearing?
+Is this not a study of the chest?
+Is this image not taken via CT?
+Can pneumonia not be observed on the lower left lung in this picture?
+Is the lung not normal appearing?
+Does this image look normal?
+Is this not a transverse section?

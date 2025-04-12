@@ -1,0 +1,10 @@
+{
+    "Modality Identification": 9, 
+    "Plane of Image": 6,
+    "Image Normality": 18,
+    "Lung Condition": 14,
+    "Lung Abnormalities by Side": 9,
+    "Specific Lung Conditions": 10,
+    "Organs' Presence and Location": 3,
+    "all": 69
+}

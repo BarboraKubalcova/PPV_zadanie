@@ -1,0 +1,1712 @@
+[
+    {
+        "img_id": 121,
+        "img_name": "xmlab121/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9885
+    },
+    {
+        "img_id": 121,
+        "img_name": "xmlab121/source.jpg",
+        "question": "Is the lung not healthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9889
+    },
+    {
+        "img_id": 127,
+        "img_name": "xmlab127/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9892
+    },
+    {
+        "img_id": 127,
+        "img_name": "xmlab127/source.jpg",
+        "question": "Does the lung look healthy?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9896
+    },
+    {
+        "img_id": 128,
+        "img_name": "xmlab128/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9902
+    },
+    {
+        "img_id": 128,
+        "img_name": "xmlab128/source.jpg",
+        "question": "Does the lung look healthy?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9903
+    },
+    {
+        "img_id": 129,
+        "img_name": "xmlab129/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9906
+    },
+    {
+        "img_id": 129,
+        "img_name": "xmlab129/source.jpg",
+        "question": "Is the lung not healthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9910
+    },
+    {
+        "img_id": 139,
+        "img_name": "xmlab139/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9916
+    },
+    {
+        "img_id": 139,
+        "img_name": "xmlab139/source.jpg",
+        "question": "Does the lung look unhealthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9917
+    },
+    {
+        "img_id": 139,
+        "img_name": "xmlab139/source.jpg",
+        "question": "Which organ is normal, heart or lung?",
+        "answer": "Heart",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9918
+    },
+    {
+        "img_id": 164,
+        "img_name": "xmlab164/source.jpg",
+        "question": "Does this image look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9921
+    },
+    {
+        "img_id": 164,
+        "img_name": "xmlab164/source.jpg",
+        "question": "Which organ is normal, heart or lung?",
+        "answer": "Lung",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9925
+    },
+    {
+        "img_id": 170,
+        "img_name": "xmlab170/source.jpg",
+        "question": "Does this image look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9928
+    },
+    {
+        "img_id": 170,
+        "img_name": "xmlab170/source.jpg",
+        "question": "Is the lung not healthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9932
+    },
+    {
+        "img_id": 170,
+        "img_name": "xmlab170/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9933
+    },
+    {
+        "img_id": 170,
+        "img_name": "xmlab170/source.jpg",
+        "question": "Which organ is normal, heart or lung?",
+        "answer": "Heart",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9934
+    },
+    {
+        "img_id": 191,
+        "img_name": "xmlab191/source.jpg",
+        "question": "Does this image look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9937
+    },
+    {
+        "img_id": 191,
+        "img_name": "xmlab191/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9941
+    },
+    {
+        "img_id": 191,
+        "img_name": "xmlab191/source.jpg",
+        "question": "Which organ is normal, heart or lung?",
+        "answer": "Lung",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9942
+    },
+    {
+        "img_id": 196,
+        "img_name": "xmlab196/source.jpg",
+        "question": "Does this image look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9945
+    },
+    {
+        "img_id": 196,
+        "img_name": "xmlab196/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9949
+    },
+    {
+        "img_id": 196,
+        "img_name": "xmlab196/source.jpg",
+        "question": "Which organ is normal, heart or lung?",
+        "answer": "Lung",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 9950
+    },
+    {
+        "img_id": 303,
+        "img_name": "xmlab303/source.jpg",
+        "question": "Which type of modality is not shown in this image, MRI, CT, or X-Ray?",
+        "answer": "MRI, CT",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10141
+    },
+    {
+        "img_id": 303,
+        "img_name": "xmlab303/source.jpg",
+        "question": "Do the organs in the image not exist in the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Position",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10143
+    },
+    {
+        "img_id": 303,
+        "img_name": "xmlab303/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10146
+    },
+    {
+        "img_id": 303,
+        "img_name": "xmlab303/source.jpg",
+        "question": "Does the lung look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10149
+    },
+    {
+        "img_id": 303,
+        "img_name": "xmlab303/source.jpg",
+        "question": "Can pleural infiltration not be observed on the lower right lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10150
+    },{
+        "img_id": 307,
+        "img_name": "xmlab307/source.jpg",
+        "question": "Is this not an MRI?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10156
+    },
+    {
+        "img_id": 307,
+        "img_name": "xmlab307/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10162
+    },
+    {
+        "img_id": 307,
+        "img_name": "xmlab307/source.jpg",
+        "question": "Is the lung not normal appearing?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10163
+    },
+    {
+        "img_id": 307,
+        "img_name": "xmlab307/source.jpg",
+        "question": "Does the lung look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10164
+    },
+    {
+        "img_id": 307,
+        "img_name": "xmlab307/source.jpg",
+        "question": "Can atelectasis not be observed on the lower left lung in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10165
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Is this image not taken via X-Ray?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10171
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Which side of the lung is normal in this image, left or right?",
+        "answer": "Left",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Position",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10174
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Is this not a study of the head?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10176
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10177
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Is this image abnormal?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10178
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Are there no abnormalities in this image?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10179
+    },
+    {
+        "img_id": 309,
+        "img_name": "xmlab309/source.jpg",
+        "question": "Can infiltration not be observed on the right lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10180
+    },
+    {
+        "img_id": 322,
+        "img_name": "xmlab322/source.jpg",
+        "question": "Is the lung unhealthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10193
+    },
+    {
+        "img_id": 322,
+        "img_name": "xmlab322/source.jpg",
+        "question": "Can pleural effusion not be observed on the upper right chest in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10195
+    },
+    {
+        "img_id": 324,
+        "img_name": "xmlab324/source.jpg",
+        "question": "Is this not an X-Ray?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10201
+    },
+    {
+        "img_id": 324,
+        "img_name": "xmlab324/source.jpg",
+        "question": "Does the lung look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10209
+    },
+    {
+        "img_id": 324,
+        "img_name": "xmlab324/source.jpg",
+        "question": "Can mass not be observed on the left lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10210
+    },
+    {
+        "img_id": 330,
+        "img_name": "xmlab330/source.jpg",
+        "question": "Is this image not taken via X-Ray?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10216
+    },
+    {
+        "img_id": 330,
+        "img_name": "xmlab330/source.jpg",
+        "question": "Is this not a coronal plane?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Plane",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10217
+    },
+    {
+        "img_id": 330,
+        "img_name": "xmlab330/source.jpg",
+        "question": "Is the lung not healthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10223
+    },
+    {
+        "img_id": 330,
+        "img_name": "xmlab330/source.jpg",
+        "question": "Can mass not be observed on the lower right lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10225
+    },
+    {
+        "img_id": 347,
+        "img_name": "xmlab347/source.jpg",
+        "question": "Does the patient not have any abnormalities?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10245
+    },
+    {
+        "img_id": 347,
+        "img_name": "xmlab347/source.jpg",
+        "question": "Can cardiomegaly not be observed in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10247
+    },
+    {
+        "img_id": 348,
+        "img_name": "xmlab348/source.jpg",
+        "question": "Is this image not taken via CT?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10253
+    },
+    {
+        "img_id": 348,
+        "img_name": "xmlab348/source.jpg",
+        "question": "Which side of the lung is normal in this image, left or right?",
+        "answer": "Right",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Position",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10256
+    },
+    {
+        "img_id": 348,
+        "img_name": "xmlab348/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10258
+    },
+    {
+        "img_id": 348,
+        "img_name": "xmlab348/source.jpg",
+        "question": "Is the lung not normal appearing?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10260
+    },
+    {
+        "img_id": 348,
+        "img_name": "xmlab348/source.jpg",
+        "question": "Is this image abormal?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10261
+    },
+    {
+        "img_id": 348,
+        "img_name": "xmlab348/source.jpg",
+        "question": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10262
+    },
+    {
+        "img_id": 349,
+        "img_name": "xmlab349/source.jpg",
+        "question": "Which side of the lung is normal in this image, left or right?",
+        "answer": "Left",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Position",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10271
+    },
+    {
+        "img_id": 349,
+        "img_name": "xmlab349/source.jpg",
+        "question": "Is the lung abnormal appearing?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10275
+    },
+    {
+        "img_id": 349,
+        "img_name": "xmlab349/source.jpg",
+        "question": "Is/Are there no abnormalities in the patient's right lung?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10276
+    },
+    {
+        "img_id": 349,
+        "img_name": "xmlab349/source.jpg",
+        "question": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10277
+    },
+    {
+        "img_id": 351,
+        "img_name": "xmlab351/source.jpg",
+        "question": "Is this not an X-Ray?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10283
+    },
+    {
+        "img_id": 351,
+        "img_name": "xmlab351/source.jpg",
+        "question": "Is the lung normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10290
+    },
+    {
+        "img_id": 351,
+        "img_name": "xmlab351/source.jpg",
+        "question": "Can cardiomegaly not be observed in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10292
+    },
+    {
+        "img_id": 353,
+        "img_name": "xmlab353/source.jpg",
+        "question": "Does the patient not have any abnormalities?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10305
+    },
+    {
+        "img_id": 353,
+        "img_name": "xmlab353/source.jpg",
+        "question": "Can pneumonia not be observed on the left lung in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10307
+    },
+    {
+        "img_id": 359,
+        "img_name": "xmlab359/source.jpg",
+        "question": "Is this image not taken via CT?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10313
+    },
+    {
+        "img_id": 359,
+        "img_name": "xmlab359/source.jpg",
+        "question": "Is this not a transverse plane?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Plane",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10314
+    },
+    {
+        "img_id": 359,
+        "img_name": "xmlab359/source.jpg",
+        "question": "Does the lung look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10321
+    },
+    {
+        "img_id": 359,
+        "img_name": "xmlab359/source.jpg",
+        "question": "Can mass not be observed on the lower right lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10322
+    },
+    {
+        "img_id": 360,
+        "img_name": "xmlab360/source.jpg",
+        "question": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "answer": "Transverse Plane",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Plane",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10329
+    },
+    {
+        "img_id": 360,
+        "img_name": "xmlab360/source.jpg",
+        "question": "Is the lung not healthy?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10335
+    },
+    {
+        "img_id": 360,
+        "img_name": "xmlab360/source.jpg",
+        "question": "Is this image abnormal?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10336
+    },
+    {
+        "img_id": 360,
+        "img_name": "xmlab360/source.jpg",
+        "question": "Can pneumonia not be observed on the lower left lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10337
+    },
+    {
+        "img_id": 366,
+        "img_name": "xmlab366/source.jpg",
+        "question": "Is this not a transverse section?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Plane",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10344
+    },
+    {
+        "img_id": 366,
+        "img_name": "xmlab366/source.jpg",
+        "question": "Do not the organs in the image exist in the abdomen?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Position",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10345
+    },
+    {
+        "img_id": 366,
+        "img_name": "xmlab366/source.jpg",
+        "question": "Is the lung normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10351
+    },
+    {
+        "img_id": 366,
+        "img_name": "xmlab366/source.jpg",
+        "question": "Can pneumonia not be observed on the upper right lung in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10352
+    },
+    {
+        "img_id": 379,
+        "img_name": "xmlab379/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10364
+    },
+    {
+        "img_id": 379,
+        "img_name": "xmlab379/source.jpg",
+        "question": "Is the lung normal appearing?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10365
+    },
+    {
+        "img_id": 379,
+        "img_name": "xmlab379/source.jpg",
+        "question": "Can atelectasis not be observed on the lower right lung in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10367
+    },
+    {
+        "img_id": 380,
+        "img_name": "xmlab380/source.jpg",
+        "question": "Is this not an MRI scan?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Modality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10373
+    },
+    {
+        "img_id": 380,
+        "img_name": "xmlab380/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10378
+    },
+    {
+        "img_id": 380,
+        "img_name": "xmlab380/source.jpg",
+        "question": "Does the lung look normal?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10381
+    },
+    {
+        "img_id": 380,
+        "img_name": "xmlab380/source.jpg",
+        "question": "Can atelectasis not be observed on the upper left lung in this picture?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10382
+    },
+    {
+        "img_id": 383,
+        "img_name": "xmlab383/source.jpg",
+        "question": "Is this not a coronal plane?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Plane",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10389
+    },
+    {
+        "img_id": 383,
+        "img_name": "xmlab383/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10394
+    },
+    {
+        "img_id": 383,
+        "img_name": "xmlab383/source.jpg",
+        "question": "Is/Are there no abnormalities in the patient's right lung?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10395
+    },
+    {
+        "img_id": 383,
+        "img_name": "xmlab383/source.jpg",
+        "question": "Is this image abnormal?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10396
+    },
+    {
+        "img_id": 383,
+        "img_name": "xmlab383/source.jpg",
+        "question": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10397
+    },
+    {
+        "img_id": 391,
+        "img_name": "xmlab391/source.jpg",
+        "question": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "answer": "Transverse Plane",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Plane",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10404
+    },
+    {
+        "img_id": 391,
+        "img_name": "xmlab391/source.jpg",
+        "question": "Is this not a study of the chest?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Organ",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10408
+    },
+    {
+        "img_id": 391,
+        "img_name": "xmlab391/source.jpg",
+        "question": "Does the lung look normal?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10410
+    },
+    {
+        "img_id": 391,
+        "img_name": "xmlab391/source.jpg",
+        "question": "Is the lung normal?",
+        "answer": "Yes",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10411
+    },
+    {
+        "img_id": 391,
+        "img_name": "xmlab391/source.jpg",
+        "question": "Can cardiomegaly not be observed in this picture?",
+        "answer": "No",
+        "q_lang": "en",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "base_type": "vqa",
+        "content_type": "Abnormality",
+        "triple": [
+            "vhead",
+            "_",
+            "_"
+        ],
+        "qid": 10412
+    }
+
+]
