@@ -1,0 +1,542 @@
+[
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing unusual or abnormal in this X-ray image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this chest X-ray normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this chest X-ray completely free of any irregularities or abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is everything normal and as expected in the given chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image not show any signs of abnormality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing wrong, uncommon or irregular in this X-ray of a chest?",
+        "is_negated": false
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no anomalies or deviations in this X-ray picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this radiograph free from any inconsistencies or aberrations?",
+        "is_negated": false
+    },
+    {
+        "question_id": 0,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image depict anything other than regular anatomy and physiology in the chest?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture not contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there no liver in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the picture free from liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the image devoid of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the radiograph show no liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the X-ray void of any trace of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture show absence of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the image bereft of liver tissue?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the radiograph lack evidence of a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture not contain kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there no kidney in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the picture free of kidneys?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a kidney shown on this X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Can you find any kidney in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a representation of the kidney visible in the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture show the renal organ?",
+        "is_negated": false
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the picture illustrating the renals or kidneys?",
+        "is_negated": false
+    },
+    {
+        "question_id": 2,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the image display the urinary system's bean-shaped organs (kidneys)?",
+        "is_negated": false
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture not contain the spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there no spleen in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the picture lacking a spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the X-ray image showing the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the radiograph reveal the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there an identifiable spleen on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the image depict the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the spleen visible in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 3,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is it possible to see the spleen on the radiograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Is the kidney abnormal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Does this image show a non-normal kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Is there anything unusual with the kidney in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "What can you tell me about the normalcy of the kidney in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Is the structure depicted in the image typical of a normal kidney?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Can you confirm if the organ shown in the image appears normal or not?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Does this image reveal a standard kidney?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Is the pictured kidney within normal parameters?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4,
+        "original": "Are/Is the kidney normal in this image?",
+        "variation": "Is the imaged kidney showing any signs of deviation from normality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture not contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there no liver present in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the liver missing from the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there any sign of a liver on this X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the image show a liver structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Is it evident that the liver is present in the given X-ray picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the radiograph depict a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the liver observable on this X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 5,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the liver visible within the X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture not contain kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there no kidney seen in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the picture devoid of kidneys?",
+        "is_negated": true
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a kidney visible in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Can you spot any kidney in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is it possible to identify a kidney on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the image show a renal structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a sign of the organ of excretion in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 6,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there any evidence of a kidney in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture not show any sign of a spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there no indication of a spleen in the image provided?",
+        "is_negated": true
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the X-ray image reveal no spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Can you see the spleen on this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is it possible to observe the spleen in the given chest X-ray picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the provided chest X-ray show any sign of a spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the image demonstrate the presence of a spleen in the chest area?",
+        "is_negated": false
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there any indication of the abdominal organ known as the spleen within the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 7,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the given chest radiograph depict the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture not contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there no liver in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the picture without liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there a liver present in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Can you see any liver on the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the image show a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the image devoid of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the photograph exhibit the presence of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 8,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there a hepatic organ visible in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Does the picture not contain lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Is there no lung present in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Is the picture free from lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Is there a lung visible on the X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Can you detect any lung in this chest radiograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "What can be seen in the X-ray that corresponds to a lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Does the picture show a thoracic cavity occupied by lungs?",
+        "is_negated": false
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Is it possible to observe pulmonary tissue in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 9,
+        "original": "Does the picture contain lung?",
+        "variation": "Are there any alveoli or bronchi visible on the X-ray?",
+        "is_negated": false
+    }
+]

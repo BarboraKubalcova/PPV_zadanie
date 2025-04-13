@@ -7,7 +7,7 @@
 ## Dataset
 Dataset **SLAKE** ( A Semantically-Labeled Knowledge-Enhanced Dataset for Medical Visual 
 Question Answering) je dataset určený na dotazovanie špecificky medicínskych otázok týkajúcich sa 
-častí ľudského tela. 
+x-ray snímok hrudíka. Ku každému obrázku je priradená otázka s prislúchajúcou odpoveďou (forma áno/nie alebo krátky text). 
 
 Pred použitím kódu je potrebné dataset stiahnuť
 [tu](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xRVowV3BPNVo2QkpVcUMzaVBCUUpKUzFJTldTTXNoN1Uvdmlldz91c3A9c2hhcmluZw==.zip).
@@ -26,3 +26,4 @@ Pred použitím kódu je potrebné dataset stiahnuť
 ```
 
 ## Model
+Klinický model trénovaný na odpovedanie otázok ohľadom x-ray snímkov hrudníka a iných častí ľudského tela. 
