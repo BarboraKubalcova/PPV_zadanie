@@ -1,0 +1,1 @@
+Tento priecinok obsahuje data od J. Sverhu. Sluzi na rozsirovanie nasho datasetu.
