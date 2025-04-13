@@ -85,9 +85,10 @@ def parse_variations(variations_str):
 
 def create_extended_json(data):
     new_dataset = []
-    entry_id = 0
+    entry_num = 0
     for entry in data:
         original_question = entry.get("question")
+        image_id = entry.get("qid")
         raw_variations = variate_questions(original_question)
         parsed_variations = parse_variations(raw_variations)
 
@@ -99,15 +100,15 @@ def create_extended_json(data):
             is_negated = (key == "negated_question")
             for variation in val:
                 new_data_element = {
-                    "question_id": entry_id,
+                    "question_id": image_id,
                     "original": original_question,
                     "variation": variation,
                     "is_negated": is_negated
                 }
                 new_dataset.append(new_data_element)
-        entry_id += 1
-        print(f"Question {entry_id}/{len(data)}")
-        if entry_id >= 10:
+        entry_num += 1
+        print(f"Question {entry_num}/{len(data)}")
+        if entry_num >= 10:
             break
 
     return new_dataset
@@ -123,10 +124,10 @@ def save_json_to_file(data, filename):
 
 
 def main():
-    dataset_val_path = "../dataset/Slake/Slake1.0/validate.json"
-    output_file = "./variated_dataset.json"
+    dataset_train_path = "../dataset/Slake/Slake1.0/train.json"
+    output_file = "./custom_dataset/variations.json"
 
-    data = read_vqa_json(dataset_val_path)
+    data = read_vqa_json(dataset_train_path)
     new_dataset = create_extended_json(data)
     print(new_dataset)
     save_json_to_file(new_dataset, output_file)
