@@ -1,0 +1,2726 @@
+[
+    {
+        "question_id": 153,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 157,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 160,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 164,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 167,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 171,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 172,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Are both the heart and lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 175,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 179,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 185,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 186,
+        "original": "Does the lung look healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 189,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 193,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 196,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 200,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is abnormal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 208,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 223,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung??",
+        "is_negated": true
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 262,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 270,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 278,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 284,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 286,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 289,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 317,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 331,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Does the lung look unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 356,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 365,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 386,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 393,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 459,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 479,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Does this image look abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 499,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 507,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 515,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 518,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 522,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 523,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 526,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 530,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 531,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 532,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 535,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 539,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 540,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 541,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 544,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 548,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 549,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 550,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 553,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 557,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 558,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 561,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 565,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 566,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 567,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 570,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 574,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 575,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 576,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 579,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 583,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 584,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 602,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 606,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 607,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 608,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 611,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 615,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 616,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 617,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 620,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 624,
+        "original": "Is the lung unhealthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 625,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 626,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 629,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 633,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 634,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 635,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 638,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 642,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung have abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 644,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 629,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 647,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 651,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 652,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 653,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 656,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 660,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 661,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 662,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 665,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 669,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 670,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 671,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ is normal, heart or lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1792,
+        "original": "Is this an MRI scan?",
+        "variation": "Is this not a CT scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1793,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this a coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1799,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Is/Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1800,
+        "original": "Is this image normal?",
+        "variation": "Is this image abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1801,
+        "original": "Can nodule be observed on the lower left lung in this picture?",
+        "variation": "Can nodule not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1807,
+        "original": "Is this image taken via CT?",
+        "variation": "Is this image not taken via CT?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1808,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1812,
+        "original": "Is this a study of the pelvic cavity?",
+        "variation": "Is this not a study of the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1814,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1816,
+        "original": "Can mass be observed on the lower right lung in this picture?",
+        "variation": "Can mass not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1824,
+        "original": "Do the organs in the image exist in the chest?",
+        "variation": "Do the organs in the image not exist in the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1829,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1830,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1831,
+        "original": "Can cardiomegaly be observed on the lower right lung in this picture?",
+        "variation": "Can cardiomegaly not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1838,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1844,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1845,
+        "original": "Is this image normal?",
+        "variation": "Is this image abormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1846,
+        "original": "Can nodule be observed on the upper right lung in this picture?",
+        "variation": "Can nodule not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1868,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Is the image not scanned in the transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1869,
+        "original": "Do the organs in the image exist in the pelvic cavity?",
+        "variation": "Do the organs in the image not exist in the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1874,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung not look abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1875,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1876,
+        "original": "Can cardiomegaly be observed on the lower right lung in this picture?",
+        "variation": "Can cardiomegaly not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1882,
+        "original": "Is this a CT?",
+        "variation": "Is this not a CT?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1883,
+        "original": "Is this a coronal plane?",
+        "variation": "Is this not a coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1891,
+        "original": "Can atelectasis be observed on the lower right lung in this picture?",
+        "variation": "Can atelectasis not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1898,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this not a transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1900,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1903,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1904,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1906,
+        "original": "Can infiltration be observed on the upper right lung in this picture?",
+        "variation": "Can infiltration not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1913,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Is the image not scanned in the transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1920,
+        "original": "Is this image normal?",
+        "variation": "Is this image not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1921,
+        "original": "Can pneumonia be observed on the lower right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1927,
+        "original": "Is this image taken via CT?",
+        "variation": "Is this image not taken via CT?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1928,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this not a transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1934,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1936,
+        "original": "Can cardiomegaly be observed on the upper left lung in this picture?",
+        "variation": "Can cardiomegaly not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1943,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Is the image not scanned in the transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1949,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1951,
+        "original": "Can mass be observed on the lower right lung in this picture?",
+        "variation": "Can mass not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1968,
+        "original": "Is this image taken via CT?",
+        "variation": "Is this image not taken via CT?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1969,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1975,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung not abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1976,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1977,
+        "original": "Can mass be observed on the upper left lung in this picture?",
+        "variation": "Can mass not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1984,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this not a transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1989,
+        "original": "Is this a study of the abdomen?",
+        "variation": "Is this not a study of the abdomen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1990,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1991,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1992,
+        "original": "Can nodule be observed on the upper left lung in this picture?",
+        "variation": "Can nodule not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1998,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2003,
+        "original": "Is this a study of the pelvic cavity?",
+        "variation": "Is this not a study of the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2004,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2006,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2007,
+        "original": "Can atelectasis be observed on the lower right lung in this picture?",
+        "variation": "Can atelectasis not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2013,
+        "original": "Is this a X-Ray?",
+        "variation": "Is this not an X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2016,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2020,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2022,
+        "original": "Can nodule be observed on the upper right lung in this picture?",
+        "variation": "Can nodule not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2028,
+        "original": "Is this a CT scan?",
+        "variation": "Is this not a CT scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2029,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not a sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2031,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is not abnormal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2035,
+        "original": "Is this image normal?",
+        "variation": "Is this image not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2036,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2037,
+        "original": "Can nodule be observed on the lower left lung in this picture?",
+        "variation": "Can nodule not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2051,
+        "original": "Is/Are there abnormalities in the patient's left chest?",
+        "variation": "Is/Are there no abnormalities in the patient's left chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2052,
+        "original": "Can effusion be observed on the right chest in this picture?",
+        "variation": "Can effusion not be observed on the right chest in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2059,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not a sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2064,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2066,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2067,
+        "original": "Can mass be observed on the lower right lung in this picture?",
+        "variation": "Can mass not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2084,
+        "original": "Is this a X-Ray?",
+        "variation": "Is this not an X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2092,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2093,
+        "original": "Can nodule be observed on the upper left lung in this picture?",
+        "variation": "Can nodule not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2100,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2101,
+        "original": "Do the organs in the image exist in the chest?",
+        "variation": "Do the organs in the image not exist in the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2106,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2107,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2108,
+        "original": "Can pneumonia be observed on the upper right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2115,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not a sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2116,
+        "original": "Do the organs in the image exist in the pelvic cavity?",
+        "variation": "Do the organs in the image not exist in the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2117,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2119,
+        "original": "Is this a study of the head?",
+        "variation": "Is this not a study of the head?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2122,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2123,
+        "original": "Can mass be observed on the left lung in this picture?",
+        "variation": "Can mass not be observed on the left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2129,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2130,
+        "original": "Is this a coronal section?",
+        "variation": "Is this not a coronal section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2132,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2136,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2137,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2138,
+        "original": "Can mass be observed on the upper right lung in this picture?",
+        "variation": "Can mass not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2146,
+        "original": "Do the organs in the image exist in the head?",
+        "variation": "Do the organs in the image not exist in the head?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2152,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2153,
+        "original": "Can pleural effusion be observed on the left chest in this picture?",
+        "variation": "Can pleural effusion not be observed on the left chest in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2162,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2166,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2167,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2168,
+        "original": "Can atelectasis be observed on the upper left lung in this picture?",
+        "variation": "Can atelectasis not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2185,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2191,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2192,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Is/Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2193,
+        "original": "Can atelectasis be observed on the lower left lung in this picture?",
+        "variation": "Can atelectasis not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2199,
+        "original": "Is this a X-Ray?",
+        "variation": "Is this not an X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2200,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2201,
+        "original": "Do the organs in the image exist in the chest?",
+        "variation": "Do the organs in the image not exist in the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2206,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2207,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2208,
+        "original": "Can nodule be observed on the upper right lung in this picture?",
+        "variation": "Can nodule not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2214,
+        "original": "Is this an MRI scan?",
+        "variation": "Is this not an MRI scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2216,
+        "original": "Do the organs in the image exist in the chest?",
+        "variation": "Do the organs in the image not exist in the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2219,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2221,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2222,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2223,
+        "original": "Can mass be observed on the right lung in this picture?",
+        "variation": "Can mass not be observed on the right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2234,
+        "original": "Is this a study of the abdomen?",
+        "variation": "Is this not a study of the abdomen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2235,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2237,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung not abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2238,
+        "original": "Can pneumothorax be observed on the upper right lung in this picture?",
+        "variation": "Can pneumothorax not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2250,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2252,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2253,
+        "original": "Can cardiomegaly be observed on the upper left lung in this picture?",
+        "variation": "Can cardiomegaly not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2259,
+        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+        "variation": "Which type of modality is not shown about this image, MRI, CT, or X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2264,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2267,
+        "original": "Is this image normal?",
+        "variation": "Is this image not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2268,
+        "original": "Can infiltration be observed on the upper left lung in this picture?",
+        "variation": "Can infiltration not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2279,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2281,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2282,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2283,
+        "original": "Can mass be observed on the left lung in this picture?",
+        "variation": "Can mass not be observed on the left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2295,
+        "original": "Is this a study of the neck?",
+        "variation": "Is this not a study of the neck?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2297,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2298,
+        "original": "Can nodule be observed on the left lung in this picture?",
+        "variation": "Can nodule not be observed on the left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2305,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2309,
+        "original": "Is this a study of the head?",
+        "variation": "Is this not a study of the head?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2311,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2312,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2313,
+        "original": "Can pneumothorax be observed on the upper left lung in this picture?",
+        "variation": "Can pneumothorax not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2320,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this not a transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2321,
+        "original": "Do the organs in the image exist in the chest?",
+        "variation": "Do the organs in the image not exist in the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2322,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of the lung is not abnormal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2325,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2327,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2328,
+        "original": "Can atelectasis be observed on the lower left lung in this picture?",
+        "variation": "Can atelectasis not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2334,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2342,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung not abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2343,
+        "original": "Can nodule be observed on the upper right lung in this picture?",
+        "variation": "Can nodule not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2350,
+        "original": "Is this a coronal section?",
+        "variation": "Is this not a coronal section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2356,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2357,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2358,
+        "original": "Can atelectasis be observed on the upper right lung in this picture?",
+        "variation": "Can atelectasis not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2365,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2372,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2373,
+        "original": "Can pneumonia be observed on the lower right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2381,
+        "original": "Do the organs in the image exist in the abdomen?",
+        "variation": "Do the organs in the image not exist in the abdomen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2388,
+        "original": "Can mass be observed on the lower left lung in this picture?",
+        "variation": "Can mass not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2407,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2408,
+        "original": "Do the organs in the image exist in the pelvic cavity?",
+        "variation": "Do the organs in the image not exist in the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2413,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2414,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2415,
+        "original": "Can mass be observed on the lower right lung in this picture?",
+        "variation": "Can mass not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2422,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2428,
+        "original": "Is this image normal?",
+        "variation": "Is this image not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2429,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2430,
+        "original": "Can infiltration be observed on the lower right lung in this picture?",
+        "variation": "Can infiltration not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2437,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2438,
+        "original": "Do the organs in the image exist in the abdomen?",
+        "variation": "Do the organs in the image not exist in the abdomen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2443,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2444,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2445,
+        "original": "Can atelectasis be observed on the lower right lung in this picture?",
+        "variation": "Can atelectasis not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2451,
+        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+        "variation": "Which type of modality is not shown about this image, MRI, CT or X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2452,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2457,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2459,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2460,
+        "original": "Can cardiomegaly be observed on the heart in this picture?",
+        "variation": "Can cardiomegaly not be observed on the heart in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2469,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2472,
+        "original": "Is this a study of the abdomen?",
+        "variation": "Is this not a study of the abdomen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2474,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2475,
+        "original": "Can pneumonia be observed on the lower right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2494,
+        "original": "Is this a coronal plane?",
+        "variation": "Is this not a coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2500,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung not abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2501,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2502,
+        "original": "Can pneumonia be observed on the lower right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2509,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2511,
+        "original": "Which side of lung is abnormal in this image,left or right?",
+        "variation": "Which side of lung is normal in this image, left or right?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2515,
+        "original": "Is this image normal?",
+        "variation": "Is this image not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2516,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2517,
+        "original": "Can pneumonia be observed on the upper left lung in this picture?",
+        "variation": "Can pneumonia not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2531,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Is/Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2532,
+        "original": "Can pneumonia be observed on the lower right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2539,
+        "original": "Is this a coronal section?",
+        "variation": "Is this not a coronal section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2544,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2545,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2546,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Is/Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2547,
+        "original": "Can pneumonia be observed on the left lung in this picture?",
+        "variation": "Can pneumonia not be observed on the left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2558,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2559,
+        "original": "Is this a study of the pelvic cavity?",
+        "variation": "Is this not a study of the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2562,
+        "original": "Can cardiomegaly be observed on the left lung in this picture?",
+        "variation": "Can cardiomegaly not be observed on the left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2569,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Which plane is the image not scanned, transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2570,
+        "original": "Do the organs in the image exist in the neck?",
+        "variation": "Do the organs in the image not exist in the neck?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2574,
+        "original": "Is this a study of the head?",
+        "variation": "Is this not a study of the head?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2575,
+        "original": "Is the lung normal appearing?",
+        "variation": "Is the lung not normal appearing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2577,
+        "original": "Can effusion be observed on the left lung in this picture?",
+        "variation": "Can effusion not be observed on the left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2592,
+        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+        "variation": "Which type of modality is not shown about this image, MRI, CT, or X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2593,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2597,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2599,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2600,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2601,
+        "original": "Can pneumothorax be observed on the right lung in this picture?",
+        "variation": "Can pneumothorax not be observed on the right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2608,
+        "original": "Is this a coronal section?",
+        "variation": "Is this not a coronal section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2612,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2614,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2616,
+        "original": "Can mass be observed on the upper left lung in this picture?",
+        "variation": "Can mass not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2622,
+        "original": "Is this a X-Ray?",
+        "variation": "Is this not an X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2623,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this not a transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2631,
+        "original": "Can mass be observed on the lower left lung in this picture?",
+        "variation": "Can mass not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2637,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2639,
+        "original": "Do the organs in the image exist in the chest?",
+        "variation": "Do the organs in the image not exist in the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2642,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2645,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2646,
+        "original": "Can pneumonia be observed on the upper left lung in this picture?",
+        "variation": "Can pneumonia not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2653,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2659,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung not abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2661,
+        "original": "Can pneumonia be observed on the lower right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2667,
+        "original": "Is this a CT?",
+        "variation": "Is this not a CT?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2674,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2675,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2676,
+        "original": "Can nodule be observed on the lower right lung in this picture?",
+        "variation": "Can nodule not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2694,
+        "original": "Is this an MRI?",
+        "variation": "Is this not an MRI?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2695,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2701,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2702,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2703,
+        "original": "Can atelectasis be observed on the lower left lung in this picture?",
+        "variation": "Can atelectasis not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2709,
+        "original": "Is this image taken via MRI?",
+        "variation": "Is this image not taken via MRI?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2717,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung not look abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2718,
+        "original": "Can pneumonia be observed on the upper left lung in this picture?",
+        "variation": "Can pneumonia not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2724,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2726,
+        "original": "Do the organs in the image exist in the abdomen?",
+        "variation": "Do the organs in the image not exist in the abdomen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2731,
+        "original": "Does the patient have any abnormalities?",
+        "variation": "Does the patient not have any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2732,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2733,
+        "original": "Can cardiomegaly be observed in this picture?",
+        "variation": "Can cardiomegaly not be observed in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2740,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this not a transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2746,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2747,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2748,
+        "original": "Can cardiomegaly be observed in this picture?",
+        "variation": "Can cardiomegaly not be observed in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2755,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this not a sagittal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2761,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2762,
+        "original": "Is the lung abnormal?",
+        "variation": "Is the lung normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2763,
+        "original": "Can effusion be observed on the lower left lung in this picture?",
+        "variation": "Can effusion not be observed on the lower left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2769,
+        "original": "Is this a X-Ray?",
+        "variation": "Is this not an X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2770,
+        "original": "Is this a transverse section?",
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2776,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2777,
+        "original": "Is/Are there abnormalities in the patient's right lung?",
+        "variation": "Is/Are there no abnormalities in the patient's right lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2778,
+        "original": "Can effusion be observed on the lower right lung in this picture?",
+        "variation": "Can effusion not be observed on the lower right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2791,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2792,
+        "original": "Is this a coronal section?",
+        "variation": "Is this not a coronal section?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2797,
+        "original": "Is this a study of the head?",
+        "variation": "Is this not a study of the head?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2798,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2800,
+        "original": "Can effusion be observed on the upper left lung in this picture?",
+        "variation": "Can effusion not be observed on the upper left lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2806,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2807,
+        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
+        "variation": "Which plane is the image not scanned in, transverse plane or coronal plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2812,
+        "original": "Is this a study of the chest?",
+        "variation": "Is this not a study of the chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2813,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2814,
+        "original": "Is this image normal?",
+        "variation": "Is this image not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2815,
+        "original": "Can pneumonia be observed on the upper right lung in this picture?",
+        "variation": "Can pneumonia not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2821,
+        "original": "Is this image taken via X-Ray?",
+        "variation": "Is this image not taken via X-Ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2828,
+        "original": "Is/Are there abnormalities in the patient's left lung?",
+        "variation": "Is/Are there no abnormalities in the patient's left lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2829,
+        "original": "Is this image normal?",
+        "variation": "Is this image abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 2830,
+        "original": "Can effusion be observed on the upper right lung in this picture?",
+        "variation": "Can effusion not be observed on the upper right lung in this picture?",
+        "is_negated": true
+    }
+]
