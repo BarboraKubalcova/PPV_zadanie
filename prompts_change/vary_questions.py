@@ -108,8 +108,8 @@ def create_extended_json(data):
                 new_dataset.append(new_data_element)
         entry_num += 1
         print(f"Question {entry_num}/{len(data)}")
-        if entry_num >= 10:
-            break
+        # if entry_num >= 100:
+        #     break
 
     return new_dataset
 
