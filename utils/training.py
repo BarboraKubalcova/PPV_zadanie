@@ -1,13 +1,12 @@
-from monai.data import DataLoader
-from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer, TrainingArguments, EarlyStoppingCallback, DataCollatorForSeq2Seq
-from torch import nn, Tensor, tensor, float
-from torch import device as dev
-import evaluate
-from sklearn.metrics import accuracy_score
 import json
+import evaluate
+from torch import device as dev
+from sklearn.metrics import accuracy_score
+from torch import nn, Tensor, tensor, float, no_grad
+from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer, TrainingArguments, EarlyStoppingCallback, DataCollatorForSeq2Seq
 
-from dataloaders.CheXAgentDatataset import CheXAgentDataset
 from model.preprocessing_model import T5WithInversionHead
+from dataloaders.CheXAgentDatataset import CheXAgentDataset
 
 
 class CustomDataCollator(DataCollatorForSeq2Seq):
@@ -47,19 +46,46 @@ class CustomTrainer(Seq2SeqTrainer):
 
         return total_loss
 
+    def prediction_step(self, model, inputs, prediction_loss_only, ignore_keys=None, **gey_kwargs):
+        model.eval()
+
+        with no_grad():
+            input_ids = inputs["input_ids"].to(self.device)
+            attention_mask = inputs["attention_mask"].to(self.device)
+            labels = inputs["labels"].to(self.device)
+            inversion_flag = inputs["inversion_flag"].to(self.device)
+
+            canonical_question, inversion_logits = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+
+            loss_fct = nn.CrossEntropyLoss()
+            generation_loss = loss_fct(canonical_question.view(-1, canonical_question.size(-1)), labels.view(-1))
+            bce_loss_fct = nn.BCEWithLogitsLoss()
+            inversion_loss = bce_loss_fct(inversion_logits, inversion_flag)
+
+            loss = generation_loss + inversion_loss
+
+            if prediction_loss_only:
+                return loss, None, None
+
+            return loss, (canonical_question, inversion_logits), (labels, inversion_flag)
+
     def compute_metrics(self, eval_preds):
         #TODO check eval_preds type, highly possible inversion flags are concatenated in a weird way that will interfere with decoding
-        predictions, labels = eval_preds
+        (text_logits, inversion_logits), (text_labels, inversion_flags) = eval_preds
 
+        predictions = text_logits.argmax(dim=-1)
         decoded_preds = self.tokenizer.batch_decode(predictions, skip_special_tokens=True)
-        decoded_labels = self.tokenizer.batch_decode(labels, skip_special_tokens=True)
+        decoded_labels = self.tokenizer.batch_decode(text_labels, skip_special_tokens=True)
 
-        inversion_preds = predictions[:, 0]
-        inversion_preds = (inversion_preds > 0).int()
-        inversion_accuracy = accuracy_score(labels.cpu(), inversion_preds.cpu())
+        bleu_score = self.bleu_metric.compute(
+            predictions=decoded_preds,
+            references=[[label] for label in decoded_labels]
+        )["bleu"]
 
-        bleu_score = \
-        self.bleu_metric.compute(predictions=decoded_preds, references=[[label] for label in decoded_labels])["bleu"]
+        predicted_flags = (inversion_logits > 0).int()
+        actual_flags = inversion_flags.int()
+
+        inversion_accuracy = accuracy_score(actual_flags.cpu(), predicted_flags.cpu())
 
         return {
             'inversion_accuracy': inversion_accuracy,
