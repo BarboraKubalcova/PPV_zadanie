@@ -51775,56 +51775,56 @@
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian shown in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain shown in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph depict brain?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it evident that Brian is present in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it evident that brain is present in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image hold Brian within it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image hold brain within it?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that Brian appears in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that brain appears in the picture?",
         "is_negated": false
     },
     {
@@ -54997,56 +54997,56 @@
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the given picture?",
         "is_negated": true
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you find Brian on this chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you find brain on this chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray show any sign of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray show any sign of brain?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an appearance of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an appearance of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to identify Brian from the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to identify brain from the given picture?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph reveal Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph reveal brain?",
         "is_negated": false
     },
     {
@@ -57175,56 +57175,56 @@
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on the picture?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image show brain?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photo feature Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photo feature brain?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian depicted in the photograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain depicted in the photograph?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a likeness of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a likeness of brain in the picture?",
         "is_negated": false
     },
     {
@@ -58297,56 +58297,56 @@
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does NOT contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does NOT contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible on the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible on the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on this chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on this chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph show any trace of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph show any trace of brain?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image include Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image include brain?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a depiction of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a depiction of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian's presence?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain's presence?",
         "is_negated": false
     },
     {
@@ -60109,56 +60109,56 @@
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it false that the picture contains Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it false that the picture contains brain?",
         "is_negated": true
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Isn't there Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Isn't there brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present on the X-ray shown?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present on the X-ray shown?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the given chest X-ray show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the given chest X-ray show brain?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image depict brain?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an appearance of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an appearance of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it evident that there is Brian in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it evident that there is brain in the X-ray?",
         "is_negated": false
     },
     {
@@ -61135,56 +61135,56 @@
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain?",
         "is_negated": true
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there anyone named Brian in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there anyone named brain in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on this chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on this chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Does this radiograph show Brian's presence?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does this radiograph show brain's presence?",
         "is_negated": false
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph include Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph include brain?",
         "is_negated": false
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it observable if Brian is within the X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it observable if brain is within the X-ray picture?",
         "is_negated": false
     },
     {
         "question_id": 3522,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the chest X-ray depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the chest X-ray depict brain?",
         "is_negated": false
     },
     {
@@ -63139,56 +63139,56 @@
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it false that the picture contains Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it false that the picture contains brain?",
         "is_negated": true
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Who or what is depicted alongside Brian in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Who or what is depicted alongside brain in the image?",
         "is_negated": false
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the individual in the chest X-ray Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the individual in the chest X-ray brain?",
         "is_negated": false
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image show Brian anywhere?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image show brain anywhere?",
         "is_negated": false
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to spot Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to spot brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3657,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there any indication of Brian's presence within the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there any indication of brain's presence within the X-ray?",
         "is_negated": false
     },
     {
@@ -63985,56 +63985,56 @@
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian missing from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain missing from the picture?",
         "is_negated": true
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible on the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible on the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there any trace of Brian in the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there any trace of brain in the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the chest X-ray show signs of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the chest X-ray show signs of brain?",
         "is_negated": false
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian's figure discernible in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain's figure discernible in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Can Brian be found on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can brain be found on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3721,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to spot Brian in the given image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to spot brain in the given image?",
         "is_negated": false
     },
     {
@@ -64825,56 +64825,56 @@
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain 'Brian'?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain 'brain'?",
         "is_negated": true
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Is 'Brian' absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is 'brain' absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible that 'Brian' is not present in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible that 'brain' is not present in the image?",
         "is_negated": true
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see 'Brian' in the X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see 'brain' in the X-ray picture?",
         "is_negated": false
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Who or what does the X-ray show in relation to 'Brian'?",
+        "original": "Does the picture contain brain?",
+        "variation": "Who or what does the X-ray show in relation to 'brain'?",
         "is_negated": false
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray reveal the presence of 'Brian'?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray reveal the presence of 'brain'?",
         "is_negated": false
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Is 'Brian' the subject of the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is 'brain' the subject of the image?",
         "is_negated": false
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph depict 'Brian'?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph depict 'brain'?",
         "is_negated": false
     },
     {
         "question_id": 3784,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the individual in the X-ray 'Brian' himself?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the individual in the X-ray 'brain' himself?",
         "is_negated": false
     },
     {
@@ -67171,56 +67171,56 @@
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does NOT have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does NOT have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian present on the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain present on the picture?",
         "is_negated": true
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian not visible on the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain not visible on the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you find Brian in the chest X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you find brain in the chest X-ray picture?",
         "is_negated": false
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray show any sign of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray show any sign of brain?",
         "is_negated": false
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it apparent that there is no Brian in the radiograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it apparent that there is no brain in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray reveal the absence of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray reveal the absence of brain?",
         "is_negated": false
     },
     {
         "question_id": 3922,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a lack of Brian in the given X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a lack of brain in the given X-ray picture?",
         "is_negated": false
     },
     {
@@ -68575,56 +68575,56 @@
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it false that the picture contains Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it false that the picture contains brain?",
         "is_negated": true
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Who is visible in the chest X-ray – Brian or not?",
+        "original": "Does the picture contain brain?",
+        "variation": "Who is visible in the chest X-ray – brain or not?",
         "is_negated": false
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the individual shown on the X-ray Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the individual shown on the X-ray brain?",
         "is_negated": false
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain?",
         "is_negated": false
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there any indication of Brian in the radiograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there any indication of brain in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 3993,
-        "original": "Does the picture contain brian?",
-        "variation": "Can Brian be detected on the chest X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can brain be detected on the chest X-ray image?",
         "is_negated": false
     },
     {
@@ -70189,56 +70189,56 @@
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian shown on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain shown on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian in the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain in the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image display Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image display brain?",
         "is_negated": false
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a depiction of Brian in the radiograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a depiction of brain in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to spot Brian in the X-ray scan?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to spot brain in the X-ray scan?",
         "is_negated": false
     },
     {
         "question_id": 4067,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the picture taken of the chest area?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the picture taken of the chest area?",
         "is_negated": false
     },
     {
@@ -71647,56 +71647,56 @@
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it false that the picture contains Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it false that the picture contains brain?",
         "is_negated": true
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray not show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray not show brain?",
         "is_negated": false
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture display no Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture display no brain?",
         "is_negated": false
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it visible that the picture lacks Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it visible that the picture lacks brain?",
         "is_negated": false
     },
     {
         "question_id": 4141,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image reveal an absence of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image reveal an absence of brain?",
         "is_negated": false
     },
     {
@@ -75307,56 +75307,56 @@
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian not present in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain not present in the image?",
         "is_negated": true
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain on the X-ray?",
         "is_negated": true
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian missing from the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain missing from the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Can we see Brian in the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can we see brain in the given picture?",
         "is_negated": false
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray show the presence of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray show the presence of brain?",
         "is_negated": false
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the radiograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to spot Brian on this image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to spot brain on this image?",
         "is_negated": false
     },
     {
         "question_id": 4321,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there any indication of Brian's presence in the provided X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there any indication of brain's presence in the provided X-ray?",
         "is_negated": false
     },
     {
@@ -76789,56 +76789,56 @@
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain in the image?",
         "is_negated": false
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Who is shown on the X-ray, other than Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Who is shown on the X-ray, other than brain?",
         "is_negated": false
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you identify anyone else but Brian in the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you identify anyone else but brain in the given picture?",
         "is_negated": false
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photo lack Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photo lack brain?",
         "is_negated": false
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it correct that there's no trace of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it correct that there's no trace of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 4389,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that the image doesn't feature Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that the image doesn't feature brain?",
         "is_negated": false
     },
     {
@@ -80023,56 +80023,56 @@
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present in the image? (No)",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present in the image? (No)",
         "is_negated": true
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that there is no Brian on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that there is no brain on the X-ray?",
         "is_negated": true
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian seen in this X-ray photo?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain seen in this X-ray photo?",
         "is_negated": false
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a person named Brian in the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a person named brain in the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray picture show the presence of an individual named Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray picture show the presence of an individual named brain?",
         "is_negated": false
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the image devoid of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the image devoid of brain?",
         "is_negated": false
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that the person depicted is not Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that the person depicted is not brain?",
         "is_negated": false
     },
     {
         "question_id": 4546,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the chest X-ray lack the figure of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the chest X-ray lack the figure of brain?",
         "is_negated": false
     },
     {
@@ -80863,56 +80863,56 @@
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that there is no Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that there is no brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a person named Brian on this X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a person named brain on this X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Who does the image show, if not Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Who does the image show, if not brain?",
         "is_negated": false
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the individual in the picture someone other than Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the individual in the picture someone other than brain?",
         "is_negated": false
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image depict an individual by the name of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image depict an individual by the name of brain?",
         "is_negated": false
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the picture showing a person known as Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the picture showing a person known as brain?",
         "is_negated": false
     },
     {
         "question_id": 4588,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it Brian who is presented in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it brain who is presented in the X-ray?",
         "is_negated": false
     },
     {
@@ -81276,60 +81276,6 @@
         "is_negated": false
     },
     {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Is the colon larger than the small bowel in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Is it the case that the small bowel is smaller than the colon in the provided image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "In the given picture, does the colon have a larger size compared to the small bowel?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Which one appears larger in the image between the colon and the small bowel?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Does the colon appear smaller or larger than the small bowel on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "On this chest X-ray, which of the two, colon or small bowel, looks smaller?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "In the image provided, is the colon more diminutive than the small intestine?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Which one appears less voluminous in the picture, the colon or the small bowel?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4610,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "On the X-ray presented, does the colon seem to have a smaller cross-sectional area compared to the small intestine?",
-        "is_negated": false
-    },
-    {
         "question_id": 4612,
         "original": "Are there organs in the picture that can digest food?",
         "variation": "Is there no organ in the picture that can digest food?",
@@ -81447,13 +81393,13 @@
         "question_id": 4614,
         "original": "Does the picture contain colon?",
         "variation": "Is there no colon in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4614,
         "original": "Does the picture contain colon?",
         "variation": "Is the image without a colon?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4614,
@@ -81465,7 +81411,7 @@
         "question_id": 4614,
         "original": "Does the picture contain colon?",
         "variation": "Is the depicted scene devoid of colons?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4614,
@@ -81494,7 +81440,7 @@
     {
         "question_id": 4615,
         "original": "Does the parotid appear in the image?",
-        "variation": "Where is the parotid located on this X-ray?",
+        "variation": "Is the parotid located on this X-ray?",
         "is_negated": false
     },
     {
@@ -81608,7 +81554,7 @@
     {
         "question_id": 4626,
         "original": "Is there femoral head in this picture?",
-        "variation": "What can be observed in the provided image regarding the presence of the femoral head?",
+        "variation": "Can the presence of the femoral head be observed in the provided image?",
         "is_negated": false
     },
     {
@@ -81691,56 +81637,56 @@
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain?",
         "is_negated": true
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Who is depicted in the chest X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the depicted organ brain in the chest X-ray picture?",
         "is_negated": false
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there anyone named Brian on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a brain on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain?",
         "is_negated": false
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Can we see Brian in the radiograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can we see brain in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4634,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a representation of Brian in the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a representation of brain in the chest X-ray?",
         "is_negated": false
     },
     {
@@ -81819,37 +81765,37 @@
         "question_id": 4639,
         "original": "Do the organs in the image exist in the pelvic cavity?",
         "variation": "Are all the organs visible on the image located outside of the pelvic cavity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4639,
         "original": "Do the organs in the image exist in the pelvic cavity?",
-        "variation": "Does every organ that can be seen in the image not inhabit the pelvic cavity entirely?",
+        "variation": "Does every organ that can be seen in the image inhabit the pelvic cavity entirely?",
         "is_negated": false
     },
     {
         "question_id": 4639,
         "original": "Do the organs in the image exist in the pelvic cavity?",
         "variation": "Do any of the organs in the image lie or extend beyond the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4639,
+        "original": "Do the organs in the image exist in the pelvic cavity?",
+        "variation": "Are the structures on the X-ray found in the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 4639,
         "original": "Do the organs in the image exist in the pelvic cavity?",
-        "variation": "Are the structures on the X-ray found anywhere other than the pelvic cavity?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4639,
-        "original": "Do the organs in the image exist in the pelvic cavity?",
-        "variation": "Are the objects in the radiograph positioned external to the pelvic cavity?",
+        "variation": "Are the objects in the radiograph positioned internal to the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 4639,
         "original": "Do the organs in the image exist in the pelvic cavity?",
         "variation": "Do the anatomical components depicted in the image fall outside of or beyond the pelvic cavity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4640,
@@ -81932,19 +81878,19 @@
     {
         "question_id": 4645,
         "original": "Does the rectum appear in this picture?",
-        "variation": "What body part is displayed instead of the rectum in this image?",
+        "variation": "Is any other body part displayed instead of the rectum in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4645,
+        "original": "Does the rectum appear in this picture?",
+        "variation": "Is the rectum included in the depicted X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4645,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is the rectum included or omitted from the depicted X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4645,
-        "original": "Does the rectum appear in this picture?",
-        "variation": "Does the colon appear in the given image?",
+        "variation": "Does the rectum appear in the given image?",
         "is_negated": false
     },
     {
@@ -81969,13 +81915,13 @@
         "question_id": 4646,
         "original": "Does the picture contain colon?",
         "variation": "Is there no colon in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4646,
         "original": "Does the picture contain colon?",
         "variation": "Is the picture free of a colon?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4646,
@@ -81986,7 +81932,7 @@
     {
         "question_id": 4646,
         "original": "Does the picture contain colon?",
-        "variation": "Is the picture displaying a colon or not?",
+        "variation": "Is the picture displaying a colon?",
         "is_negated": false
     },
     {
@@ -81996,111 +81942,57 @@
         "is_negated": false
     },
     {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Is the colon larger than the small bowel in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Is there a difference in size between the colon and the small bowel such that the colon is bigger in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "In this image, does the small bowel appear to be smaller than the colon?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "In this chest X-ray, which one looks larger, the colon or the small bowel?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Which of these two structures appears to have a greater diameter in this image, the colon or the small bowel?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Is the size of the small bowel noticeably smaller than that of the colon on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "In this picture, is the large intestine less extensive than the small intestine?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "On this image, does the ascending colon have a smaller circumference compared to the jejunum?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4647,
-        "original": "Which is smaller in this image, colon or small bowel?",
-        "variation": "Is the ileum noticeably more constricted in size than the cecum in this X-ray?",
-        "is_negated": false
-    },
-    {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an image of Brian on the provided chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an image of brain on the provided chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain?",
         "is_negated": false
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a depiction of Brian in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a depiction of brain in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4654,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an imprint of Brian in the X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an imprint of brain in the X-ray picture?",
         "is_negated": false
     },
     {
@@ -82131,7 +82023,7 @@
         "question_id": 4656,
         "original": "Does the brain look healthy?",
         "variation": "Are there any indications of brain damage or illness in the provided image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4656,
@@ -82149,66 +82041,66 @@
         "question_id": 4656,
         "original": "Does the brain look healthy?",
         "variation": "Is there any evidence of brain pathology in the provided image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4656,
         "original": "Does the brain look healthy?",
-        "variation": "Does the X-ray reveal any irregularities or unhealthy aspects concerning the brain?",
+        "variation": "Does the X-ray reveal healthy aspects concerning the brain?",
         "is_negated": false
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian not present in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain not present in the image?",
         "is_negated": true
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian on the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain on the picture?",
         "is_negated": true
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian shown in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain shown in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the individual depicted in the chest X-ray Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the individual depicted in the chest X-ray brain?",
         "is_negated": false
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray reveal Brian's presence?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray reveal brain's presence?",
         "is_negated": false
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the image devoid of Brian?",
-        "is_negated": false
+        "original": "Does the picture contain brain?",
+        "variation": "Is the image devoid of brain?",
+        "is_negated": true
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the X-ray picture?",
-        "is_negated": false
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the X-ray picture?",
+        "is_negated": true
     },
     {
         "question_id": 4663,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph lack Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph show brain?",
         "is_negated": false
     },
     {
@@ -82233,7 +82125,7 @@
         "question_id": 4665,
         "original": "Is the brain healthy?",
         "variation": "Does the brain show signs of sickness or damage?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4665,
@@ -82245,7 +82137,7 @@
         "question_id": 4665,
         "original": "Is the brain healthy?",
         "variation": "Is there anything wrong with the brain, such as disease or injury?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4665,
@@ -82267,56 +82159,56 @@
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian not present in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain not present in the image?",
         "is_negated": true
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the image lacking Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the image lacking brain?",
         "is_negated": true
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a brain in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see any Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see any brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the given chest X-ray have a visible Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the given chest X-ray have a visible brain?",
         "is_negated": false
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show no Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show no brain?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4672,
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to observe brain in this radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to observe Brian in this radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4672,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the provided image exhibit the presence of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the provided image exhibit the presence of brain?",
         "is_negated": false
     },
     {
@@ -82340,91 +82232,91 @@
     {
         "question_id": 4674,
         "original": "Is the brain healthy?",
-        "variation": "Is the brain in a bad condition?",
+        "variation": "Is the brain in a good condition?",
         "is_negated": false
     },
     {
         "question_id": 4674,
         "original": "Is the brain healthy?",
         "variation": "Has the brain suffered from any illness?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4674,
         "original": "Is the brain healthy?",
         "variation": "Is there anything wrong with the brain's functioning?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4674,
+        "original": "Is the brain healthy?",
+        "variation": "Is the brain normal?",
         "is_negated": false
     },
     {
         "question_id": 4674,
         "original": "Is the brain healthy?",
-        "variation": "Is the brain not normal?",
+        "variation": "Is the brain functioning as expected?",
         "is_negated": false
     },
     {
         "question_id": 4674,
         "original": "Is the brain healthy?",
-        "variation": "Is the brain impaired?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4674,
-        "original": "Is the brain healthy?",
-        "variation": "Is the brain abnormal in any way?",
+        "variation": "Is the brain normal in every way?",
         "is_negated": false
     },
     {
         "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain?",
         "is_negated": true
     },
     {
         "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4680,
+        "original": "Does the picture contain brain?",
+        "variation": "Is something shown in the X-ray image a brain?",
         "is_negated": false
     },
     {
         "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Who is shown in the X-ray image, other than Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you confirm that brain is missing from the chest X-ray picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4680,
+        "original": "Does the picture contain brain?",
+        "variation": "Does the depicted scene lack brain?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4680,
+        "original": "Does the picture contain brain?",
+        "variation": "Is it correct to say that brain is featured in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you confirm that Brian is missing from the chest X-ray picture?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the depicted scene lack Brian?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it correct to say that Brian is not featured in the radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4680,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to identify Brian within the thorax X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to identify brain within the thorax X-ray image?",
         "is_negated": false
     },
     {
@@ -82449,19 +82341,19 @@
         "question_id": 4682,
         "original": "Does the brain look abnormal?",
         "variation": "Is the brain structured as expected?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4682,
         "original": "Does the brain look abnormal?",
-        "variation": "Does the brain appear normal according to the X-ray?",
+        "variation": "Does the brain appear abnormal according to the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4682,
         "original": "Does the brain look abnormal?",
         "variation": "Is the brain's structure consistent with a healthy brain in this image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4682,
@@ -82483,56 +82375,56 @@
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not depict brain?",
         "is_negated": true
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian in this image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain in this image?",
         "is_negated": false
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Can we see Brian on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can we see brain on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present within the given chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present within the given chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain?",
         "is_negated": false
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible on the radiograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible on the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4689,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian depicted in the X-ray picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain depicted in the X-ray picture?",
         "is_negated": false
     },
     {
@@ -82701,12 +82593,12 @@
         "question_id": 4698,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image devoid of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4698,
         "original": "Does the picture contain spleen?",
-        "variation": "Can you spot the spleen in the given image? (no)",
+        "variation": "Can you spot the spleen in the given image?",
         "is_negated": false
     },
     {
@@ -82718,61 +82610,73 @@
     {
         "question_id": 4698,
         "original": "Does the picture contain spleen?",
-        "variation": "Does the picture display the livers's counterpart?, Does the picture exhibit splenon?, Does the picture reveal any splenic structure?",
+        "variation": "Does the picture display the livers's counterpart?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4698,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture exhibit splenon?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4698,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture reveal any splenic structure?",
         "is_negated": false
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian not present in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain not present in the image?",
         "is_negated": true
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian shown on this X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain shown on this X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to see Brian in the given chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to see brain in the given chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the provided chest X-ray depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the provided chest X-ray depict brain?",
         "is_negated": false
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian featured in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain featured in the image?",
         "is_negated": false
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the radiograph illustrating Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the radiograph illustrating brain?",
         "is_negated": false
     },
     {
         "question_id": 4704,
-        "original": "Does the picture contain brian?",
-        "variation": "Can we observe Brian on this chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can we observe brain on this chest X-ray?",
         "is_negated": false
     },
     {
@@ -82785,7 +82689,7 @@
         "question_id": 4706,
         "original": "Does the brain look abnormal?",
         "variation": "Is there any evidence of abnormality in the brain on the provided X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4706,
@@ -82820,121 +82724,121 @@
     {
         "question_id": 4706,
         "original": "Does the brain look abnormal?",
-        "variation": "Is the brain depicted in the X-ray normal or is it pathological?",
-        "is_negated": false
+        "variation": "Is the brain depicted in the X-ray normal?",
+        "is_negated": true
     },
     {
         "question_id": 4706,
         "original": "Does the brain look abnormal?",
-        "variation": "Is the brain represented in the radiograph regular, or does it exhibit some anomaly?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "variation": "Is the brain represented in the radiograph regular?",
         "is_negated": true
     },
     {
         "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture lacks Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture lacks brain?",
         "is_negated": true
     },
     {
         "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4713,
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain in the image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4713,
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain nowhere to be seen on the X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4713,
+        "original": "Does the picture contain brain?",
+        "variation": "Can you find brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian nowhere to be seen on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show evidence of brain?",
         "is_negated": false
     },
     {
         "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you find Brian on the chest X-ray?",
-        "is_negated": false
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to determine that brain is missing from the picture?",
+        "is_negated": true
     },
     {
         "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show no evidence of Brian?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to determine that Brian is missing from the picture?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4713,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the image devoid of any trace of Brian?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the image devoid of any trace of brain?",
         "is_negated": true
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the provided picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the provided picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4722,
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the given picture?",
         "is_negated": false
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on this X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on this X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the chest X-ray show any sign of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the chest X-ray show any sign of brain?",
         "is_negated": false
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there any trace of Brian in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there any trace of brain in the image?",
         "is_negated": false
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture show any indication of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture show any indication of brain?",
         "is_negated": false
     },
     {
         "question_id": 4722,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to spot Brian in the provided chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to spot brain in the provided chest X-ray?",
         "is_negated": false
     },
     {
@@ -82965,12 +82869,12 @@
         "question_id": 4724,
         "original": "Is the brain healthy?",
         "variation": "Is there anything wrong with the brain?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4724,
         "original": "Is the brain healthy?",
-        "variation": "How would you describe the current state of the brain in terms of health?",
+        "variation": "Would you describe the current state of the brain as healthy?",
         "is_negated": false
     },
     {
@@ -82982,67 +82886,67 @@
     {
         "question_id": 4724,
         "original": "Is the brain healthy?",
-        "variation": "Is the brain in good shape or not?",
+        "variation": "Is the brain in good shape?",
         "is_negated": false
     },
     {
         "question_id": 4724,
         "original": "Is the brain healthy?",
-        "variation": "Is the brain well or unwell?",
+        "variation": "Is the brain well?",
         "is_negated": false
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain in the image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4731,
+        "original": "Does the picture contain brain?",
+        "variation": "Is a brain on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Where is Brian on the X-ray? (If no location is mentioned, implicitly answering 'not present')",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain?",
         "is_negated": false
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to locate brain in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to locate Brian in the radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4731,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there any indication of Brian in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there any indication of brain in the X-ray image?",
         "is_negated": false
     },
     {
@@ -83072,7 +82976,7 @@
     {
         "question_id": 4733,
         "original": "Is the brain healthy?",
-        "variation": "How is the overall health of the brain?",
+        "variation": "Is the overall health of the brain good?",
         "is_negated": false
     },
     {
@@ -83101,56 +83005,56 @@
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present in the image? No",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 4739,
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that the image does not have brain?",
         "is_negated": true
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that the image does not have Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no brain on this X-ray?",
         "is_negated": true
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no Brian on this X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the individual on this chest X-ray the brain?",
         "is_negated": false
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the individual on this chest X-ray someone other than Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture taken of the chest show brain?",
         "is_negated": false
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture taken of the chest show anyone but Brian?",
-        "is_negated": false
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the image?",
+        "is_negated": true
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the image?",
-        "is_negated": false
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that the radiograph lacks brain?",
+        "is_negated": true
     },
     {
         "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that the radiograph lacks Brian?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4739,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no trace of Brian on this X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a trace of brain on this X-ray?",
         "is_negated": false
     },
     {
@@ -83169,7 +83073,7 @@
         "question_id": 4741,
         "original": "Does the brain look healthy?",
         "variation": "Is the brain shown to be in a normal, healthy state on the provided X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4741,
@@ -83181,7 +83085,7 @@
         "question_id": 4741,
         "original": "Does the brain look healthy?",
         "variation": "Does the chest X-ray reveal any indication of brain health issues?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4741,
@@ -83209,56 +83113,56 @@
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian missing from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain missing from the picture?",
         "is_negated": true
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present on this X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present on this X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Can we see Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can we see brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image show any indication of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image show any indication of brain?",
         "is_negated": false
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph have Brian within it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph have brain within it?",
         "is_negated": false
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an appearance of Brian in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an appearance of brain in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4748,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian discernible on the X-ray photograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain discernible on the X-ray photograph?",
         "is_negated": false
     },
     {
@@ -83271,7 +83175,7 @@
         "question_id": 4750,
         "original": "Does the brain look abnormal?",
         "variation": "Is the brain showing any signs of abnormality in the X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4750,
@@ -83283,7 +83187,7 @@
         "question_id": 4750,
         "original": "Does the brain look abnormal?",
         "variation": "Is the structure of the brain normal as shown in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4750,
@@ -83317,56 +83221,56 @@
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have an image of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have an image of brain?",
         "is_negated": true
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian shown on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain shown on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you find an appearance of Brian in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you find an appearance of brain in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray show any part of Brian's body?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray show any part of brain's body?",
         "is_negated": false
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image contain a representation of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image contain a representation of brain?",
         "is_negated": false
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a depiction of Brian on the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a depiction of brain on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4757,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to see Brian imaged in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to see brain imaged in the picture?",
         "is_negated": false
     },
     {
@@ -83403,7 +83307,7 @@
         "question_id": 4759,
         "original": "Is the brain healthy?",
         "variation": "Has the brain been diagnosed with a condition?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4759,
@@ -83425,56 +83329,56 @@
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no depiction of Brian in the image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no depiction of brain in the image?",
         "is_negated": true
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a person named Brian in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a brain in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Who or what is depicted in the given picture, and is it Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Who or what is depicted in the given picture, and is it brain?",
         "is_negated": false
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiographic image show any signs of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiographic image show any signs of brain?",
         "is_negated": false
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image hold an individual named Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image hold an individual named brain?",
         "is_negated": false
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Is the picture's subject Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is the picture's subject brain?",
         "is_negated": false
     },
     {
         "question_id": 4765,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph contain a person called Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph contain a person called brain?",
         "is_negated": false
     },
     {
@@ -83504,14 +83408,14 @@
     {
         "question_id": 4767,
         "original": "Is the brain healthy?",
-        "variation": "How is the health status of the brain?",
+        "variation": "Is the health status of the brain good?",
         "is_negated": false
     },
     {
         "question_id": 4767,
         "original": "Is the brain healthy?",
         "variation": "Is there any abnormality or disease in the brain?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4767,
@@ -83570,7 +83474,7 @@
     {
         "question_id": 4771,
         "original": "Does the picture contain liver?",
-        "variation": "Does the image depict a liver?, Does the picture reveal a liver?, Does the X-ray exhibit a liver?",
+        "variation": "Does the image depict a liver?, Does the X-ray exhibit a liver?",
         "is_negated": false
     },
     {
@@ -83811,13 +83715,13 @@
         "question_id": 4780,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4780,
         "original": "Does the picture contain heart?",
         "variation": "Is the image lacking a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4780,
@@ -83828,14 +83732,14 @@
     {
         "question_id": 4780,
         "original": "Does the picture contain heart?",
-        "variation": "Does the picture exhibit a lack of heart?",
+        "variation": "Does the picture exhibit a heart?",
         "is_negated": false
     },
     {
         "question_id": 4780,
         "original": "Does the picture contain heart?",
         "variation": "Is it possible to observe an absence of heart in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4780,
@@ -83865,7 +83769,7 @@
         "question_id": 4782,
         "original": "Is the lung healthy?",
         "variation": "Is there anything wrong with the lung on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4782,
@@ -83898,60 +83802,6 @@
         "is_negated": false
     },
     {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is there not a largest structure visible in the provided image between lung, liver, and heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Does none of the organs, lung, liver, or heart, appear to be the biggest in the given X-ray image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is it not the case that any of the three organs, lung, liver, or heart, can be identified as the largest in this chest X-ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which organ is the smallest among the lung, liver, and heart in the given image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "What is the smallest visible structure on the provided X-ray between the lung, liver, and heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Can you determine which of these three organs, lung, liver, or heart, appears smallest in this chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which organ can be considered as the most diminutive in this image among lung, pulmonary system, and cardiovascular system?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "What is the least conspicuous structure on the provided X-ray between the lungs, liver, or heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4784,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Can you discern which of these three organs, respiratory apparatus, hepatic gland, or cardiac muscle, appears smallest in this chest X-ray?",
-        "is_negated": false
-    },
-    {
         "question_id": 4789,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture not contain liver?",
@@ -83973,7 +83823,7 @@
         "question_id": 4789,
         "original": "Does the picture contain liver?",
         "variation": "Is there no sign of a liver in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4789,
@@ -84009,7 +83859,7 @@
         "question_id": 4790,
         "original": "Does the picture contain lung?",
         "variation": "Does the picture show any evidence of lungs?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4790,
@@ -84033,7 +83883,7 @@
         "question_id": 4790,
         "original": "Does the picture contain lung?",
         "variation": "Does the presented chest X-ray lack any indication of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4790,
@@ -84045,13 +83895,13 @@
         "question_id": 4790,
         "original": "Does the picture contain lung?",
         "variation": "Does the image demonstrate any absence of thoracic cavities filled with air sacs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4790,
         "original": "Does the picture contain lung?",
         "variation": "Is it not observable that there are lungs present in the radiographic picture of the chest?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4790,
@@ -84081,13 +83931,13 @@
         "question_id": 4791,
         "original": "Does the picture contain heart?",
         "variation": "Is the image devoid of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4791,
         "original": "Does the picture contain heart?",
         "variation": "Is there no anatomy of the heart visible on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4791,
@@ -84098,7 +83948,7 @@
     {
         "question_id": 4791,
         "original": "Does the picture contain heart?",
-        "variation": "Does the image include a heart?, Does the picture depict cardiac tissue?, Does the radiograph show the ventricles and atria?",
+        "variation": "Does the image include a heart?, Does the picture depict cardiac tissue?",
         "is_negated": false
     },
     {
@@ -84128,7 +83978,7 @@
     {
         "question_id": 4793,
         "original": "Is the lung healthy?",
-        "variation": "How would you describe the health status of the lung?",
+        "variation": "Would you describe the health status of the lung as healthy?",
         "is_negated": false
     },
     {
@@ -84153,7 +84003,7 @@
         "question_id": 4793,
         "original": "Is the lung healthy?",
         "variation": "Does the lung show any signs of being ailing or unwell?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4800,
@@ -84231,7 +84081,7 @@
         "question_id": 4801,
         "original": "Does the picture contain lung?",
         "variation": "Is the radiograph devoid of any lung structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4801,
@@ -84243,7 +84093,7 @@
         "question_id": 4801,
         "original": "Does the picture contain lung?",
         "variation": "Does the image show only structures other than lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4801,
@@ -84255,13 +84105,13 @@
         "question_id": 4801,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray clear of pulmonary structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4801,
         "original": "Does the picture contain lung?",
         "variation": "Are there no parenchymal shadows in the picture suggesting lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4802,
@@ -84345,13 +84195,13 @@
         "question_id": 4804,
         "original": "Does the lung look abnormal?",
         "variation": "Is the lung, as seen on the X-ray, within the expected range?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4804,
         "original": "Does the lung look abnormal?",
         "variation": "On the X-ray, does the lung look like it should?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4804,
@@ -84369,60 +84219,6 @@
         "question_id": 4804,
         "original": "Does the lung look abnormal?",
         "variation": "Is the lung anatomically distorted as per the X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is there no largest organ visible in this image between lung, liver, and heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Does the size of the liver exceed that of both the lung and heart in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is the size of neither the lung nor the heart greater than that of the heart or liver in this given image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which organ appears largest among the lung, liver, and heart on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In this X-ray, which one is bigger: the lung, the liver, or the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On this chest X-ray image, which of these organs shows up as the largest: the lung, the liver, or the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which organ in this image is the most voluminous among the thorax, liver, and cardiac structures?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In terms of size, which one dominates on the X-ray between the lung, the hepatic organ, and the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4805,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On the given image, which of the respiratory, hepatic, or circulatory system organ is the most expansive: the lung, the liver, or the heart?",
         "is_negated": false
     },
     {
@@ -84573,19 +84369,19 @@
         "question_id": 4812,
         "original": "Does the picture contain heart?",
         "variation": "Is the X-ray of the chest devoid of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4812,
         "original": "Does the picture contain heart?",
         "variation": "Is there no representation of a heart on the given image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4812,
         "original": "Does the picture contain heart?",
         "variation": "Is the picture free from any signs of a heart structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4813,
@@ -84620,7 +84416,7 @@
     {
         "question_id": 4813,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung free from disease or illness? (Yes)",
+        "variation": "Is the lung free from disease or illness?",
         "is_negated": false
     },
     {
@@ -84638,8 +84434,8 @@
     {
         "question_id": 4813,
         "original": "Is the lung healthy?",
-        "variation": "Is there any indication of sickness or impairment in the lung? (No)",
-        "is_negated": false
+        "variation": "Is there any indication of sickness or impairment in the lung?",
+        "is_negated": true
     },
     {
         "question_id": 4819,
@@ -84723,13 +84519,13 @@
         "question_id": 4820,
         "original": "Does the picture contain lung?",
         "variation": "Does the image reveal any part of the chest except for the lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4820,
         "original": "Does the picture contain lung?",
         "variation": "Is the radiograph exclusively made up of non-lung structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4820,
@@ -84801,36 +84597,6 @@
         "question_id": 4823,
         "original": "Is the lung healthy?",
         "variation": "Is the lung sound and well?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4825,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is there no largest organ visible in this chest X-ray image, among lung, liver, or heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4825,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which of these, lung, liver, or heart, appears the smallest on the provided chest X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4825,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On this given chest X-ray, is it the lung, liver, or heart that looks the least prominent?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4825,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is the largest among these, the pulmonary organ, hepatic organ, or cardiac organ, clearly visible on the presented chest X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4825,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On this provided chest X-ray, does nothing stand out as being bigger than either the lung, liver, or heart?",
         "is_negated": false
     },
     {
@@ -85011,7 +84777,7 @@
         "question_id": 4833,
         "original": "Is the lung healthy?",
         "variation": "Is the lung free from any health issues?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4833,
@@ -85023,12 +84789,12 @@
         "question_id": 4833,
         "original": "Is the lung healthy?",
         "variation": "Is there anything wrong with the lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4833,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung normal or abnormal on the X-ray image?",
+        "variation": "Is the lung normal on the X-ray image?",
         "is_negated": false
     },
     {
@@ -85125,37 +84891,37 @@
         "question_id": 4841,
         "original": "Does the picture contain heart?",
         "variation": "Is there no image of a heart in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4841,
         "original": "Does the picture contain heart?",
         "variation": "Is the X-ray free from any depiction of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4841,
         "original": "Does the picture contain heart?",
         "variation": "Is the X-rayed image devoid of the heart structure?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4841,
+        "original": "Does the picture contain heart?",
+        "variation": "Does the picture show sign of the heart?",
         "is_negated": false
     },
     {
         "question_id": 4841,
         "original": "Does the picture contain heart?",
-        "variation": "Does the picture show no sign of the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4841,
-        "original": "Does the picture contain heart?",
-        "variation": "Is the heart absent in the radiograph?",
+        "variation": "Is the heart in the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 4841,
         "original": "Does the picture contain heart?",
         "variation": "Is there no trace of myocardium on the chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4843,
@@ -85226,7 +84992,7 @@
     {
         "question_id": 4848,
         "original": "Is the liver normal in this image?",
-        "variation": "Is the image showing a normal liver, or is it indicative of a liver problem?",
+        "variation": "Is the image indicative of a liver problem?",
         "is_negated": true
     },
     {
@@ -85239,12 +85005,12 @@
         "question_id": 4848,
         "original": "Is the liver normal in this image?",
         "variation": "Does the picture reveal any irregularities with the liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4848,
         "original": "Is the liver normal in this image?",
-        "variation": "Is the depicted liver in its usual condition, or does it show some abnormalities?",
+        "variation": "Does the depicted liver show some abnormalities?",
         "is_negated": false
     },
     {
@@ -85257,12 +85023,12 @@
         "question_id": 4848,
         "original": "Is the liver normal in this image?",
         "variation": "Does the image suggest any deviations from a normal liver structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4848,
         "original": "Is the liver normal in this image?",
-        "variation": "Is the liver as seen in this picture functioning normally, or is there evidence of an abnormality?",
+        "variation": "Is the liver as seen in this picture functioning normally?",
         "is_negated": false
     },
     {
@@ -85305,7 +85071,7 @@
         "question_id": 4850,
         "original": "Does the picture contain liver?",
         "variation": "Does the image reveal any sign of hepatocyte or liver parenchyma?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4850,
@@ -85346,7 +85112,7 @@
     {
         "question_id": 4851,
         "original": "Does the picture contain kidney?",
-        "variation": "What body part is depicted as a kidney in this radiograph?",
+        "variation": "Is the body part depicted in this radiograph a kidney?",
         "is_negated": false
     },
     {
@@ -85503,37 +85269,37 @@
         "question_id": 4859,
         "original": "Does the picture contain heart?",
         "variation": "Is there a heart missing from the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4859,
         "original": "Does the picture contain heart?",
         "variation": "Is it true that the picture does not show a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4859,
         "original": "Does the picture contain heart?",
-        "variation": "Can we see a heart on the X-ray or is it absent?",
+        "variation": "Can we see a heart on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4859,
         "original": "Does the picture contain heart?",
         "variation": "Does the image display no cardiac structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4859,
         "original": "Does the picture contain heart?",
         "variation": "Is it correct to say there's no heart in the radiograph?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4859,
         "original": "Does the picture contain heart?",
         "variation": "Is there an absence of the heart in the X-ray picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4860,
@@ -85563,7 +85329,7 @@
         "question_id": 4860,
         "original": "Is the lung healthy?",
         "variation": "Is there any disease or damage in the lung as shown in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4860,
@@ -85587,7 +85353,7 @@
         "question_id": 4860,
         "original": "Is the lung healthy?",
         "variation": "Is there any indication of illness or irregularity in the lung as depicted in the chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4866,
@@ -85611,7 +85377,7 @@
         "question_id": 4866,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray image devoid of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4866,
@@ -85629,13 +85395,13 @@
         "question_id": 4866,
         "original": "Does the picture contain lung?",
         "variation": "Does the picture display a lung-free condition?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4866,
         "original": "Does the picture contain lung?",
         "variation": "Are there no pulmonary organs present in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4866,
@@ -85653,13 +85419,13 @@
         "question_id": 4867,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart visible on this X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4867,
         "original": "Does the picture contain heart?",
         "variation": "Does the X-ray show no evidence of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4867,
@@ -85671,7 +85437,7 @@
         "question_id": 4867,
         "original": "Does the picture contain heart?",
         "variation": "Is the picture devoid of any indication of a heart structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4867,
@@ -85694,7 +85460,7 @@
     {
         "question_id": 4869,
         "original": "Is the lung healthy?",
-        "variation": "Under what circumstances would we say the lung is not healthy?",
+        "variation": "Would we say the lung is not healthy?",
         "is_negated": true
     },
     {
@@ -85731,61 +85497,7 @@
         "question_id": 4869,
         "original": "Is the lung healthy?",
         "variation": "Is there anything wrong with the lung? (No implies the lung is healthy)",
-        "is_negated": false
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is there no structure in this image that is bigger than the lung?",
         "is_negated": true
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is it not the case that the liver is the largest structure in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Could the heart be smaller than all the structures visible in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which of these – lung, liver, or heart – seems to take up the least amount of space on this X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On this chest X-ray, which among lung, liver, and heart appears to be the smallest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is it the lung, the liver, or the heart that occupies the least area in this radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which of these three – pulmonary tissue, hepatic organ, or cardiac muscle – appears smallest on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On this chest imaging study, which among the lung, liver, and heart is least prominent in size?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4870,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Does any of the respiratory, digestive, or circulatory organs (lung, liver, or heart) appear to be the smallest on this X-ray?",
-        "is_negated": false
     },
     {
         "question_id": 4875,
@@ -85868,7 +85580,7 @@
     {
         "question_id": 4876,
         "original": "Does the picture contain lung?",
-        "variation": "What body part is shown in the chest X-ray that resembles lungs?",
+        "variation": "Does the body part shown in the chest X-ray resemble lungs?",
         "is_negated": false
     },
     {
@@ -86000,7 +85712,7 @@
     {
         "question_id": 4879,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung wholesome?",
+        "variation": "Is the lung good?",
         "is_negated": false
     },
     {
@@ -86030,7 +85742,7 @@
     {
         "question_id": 4884,
         "original": "Does the picture contain liver?",
-        "variation": "What can be seen on the X-ray in terms of the liver?",
+        "variation": "Can liver be seen on the X-ray?",
         "is_negated": false
     },
     {
@@ -86180,43 +85892,43 @@
     {
         "question_id": 4888,
         "original": "Is the lung healthy?",
-        "variation": "Under what circumstances would you say the lung is not healthy?",
+        "variation": "Would you say the lung is not healthy?",
         "is_negated": true
     },
     {
         "question_id": 4888,
         "original": "Is the lung healthy?",
-        "variation": "What is the condition of the lung - is it healthy or not?",
+        "variation": "What is the condition of the lung - is it healthy?",
         "is_negated": false
     },
     {
         "question_id": 4888,
         "original": "Is the lung healthy?",
-        "variation": "How would you describe the state of the lung - is it sick or well?",
+        "variation": "How would you describe the state of the lung - is it sick?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4888,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any problem with the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4888,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good shape?",
         "is_negated": false
     },
     {
         "question_id": 4888,
         "original": "Is the lung healthy?",
-        "variation": "Is there any problem with the lung - is it okay or not?",
+        "variation": "Does the lung display signs of health?",
         "is_negated": false
     },
     {
         "question_id": 4888,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung in good shape, or is it ailing?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4888,
-        "original": "Is the lung healthy?",
-        "variation": "Does the lung display signs of health or disease?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4888,
-        "original": "Is the lung healthy?",
-        "variation": "Is the lung functioning properly, or is there an issue with its performance?",
+        "variation": "Is the lung functioning properly?",
         "is_negated": false
     },
     {
@@ -86295,7 +86007,7 @@
         "question_id": 4897,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4897,
@@ -86306,26 +86018,26 @@
     {
         "question_id": 4897,
         "original": "Does the picture contain heart?",
-        "variation": "Does the image display a heart, or is it empty?",
+        "variation": "Does the image display a heart?",
         "is_negated": false
     },
     {
         "question_id": 4897,
         "original": "Does the picture contain heart?",
         "variation": "Is the image lacking a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4897,
         "original": "Does the picture contain heart?",
-        "variation": "Does the depiction show the heart, or is there no anatomy of the heart present?",
+        "variation": "Does the depiction show the heart or anatomy of the heart?",
         "is_negated": false
     },
     {
         "question_id": 4897,
         "original": "Does the picture contain heart?",
         "variation": "Is the picture devoid of a cardiac structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4899,
@@ -86349,7 +86061,7 @@
         "question_id": 4899,
         "original": "Is the lung healthy?",
         "variation": "Is there anything wrong with the lung as shown in the chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4899,
@@ -86373,67 +86085,13 @@
         "question_id": 4899,
         "original": "Is the lung healthy?",
         "variation": "Is there any evidence of ailment in the respiratory system on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4899,
         "original": "Is the lung healthy?",
         "variation": "Does the thoracic cavity show any signs of unwellness related to the lung, as depicted by the chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In this image, is the lung the smallest?",
         "is_negated": true
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is the liver bigger than the heart in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is it not the case that the heart is larger than both the lung and the liver in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which among the lung, liver, and heart is the smallest in size in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In the given image, which of the three, lung, liver, or heart, appears to be the largest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Looking at this picture, can you tell me if the organ that seems larger between lung, liver, and heart is not the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which of the three organs in this image, lung, thorax, or heart, has the least dimensions?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In the provided picture, which among the respiratory system, metabolic system, and cardiovascular system appears to be the largest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4901,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Looking at the illustrated diagram, can you identify if it's not the case that the heart is more extensive than both the lung and liver?",
-        "is_negated": false
     },
     {
         "question_id": 4906,
@@ -86625,7 +86283,7 @@
         "question_id": 4910,
         "original": "Is the lung healthy?",
         "variation": "Is there any sign of lung disease or damage?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4910,
@@ -86775,12 +86433,12 @@
         "question_id": 4918,
         "original": "Is the lung healthy?",
         "variation": "Does the lung show any signs of health?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4918,
         "original": "Is the lung healthy?",
-        "variation": "How would you describe the current state of the patient's lungs (healthy or unhealthy)?",
+        "variation": "Would you describe the current state of the patient's lungs as healthy?",
         "is_negated": false
     },
     {
@@ -86805,12 +86463,12 @@
         "question_id": 4918,
         "original": "Is the lung healthy?",
         "variation": "Is there any indication of ailment or illness in the lungs (as per the X-ray)?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4918,
         "original": "Is the lung healthy?",
-        "variation": "Does this X-ray depict healthy or pathological lungs?",
+        "variation": "Does this X-ray depict healthy lungs?",
         "is_negated": false
     }
 ]
