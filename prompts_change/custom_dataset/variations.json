@@ -78260,7 +78260,7 @@
     {
         "question_id": 4460,
         "original": "Does the picture contain the organ which has the effect of digesting food?",
-        "variation": "Can we identify, in the picture, where the organ that breaks down consumed items resides?",
+        "variation": "Can we identify, in the picture, the organ that breaks down consumed items resides?",
         "is_negated": false
     },
     {
@@ -78338,7 +78338,7 @@
     {
         "question_id": 4465,
         "original": "Is there an esophagus in this image?",
-        "variation": "Is it possible to find an esophagus on this image?",
+        "variation": "Is it not possible to find an esophagus on this image?",
         "is_negated": true
     },
     {
@@ -78350,7 +78350,7 @@
     {
         "question_id": 4465,
         "original": "Is there an esophagus in this image?",
-        "variation": "Where is the gullet located in this X-ray image?",
+        "variation": "Is the gullet located in this X-ray image?",
         "is_negated": false
     },
     {
@@ -78378,60 +78378,6 @@
         "is_negated": false
     },
     {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "Is not the bladder larger than the small bowel in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "The small bowel does not have a smaller size compared to the bladder in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "It is true that the small bowel is not smaller than the bladder in this image.",
-        "is_negated": true
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "In the given image, which of the two, bladder or small bowel, appears smaller?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "Can you confirm if the size of the small bowel is larger than that of the bladder in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "Which one looks smaller in this image, the bladder or the small bowel?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "In the provided image, which of the two, urinary bladder or small intestine, appears to be more extensive?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "Which of the two, bladder or lower gut, seems to have a larger extent in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4466,
-        "original": "Which is smaller in this image, bladder or small bowel?",
-        "variation": "Is it visible in this picture that the bladder or intestinal segment is more extensive?",
-        "is_negated": false
-    },
-    {
         "question_id": 4469,
         "original": "Does the picture contain the organ that could be used for absorbing nutrients?",
         "variation": "Does the picture not contain an organ that could be used for absorbing nutrients?",
@@ -78453,19 +78399,19 @@
         "question_id": 4469,
         "original": "Does the picture contain the organ that could be used for absorbing nutrients?",
         "variation": "Is the image free from any organ used for nutrient intake?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4469,
         "original": "Does the picture contain the organ that could be used for absorbing nutrients?",
         "variation": "Does the given picture lack an organ designed to absorb nutrients?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4469,
         "original": "Does the picture contain the organ that could be used for absorbing nutrients?",
         "variation": "Is the picture devoid of an organ responsible for nutrient uptake?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4469,
@@ -78594,60 +78540,6 @@
         "is_negated": false
     },
     {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "In this image, is the bladder smaller than the small bowel?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "Is it true that the size of the small bowel exceeds that of the bladder in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "In the provided image, does the bladder appear larger than the small bowel?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "In this X-ray, is the small bowel larger than the bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "Compared to the bladder in the given image, which appears larger: the small bowel or the bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "Is the size of the small bowel as seen on this X-ray greater than that of the bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "In the image provided, is the small intestine bigger than the urinary bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "Which of the two, the small intestine or the urinary bladder in this X-ray, appears larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4477,
-        "original": "Which is bigger in this image, bladder or small bowel?",
-        "variation": "As shown on this radiograph, does the small bowel have a greater size compared to the bladder?",
-        "is_negated": false
-    },
-    {
         "question_id": 4481,
         "original": "Is this a coronal section?",
         "variation": "Is this not a coronal section?",
@@ -78668,37 +78560,37 @@
     {
         "question_id": 4481,
         "original": "Is this a coronal section?",
-        "variation": "What type of X-ray section is this NOT?",
-        "is_negated": false
+        "variation": "Type of this X-ray section is NOT coronal, right?",
+        "is_negated": true
     },
     {
         "question_id": 4481,
         "original": "Is this a coronal section?",
         "variation": "Is the section in this chest X-ray NOT coronal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4481,
         "original": "Is this a coronal section?",
         "variation": "Would you describe the section on this chest X-ray as anything other than coronal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4481,
         "original": "Is this a coronal section?",
         "variation": "Is this a cross section instead of coronal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4481,
         "original": "Is this a coronal section?",
         "variation": "Could we call this an oblique section rather than coronal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4481,
         "original": "Is this a coronal section?",
-        "variation": "What other name for a section could be used for this chest X-ray instead of coronal?",
+        "variation": "Is this section coronal?",
         "is_negated": false
     },
     {
@@ -78810,60 +78702,6 @@
         "is_negated": false
     },
     {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "Is the rectum not the largest in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "Is the small bowel not the largest in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "Is the bladder not the largest in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "Which organ or structure among rectum, small bowel, and bladder is the smallest in the provided image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "What is the smallest among rectum, small bowel, and bladder in the given image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "In the presented image, which of these three (rectum, small bowel, or bladder) appears to be the smallest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "Which one among rectum, intestines (small bowel), and urinary bladder is the largest in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "In terms of dimension, which structure (rectum, small intestine, or bladder) appears to be the most expansive in the provided X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4488,
-        "original": "Which is the smallest in this image, rectum, small bowel or bladder?",
-        "variation": "Is it the largest (rectum, small bowel, or bladder) that can be discerned in the supplied image?",
-        "is_negated": false
-    },
-    {
         "question_id": 4491,
         "original": "Do any of the organs in the picture belong to the urinary system?",
         "variation": "Are there no organs in the provided picture that belong to the urinary system?",
@@ -78902,7 +78740,7 @@
     {
         "question_id": 4491,
         "original": "Do any of the organs in the picture belong to the urinary system?",
-        "variation": "Does any of the organs in the image appear to originate from the renal system?",
+        "variation": "Does any of the organs in the image appear to originate from the urinal system?",
         "is_negated": false
     },
     {
@@ -78938,20 +78776,20 @@
     {
         "question_id": 4492,
         "original": "Is this a transverse section?",
-        "variation": "What type of cross-sectional view is this?",
+        "variation": "Is this type of view a transverse section?",
         "is_negated": false
     },
     {
         "question_id": 4492,
         "original": "Is this a transverse section?",
-        "variation": "In what direction is the image taken through the patient's body?",
+        "variation": "Is the direction that the image is taken through same as the transverse section?",
         "is_negated": false
     },
     {
         "question_id": 4492,
         "original": "Is this a transverse section?",
-        "variation": "Is this slice perpendicular or parallel to the patient's front and back?",
-        "is_negated": false
+        "variation": "Is this slice parallel to the patient's front and back?",
+        "is_negated": true
     },
     {
         "question_id": 4492,
@@ -78962,7 +78800,7 @@
     {
         "question_id": 4492,
         "original": "Is this a transverse section?",
-        "variation": "What about this longitudinal or coronal slice?",
+        "variation": "Is this longitudinal or coronal slice?",
         "is_negated": false
     },
     {
@@ -78993,7 +78831,7 @@
         "question_id": 4493,
         "original": "Do the organs in the image exist in the abdomen?",
         "variation": "Are all organs shown in the image positioned outside of the abdominal region?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4493,
@@ -79017,7 +78855,7 @@
         "question_id": 4493,
         "original": "Do the organs in the image exist in the abdomen?",
         "variation": "Are the body parts depicted on the X-ray absent within the abdomen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4493,
@@ -79101,7 +78939,7 @@
         "question_id": 4496,
         "original": "Does the femoral head exist in this picture?",
         "variation": "Is the femoral head missing from this chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4496,
@@ -79112,7 +78950,7 @@
     {
         "question_id": 4496,
         "original": "Does the femoral head exist in this picture?",
-        "variation": "Is there a femur head visible on this X-ray, or is it not present?",
+        "variation": "Is there a femur head visible on this X-ray?",
         "is_negated": false
     },
     {
@@ -79130,7 +78968,7 @@
     {
         "question_id": 4496,
         "original": "Does the femoral head exist in this picture?",
-        "variation": "Can you detect the topmost part of the femur bone on this chest image?",
+        "variation": "Can you detect the topmost part of the femur bone on this image?",
         "is_negated": false
     },
     {
@@ -79155,18 +78993,18 @@
         "question_id": 4497,
         "original": "Does the picture contain spinal cord?",
         "variation": "Is the picture free from any depiction of the spinal cord?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4497,
+        "original": "Does the picture contain spinal cord?",
+        "variation": "Can you tell me if the picture includes the spinal cord?",
         "is_negated": false
     },
     {
         "question_id": 4497,
         "original": "Does the picture contain spinal cord?",
-        "variation": "Can you tell me if the picture includes the spinal cord or not?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4497,
-        "original": "Does the picture contain spinal cord?",
-        "variation": "Does the image clearly reveal the presence of the spinal cord, or is it absent?",
+        "variation": "Does the image clearly reveal the presence of the spinal cord?",
         "is_negated": false
     },
     {
@@ -79179,37 +79017,13 @@
         "question_id": 4497,
         "original": "Does the picture contain spinal cord?",
         "variation": "Is the picture indicative of a lack of vertebral column?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4497,
         "original": "Does the picture contain spinal cord?",
-        "variation": "Could you confirm if the photo shows a absence of the spinal cord?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4498,
-        "original": "Which is smaller in this image, bladder or rectum?",
-        "variation": "In this image, is it larger (or equal) than the bladder, the rectum?",
+        "variation": "Could you confirm if the photo shows an absence of the spinal cord?",
         "is_negated": true
-    },
-    {
-        "question_id": 4498,
-        "original": "Which is smaller in this image, bladder or rectum?",
-        "variation": "Is the size of the rectum greater than or equal to the size of the bladder in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4498,
-        "original": "Which is smaller in this image, bladder or rectum?",
-        "variation": "In this picture, does the rectum appear bigger than the bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4498,
-        "original": "Which is smaller in this image, bladder or rectum?",
-        "variation": "Which of the two, bladder or rectum, appears smaller in the provided image? Is the bladder more diminutive than the rectum in the given X-ray image? In this X-ray picture, does the cyst (bladder) appear smaller than the rectum?",
-        "is_negated": false
     },
     {
         "question_id": 4504,
@@ -79287,36 +79101,36 @@
         "question_id": 4505,
         "original": "Does the picture contain brain stem?",
         "variation": "Is the image devoid of the brain stem?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4505,
         "original": "Does the picture contain brain stem?",
         "variation": "Does the photograph lack a depiction of the brain stem?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4505,
         "original": "Does the picture contain brain stem?",
         "variation": "Is the picture free from any representation of the brain stem?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4505,
         "original": "Does the picture contain brain stem?",
-        "variation": "Does the image show no sign of medulla oblongata?",
+        "variation": "Does the image show a sign of medulla oblongata?",
         "is_negated": false
     },
     {
         "question_id": 4505,
         "original": "Does the picture contain brain stem?",
         "variation": "Is the photo without the lower part of the brain that controls vital functions?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4505,
         "original": "Does the picture contain brain stem?",
-        "variation": "Is the picture clear in not showing the portion of the brain responsible for crucial bodily functions?",
+        "variation": "Is the picture clear in showing the portion of the brain responsible for crucial bodily functions?",
         "is_negated": false
     },
     {
@@ -79329,7 +79143,7 @@
         "question_id": 4509,
         "original": "Does the picture contain the organ which has the effect of excreting feces?",
         "variation": "Is it not the case that the picture does not depict an organ that expels waste matter?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4509,
@@ -79364,7 +79178,7 @@
     {
         "question_id": 4509,
         "original": "Does the picture contain the organ which has the effect of excreting feces?",
-        "variation": "Is it depicted in the picture that the body part discharges or evacuates waste products?",
+        "variation": "Is the body part discharges or evacuates waste products depicted in the picture?",
         "is_negated": false
     },
     {
@@ -79395,37 +79209,37 @@
         "question_id": 4511,
         "original": "Does the picture contain colon?",
         "variation": "Is the image devoid of a colon?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4511,
         "original": "Does the picture contain colon?",
         "variation": "Is the depicted scene lacking a colon?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4511,
         "original": "Does the picture contain colon?",
         "variation": "Is the photograph without any visible colon?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4511,
+        "original": "Does the picture contain colon?",
+        "variation": "Does the image have a colon in it?",
         "is_negated": false
     },
     {
         "question_id": 4511,
         "original": "Does the picture contain colon?",
-        "variation": "Does the image have no colon in it?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4511,
-        "original": "Does the picture contain colon?",
-        "variation": "Is there no depiction of a colon in the picture?",
+        "variation": "Is there a depiction of a colon in the picture?",
         "is_negated": false
     },
     {
         "question_id": 4511,
         "original": "Does the picture contain colon?",
         "variation": "Is the photograph missing a colon?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4512,
@@ -79581,66 +79395,12 @@
         "question_id": 4524,
         "original": "Does the humerus head exist in this picture?",
         "variation": "Is it apparent in the picture that the ball-shaped humeral bone is missing?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4524,
         "original": "Does the humerus head exist in this picture?",
         "variation": "Can we see if there's a spherical structure at the humerus end on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "Is the bladder smaller than the rectum in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "In this image, is it the case that the size of the rectum is greater than the size of the bladder?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "Does the bladder appear to be smaller than the rectum as depicted in the provided image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "Is the rectum larger in the given image compared to the bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "In the presented image, is the size of the bladder smaller or equal to that of the rectum?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "Based on the image, is it correct to say that the bladder looks smaller than the rectum?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "Which organ in this picture appears more expansive, the urinary bladder or the rectum?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "In the provided image, does the rectum seem to be bigger or is it comparable in size with the bladder?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4526,
-        "original": "Which is bigger in this image, bladder or rectum?",
-        "variation": "As shown in the image, is the size of the large intestine segment (rectum) greater than that of the urinary bladder?",
         "is_negated": false
     },
     {
@@ -79724,7 +79484,7 @@
     {
         "question_id": 4532,
         "original": "Does the picture contain the organ which has the effect of gas delivery?",
-        "variation": "Does the provided chest X-ray show an air-transporting entity?",
+        "variation": "Does the provided chest X-ray show an gas-transporting entity?",
         "is_negated": false
     },
     {
@@ -79791,18 +79551,18 @@
         "question_id": 4534,
         "original": "Is this a coronal plane?",
         "variation": "Is this a transverse or cross-sectional slice instead of a coronal plane?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4534,
         "original": "Is this a coronal plane?",
         "variation": "Does the X-ray display a lateral view rather than the coronal plane?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4534,
         "original": "Is this a coronal plane?",
-        "variation": "In what orientation is the X-ray taking place - coronal, sagittal, or axial? Is it coronal?",
+        "variation": "In what orientation is the X-ray taking place? Is it coronal?",
         "is_negated": false
     },
     {
@@ -79827,19 +79587,19 @@
         "question_id": 4537,
         "original": "Is this a study of the pelvic cavity?",
         "variation": "What are we examining in this study, not the pelvic cavity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4537,
         "original": "Is this a study of the pelvic cavity?",
         "variation": "Is this investigation focused on any area other than the pelvic cavity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4537,
         "original": "Is this a study of the pelvic cavity?",
         "variation": "In this study, is it the pelvic cavity that we're leaving out?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4537,
@@ -79904,7 +79664,7 @@
     {
         "question_id": 4538,
         "original": "Does the picture contain bladder?",
-        "variation": "Is there a cyst in the picture that could be a bladder?",
+        "variation": "Is there an organ in the picture that could be a bladder?",
         "is_negated": false
     },
     {
@@ -79934,7 +79694,7 @@
     {
         "question_id": 4539,
         "original": "Does the femoral head exist in this picture?",
-        "variation": "Is it visible on this X-ray where the femoral head should be?",
+        "variation": "Is it visible on this X-ray that the femoral head is there?",
         "is_negated": false
     },
     {
@@ -79989,36 +79749,36 @@
         "question_id": 4540,
         "original": "Does the picture contain the organ that could be used for breathing?",
         "variation": "Is the image free from any lung or airway structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4540,
         "original": "Does the picture contain the organ that could be used for breathing?",
         "variation": "Does the given X-ray not depict any part associated with breathing process?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4540,
         "original": "Does the picture contain the organ that could be used for breathing?",
         "variation": "Is there no sign of any respiratory organs in the provided chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4540,
         "original": "Does the picture contain the organ that could be used for breathing?",
         "variation": "Does the picture lack an organ that serves the purpose of gas exchange?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4540,
+        "original": "Does the picture contain the organ that could be used for breathing?",
+        "variation": "Is there a structure in the image that functions for inhalation and exhalation?",
         "is_negated": false
     },
     {
         "question_id": 4540,
         "original": "Does the picture contain the organ that could be used for breathing?",
-        "variation": "Is there no structure in the image that functions for inhalation and exhalation?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4540,
-        "original": "Does the picture contain the organ that could be used for breathing?",
-        "variation": "Could it be said that the image does not reveal any organ related to respiratory function?",
+        "variation": "Could it be said that the image does reveal any organ related to respiratory function?",
         "is_negated": false
     },
     {
@@ -80030,7 +79790,7 @@
     {
         "question_id": 4546,
         "original": "Does the picture contain brain?",
-        "variation": "Is brain present in the image? (No)",
+        "variation": "Is brain not present in the image?",
         "is_negated": true
     },
     {
@@ -80048,32 +79808,32 @@
     {
         "question_id": 4546,
         "original": "Does the picture contain brain?",
-        "variation": "Is there a person named brain in the chest X-ray?",
+        "variation": "Is there an organ named brain in the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4546,
         "original": "Does the picture contain brain?",
-        "variation": "Does the X-ray picture show the presence of an individual named brain?",
+        "variation": "Does the X-ray picture show the presence of an organ named brain?",
         "is_negated": false
     },
     {
         "question_id": 4546,
         "original": "Does the picture contain brain?",
         "variation": "Is the image devoid of brain?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4546,
         "original": "Does the picture contain brain?",
-        "variation": "Is it the case that the person depicted is not brain?",
-        "is_negated": false
+        "variation": "Is it the case that the organ depicted is not brain?",
+        "is_negated": true
     },
     {
         "question_id": 4546,
         "original": "Does the picture contain brain?",
         "variation": "Does the chest X-ray lack the figure of brain?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4548,
@@ -80168,19 +79928,19 @@
     {
         "question_id": 4552,
         "original": "Does the picture contain colon?",
-        "variation": "Does the image show a semi-colon instead of a colon?",
+        "variation": "Does the image show a colon?",
         "is_negated": false
     },
     {
         "question_id": 4552,
         "original": "Does the picture contain colon?",
-        "variation": "Is there a vertical bar (|) in place of a colon on the X-ray?",
+        "variation": "Is there a colon on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4552,
         "original": "Does the picture contain colon?",
-        "variation": "Is it possible to spot a colonsymbol on the chest X-ray picture?",
+        "variation": "Is it possible to spot a colon on the chest X-ray picture?",
         "is_negated": false
     },
     {
@@ -80204,7 +79964,7 @@
     {
         "question_id": 4559,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "Is this an examination of the pelvis instead of the pelvic cavity?",
+        "variation": "Is this an examination of the pelvis or the pelvic cavity?",
         "is_negated": false
     },
     {
@@ -80276,73 +80036,19 @@
     {
         "question_id": 4560,
         "original": "Does the picture contain colon?",
-        "variation": "Does the picture display a semicolon or any similar marking?",
+        "variation": "Does the picture display a colon?",
         "is_negated": false
     },
     {
         "question_id": 4560,
         "original": "Does the picture contain colon?",
-        "variation": "Is there an obelisk or colons-and-slash in the picture?",
+        "variation": "Is there a colon in the picture?",
         "is_negated": false
     },
     {
         "question_id": 4560,
         "original": "Does the picture contain colon?",
-        "variation": "Does the picture exhibit any punctuation mark resembling a colon?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Is the shown modality on this image neither MRI, CT nor X-Ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Is it not the case that the modality for this image is either MRI, CT or X-Ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Could the modality used for this image be anything other than MRI, CT or X-Ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "What kind of scan was performed on this image, not MRI, CT or X-Ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Is it possible to identify the type of imaging technique used in this picture, and that technique is neither MRI, CT nor X-Ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Can you tell which specific method was employed for creating this image, excluding MRI, CT or X-Ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "What sort of imaging approach is presented in this picture, not magnetic resonance imaging, computed tomography or radiography?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Is it discernible from this image what type of diagnostic technique was employed, but not an MRI, CT or X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4562,
-        "original": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
-        "variation": "Could you determine the method applied to generate this picture that is neither a Magnetic Resonance Imaging, Computed Tomography, nor an X-Ray?",
+        "variation": "Does the picture exhibit any organ that is a colon?",
         "is_negated": false
     },
     {
@@ -80420,7 +80126,7 @@
     {
         "question_id": 4566,
         "original": "Is there colon in this picture?",
-        "variation": "Is there any symbol resembling a colon in the given picture?",
+        "variation": "Is there anything resembling a colon in the given picture?",
         "is_negated": false
     },
     {
@@ -80432,25 +80138,25 @@
     {
         "question_id": 4566,
         "original": "Is there colon in this picture?",
-        "variation": "Does the picture display anything similar to a semicolon or a double-colon?",
+        "variation": "Does the picture display anything similar to a colon?",
         "is_negated": false
     },
     {
         "question_id": 4566,
         "original": "Is there colon in this picture?",
-        "variation": "Does this image show a punctuation mark that looks like a colon?",
+        "variation": "Does this image show an organ that looks like a colon?",
         "is_negated": false
     },
     {
         "question_id": 4566,
         "original": "Is there colon in this picture?",
-        "variation": "Is there a vertical line with two short horizontal lines above and below in the picture?",
+        "variation": "Is there a colon in the picture?",
         "is_negated": false
     },
     {
         "question_id": 4566,
         "original": "Is there colon in this picture?",
-        "variation": "Is the mark represented as ':' appearing anywhere in the given picture?",
+        "variation": "Is the organ colon appearing anywhere in the given picture?",
         "is_negated": false
     },
     {
@@ -80613,24 +80319,24 @@
         "question_id": 4576,
         "original": "Does the picture contain the organ that could be used for discharging waste?",
         "variation": "Is the image devoid of an organ used for excreting waste?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4576,
         "original": "Does the picture contain the organ that could be used for discharging waste?",
         "variation": "Does the given image lack an organ associated with waste discharge?",
+        "is_negated": true
+    },
+    {
+        "question_id": 4576,
+        "original": "Does the picture contain the organ that could be used for discharging waste?",
+        "variation": "Can we say that the picture does have an organ involved in waste removal?",
         "is_negated": false
     },
     {
         "question_id": 4576,
         "original": "Does the picture contain the organ that could be used for discharging waste?",
-        "variation": "Can we say that the picture does not have an organ involved in waste removal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 4576,
-        "original": "Does the picture contain the organ that could be used for discharging waste?",
-        "variation": "Does the picture reveal no organ that can be used for evacuating waste matter?",
+        "variation": "Does the picture reveal an organ that can be used for evacuating waste matter?",
         "is_negated": false
     },
     {
@@ -80642,7 +80348,7 @@
     {
         "question_id": 4576,
         "original": "Does the picture contain the organ that could be used for discharging waste?",
-        "variation": "Could it be determined that the picture does not depict any organ related to excretion or disposal of waste?",
+        "variation": "Could it be determined that the picture does depict an organ related to excretion or disposal of waste?",
         "is_negated": false
     },
     {
@@ -80666,7 +80372,7 @@
     {
         "question_id": 4577,
         "original": "Are there organs in the picture that can perceive things?",
-        "variation": "Can the objects in the picture be sensed by any organ?",
+        "variation": "Can the objects in the picture perceive things?",
         "is_negated": false
     },
     {
@@ -80726,7 +80432,7 @@
     {
         "question_id": 4579,
         "original": "Is this a study of the neck?",
-        "variation": "Can you tell me if the X-ray shows the neck or not?",
+        "variation": "Can you tell me if the X-ray shows the neck?",
         "is_negated": false
     },
     {
@@ -80792,7 +80498,7 @@
     {
         "question_id": 4580,
         "original": "Does the picture contain bladder?",
-        "variation": "Does the image show a cyst?",
+        "variation": "Does the image show a bladder?",
         "is_negated": false
     },
     {
@@ -80882,20 +80588,20 @@
     {
         "question_id": 4588,
         "original": "Does the picture contain brain?",
-        "variation": "Is there a person named brain on this X-ray image?",
+        "variation": "Is there a structure named brain on this X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 4588,
         "original": "Does the picture contain brain?",
-        "variation": "Who does the image show, if not brain?",
+        "variation": "Does the image show a brain?",
         "is_negated": false
     },
     {
         "question_id": 4588,
         "original": "Does the picture contain brain?",
-        "variation": "Is the individual in the picture someone other than brain?",
-        "is_negated": false
+        "variation": "Is the individual in the picture something other than brain?",
+        "is_negated": true
     },
     {
         "question_id": 4588,
@@ -80906,38 +80612,38 @@
     {
         "question_id": 4588,
         "original": "Does the picture contain brain?",
-        "variation": "Is the picture showing a person known as brain?",
+        "variation": "Is the picture showing an organ named brain?",
         "is_negated": false
     },
     {
         "question_id": 4588,
         "original": "Does the picture contain brain?",
-        "variation": "Is it brain who is presented in the X-ray?",
+        "variation": "Is it brain that is presented in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 4590,
         "original": "Does the brain look abnormal?",
         "variation": "Does the brain not appear normal on the X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4590,
         "original": "Does the brain look abnormal?",
         "variation": "Is there no sign of normality in the brain as seen on the X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4590,
         "original": "Does the brain look abnormal?",
         "variation": "Does the X-ray show that the brain is abnormal?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 4590,
         "original": "Does the brain look abnormal?",
         "variation": "Is the structure of the brain normal according to the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4590,
@@ -80949,7 +80655,7 @@
         "question_id": 4590,
         "original": "Does the brain look abnormal?",
         "variation": "Based on the X-ray, does the brain seem to be within normal limits?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4590,
@@ -80972,7 +80678,7 @@
     {
         "question_id": 4595,
         "original": "Does the rectum exist in this picture?",
-        "variation": "Does the rectum **not** appear in this image?",
+        "variation": "Does the rectum not appear in this image?",
         "is_negated": true
     },
     {
@@ -81099,7 +80805,7 @@
         "question_id": 4601,
         "original": "Is there small bowel in this image?",
         "variation": "Is there no small bowel visible in the provided X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4601,
@@ -81158,7 +80864,7 @@
     {
         "question_id": 4602,
         "original": "Does the picture contain the organ which has the effect of storing urine?",
-        "variation": "Is there a kidney shown in the X-ray, which is where urine is stored temporarily?",
+        "variation": "Is there a bladder shown in the X-ray, which is where urine is stored?",
         "is_negated": false
     },
     {
@@ -81224,19 +80930,19 @@
     {
         "question_id": 4605,
         "original": "Does the picture contain colon?",
-        "variation": "Does the picture depict a semicolon?",
+        "variation": "Does the picture depict a colon?",
         "is_negated": false
     },
     {
         "question_id": 4605,
         "original": "Does the picture contain colon?",
-        "variation": "Is there a colonscone in the picture?",
+        "variation": "Is there a colon in the picture?",
         "is_negated": false
     },
     {
         "question_id": 4605,
         "original": "Does the picture contain colon?",
-        "variation": "Is the picture showing a punctuation mark similar to a colon?",
+        "variation": "Is the picture showing a colon?",
         "is_negated": false
     },
     {
@@ -81248,14 +80954,14 @@
     {
         "question_id": 4609,
         "original": "Does the picture contain colon?",
-        "variation": "Is there no colon visible in the picture?",
+        "variation": "Is there a colon visible in the picture?",
         "is_negated": false
     },
     {
         "question_id": 4609,
         "original": "Does the picture contain colon?",
         "variation": "Is it not the case that the image has a colon?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 4609,
