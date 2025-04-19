@@ -1646,7 +1646,7 @@
     {
         "question_id": 77,
         "original": "Does the picture contain lung?",
-        "variation": "Is the X-ray showing a thoracic organ (i.e., lung) or not?",
+        "variation": "Is the X-ray showing a thoracic organ?",
         "is_negated": false
     },
     {
@@ -1759,56 +1759,56 @@
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?", ##
         "variation": "In this image, is there no largest organ between lung, liver, and heart?",
         "is_negated": true
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Is the size of the lung in this image not greater than that of the liver and heart?",
         "is_negated": true
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Regarding this image, does neither the liver nor the heart appear larger than the lung?",
         "is_negated": true
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Which organ among lung, liver, and heart is not the largest in the given image?",
         "is_negated": false
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Is there any difference in size between the lung, liver, and heart in the provided image, or are they all the same size?",
         "is_negated": false
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In this picture, does one of the organs – lung, liver, or heart – seem larger than the others?",
+        "original": "Which is the biggest in this image,lung,liver or heart?"
+        "variation": "In this picture, does one of the organs lung, liver, or heart seem larger than the others?",
         "is_negated": false
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Which organ in this image, lung, liver, or heart, is not the most voluminous?",
         "is_negated": false
     },
     {
         "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Is it the case that there is no organ among lung, chest organ, and cardiac organ that seems to be the largest in the depicted image?",
         "is_negated": false
     },
     {
         "question_id": 82,
         "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In the provided picture, does one of the organs – thoracic organ, visceral organ, or circulatory organ – appear the largest compared to the others?",
+        "variation": "In the provided picture, does one of the organs thoracic organ, visceral organ, or circulatory organ appear the largest compared to the others?",
         "is_negated": false
     },
     {
@@ -1975,25 +1975,25 @@
     },
     {
         "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Is there no largest organ visible in this image between lung, liver, and heart?",
         "is_negated": true
     },
     {
         "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Which organ is the smallest among the lung, liver, and heart in this image?",
         "is_negated": false
     },
     {
         "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Can you tell me which of these three organs appears to be the least sized in the given image: lung, liver, or heart?",
         "is_negated": false
     },
     {
         "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
+        "original": "Which is the biggest in this image,lung,liver or heart?",##
         "variation": "Is the largest amongst the thoracic organ (lung), hepatic organ (liver), and cardiac organ (heart) visible in this image?",
         "is_negated": false
     },
@@ -2043,19 +2043,19 @@
         "question_id": 96,
         "original": "Does the picture contain liver?",
         "variation": "Does the image lack liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 96,
         "original": "Does the picture contain liver?",
         "variation": "Is the depicted scene free from liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 96,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture exclude liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 97,
@@ -2077,7 +2077,7 @@
     },
     {
         "question_id": 97,
-        "original": "Does the picture contain lung?",
+        "original": "Does the picture contain lung?", ##
         "variation": "Is the image devoid of a lung or lungs?",
         "is_negated": false
     },
@@ -2085,31 +2085,31 @@
         "question_id": 97,
         "original": "Does the picture contain lung?",
         "variation": "Are there no lungs visible in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 97,
         "original": "Does the picture contain lung?",
         "variation": "Does the radiograph show no evidence of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 97,
         "original": "Does the picture contain lung?",
         "variation": "Does the image show any absence of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 97,
         "original": "Does the picture contain lung?",
         "variation": "Is it evident that the picture lacks lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 97,
         "original": "Does the picture contain lung?",
         "variation": "Are there no pulmonary structures discernible in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 99,
@@ -2139,7 +2139,7 @@
         "question_id": 99,
         "original": "Does the lung look normal?",
         "variation": "Is there anything noticeably different about the appearance of the lungs on the provided X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 99,
@@ -2156,14 +2156,14 @@
     {
         "question_id": 99,
         "original": "Does the lung look normal?",
-        "variation": "Are the lungs visible and do they look normal or typical on the radiograph?",
+        "variation": "Are the lungs visible and do they look normal?",
         "is_negated": false
     },
     {
         "question_id": 99,
         "original": "Does the lung look normal?",
         "variation": "Does the X-ray depict any deviation from standard lung structure or appearance?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 106,
@@ -2204,19 +2204,19 @@
     {
         "question_id": 106,
         "original": "Does the picture contain liver?",
-        "variation": "Does the image depict a liver or not?",
+        "variation": "Does the image depict a liver?",
         "is_negated": false
     },
     {
         "question_id": 106,
         "original": "Does the picture contain liver?",
-        "variation": "Is the organ present on the X-ray or absent?",
+        "variation": "Is the organ liver present on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 106,
         "original": "Does the picture contain liver?",
-        "variation": "Is it possible to see the liver in the picture, or is it not visible there?",
+        "variation": "Is it possible to see the liver in the picture?",
         "is_negated": false
     },
     {
@@ -2348,19 +2348,19 @@
     {
         "question_id": 110,
         "original": "Is the lung healthy?",
-        "variation": "In what condition is the lung - good or bad?",
+        "variation": "Is the lung in good condition?",
         "is_negated": false
     },
     {
         "question_id": 110,
         "original": "Is the lung healthy?",
-        "variation": "How would you describe the status of the lung's health? Is it healthy or not?",
+        "variation": "Would you describe the status of the lung as healthy?",
         "is_negated": false
     },
     {
         "question_id": 110,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung in a state that we call 'healthy' or something else?",
+        "variation": "Is the lung in a state that we call 'healthy'?",
         "is_negated": false
     },
     {
@@ -2378,7 +2378,7 @@
     {
         "question_id": 110,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung fit or unfit?",
+        "variation": "Is the lung fit?",
         "is_negated": false
     },
     {
@@ -2420,7 +2420,7 @@
     {
         "question_id": 116,
         "original": "Does the picture contain liver?",
-        "variation": "Does the radiograph exhibit liver?, Does the picture show any sign of liver?, Is the imagery indicative of a liver in this chest X-ray?",
+        "variation": "Is the imagery indicative of a liver in this chest X-ray?",
         "is_negated": false
     },
     {
@@ -2469,7 +2469,7 @@
         "question_id": 117,
         "original": "Does the picture contain lung?",
         "variation": "Are there no respiratory organs evident in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 117,
@@ -2522,7 +2522,7 @@
     {
         "question_id": 119,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung sound?",
+        "variation": "Is the lung clear?",
         "is_negated": false
     },
     {
@@ -2846,13 +2846,13 @@
     {
         "question_id": 136,
         "original": "Does the picture contain heart?",
-        "variation": "Is it possible to identify any cardiovascular structure apart from the heart in the picture?",
+        "variation": "Is it possible to identify heart in the picture?",
         "is_negated": false
     },
     {
         "question_id": 136,
         "original": "Does the picture contain heart?",
-        "variation": "Can you detect any thoracic or chest-related organ other than the heart within the image?",
+        "variation": "Can you detect any thoracic or chest-related organ as heart within the image?",
         "is_negated": false
     },
     {
@@ -2877,7 +2877,7 @@
         "question_id": 141,
         "original": "Does the picture contain liver?",
         "variation": "Is the picture free of liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 141,
@@ -2889,25 +2889,25 @@
         "question_id": 141,
         "original": "Does the picture contain liver?",
         "variation": "Does the image exhibit no signs of liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 141,
         "original": "Does the picture contain liver?",
         "variation": "Does the image depict the absence of liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 141,
         "original": "Does the picture contain liver?",
         "variation": "Is it correct to say that there is no visible liver in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 141,
         "original": "Does the picture contain liver?",
         "variation": "Can we confirm that the picture does not show a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 143,
@@ -2985,7 +2985,7 @@
         "question_id": 147,
         "original": "Does the picture contain liver?",
         "variation": "Is the image devoid of a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 147,
@@ -3086,7 +3086,7 @@
     {
         "question_id": 149,
         "original": "Does the picture contain spleen?",
-        "variation": "Is there anything other than the lungs, heart, and ribs visible in the image that resembles the spleen?",
+        "variation": "Is there anything visible in the image that resembles the spleen?",
         "is_negated": false
     },
     {
@@ -3107,6 +3107,7 @@
         "variation": "Is it possible to observe the splenic organ in the provided chest X-ray?",
         "is_negated": false
     },
+    ####
     {
         "question_id": 153,
         "original": "Are there abnormalities in this image?",
@@ -3182,38 +3183,38 @@
     {
         "question_id": 157,
         "original": "Is the lung healthy?",
-        "variation": "How would you describe the state of the lung's health? Is it healthy?",
-        "is_negated": false
+        "variation": "Is the state of the lung's unhealthy?",
+        "is_negated": true
     },
     {
         "question_id": 157,
         "original": "Is the lung healthy?",
         "variation": "Is there any sign or indication that the lung isn't in good condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 157,
+        "original": "Is the lung healthy?",
+        "variation": "In terms of its health, is the lung considered normal?",
         "is_negated": false
     },
     {
         "question_id": 157,
         "original": "Is the lung healthy?",
-        "variation": "In terms of its health, is the lung considered normal or abnormal?",
+        "variation": "Is the lung intact?",
         "is_negated": false
     },
     {
         "question_id": 157,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung wholesome?",
-        "is_negated": false
+        "variation": "Is there any abnormality in the lungs?",
+        "is_negated": true
     },
     {
         "question_id": 157,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung hale and hearty?",
-        "is_negated": false
-    },
-    {
-        "question_id": 157,
-        "original": "Is the lung healthy?",
-        "variation": "Is the lung sound in health?",
-        "is_negated": false
+        "variation": "Is there any sign of disease in the lung",
+        "is_negated": true
     },
     {
         "question_id": 160,
@@ -3309,7 +3310,7 @@
         "question_id": 164,
         "original": "Is the lung healthy?",
         "variation": "Does the lung exhibit health issues?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 164,
