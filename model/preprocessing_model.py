@@ -17,10 +17,20 @@ class T5WithInversionHead(nn.Module):
 
         canonical_question = outputs.logits
 
-        print(outputs.encoder_last_hidden_state.shape)
-        inversion_logits = self.inversion_classifier(outputs.encoder_last_hidden_state[:, 0, :])
+        enc = outputs.encoder_last_hidden_state  # (batch, seq_len, dim)
+        mask = attention_mask.unsqueeze(-1).float()  # (batch, seq_len, 1)
 
-        return canonical_question, inversion_logits.squeeze()
+        summed = (enc * mask).sum(dim=1)  # sum over seq_len → (batch, dim)
+        counts = mask.sum(dim=1).clamp(min=1)  # how many real tokens → (batch, 1)
+
+        pooled = summed / counts
+
+        inversion_logits = self.inversion_classifier(pooled).squeeze(-1)
+
+        return canonical_question, inversion_logits
+
+    def generate(self, *args, **kwargs):
+        return self.t5_model.generate(*args, **kwargs)
 
 
 if __name__ == "__main__":

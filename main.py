@@ -3,7 +3,7 @@ sys.path.append('models/')
 
 import json
 import os
-from chexagent import CheXagent
+from models.chexagent import CheXagent
 from colours import bcolors
 
 base_image_path = "dataset/Slake/Slake1.0/imgs/"
