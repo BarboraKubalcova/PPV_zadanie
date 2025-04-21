@@ -43472,7 +43472,7 @@
     {
         "question_id": 2444,
         "original": "Is the lung normal appearing?",
-        "variation": "Is there anything unusual or different about the lung in the X-ray?",
+        "variation": "Is there nothing unusual or different about the lung in the X-ray?",
         "is_negated": false
     },
     {
