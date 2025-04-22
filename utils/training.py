@@ -148,7 +148,8 @@ class Training:
             train_dataset=training_dataset,
             eval_dataset=validation_dataset,
             processing_class=model.tokenizer,
-            data_collator=CustomDataCollator(model.tokenizer)
+            data_collator=CustomDataCollator(model.tokenizer),
+            device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
         )
 
         trainer.add_callback(TrainEvalCallback(trainer))
