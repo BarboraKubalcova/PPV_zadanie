@@ -17,8 +17,8 @@ from transformers import (
     Trainer
 )
 
-from assignment1.model.preprocessing_model import T5WithInversionHead
-from assignment1.dataloaders.CheXAgentDatataset import CheXAgentDataset
+from model.preprocessing_model import T5WithInversionHead
+from dataloaders.CheXAgentDatataset import CheXAgentDataset
 
 
 class CustomDataCollator(DataCollatorForSeq2Seq):
@@ -35,8 +35,8 @@ class CustomDataCollator(DataCollatorForSeq2Seq):
         return batch
 
 class CustomTrainer(Seq2SeqTrainer):
-    def __init__(self, model, args: Seq2SeqTrainingArguments, training_dataset=None, eval_dataset=None, device=torch.device('cpu'), **kwargs):
-        super().__init__(model=model.to(device), args=args, train_dataset=training_dataset, eval_dataset=eval_dataset, **kwargs)
+    def __init__(self, model, args: Seq2SeqTrainingArguments, train_dataset=None, eval_dataset=None, device=torch.device('cpu'), **kwargs):
+        super().__init__(model=model.to(device), args=args, train_dataset=train_dataset, eval_dataset=eval_dataset, **kwargs)
 
         self.bleu_metric = evaluate.load("bleu")
         self.rouge_metric = evaluate.load("rouge")
@@ -192,14 +192,14 @@ class Training:
 if __name__ == '__main__':
     random_state = 42
 
-    json_path = "C:\\Skola\\TUKE\\ING\\PPV\\assignment1\\prompts_change\\custom_dataset\\variations.json"
+    json_path = "../prompts_change/custom_dataset/variations.json"
 
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     item_ids = set(map(lambda item: item['question_id'], data))
-
-    train_ids, validation_ids = train_test_split(item_ids, test_size=0.3, random_state=random_state)
+    item_ids_lst = list(item_ids)
+    train_ids, validation_ids = train_test_split(item_ids_lst, test_size=0.3, random_state=random_state)
     test_ids, validation_ids = train_test_split(validation_ids, test_size=0.33, random_state=random_state)
 
     test_data = list(filter(lambda item: item['question_id'] in test_ids, data))
