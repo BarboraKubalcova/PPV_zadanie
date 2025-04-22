@@ -135,8 +135,8 @@ class Training:
             wandb.login(key=wandb_login_key)
 
             wandb.init(
-                project="your‑project‑name",
-                entity="t5‑inversion‑run",
+                project="PPV",
+                entity="PPV",
                 config=training_args.to_dict(),
             )
 
@@ -211,7 +211,7 @@ if __name__ == '__main__':
     train_dataset = CheXAgentDataset(train_data, preprocessing_model)
     validation_dataset = CheXAgentDataset(validation_data, preprocessing_model)
 
-    wandb_login_key = None
+    wandb_login_key = "a9f105e8b3bc98e07700e93201d4b02c1c75106d"
 
     training_arguments = Seq2SeqTrainingArguments(
         output_dir="./postproc-checkpoints",
