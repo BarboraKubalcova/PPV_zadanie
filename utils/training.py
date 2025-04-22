@@ -1,10 +1,21 @@
 import json
-import evaluate
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+import wandb
 import torch
+import evaluate
+import pandas as pd
 from torch import nn
-from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer, EarlyStoppingCallback, DataCollatorForSeq2Seq
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from transformers import (
+    Seq2SeqTrainingArguments,
+    Seq2SeqTrainer,
+    EarlyStoppingCallback,
+    DataCollatorForSeq2Seq,
+    TrainerCallback,
+    TrainerState,
+    TrainerControl,
+    Trainer
+)
 
 from assignment1.model.preprocessing_model import T5WithInversionHead
 from assignment1.dataloaders.CheXAgentDatataset import CheXAgentDataset
@@ -41,7 +52,6 @@ class CustomTrainer(Seq2SeqTrainer):
         )
 
         gen_loss = self.cross_entropy_funct(canonical_logits.view(-1, canonical_logits.size(-1)), inputs["labels"].view(-1))
-        # inversion flag loss
         inv_loss = self.inversion_funct(inversion_logits, inputs["inversion_flag"].float())
 
         total_loss = gen_loss + inv_loss
@@ -105,11 +115,32 @@ class CustomTrainer(Seq2SeqTrainer):
             "rougeL": rouge_score["rougeL"],
         }
 
+class TrainEvalCallback(TrainerCallback):
+    def __init__(self, trainer: Trainer):
+        self.trainer = trainer
+
+    def on_evaluate(self, args, state: TrainerState, control: TrainerControl, metrics=None, **kwargs):
+        if metrics and any(k.startswith("eval") for k in metrics):
+            train_metrics = self.trainer.evaluate(eval_dataset=self.trainer.train_dataset, metric_key_prefix="train")
+
+            self.trainer.log(train_metrics)
+
+        return control
+
 class Training:
-    def __call__(self, model, training_dataset, validation_dataset, testing_dataset, early_stopping, training_args: Seq2SeqTrainingArguments):
-        early_stop_callback = EarlyStoppingCallback(
-            early_stopping_patience=early_stopping
-        )
+    def __call__(self, model, training_dataset, validation_dataset, testing_dataset, early_stopping, training_args: Seq2SeqTrainingArguments, wandb_login_key: str | None = None):
+        training_args.report_to = "none"
+
+        if wandb_login_key is not None:
+            wandb.login(key=wandb_login_key)
+
+            wandb.init(
+                project="your‑project‑name",
+                entity="t5‑inversion‑run",
+                config=training_args.to_dict(),
+            )
+
+            training_args.report_to = "wandb"
 
         trainer = CustomTrainer(
             model=model,
@@ -117,14 +148,45 @@ class Training:
             train_dataset=training_dataset,
             eval_dataset=validation_dataset,
             processing_class=model.tokenizer,
-            data_collator=CustomDataCollator(model.tokenizer),
-            callbacks=[early_stop_callback]
+            data_collator=CustomDataCollator(model.tokenizer)
         )
+
+        trainer.add_callback(TrainEvalCallback(trainer))
+        trainer.add_callback(EarlyStoppingCallback(early_stopping_patience=early_stopping))
 
         trainer.train()
 
         metrics = trainer.evaluate(testing_dataset, metric_key_prefix="test")
-        print(metrics)
+        trainer.log(metrics)
+
+        pred_output = trainer.predict(testing_dataset)
+
+        gen_ids, inv_flags_pred = pred_output.predictions
+        label_ids, inv_flags_true = pred_output.label_ids
+
+        decoded_preds = model.tokenizer.batch_decode(gen_ids, skip_special_tokens=True)
+        decoded_labels = model.tokenizer.batch_decode(label_ids, skip_special_tokens=True)
+
+        orig_inputs = [ex["variation"] for ex in test_data]
+
+        table = wandb.Table(columns=[
+            "input_question",
+            "canonized_pred",
+            "canonized_true",
+            "inv_pred",
+            "inv_true"
+        ])
+
+        for inp, pred, true, ip, it in zip(
+                orig_inputs, decoded_preds, decoded_labels,
+                inv_flags_pred.tolist(), inv_flags_true.tolist()
+        ):
+            table.add_data(inp, pred, true, int(ip), int(it))
+
+        trainer.log({"test_predictions_table": table})
+
+        df = pd.DataFrame(table.data, columns=table.columns)
+        print(df.to_string(index=False))
 
 if __name__ == '__main__':
     random_state = 42
@@ -149,6 +211,8 @@ if __name__ == '__main__':
     train_dataset = CheXAgentDataset(train_data, preprocessing_model)
     validation_dataset = CheXAgentDataset(validation_data, preprocessing_model)
 
+    wandb_login_key = None
+
     training_arguments = Seq2SeqTrainingArguments(
         output_dir="./postproc-checkpoints",
         per_device_train_batch_size=4,
@@ -170,4 +234,4 @@ if __name__ == '__main__':
     )
 
     training_pipeline = Training()
-    training_pipeline(preprocessing_model, train_dataset, validation_dataset, test_dataset, early_stopping=5, training_args=training_arguments)
+    training_pipeline(preprocessing_model, train_dataset, validation_dataset, test_dataset, early_stopping=5, training_args=training_arguments, wandb_login_key=wandb_login_key)
