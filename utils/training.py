@@ -1,9 +1,11 @@
+import os
 import json
 import wandb
 import torch
 import evaluate
 import pandas as pd
 from torch import nn
+from typing import Optional
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from transformers import (
@@ -98,6 +100,9 @@ class CustomTrainer(Seq2SeqTrainer):
         #TODO premium chatGPT revised, should be working, but still needs to be checked
         (canonical_pred, inv_flag_pred), (canonical_true, inv_flag_true) = eval_preds
 
+        canonical_pred[canonical_pred == -100] = self.tokenizer.pad_token_id
+        canonical_true[canonical_true == -100] = self.tokenizer.pad_token_id
+
         decoded_preds = self.tokenizer.batch_decode(canonical_pred, skip_special_tokens=True)
         decoded_labels = self.tokenizer.batch_decode(canonical_true, skip_special_tokens=True)
 
@@ -114,6 +119,19 @@ class CustomTrainer(Seq2SeqTrainer):
             "rouge2": rouge_score["rouge2"],
             "rougeL": rouge_score["rougeL"],
         }
+
+    def save_model(self, output_dir: Optional[str] = None, _internal_call: bool = False):
+        output_dir = output_dir or self.args.output_dir
+        os.makedirs(output_dir, exist_ok=True)
+
+        if hasattr(self.model, "save_pretrained"):
+            # this one call already saves both tokenizer and T5 + head
+            self.model.save_pretrained(output_dir)
+        else:
+            super().save_model(output_dir, _internal_call=_internal_call)
+
+        if self.args.push_to_hub and not _internal_call:
+            self.push_to_hub(commit_message="Model save")
 
 class TrainEvalCallback(TrainerCallback):
     def __init__(self, trainer: Trainer):
@@ -165,6 +183,9 @@ class Training:
         gen_ids, inv_flags_pred = pred_output.predictions
         label_ids, inv_flags_true = pred_output.label_ids
 
+        gen_ids[gen_ids == -100] = model.tokenizer.pad_token_id
+        label_ids[label_ids == -100] = model.tokenizer.pad_token_id
+
         decoded_preds = model.tokenizer.batch_decode(gen_ids, skip_special_tokens=True)
         decoded_labels = model.tokenizer.batch_decode(label_ids, skip_special_tokens=True)
 
@@ -197,9 +218,9 @@ if __name__ == '__main__':
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    item_ids = set(map(lambda item: item['question_id'], data))
-    item_ids_lst = list(item_ids)
-    train_ids, validation_ids = train_test_split(item_ids_lst, test_size=0.3, random_state=random_state)
+    item_ids = list(set(map(lambda item: item['question_id'], data)))
+
+    train_ids, validation_ids = train_test_split(item_ids, test_size=0.3, random_state=random_state)
     test_ids, validation_ids = train_test_split(validation_ids, test_size=0.33, random_state=random_state)
 
     test_data = list(filter(lambda item: item['question_id'] in test_ids, data))
