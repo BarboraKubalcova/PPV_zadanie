@@ -38,8 +38,8 @@ class CustomDataCollator(DataCollatorForSeq2Seq):
         return batch
 
 class CustomTrainer(Seq2SeqTrainer):
-    def __init__(self, model, args: Seq2SeqTrainingArguments, train_dataset=None, eval_dataset=None, device=torch.device('cpu'), **kwargs):
-        super().__init__(model=model.to(device), args=args, train_dataset=train_dataset, eval_dataset=eval_dataset, compute_metrics=self.compute_metrics, **kwargs)
+    def __init__(self, model, args: Seq2SeqTrainingArguments, training_dataset=None, eval_dataset=None, device=torch.device('cpu'), **kwargs):
+        super().__init__(model=model.to(device), args=args, train_dataset=training_dataset, eval_dataset=eval_dataset, compute_metrics=self.compute_metrics, **kwargs)
 
         self.bleu_metric = evaluate.load("bleu")
         self.rouge_metric = evaluate.load("rouge")
@@ -150,7 +150,7 @@ class TrainEvalCallback(TrainerCallback):
         return control
 
 class Training:
-    def __call__(self, model, training_dataset, validation_dataset, testing_dataset, early_stopping, training_args: Seq2SeqTrainingArguments, wandb_login_key: str | None = None):
+    def __call__(self, model, training_dataset, valid_dataset, testing_dataset, early_stopping, training_args: Seq2SeqTrainingArguments, wandb_login_key: str | None = None):
         training_args.report_to = "none"
 
         if wandb_login_key is not None:
@@ -167,8 +167,8 @@ class Training:
         trainer = CustomTrainer(
             model=model,
             args=training_args,
-            train_dataset=training_dataset,
-            eval_dataset=validation_dataset,
+            training_dataset=training_dataset,
+            eval_dataset=valid_dataset,
             processing_class=model.tokenizer,
             data_collator=CustomDataCollator(model.tokenizer),
             device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -237,13 +237,13 @@ if __name__ == '__main__':
     train_dataset = CheXAgentDataset(train_data, preprocessing_model)
     validation_dataset = CheXAgentDataset(validation_data, preprocessing_model)
 
-    wandb_login_key = "a9f105e8b3bc98e07700e93201d4b02c1c75106d"
+    wandb_key = "a9f105e8b3bc98e07700e93201d4b02c1c75106d"
 
     training_arguments = Seq2SeqTrainingArguments(
         output_dir="./postproc-checkpoints",
         per_device_train_batch_size=9,
         per_device_eval_batch_size=9,
-        num_train_epochs=2,
+        num_train_epochs=20,
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=1e-5,
@@ -260,4 +260,4 @@ if __name__ == '__main__':
     )
 
     training_pipeline = Training()
-    training_pipeline(preprocessing_model, train_dataset, validation_dataset, test_dataset, early_stopping=5, training_args=training_arguments, wandb_login_key=wandb_login_key)
+    training_pipeline(preprocessing_model, train_dataset, validation_dataset, test_dataset, early_stopping=5, training_args=training_arguments, wandb_login_key=wandb_key)

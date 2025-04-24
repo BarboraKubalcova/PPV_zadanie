@@ -1,7 +1,7 @@
 import os
 import torch
 import torch.nn as nn
-from transformers import T5ForConditionalGeneration, T5Tokenizer, T5PreTrainedModel, T5Config, GenerationConfig, GenerationMixin
+from transformers import T5ForConditionalGeneration, T5Tokenizer, T5PreTrainedModel, T5Config, GenerationMixin
 
 
 class T5WithInversionHeadConfig(T5Config):
