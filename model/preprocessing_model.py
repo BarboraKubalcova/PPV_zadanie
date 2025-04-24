@@ -1,29 +1,64 @@
 import os
 import torch
 import torch.nn as nn
-from transformers import T5ForConditionalGeneration, T5Tokenizer
+from transformers import T5ForConditionalGeneration, T5Tokenizer, T5PreTrainedModel, T5Config, GenerationConfig, GenerationMixin
 
 
-class T5WithInversionHead(nn.Module):
-    def __init__(self, model_path):
-        super(T5WithInversionHead, self).__init__()
+class T5WithInversionHeadConfig(T5Config):
+    def __init__(self, tokenizer : str = None, **kwargs):
+        super().__init__(**kwargs)
 
-        self.tokenizer = T5Tokenizer.from_pretrained(model_path)
+        self.tokenizer = tokenizer
 
-        self.t5_model = T5ForConditionalGeneration.from_pretrained(model_path)
-        self.inversion_classifier = nn.Linear(self.t5_model.config.d_model, 1)  # Binary classification
+    def to_dict(self) -> dict:
+        d = super().to_dict()
+        d["tokenizer"] = self.tokenizer
+
+        return d
+
+    @classmethod
+    def from_pretrained(cls, pretrained_model_name_or_path, *args, **kwargs):
+        possible_tuple = super(T5WithInversionHeadConfig, cls).from_pretrained(pretrained_model_name_or_path, *args, **kwargs)
+
+        if kwargs.get('return_unused_kwargs', False):
+            base_cfg, unused_kwargs = possible_tuple
+        else:
+            base_cfg, unused_kwargs = possible_tuple, None
+
+        is_wrapper = os.path.isdir(pretrained_model_name_or_path)
+
+        if not is_wrapper:
+            base_cfg.tokenizer = pretrained_model_name_or_path
+
+        if kwargs.get('return_unused_kwargs', False):
+            return base_cfg, unused_kwargs
+        return base_cfg
+
+class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
+    config_class = T5WithInversionHeadConfig
+
+    def __init__(self, config: T5WithInversionHeadConfig):
+        super().__init__(config)
+        self.t5_model = T5ForConditionalGeneration(config)
+        self.tokenizer = T5Tokenizer.from_pretrained(config.tokenizer)
+        self.inversion_classifier = nn.Linear(config.d_model, 1)
+
+        self.post_init()
+
         self.t5_model.config.output_hidden_states = True
+
+        self.config.output_hidden_states = True
 
     def forward(self, input_ids, attention_mask=None, labels=None):
         outputs = self.t5_model(input_ids, attention_mask=attention_mask, labels=labels, output_hidden_states=True)
 
         canonical_question = outputs.logits
 
-        enc = outputs.encoder_last_hidden_state  # (batch, seq_len, dim)
-        mask = attention_mask.unsqueeze(-1).float()  # (batch, seq_len, 1)
+        enc = outputs.encoder_last_hidden_state
+        mask = attention_mask.unsqueeze(-1).float()
 
-        summed = (enc * mask).sum(dim=1)  # sum over seq_len → (batch, dim)
-        counts = mask.sum(dim=1).clamp(min=1)  # how many real tokens → (batch, 1)
+        summed = (enc * mask).sum(dim=1)
+        counts = mask.sum(dim=1).clamp(min=1)
 
         pooled = summed / counts
 
@@ -31,49 +66,58 @@ class T5WithInversionHead(nn.Module):
 
         return canonical_question, inversion_logits
 
+    def prepare_inputs_for_generation(self, input_ids, attention_mask=None, **model_kwargs):
+        return self.t5_model.prepare_inputs_for_generation(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            **model_kwargs,
+        )
+
     def generate(self, *args, **kwargs):
         return self.t5_model.generate(*args, **kwargs)
 
-    def save_pretrained(self, save_directory: str):
-        """
-        1) Save tokenizer
-        2) Use HF’s safe saver for T5 (dedup shared weights)
-        3) Save the inversion head separately
-        """
-        os.makedirs(save_directory, exist_ok=True)
+    def save_pretrained(self, save_dir: str, **kwargs):
+        os.makedirs(save_dir, exist_ok=True)
 
-        # 1) tokenizer files
-        self.tokenizer.save_pretrained(save_directory)
+        self.t5_model.save_pretrained(save_dir, **kwargs)
+        self.t5_model.generation_config.save_pretrained(save_dir)
 
-        # 2) T5’s own safe save (handles shared embeddings)
-        self.t5_model.save_pretrained(save_directory)
+        if self.tokenizer is not None:
+            self.tokenizer.save_pretrained(save_dir, **kwargs)
 
-        # 3) your inversion head
         torch.save(
             self.inversion_classifier.state_dict(),
-            os.path.join(save_directory, "inversion_classifier.bin")
+            os.path.join(save_dir, "inversion_classifier.bin"),
         )
 
     @classmethod
-    def from_pretrained(cls, load_directory: str, **kwargs):
-        model = cls(load_directory)
+    def from_pretrained(cls, pretrained_model_name_or_path: str, *args, **kwargs):
+        head_file = os.path.join(pretrained_model_name_or_path, "inversion_classifier.bin")
+        is_wrapper = os.path.isdir(pretrained_model_name_or_path)
+        possible_tuple = T5WithInversionHeadConfig.from_pretrained(pretrained_model_name_or_path, *args, **kwargs)
 
-        # 3) T5 core (this re-ties all weights correctly)
-        model.t5_model = T5ForConditionalGeneration.from_pretrained(load_directory)
-        model.tokenizer = T5Tokenizer.from_pretrained(load_directory)
+        if kwargs.get('return_unused_kwargs', False):
+            config, unused_kwargs = possible_tuple
+        else:
+            config, unused_kwargs = possible_tuple, None
 
-        # 4) inversion head
-        head_sd = torch.load(
-            os.path.join(load_directory, "inversion_classifier.bin"),
-            map_location="cpu"
-        )
-        model.inversion_classifier.load_state_dict(head_sd)
+        model = T5WithInversionHead(config)
+
+        if is_wrapper:
+            model.t5_model = T5ForConditionalGeneration.from_pretrained(
+                pretrained_model_name_or_path, *args, **kwargs
+            )
+
+            model.tokenizer = T5Tokenizer.from_pretrained(pretrained_model_name_or_path, *args, **kwargs)
+
+            state_dict = torch.load(head_file, map_location="cpu")
+            model.inversion_classifier.load_state_dict(state_dict)
 
         return model
-
 
 if __name__ == "__main__":
     model_name = 't5-base'
 
-    # Initialize the modified model
-    model_with_inversion = T5WithInversionHead(model_name)
+    model_with_inversion = T5WithInversionHead.from_pretrained(model_name)
+    model_with_inversion.save_pretrained("./my-t5-with-head")
+    model_with_inversion = T5WithInversionHead.from_pretrained("./my-t5-with-head")

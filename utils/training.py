@@ -1,11 +1,10 @@
-import os
 import json
 import wandb
 import torch
 import evaluate
 import pandas as pd
 from torch import nn
-from typing import Optional
+from transformers.utils import logging
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from transformers import (
@@ -21,6 +20,8 @@ from transformers import (
 
 from model.preprocessing_model import T5WithInversionHead
 from dataloaders.CheXAgentDatataset import CheXAgentDataset
+
+logger = logging.get_logger(__name__)
 
 
 class CustomDataCollator(DataCollatorForSeq2Seq):
@@ -38,7 +39,7 @@ class CustomDataCollator(DataCollatorForSeq2Seq):
 
 class CustomTrainer(Seq2SeqTrainer):
     def __init__(self, model, args: Seq2SeqTrainingArguments, train_dataset=None, eval_dataset=None, device=torch.device('cpu'), **kwargs):
-        super().__init__(model=model.to(device), args=args, train_dataset=train_dataset, eval_dataset=eval_dataset, **kwargs)
+        super().__init__(model=model.to(device), args=args, train_dataset=train_dataset, eval_dataset=eval_dataset, compute_metrics=self.compute_metrics, **kwargs)
 
         self.bleu_metric = evaluate.load("bleu")
         self.rouge_metric = evaluate.load("rouge")
@@ -97,20 +98,19 @@ class CustomTrainer(Seq2SeqTrainer):
         return total_loss, (generated_ids, inv_flag_pred), (labels, inv_flag.long())
 
     def compute_metrics(self, eval_preds):
-        #TODO premium chatGPT revised, should be working, but still needs to be checked
         (canonical_pred, inv_flag_pred), (canonical_true, inv_flag_true) = eval_preds
 
-        canonical_pred[canonical_pred == -100] = self.tokenizer.pad_token_id
-        canonical_true[canonical_true == -100] = self.tokenizer.pad_token_id
+        canonical_pred[canonical_pred == -100] = self.processing_class.pad_token_id
+        canonical_true[canonical_true == -100] = self.processing_class.pad_token_id
 
-        decoded_preds = self.tokenizer.batch_decode(canonical_pred, skip_special_tokens=True)
-        decoded_labels = self.tokenizer.batch_decode(canonical_true, skip_special_tokens=True)
+        decoded_preds = self.processing_class.batch_decode(canonical_pred, skip_special_tokens=True)
+        decoded_labels = self.processing_class.batch_decode(canonical_true, skip_special_tokens=True)
 
         bleu_score = self.bleu_metric.compute(predictions=decoded_preds, references=[[label] for label in decoded_labels])
 
         rouge_score = self.rouge_metric.compute(predictions=decoded_preds, references=decoded_labels)
 
-        inv_acc = accuracy_score(inv_flag_true.cpu(), inv_flag_pred.cpu())
+        inv_acc = accuracy_score(torch.from_numpy(inv_flag_true).cpu(), torch.from_numpy(inv_flag_pred).cpu())
 
         return {
             'inversion_accuracy': inv_acc,
@@ -120,18 +120,22 @@ class CustomTrainer(Seq2SeqTrainer):
             "rougeL": rouge_score["rougeL"],
         }
 
-    def save_model(self, output_dir: Optional[str] = None, _internal_call: bool = False):
-        output_dir = output_dir or self.args.output_dir
-        os.makedirs(output_dir, exist_ok=True)
+    def _load_best_model(self):
+        best_ckpt = self.state.best_model_checkpoint
 
-        if hasattr(self.model, "save_pretrained"):
-            # this one call already saves both tokenizer and T5 + head
-            self.model.save_pretrained(output_dir)
-        else:
-            super().save_model(output_dir, _internal_call=_internal_call)
+        if best_ckpt is None:
+            logger.warning("No best_model_checkpoint found, skipping load_best_model.")
+            return
 
-        if self.args.push_to_hub and not _internal_call:
-            self.push_to_hub(commit_message="Model save")
+        logger.info(f"Loading best model from {best_ckpt} via from_pretrained()")
+
+        new_model = type(self.model).from_pretrained(best_ckpt)
+        self._move_model_to_device(new_model, self.args.device)
+
+        self.model = new_model
+
+        if hasattr(self, "model_wrapped"):
+            self.model_wrapped = new_model
 
 class TrainEvalCallback(TrainerCallback):
     def __init__(self, trainer: Trainer):
@@ -227,7 +231,7 @@ if __name__ == '__main__':
     train_data = list(filter(lambda item: item['question_id'] in train_ids, data))
     validation_data = list(filter(lambda item: item['question_id'] in validation_ids, data))
 
-    preprocessing_model = T5WithInversionHead('t5-base')
+    preprocessing_model = T5WithInversionHead.from_pretrained('t5-base')
 
     test_dataset = CheXAgentDataset(test_data, preprocessing_model)
     train_dataset = CheXAgentDataset(train_data, preprocessing_model)
@@ -237,13 +241,13 @@ if __name__ == '__main__':
 
     training_arguments = Seq2SeqTrainingArguments(
         output_dir="./postproc-checkpoints",
-        per_device_train_batch_size=4,
-        per_device_eval_batch_size=4,
-        num_train_epochs=20,
+        per_device_train_batch_size=9,
+        per_device_eval_batch_size=9,
+        num_train_epochs=2,
         eval_strategy="epoch",
         save_strategy="epoch",
-        learning_rate=1e-4,
-        weight_decay=0.01,
+        learning_rate=1e-5,
+        weight_decay=0.05,
         predict_with_generate=True,
         remove_unused_columns=False,
         logging_dir="./logs",
