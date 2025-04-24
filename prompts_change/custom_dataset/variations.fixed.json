@@ -1,0 +1,5390 @@
+[
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show nothing unusual?",
+        "is_negated": true
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities in the provided image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image not free of anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image not normal, with any abnormal findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image contain anything deviant or unnatural?",
+        "is_negated": false
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image contain something unusual or atypical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 203,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unusual or irregular aspects in the provided image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is not the lung healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is this lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is there something wrong with the health of the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is the condition of the lung good?",
+        "is_negated": false
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in a healthy state?",
+        "is_negated": false
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not showing any signs of illness or disease?",
+        "is_negated": false
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit wellness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung vibrant and free from ailment?",
+        "is_negated": false
+    },
+    {
+        "question_id": 207,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no abnormality in the health status of the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no sign of abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show absolutely no irregularity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there something not regular or normal in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can you confirm that there are unusual findings in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is it possible to say that something appears wrong with this given image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any deviations from normality in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the picture show anything out of place or unexpected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 211,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unusual occurrences or variations depicted in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart or the lung normal in this scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart or the lung showing no abnormality on the given scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the case that neither the organ, be it the heart or the lung, is showing any abnormalities in the provided scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there anything wrong with the heart or the lung on this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Can you tell whether the lung or the heart is not normal from the given scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "With which organ is there a noticeable issue, either the heart or the lung in the provided scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the two, cardiac or pulmonary structures, exhibits irregularity on this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the thoracic organ, specifically the heart or the lung, display any abnormality on the depicted scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 215,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In the presented scan, which organ has a detectable anomaly pertaining to it, the cardiovascular or respiratory system?",
+        "is_negated": false
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image free from abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no irregularities present in the image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not normal in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image atypical in some way?",
+        "is_negated": false
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the scan appear not regular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there unusual findings in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the imaging display any irregular appearances?",
+        "is_negated": false
+    },
+    {
+        "question_id": 221,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is it evident that this scan exhibits anything other than what is expected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the lung appear normal on the scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Is the lungs' structure consistent with normal findings in this scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Is there no sign of abnormality in the lungs shown in the given scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Is the lung showing any unusual or irregular patterns on the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Are there any signs of deviation from normal structure in the lung as seen in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the scan reveal any indications suggesting that the lung is not typical or regular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Is the lung showing any unusual, irregular, or aberrant patterns on the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Are there any signs of deviation from normalcy or regularity in the lung as seen in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 222,
+        "original": "Does the lung look abnormal?",
+        "variation": "Does the scan reveal any indications suggesting that the lung is not typical, regular, or standard?",
+        "is_negated": false
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any irregularity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not okay with the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the scan of not normal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there something unusual about the image provided?",
+        "is_negated": false
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there anomalies in this photograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the scan depict any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 226,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything amiss or out of place in the provided scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of disease or illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Is there something abnormal about the health status of the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from any health issues or disorders?",
+        "is_negated": false
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no visible indications of illness in the lung on this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung appear to be functioning normally in the provided chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well and sound?",
+        "is_negated": false
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from disease or affliction?",
+        "is_negated": false
+    },
+    {
+        "question_id": 230,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung not exhibit any pathology or disorder in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart or the lung normal on this chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which is normal in this scan, the heart nor the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, are which is healthy a heart or a lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there any abnormality found in the heart on this chest scan, of in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the organ shown as problematic in this scan from the chest the heart, or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, is it the heart or the lung that appears to be different compared to a normal one?",
+        "is_negated": false
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ among heart and lung shows an anomaly on this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there any deviation from the usual in the heart or in lung as observed on this thoracic scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 231,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this scan of the chest, is it the cardiac organ or pulmonary apparatus that has a distinct abnormality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing abnormal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image show no irregularities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not okay with this chest image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any problems visible in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image not free of abnormal conditions?",
+        "is_negated": false
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there anomalies in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image not devoid of irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 237,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the scan exhibit any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the following is normal, the heart or the lung on the chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one, the heart or the lung is of sound condition on the chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Are there no anomalies in the heart or in the lung as shown in the chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the case that the heart is abnormal, or that the lung is?",
+        "is_negated": false
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Could it be that the lung is abnormal, or that the heart is on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the given chest scan, is it possible that there's an issue with the heart, or with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the cardiac organ irregular in the scan, or the pulmonary structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the thoracic cavity show any irregularities in the myocardium, or the parenchyma of the lung on the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 238,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there an anomaly in the heart, or in the lungs according to the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 244,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture not contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 244,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there a liver in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 244,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the picture not free of any liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 244,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the image show no absence of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 244,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the picture not devoid of liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 244,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the photograph containing liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture not contain kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is it false that the picture contains kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the picture lacking kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a kidney visible in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the given picture show any kidney?",
+        "is_negated": false
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Can you see a kidney on the provided scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the image display kidney?",
+        "is_negated": false
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there evidence of a kidney in the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 245,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is it possible to identify the kidney from the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no sign of abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show nothing out of the ordinary?",
+        "is_negated": true
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is anything not normal in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities or deviations from normalcy in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the appearance of this scan not within standard parameters?",
+        "is_negated": false
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image display any unusual characteristics?",
+        "is_negated": false
+    },
+    {
+        "question_id": 252,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything amiss or odd in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show any signs of illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Is there anything abnormal about the condition of the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Would you describe the status of the lung as healthy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning normally?",
+        "is_negated": false
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Can we say that the lung is in a good state?",
+        "is_negated": false
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no issue with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 253,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit no pathology?",
+        "is_negated": false
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is either the heart or the lung normal on this chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart or the lung show no abnormality in the provided chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there no abnormality in the heart, or the lung, as seen in the given chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the case that the heart appears irregular, or the lung on the provided chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, is the heart not well, or does the lung have an issue?",
+        "is_negated": false
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In the given chest scan, does the heart look not okay, or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these organs, cardiac or pulmonary organ, appears to be affected in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart, or respiratory system show any deviation from normalcy on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 254,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the provided chest scan, is it the cardiac tissue, or the lung that seems irregular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no abnormality seen in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image entirely normal, with no abnormalities present?",
+        "is_negated": true
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can it be confirmed that nothing abnormal is visible on this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unusual findings in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the chest scan depict anything out of the ordinary?",
+        "is_negated": false
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is it possible to see something abnormal in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities evident on this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image reveal any deviations from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 260,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can we detect any anomalies or irregularities within the depicted area?",
+        "is_negated": false
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is there anything abnormal with the lung's health?",
+        "is_negated": true
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no problems or issues with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sound?",
+        "is_negated": false
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in a good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 261,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no evidence of abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal, without any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any signs of abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is anything unusual or different in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there something wrong or out of place on this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any indications of disease or irregularity in the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image display any deviations from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 268,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there any nonconformity or irregularity noticeable in the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Is it not the case that the lung is healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Would you say the lung is not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Is the condition of the lungs good?",
+        "is_negated": false
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no issues with the health of the lungs?",
+        "is_negated": false
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Would you describe the status of the lung as healthy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good shape?",
+        "is_negated": false
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sound or well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 269,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no sign of any abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is it correct to say that this image is entirely normal with no abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities in the image provided?",
+        "is_negated": false
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything unusual or uncommon in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this chest scan show any deviations from normal structure or function?",
+        "is_negated": false
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any aberrancies in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything anomalous or atypical in the provided picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 273,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this chest picture depict any deviations from what's standard or usual?",
+        "is_negated": false
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit signs of illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any indication of lung disease in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from health issues?",
+        "is_negated": false
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning normally?",
+        "is_negated": false
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no abnormalities visible in the lungs?",
+        "is_negated": false
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show no signs of ailment?",
+        "is_negated": false
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in its usual state of well-being?",
+        "is_negated": false
+    },
+    {
+        "question_id": 277,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no indications of respiratory disorders in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing abnormal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all the features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show no irregularities or abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image not free from any abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unusual findings in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can you confirm that the image is not normal, with something out of place or abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies visible in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything deviant or irregular seen in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 285,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image display any aberrations or distortions?",
+        "is_negated": false
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not well?",
+        "is_negated": true
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of illness or damage?",
+        "is_negated": true
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any abnormality or disease in the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from any health issues?",
+        "is_negated": false
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no evidence of lung disease or injury?",
+        "is_negated": false
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is the image indicative of a healthy lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung without sickness or disorder?",
+        "is_negated": false
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good condition, with no signs of ailment or affliction?",
+        "is_negated": false
+    },
+    {
+        "question_id": 293,
+        "original": "Is the lung healthy?",
+        "variation": "Does the scan show the lung as being sound or wholesome?",
+        "is_negated": false
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no sign of abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show absolutely no irregularity or abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the condition depicted in this image entirely normal or healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any signs of something unusual or different in this image compared to a healthy chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything in this scan that looks unnatural or not as it should be for a typical chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image show anything out of place, suggestive of injury or illness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies or deviations from normal in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image reveal any irregularities or departures from what's expected for a standard chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 294,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the picture showing any abnormal findings or atypical conditions?",
+        "is_negated": false
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart or the lung normal in this picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal, or the lung in this chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Are there no abnormalities found in the heart, or the lung on this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the case that the heart is abnormal, or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the situation such that the heart shows any abnormality, or is the lung on this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this scan, is the abnormality located in the heart, or in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, does the heart present any abnormalities, or does the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it possible to observe that there are irregularities in  heart, or in lung on this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 295,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this image, is it the case that cardiac system exhibit any abnormality, or the pulmonary system?",
+        "is_negated": false
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image show no deviations from what's expected?",
+        "is_negated": true
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not okay with this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this chest scan appear irregular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can you confirm if there are some irregularities in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image reveal anything unusual or unexpected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 298,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there a deviation from the standard in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sick?",
+        "is_negated": true
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit signs of a disease?",
+        "is_negated": true
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any indication of abnormality in the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is there nothing wrong with the person's lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Can we confirm that the lung is free from any health issues?",
+        "is_negated": false
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning normally as expected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung hale and hearty?",
+        "is_negated": false
+    },
+    {
+        "question_id": 302,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart organ normal, or the lung on the picture of a person's chest?",
+        "is_negated": true
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart or lung show no abnormality in the provided chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the given chest scan, is it accurate to say that the heart is not affected by disease, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there an issue with the heart, or the lungs as shown on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the chest scan reveal any problem with the heart, or the lungs?",
+        "is_negated": false
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the image of the chest, is there anything wrong with the heart or the pulmonary system?",
+        "is_negated": false
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which among the heart and lungs displays an anomaly on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there a deformity in the cardiac organ, or pulmonary organ?",
+        "is_negated": false
+    },
+    {
+        "question_id": 303,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the thoracic organs of interest, either the heart or the lung, exhibit any abnormalities on the provided image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture NOT contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Is it true that there is NO liver in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the image free of liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there a liver present in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture show any evidence of a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the organ depicted in the picture the liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the photograph display any signs of a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Is it possible to identify the liver in the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 307,
+        "original": "Does the picture contain liver?",
+        "variation": "Can you see the liver in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture not contain the spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there no spleen visible in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the spleen absent from the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the spleen present in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Can you see the spleen on this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the given chest image show a spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture show evidence of the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Can I find the spleen in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 309,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there any indication of the spleen in the provided image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the spleen not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the health status of the spleen unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the condition of the spleen abnormal (i.e., not healthy)?",
+        "is_negated": true
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is there nothing wrong with the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the spleen showing no signs of disease or damage?",
+        "is_negated": false
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the spleen functioning as it should be?",
+        "is_negated": false
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the spleen well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the spleen sound (i.e., healthy)?",
+        "is_negated": false
+    },
+    {
+        "question_id": 310,
+        "original": "Is the spleen healthy?",
+        "variation": "Is the spleen in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image show no irregularities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not normal in this image of the chest?",
+        "is_negated": false
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this scan containing any abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can you confirm that there are some unusual findings in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there irregular structures or lesions in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image reveal any deviations from normal anatomy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 313,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image not clear of any abnormal masses or changes?",
+        "is_negated": false
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing abnormal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all the features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image show no signs of abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something wrong in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any problems or issues seen in this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image appear irregular, or containing any noticeable issues?",
+        "is_negated": false
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything unusual or irregular in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the picture display any deviations from normality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 323,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies or variants present in this chest scan image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart, or the lung normal on the chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart, or the lung without abnormal signs in the given chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart show no abnormality in the provided chest scan, or the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there an issue with the heart, or is it with the lung on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Are there any problems with the heart, or with the lung as seen on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the chest scan show any abnormalities in the heart, or in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these organs, the cardiac organ or the pulmonary organ, is not normal according to the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the diaphragm or the thoracic organ that appears abnormal in the given chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 324,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the provided chest scan, which one between the heart and the lungs does not seem regular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing out of the ordinary in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no features in this image that are not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the given image show no abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image not free from irregularities or anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the provided image display something warranting concern?",
+        "is_negated": false
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unexpected or unusual findings in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any uncommon aspects in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is anything represented in the image outside the bounds of normality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 330,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the presented image contain pathologies or irregularities that are not typical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Does the lung show signs of good health?",
+        "is_negated": true
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is there nothing abnormal in the lung's condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung not in a healthy state?",
+        "is_negated": false
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Would you describe the health of the lung as bad?",
+        "is_negated": false
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is it correct to say that the lung is unhealthy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Does the lung demonstrate illness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung's condition not satisfactory?",
+        "is_negated": false
+    },
+    {
+        "question_id": 337,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung's status pathological?",
+        "is_negated": false
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no abnormality present in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image completely normal with no abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the given image show absolutely no abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unusual features seen in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image of the chest showing anything that is not typical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the provided image show something that deviates from what's expected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities in this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the picture showing anything unusual or atypical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 338,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the provided picture indicate an aberration or anomaly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal, or is it the lung on the chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there no abnormality in  the heart, or in the lung on the image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the chest scan, is the heart, or the lung showing no signs of abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one between heart and lung appears ill on the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there a problem with the heart, or with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Can you tell if there's any issue with the heart, or should we focus on the lung from the provided chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which among the cardiac and pulmonary organs is not normal according to the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the heart or the lungs that are irregular as per the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 339,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the given chest scan, which one between the heart structure and lung system does show an anomaly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image showing nothing unusual?",
+        "is_negated": true
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there nothing unusual in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image show any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image of the chest abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Is something in this image not as expected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this picture exhibit any anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image indicative of anything out of the ordinary?",
+        "is_negated": false
+    },
+    {
+        "question_id": 342,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there something strange about this chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung containing any disease?",
+        "is_negated": true
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is it not the case that the lung is healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is there something wrong with the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "How would you describe the condition of the lung? Is it healthy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from any disease or abnormality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Can we say that the lung is in a good state?",
+        "is_negated": false
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sound in health?",
+        "is_negated": false
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no sign of illness in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 345,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing abnormal about this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show no irregularities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something in this picture not as it should be?",
+        "is_negated": false
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any signs of abnormality in the chest image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this chest scan containing any unusual findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any deviations from the standard in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this picture show any deviations or anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 346,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything out of the ordinary in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one from the heart or lung is normal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart, or the lung normal on this chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this chest scan, is it true that the heart is not abnormal, or is the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there anything unusual with the heart, or is it with the lung in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, which one is not in their normal condition, the heart, or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the picture show any abnormality in the heart, or in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there a problem with the cardiac organ, or is it with the pulmonary organ?",
+        "is_negated": false
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this chest scan, is there an issue with the heart, or with the lungs?",
+        "is_negated": false
+    },
+    {
+        "question_id": 347,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this image, is it the case that the heart exhibits some pathology, or is it the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not showing any abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there no sign of irregularity in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this chest scan not okay?",
+        "is_negated": false
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image show anything unusual or uncommon?",
+        "is_negated": false
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image suggest an unhealthy condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this picture seem to contain anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there something amiss in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 350,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image depict any deviation from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Does the lung appear unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Is the lung not showing signs of health?",
+        "is_negated": true
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Is the condition of the lung described as anything but healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Is the state of the lung good?",
+        "is_negated": false
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Does the image show a healthy lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Is the depicted lung in a healthy state on this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Does the lung exhibit wellness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Is the condition of the lung good?",
+        "is_negated": false
+    },
+    {
+        "question_id": 354,
+        "original": "Does the lung look healthy?",
+        "variation": "Does the picture show the lung to be in good health?",
+        "is_negated": false
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is everything normal on this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all findings on this image within expected ranges?",
+        "is_negated": true
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image not free of abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there something unusual about this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this scan appear irregular to you?",
+        "is_negated": false
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image containing anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 355,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image display anything aberrant or unexpected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there no sign of abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image show any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image not devoid of unusual features?",
+        "is_negated": false
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Are there any anomalies visible in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image display an unnatural aspect?",
+        "is_negated": false
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the picture exhibiting something unexpected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 359,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image bear any deviations from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning correctly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good shape?",
+        "is_negated": false
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no issues with the lung's health?",
+        "is_negated": false
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung demonstrate well-being?",
+        "is_negated": false
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung healthy and sound?",
+        "is_negated": false
+    },
+    {
+        "question_id": 363,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung devoid of illness or disease?",
+        "is_negated": false
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no evidence of abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is it true that all features in this image are normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities visible on the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything unusual about the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the chest scan appear to be not normal and with abnormal findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image exhibit any deviations from the norm?",
+        "is_negated": false
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies visible on the scan of the chest?",
+        "is_negated": false
+    },
+    {
+        "question_id": 364,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything out of the ordinary in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is everything normal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all the features in this image within normal limits?",
+        "is_negated": true
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything unusual or unexpected in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the chest scan look irregular with any deviations?",
+        "is_negated": false
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image inconsistent with what is typically expected for a normal chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any irregularities in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the picture of the chest containing anomalies or irregular structures?",
+        "is_negated": false
+    },
+    {
+        "question_id": 371,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the scan reveal anything other than typical findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal in this image, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart show no abnormality in the image, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these has no anomaly found, the lung or the heart?",
+        "is_negated": true
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the case that the heart is not normal, or is it the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this image, which one of these two organs, the heart and the lung, appears abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "I'm looking at a chest scan. Is there something unusual with the heart, or with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these two organs - heart or lung - exhibits an anomaly in this scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, is there anything amiss with the cardiac organ, or is it with the pulmonary organ?",
+        "is_negated": false
+    },
+    {
+        "question_id": 372,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one of these has irregularities, the heart or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 376,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture not contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 376,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there a sign of the liver on this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 376,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the liver present in the given picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 376,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the image show any signs of a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 376,
+        "original": "Does the picture contain liver?",
+        "variation": "Is it possible to observe the liver in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 376,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture reveal the presence of a liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture not contain kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there no kidney visible in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the picture lacking kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is a kidney seen on the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the scan showing any kidneys?",
+        "is_negated": false
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Are kidneys present within the provided chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the image show any renal structures?",
+        "is_negated": false
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the picture displaying any sign of kidneys?",
+        "is_negated": false
+    },
+    {
+        "question_id": 377,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a nephron or kidney depicted in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture not contain spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there no spleen in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the picture lacking a spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the picture not devoid of the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the image show the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the image containing the organ known as the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the photo depict a spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there a presence of the spleen in the scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 378,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the scan exhibit signs of the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Are the kidneys not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Are those unhealthy kidneys?",
+        "is_negated": true
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Aren't the kidneys in a good state of health?",
+        "is_negated": true
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Are the kidneys in a good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Would you describe the status of the kidneys as healthy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Are the kidneys functioning well in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Is it true that the kidneys are in a good state?",
+        "is_negated": false
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Are the kidneys disease-free?",
+        "is_negated": false
+    },
+    {
+        "question_id": 379,
+        "original": "Are the kidneys healthy?",
+        "variation": "Are the kidneys hale and hearty?",
+        "is_negated": false
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there nothing unusual in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image showing a normal condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this picture show any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image not consistent with what is expected for a normal chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the appearance of this scan deviate from the norm?",
+        "is_negated": false
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image exhibit anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there anything amiss in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 382,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image display any signs that differ from the usual pattern?",
+        "is_negated": false
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no evidence of abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show absolutely no abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image completely normal, with no signs of abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are any of the structures and functions in this chest scan appearing not as expected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there something unusual or irregular about the image presented?",
+        "is_negated": false
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image reveal any deviations from the standard patterns in a chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any deviations, inconsistencies, or anomalies in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image containing irregularities, distortions, or pathologies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 392,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image display any variances, aberrations, or departures from the norm?",
+        "is_negated": false
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there nothing unusual about this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image showing a typical scan pattern?",
+        "is_negated": true
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image containing something unexpected for a normal chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image show any signs of abnormality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Can you confirm if there are any unusual features in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the picture exhibit an anomaly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not devoid of irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 396,
+        "original": "Does this image look abnormal?",
+        "variation": "Are there any atypical findings in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit signs of unhealthiness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Is it correct to say that the lung is not in a state of wellness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no abnormalities or problems with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning normally and without any diseases?",
+        "is_negated": false
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Can we say that the lung is completely healthy and free from disorders?",
+        "is_negated": false
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good shape?",
+        "is_negated": false
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sound in its condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 400,
+        "original": "Is the lung healthy?",
+        "variation": "Is it accurate to say that the lung is in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image show no abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something in the picture not as expected or unusual?",
+        "is_negated": false
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unusual findings in the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image not consistent with what we would normally expect?",
+        "is_negated": false
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image display any deviations from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there unanticipated aspects or irregularities in the chest scan?",
+        "is_negated": false
+    },
+    {
+        "question_id": 401,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the picture not free of unexpected occurrences or deformities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the following has no abnormality found, the heart or the lung on the chest scan?",
+        "is_negated": true
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart abnormal on the chest scan, or is it the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which from the lung or the heart is showing any irregularities on the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these organs does the chest scan show as being abnormal: cardiac or pulmonary tissue?",
+        "is_negated": false
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "To which does the anomaly detected in the thoracic cavity corresponds, the heart or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 402,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the imaging reveal an abnormality associated with the heart musculature, or with the respiratory system?",
+        "is_negated": false
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not showing any abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image exhibiting normality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this chest scan not within the expected range?",
+        "is_negated": false
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the picture look atypical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there anything unusual in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the presented image display any irregularity?",
+        "is_negated": false
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the given image deviating from the norm?",
+        "is_negated": false
+    },
+    {
+        "question_id": 405,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the depiction showing any variation from what's expected for such image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any health issue with the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not in good condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from disease?",
+        "is_negated": false
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show no signs of abnormality on examination?",
+        "is_negated": false
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in a state of good health?",
+        "is_negated": false
+    },
+    {
+        "question_id": 409,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung reveal any indications of illness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal on this chest scan, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart not  abnormal in this chest scan, or the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the chest scan show that the organ identified as 'heart' has not an issue, or is it the organ identified as 'lung'?",
+        "is_negated": true
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there any abnormality seen in the heart on this chest scan, or is it the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the scan of the chest suggest that the heart does not look normal, or there is an issue with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest scan, is it the case that the heart does not appear to be in good condition, or there seems to be a problem with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the cardiac organ or the pulmonary organ that shows abnormality on this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the scan of the thorax, is it the heart or the lungs that appear problematic?",
+        "is_negated": false
+    },
+    {
+        "question_id": 410,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In this chest image, does the heart or the respiratory system seem to be affected negatively, or is it the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not in a healthy state?",
+        "is_negated": true
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any evidence of disease in the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from diseases?",
+        "is_negated": false
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is the structure and function of the lung normal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no indication of health issues in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung devoid of ailments?",
+        "is_negated": false
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in a good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 416,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no mistake that the lung is not impaired or damaged?",
+        "is_negated": false
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing unusual in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this chest scan normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this chest scan appear completely regular with no anomalies?",
+        "is_negated": true
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not okay on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this chest X-ray not normal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any problems shown in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there irregularities in this X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this radiograph show anything out of the ordinary?",
+        "is_negated": false
+    },
+    {
+        "question_id": 417,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the X-ray abnormally structured?",
+        "is_negated": false
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these is normal, the heart or the lung on the chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart show no abnormality in the given chest X-ray, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there any abnormality detected in the heart, or is the lung fine given the provided chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the case that the heart does not appear normal on the chest X-ray, or is it the case for the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the chest X-ray, is the heart functioning with any abnormalities, or would that be the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In the provided chest X-ray, are there any irregularities in the heart, or are those in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the cardiac organ or the pulmonary organ that displays an anomaly on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the heart or lungs shows an aberration or deviation in the given chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 418,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the thoracic organs, that can be either the heart or lung, exhibit any irregularity on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not showing any abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there no sign of anomaly in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image in this view atypical or irregular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the picture show something that is not normally expected for a chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image not free from any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the provided image have an unusual appearance?",
+        "is_negated": false
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this radiograph display anything other than the standard findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 421,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there something uncommon or out of the ordinary depicted in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is there something wrong with the lung's health?",
+        "is_negated": true
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not in a good condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from diseases?",
+        "is_negated": false
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning normally?",
+        "is_negated": false
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung not show any signs of illness or damage?",
+        "is_negated": false
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung devoid of ailments?",
+        "is_negated": false
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in a state of wellness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 425,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung looking healthy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no evidence of abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show only typical findings?",
+        "is_negated": true
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something not as it should be in this X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the chest X-ray appear abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Can you confirm there are some irregularities on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything unusual on this X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 426,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there any deviation from normalcy in this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the following, the heart or the lung, has no abnormality on this chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart show no signs of abnormality on the chest X-ray, or is the lung the one that does?",
+        "is_negated": true
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there no evidence of abnormality in the heart, or is it in the lung as observed from the chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest X-ray, is it the heart that appears abnormal, or is it the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there anything unusual about the heart seen on this chest X-ray, or is it the lung that seems odd?",
+        "is_negated": false
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "From the chest X-ray, are the abnormalities more visible in the heart, or in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which among the heart and lung appears to be affected or irregular on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the chest X-ray reveal any deviation or anomaly in the heart or lung structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 427,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there anything suggestive of a malformation or deformity in the heart, or is it in lung, as observed from the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there nothing unusual about this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image showing a typical appearance?",
+        "is_negated": true
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this chest X-ray showing anything irregular or abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the radiograph show any signs of anomaly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image indicating any deviation from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image show any deviation or abnormality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there anything out of the ordinary or irregular in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 430,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image depicting a variation or anomaly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is the state of the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is it true that the lung is not in good condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning well?",
+        "is_negated": false
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no abnormality with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Would you describe the current state of the lung as normal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sound?",
+        "is_negated": false
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung okay?",
+        "is_negated": false
+    },
+    {
+        "question_id": 434,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung undamaged and unimpaired?",
+        "is_negated": false
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal on this chest X-ray, or is it the case with the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart not show any abnormality in the chest X-ray, or would that be the case of the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it possible that the heart has no abnormalities according to this chest X-ray, or that would be the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the following has anything unusual, the heart or the lung as seen on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the chest X-ray show any irregularity in the heart, or the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Can you confirm if there is an abnormality present in the heart, or would that be true for the lung from this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these, the cardiac organ or pulmonary organ has something abnormal on the chest X-ray imaging?",
+        "is_negated": false
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one, the heart or lung exhibits any irregularity in the provided radiograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 435,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there a deviation from normal in the cardiopulmonary structure for the heart, or is it for the lung, as per the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the picture not contain liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Is it true that there is no liver in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the picture devoid of any liver?",
+        "is_negated": true
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Is there a liver present in the image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Can a liver  be seen in the picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Can you identify if there is a liver in the given picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the image show the liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Is the picture depicting the organ called liver?",
+        "is_negated": false
+    },
+    {
+        "question_id": 439,
+        "original": "Does the picture contain liver?",
+        "variation": "Does the X-ray show anything related to the liver structure or its function?",
+        "is_negated": false
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture not contain a kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is it false that the picture contains a kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Could we say that the picture lacks a kidney?",
+        "is_negated": true
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there a kidney in the image shown?",
+        "is_negated": false
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the image not devoid of a kidney?",
+        "is_negated": false
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the given picture show any kidney at all?",
+        "is_negated": false
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Does the picture display a renal organ?",
+        "is_negated": false
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Could we say that the picture has nephron-bearing structure in it?",
+        "is_negated": false
+    },
+    {
+        "question_id": 440,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is the image including the depiction of a kidney or its parts?",
+        "is_negated": false
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the picture not contain the spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there no sign of the spleen in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is it correct that the picture does not show the spleen?",
+        "is_negated": true
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there a visible spleen on the provided image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Can you see the spleen clearly on the X-ray picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is the spleen depicted in the given chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Does the image display the spleen?",
+        "is_negated": false
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is it possible to spot the splenic organ in the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 441,
+        "original": "Does the picture contain spleen?",
+        "variation": "Is there an appearance of the spleen on the provided chest radiograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there nothing unusual about this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image considered standard or typical?",
+        "is_negated": true
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this X-ray showing an irregular chest?",
+        "is_negated": false
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the chest X-ray exhibit any irregularities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the structure of the chest in the X-ray not normal or unexpected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image show an abnormality in the chest area?",
+        "is_negated": false
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there something out of the ordinary depicted in this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 444,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this radiograph display a deviation from the usual chest structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of disease or abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any indication of lung pathology in the X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Does the X-ray reveal a healthy lung structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Can you see any normalcy in the lung's appearance on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung well in the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Does the X-ray depict a sound or wholesome lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 448,
+        "original": "Is the lung healthy?",
+        "variation": "Is the image showing a normal or unimpaired lung structure?",
+        "is_negated": false
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no abnormality present in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image free of any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this image normal, with no abnormalities observed?",
+        "is_negated": true
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there irregularities or unusual findings in the provided chest X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something out of normal limits in the given chest X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the X-ray image appear to show any unnatural or problematic structures?",
+        "is_negated": false
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there no peculiarities seen in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something atypical or unexpected within the given chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 449,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the provided chest X-ray show anything unusual or out of the ordinary?",
+        "is_negated": false
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal on this chest X-ray, or that would be the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart not showing any abnormality on this chest X-ray, or is the lung the one that is normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In which of the following are there no signs of abnormality, in the heart or in the lung from this chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one of these, heart or lung, has something peculiar on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Can you tell whether there is anything wrong with the heart, or with the lung based on this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it possible to see any issues with the heart, or the issues are with the lung from this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these, cardiac organ or pulmonary structure, shows abnormalities in the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "From this X-ray of the thorax, is it possible to detect any problems with the heart, or the problems are in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 450,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this radiograph of the chest, does the cardiovascular system appear abnormal, or would that be the respiratory system?",
+        "is_negated": false
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not showing any abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there no sign of deviation in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the X-ray image not as expected?",
+        "is_negated": false
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the chest X-ray look atypical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the radiograph show any irregular appearance?",
+        "is_negated": false
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the given image seem unusual?",
+        "is_negated": false
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there something odd in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 453,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the picture irregular or uncommon in any way?",
+        "is_negated": false
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of being not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any indication that the lung is not in good condition?",
+        "is_negated": true
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from disease or damage?",
+        "is_negated": false
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning normally without any issues?",
+        "is_negated": false
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Are there no abnormalities detected in the lung on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit healthfulness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Is there evidence of wellness in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 457,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung devoid of pathology or impairment?",
+        "is_negated": false
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no evidence of abnormalities in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features within this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show absolutely nothing unusual?",
+        "is_negated": true
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something in this image not normal or incorrect?",
+        "is_negated": false
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any problems or issues visible on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the provided X-ray appear to be containing abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is anything amiss in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there irregularities in the given image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 458,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the X-ray depict any anomalies or deviations?",
+        "is_negated": false
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not showing any abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image in question typical or regular?",
+        "is_negated": true
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this X-ray image not normal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this chest X-ray look unusual?",
+        "is_negated": false
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there anything unusual in this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the provided image show irregularity?",
+        "is_negated": false
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the given image atypical or aberrant?",
+        "is_negated": false
+    },
+    {
+        "question_id": 462,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the X-ray depiction anomalous or deviating from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of illness or disease?",
+        "is_negated": true
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Is there anything abnormal in the lung's structure or function?",
+        "is_negated": true
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from any health issues or diseases?",
+        "is_negated": false
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Does the chest X-ray reveal a normal and healthy lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly without any visible signs of distress?",
+        "is_negated": false
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung disease-free?",
+        "is_negated": false
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Does the radiograph indicate a sound and robust lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 466,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no indication of pathology or malfunction in the lung as shown by the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal, or is it the case of the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one is normal, the heart or the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it not the case that the heart has some abnormalities, or that would be the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one of these two organs, heart or lung, has anomalies?",
+        "is_negated": false
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Are we looking at a heart that is irregular, or is it the lung that has abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of those, the heart or the lung, shows any signs of abnormality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ, cardiac or pulmonary, does exhibit any irregularity?",
+        "is_negated": false
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of those organs has an issue, the lung or the heart?",
+        "is_negated": false
+    },
+    {
+        "question_id": 467,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Structure of which organ deviates from its normal state, the lung or the heart?",
+        "is_negated": false
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear okay?",
+        "is_negated": true
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there nothing unusual about this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image show any signs of normality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image seem irregular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image displaying something atypical or not?",
+        "is_negated": false
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there something odd, strange or unexpected in the given image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image show signs of deviation?",
+        "is_negated": false
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image indicative of anything out-of-the-ordinary or atypical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 470,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image display any features that could be described as irregular, aberrant or anomalous?",
+        "is_negated": false
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung of good health?",
+        "is_negated": true
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Does the lung show signs of being healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is everything about the lung's condition normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung not in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is there any problem with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Would you describe the health status of the lung as bad?",
+        "is_negated": false
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Does the lung exhibit sickness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the lung afflicted?",
+        "is_negated": false
+    },
+    {
+        "question_id": 474,
+        "original": "Is the lung unhealthy?",
+        "variation": "Is the pulmonary system not free from disease or disorder?",
+        "is_negated": false
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no sign of abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features within this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the given image show everything as expected, without any abnormalities?",
+        "is_negated": true
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything unusual or unexpected in this chest X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the image reveal any irregularity or deviation from normal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image containing any unexpected findings or abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies in this picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image display anything out of the ordinary or irregular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 475,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image abnormal, with any deviations or uncommon occurrences?",
+        "is_negated": false
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal in this chest X-ray, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the heart show no abnormality on this chest X-ray, or that would be the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest X-ray, which one from these appears okay, the heart or the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal in the given chest X-ray, or is it the condition of the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In the provided chest X-ray, is there any problem with the heart, or the lung is the one that is problematic?",
+        "is_negated": false
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest X-ray, is it the case that the heart shows any abnormality, or the one abnormal is the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of these two organs, heart or lung, displays an irregularity in this radiograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is it the thoracic cavity's heart chamber, or its lung chamber that is affected in this X-ray image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 476,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On this chest X-ray, is it the cardiac muscle, or the pulmonary organ that exhibits an anomaly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there nothing unusual or abnormal in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal and expected?",
+        "is_negated": true
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image show no signs of deviation or irregularity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something out if the ordinary in the X-ray picture?",
+        "is_negated": false
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any unexpected or unusual findings in this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the chest X-ray appear abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there anything amiss or awry in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there any anomalies or oddities in this X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 483,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the radiograph exhibit anything unusual or out of the ordinary?",
+        "is_negated": false
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there no abnormality observed in the heart, or is the one that is normal the lung on the chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the chest X-ray show no abnormality for the heart or for the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Can we confirm which one, the heart or the lung displays no abnormality according to the chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there an observed abnormality in the heart, or the lung on this chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which one is showing any sign of irregularity on the provided chest X-ray image, lung or heart?",
+        "is_negated": false
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Does the given chest X-ray reveal any anomaly for the heart, or for the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which organ, among the heart and lung, is not irregular according to the X-ray findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is there an irregularity in the heart, or in the lung as shown by the chest X-radiograph?",
+        "is_negated": false
+    },
+    {
+        "question_id": 484,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the provided radiographic image of the chest, does the heart, or the lung present with a deviation from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Does this image NOT look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Is this image abnormal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Is there anything unusual about this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Does this X-ray seem okay?",
+        "is_negated": false
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Is the image of the chest regular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Does this picture appear to be standard for a chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Does this picture exhibit normality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Is this radiograph typical?",
+        "is_negated": false
+    },
+    {
+        "question_id": 487,
+        "original": "Does this image look normal?",
+        "variation": "Does the image demonstrate normalcy in the chest region?",
+        "is_negated": false
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any disease found in the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from diseases or conditions?",
+        "is_negated": false
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly with no health issues?",
+        "is_negated": false
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Does the radiograph indicate a healthy lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung exhibit normalcy in its structure and function?",
+        "is_negated": false
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no pathology evident in the lung on X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 491,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good condition or is it free from any abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart normal on the chest X-ray, or is it the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart looking normal on the chest X-ray, or that would be the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which of the organs, either heart or lung, is looking fine on the given chest X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the X-ray of the chest, is it the case that the heart is not normal, or that would be the case of the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Is the heart in a abnormal state according to the X-ray of the chest, or is it the lung that is irregular?",
+        "is_negated": false
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "In terms of the chest X-ray, is there any indication of abnormality in the heart, or it is in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "Which among the organs, heart and lung, does appear to have any issues on the chest X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "On the given chest X-ray, is it visible that anything is amiss with the cardiac system, oris it with the pulmonary organ?",
+        "is_negated": false
+    },
+    {
+        "question_id": 492,
+        "original": "Which organ is abnormal, heart or lung?",
+        "variation": "For which is there an evidence of an anomaly in the thoracic cavity, referring either to the heart or lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image look normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there no abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the appearance of this image typical or expected?",
+        "is_negated": true
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this chest X-ray show anything unusual?",
+        "is_negated": false
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the picture of this patient's chest irregular in its presentation?",
+        "is_negated": false
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the depicted chest image deviate from a standard appearance?",
+        "is_negated": false
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the given image seem irregular or out of place?",
+        "is_negated": false
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there anything uncommon or extraordinary shown in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 495,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the provided picture suggest any atypical or aberrant findings?",
+        "is_negated": false
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image appear normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image not showing any abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image typical?",
+        "is_negated": true
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Is there anything unusual about this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image show signs of irregularity?",
+        "is_negated": false
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Is the image displaying any deviation from normal appearance?",
+        "is_negated": false
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Does this image exhibit an abnormal aspect?",
+        "is_negated": false
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Is this image indicative of a deviation from normality?",
+        "is_negated": false
+    },
+    {
+        "question_id": 502,
+        "original": "Does this image look abnormal?",
+        "variation": "Does the image suggest anything out of the ordinary or uncommon?",
+        "is_negated": false
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung unhealthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung show signs of illness?",
+        "is_negated": true
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any evidence of a damaged or diseased lung on the X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Does the X-ray reveal any issues with the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Can we say that the lung appears healthy from the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Does the lung display wellness?",
+        "is_negated": false
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no indication of a sick or unwell lung on the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 506,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from abnormality or disease as shown by the X-ray?",
+        "is_negated": false
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung not healthy?",
+        "is_negated": true
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is there any unhealthiness in the lung?",
+        "is_negated": true
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung free from health problems?",
+        "is_negated": true
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung in good condition?",
+        "is_negated": false
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no abnormality or disease found in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung functioning properly?",
+        "is_negated": false
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung wholesome?",
+        "is_negated": false
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is there no pathology or impairment in the lung?",
+        "is_negated": false
+    },
+    {
+        "question_id": 513,
+        "original": "Is the lung healthy?",
+        "variation": "Is the lung sound and strong?",
+        "is_negated": false
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is there no sign of any abnormality in this image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are all features in this image normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does this image not show any irregularity or abnormality?",
+        "is_negated": true
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is something in this X-ray picture abnormal?",
+        "is_negated": false
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this chest X-ray not free from abnormalities?",
+        "is_negated": false
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is the image showing any unusual structures of the chest?",
+        "is_negated": false
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Are there anomalies present in this image?",
+        "is_negated": false
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Does the radiograph demonstrate any deviations from normalcy?",
+        "is_negated": false
+    },
+    {
+        "question_id": 514,
+        "original": "Are there abnormalities in this image?",
+        "variation": "Is this scan containing any irregular findings?",
+        "is_negated": false
+    }
+]
