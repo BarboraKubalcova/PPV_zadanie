@@ -32,7 +32,11 @@ if __name__ == '__main__':
     with open(json_input, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
+    original_questions = ['Does the kidney look normal?', 'Is the lung healthy?', 'Does the picture contain kidney?', 'Does the spleen look normal?', 'Is this image abnormal?', 'Are there abnormalities in this image?', 'Are the kidneys healthy?', 'Does the lung look abnormal?', 'Does this image look normal?', 'Does the picture contain liver?', 'Does the picture contain lung?', 'Does the picture contain heart?', 'Does the picture contain spleen?', 'Does this image look abnormal?', 'Is the spleen healthy?', 'Does the lung look healthy?', 'Is the liver healthy?', 'Is the lung unhealthy?']
+
     data = list(sorted(filter(lambda dataset_item: lower_id <= dataset_item['question_id'] < upper_id, data), key=lambda entry: entry['question_id']))
+    data = list(filter(lambda dataset_item: dataset_item['original'] in original_questions, data))
+
     full_data_length = len(data)
     data = data[load_index:]
 
@@ -59,7 +63,7 @@ if __name__ == '__main__':
         output_data = []
 
     output_data = output_data + data[:out_index - load_index]
-    print(f"Processed {len(output_data)} items, {full_data_length - len(output_data)} items left.")
+    print(f"Processed {len(output_data)} items, {full_data_length - out_index} items left.")
 
     with open(json_output, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=4)
