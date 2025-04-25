@@ -80,7 +80,7 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
         os.makedirs(save_dir, exist_ok=True)
 
         self.t5_model.save_pretrained(save_dir, **kwargs)
-        self.t5_model.generation_config.save_pretrained(save_dir)
+        self.t5_model.generation_config.save_pretrained(save_dir, **kwargs)
 
         if self.tokenizer is not None:
             self.tokenizer.save_pretrained(save_dir, **kwargs)
