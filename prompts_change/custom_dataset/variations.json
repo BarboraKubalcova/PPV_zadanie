@@ -51775,56 +51775,56 @@
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian shown in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain shown in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on the chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on the chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph depict brain?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it evident that Brian is present in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it evident that brain is present in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image hold Brian within it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image hold brain within it?",
         "is_negated": false
     },
     {
         "question_id": 3001,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it the case that Brian appears in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it the case that brain appears in the picture?",
         "is_negated": false
     },
     {
@@ -51836,7 +51836,7 @@
     {
         "question_id": 3003,
         "original": "Does the brain look abnormal?",
-        "variation": "Is there any evidence of abnormality in the brain as seen on the X-ray?",
+        "variation": "Is there no evidence of abnormality in the brain as seen on the X-ray?",
         "is_negated": true
     },
     {
@@ -51902,37 +51902,37 @@
     {
         "question_id": 3010,
         "original": "Is this a study of the neck?",
-        "variation": "What body part is this study about, if it's not the neck?",
+        "variation": "Is it evident, that this study is about the neck of a human?",
         "is_negated": false
     },
     {
         "question_id": 3010,
         "original": "Is this a study of the neck?",
-        "variation": "In which part of the body does this study take place, as long as it's not the neck?",
+        "variation": "Is it clear, that this study is about the neck of a human?",
         "is_negated": false
     },
     {
         "question_id": 3010,
         "original": "Is this a study of the neck?",
-        "variation": "Is the region of interest in this study anywhere other than the neck?",
+        "variation": "Is the region of interest in this study the neck?",
         "is_negated": false
     },
     {
         "question_id": 3010,
         "original": "Is this a study of the neck?",
-        "variation": "Is this investigation dealing with anything other than the neck?",
+        "variation": "Is this investigation dealing with the neck?",
         "is_negated": false
     },
     {
         "question_id": 3010,
         "original": "Is this a study of the neck?",
-        "variation": "Is the subject matter of this examination something other than the neck area?",
+        "variation": "Is the subject matter of this examination precisely the neck area?",
         "is_negated": false
     },
     {
         "question_id": 3010,
         "original": "Is this a study of the neck?",
-        "variation": "Does this analysis concern itself with any location other than the cervical region?",
+        "variation": "Does this analysis concern itself with the cervical region?",
         "is_negated": false
     },
     {
@@ -51962,7 +51962,7 @@
     {
         "question_id": 3011,
         "original": "Does the stomach appear in the image?",
-        "variation": "What is visible in the image that corresponds to the stomach?",
+        "variation": "Is the stomach visible in the image?",
         "is_negated": false
     },
     {
@@ -51974,7 +51974,7 @@
     {
         "question_id": 3011,
         "original": "Does the stomach appear in the image?",
-        "variation": "Does the image depict the abdomen instead of the stomach?",
+        "variation": "Does the image depict the stomach?",
         "is_negated": false
     },
     {
@@ -52004,7 +52004,7 @@
     {
         "question_id": 3012,
         "original": "Does the lung exist in this picture?",
-        "variation": "Can you find an absence of a lung on the X-ray?",
+        "variation": "Is there an absence of a lung on the X-ray?",
         "is_negated": true
     },
     {
@@ -52046,7 +52046,7 @@
     {
         "question_id": 3018,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Does none of the organs in the picture belong to the digestive system?",
+        "variation": "Do none of the organs in the picture belong to the digestive system?",
         "is_negated": true
     },
     {
@@ -52076,7 +52076,7 @@
     {
         "question_id": 3018,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Is there any lung, heart, or bone in the chest X-ray that is part of the digestive system?",
+        "variation": "Is there any organ in the chest X-ray that is part of the digestive system?",
         "is_negated": false
     },
     {
@@ -52118,43 +52118,43 @@
     {
         "question_id": 3019,
         "original": "Is this a CT?",
-        "variation": "What kind of imaging is this not?",
+        "variation": "Can this be labeled as CT?",
         "is_negated": false
     },
     {
         "question_id": 3019,
         "original": "Is this a CT?",
-        "variation": "Is this an X-ray, MRI or ultrasound and NOT a CT?",
+        "variation": "Is it apparent, that this is a computed tomography image?",
         "is_negated": false
     },
     {
         "question_id": 3019,
         "original": "Is this a CT?",
-        "variation": "In what way can I specify that this is NOT a CT image?",
+        "variation": "Is this a clear example of a CT?",
         "is_negated": false
     },
     {
         "question_id": 3019,
         "original": "Is this a CT?",
-        "variation": "Is this not a computed tomographic scan?",
+        "variation": "Is this a computed tomographic scan?",
         "is_negated": false
     },
     {
         "question_id": 3019,
         "original": "Is this a CT?",
-        "variation": "Is this a radiograph instead of a computed axial tomography (CAT)?",
+        "variation": "Is this a computed axial tomography (CAT) instead of something else?",
         "is_negated": false
     },
     {
         "question_id": 3019,
         "original": "Is this a CT?",
-        "variation": "Could one say this is anything other than a cross-sectional tomographic display of the body's internal structure?",
+        "variation": "Could one say this is a CT image?",
         "is_negated": false
     },
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "Is this not a study of the chest?",
+        "variation": "Is this not a study of the neck?",
         "is_negated": true
     },
     {
@@ -52172,37 +52172,37 @@
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "What body region is this study about, is it not the neck?",
+        "variation": "Is it clear that this is the neck?",
         "is_negated": false
     },
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "Is the main subject of this image the neck or another area, and is that answer no?",
+        "variation": "Is the main subject of this image the neck?",
         "is_negated": false
     },
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "Does this X-ray depict the neck, or does it focus on some other part of the body?",
+        "variation": "Does this X-ray depict the neck?",
         "is_negated": false
     },
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "Is this examination not pertaining to the neck region?",
+        "variation": "Is this examination pertaining to the neck region?",
         "is_negated": false
     },
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "What anatomical location is under investigation in this study, and is that not the cervix?",
+        "variation": "Is this anatomical subject at hand the cervical region?",
         "is_negated": false
     },
     {
         "question_id": 3022,
         "original": "Is this a study of the neck?",
-        "variation": "Is the primary subject of this X-ray not the neck area, but rather another part of the thorax?",
+        "variation": "Is the primary subject of this X-ray the neck area?",
         "is_negated": false
     },
     {
@@ -52214,49 +52214,49 @@
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is it possible to see the rectum on this X-ray? (Answer: No)",
+        "variation": "Is it not possible to see the rectum on this X-ray?",
         "is_negated": true
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is the rectum absent or not observable in the given chest X-ray?",
+        "variation": "Is the rectum absent or not observable in the given X-ray?",
         "is_negated": true
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Can you spot the rectum on this image? (Answer: No)",
+        "variation": "Can you spot the rectum on this image?",
         "is_negated": false
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Does the provided chest X-ray show the rectum? (Answer: No)",
+        "variation": "Does the provided X-ray show the rectum?",
         "is_negated": false
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is the image of the chest X-ray clear enough to see the rectum? (Answer: No)",
+        "variation": "Is the image of the X-ray clear enough to see the rectum?",
         "is_negated": false
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Can you detect the anus in this picture? (Answer: No)",
+        "variation": "Can you detect the anus in this picture?",
         "is_negated": false
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Does the chest radiograph exhibit any indication of the lower end of the digestive tract? (Answer: No)",
+        "variation": "Does the radiograph exhibit any indication of the lower end of the digestive tract?",
         "is_negated": false
     },
     {
         "question_id": 3024,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is it possible to find the rectum-sigmoid area on this X-ray? (Answer: No)",
+        "variation": "Is it possible to find the rectum-sigmoid area on this X-ray?",
         "is_negated": false
     },
     {
@@ -52310,7 +52310,7 @@
     {
         "question_id": 3025,
         "original": "Does the picture contain eyes?",
-        "variation": "Can the presence of peepers be detected on the visual representation?",
+        "variation": "Can the presence of eyes be detected on the visual representation?",
         "is_negated": false
     },
     {
@@ -52334,19 +52334,19 @@
     {
         "question_id": 3032,
         "original": "Does the picture contain the organ which has the effect of excreting body waste?",
-        "variation": "Is the picture free from the organ that gets rid of bodily waste?",
+        "variation": "Is the picture in possesion of the organ that gets rid of bodily waste?",
         "is_negated": false
     },
     {
         "question_id": 3032,
         "original": "Does the picture contain the organ which has the effect of excreting body waste?",
-        "variation": "Does the given image lack an organ that discharges wastes?",
+        "variation": "Does the given image contain an organ that discharges wastes?",
         "is_negated": false
     },
     {
         "question_id": 3032,
         "original": "Does the picture contain the organ which has the effect of excreting body waste?",
-        "variation": "Is the depicted organ not the one that expels bodily waste in this case?",
+        "variation": "Is the depicted organ the one that expels bodily waste in this case?",
         "is_negated": false
     },
     {
@@ -52358,7 +52358,7 @@
     {
         "question_id": 3032,
         "original": "Does the picture contain the organ which has the effect of excreting body waste?",
-        "variation": "Is the picture without an organ that is responsible for excretion?",
+        "variation": "Is the picture showing an organ that is responsible for excretion?",
         "is_negated": false
     },
     {
@@ -52382,49 +52382,49 @@
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "Is this a radiograph, CT scan, or ultrasound and NOT an MRI?",
+        "variation": "Is this a radiograph, CT scan, an X-Ray, or ultrasound and NOT an MRI?",
         "is_negated": true
     },
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "What kind of imaging test is this, is it NOT an MRI?",
+        "variation": "Is this imaging an MRI or MRV?",
         "is_negated": false
     },
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "Is this image the result of a scan that uses a strong magnetic field and radio waves, and if not, what type of test was performed?",
+        "variation": "Is this image the result of a scan that uses a strong magnetic field and radio waves?",
         "is_negated": false
     },
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "Am I looking at an MRI or some other medical imaging technique?",
+        "variation": "Am I looking at an MRI?",
         "is_negated": false
     },
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "Is this diagnostic imaging test NOT a magnetic resonance imaging (MRI) test?",
+        "variation": "Is this diagnostic imaging test a magnetic resonance imaging (MRI) test?",
         "is_negated": false
     },
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "In which scanner was this image produced, and it wasn't a magnetic resonance imager, right?",
+        "variation": "Is this the result of an MRI?",
         "is_negated": false
     },
     {
         "question_id": 3034,
         "original": "Is this an MRI?",
-        "variation": "I see a medical scan here; is it NOT an MRI that I'm looking at?",
+        "variation": "I see a medical scan here; is it an MRI that I'm looking at?",
         "is_negated": false
     },
     {
         "question_id": 3035,
         "original": "Is this a transverse section?",
-        "variation": "Is this **not** a transverse section?",
+        "variation": "Is this not a transverse section?",
         "is_negated": true
     },
     {
@@ -52436,24 +52436,6 @@
     {
         "question_id": 3035,
         "original": "Is this a transverse section?",
-        "variation": "In what way does this depiction deviate from being a transverse section?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3035,
-        "original": "Is this a transverse section?",
-        "variation": "What kind of X-ray section is this: transverse or not?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3035,
-        "original": "Is this a transverse section?",
-        "variation": "Is the plane shown on this image moving across the chest (transversely) or something else?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3035,
-        "original": "Is this a transverse section?",
         "variation": "Is it accurate to say that this X-ray shows a slice that cuts through the body from side to side (transversely)?",
         "is_negated": false
     },
@@ -52461,18 +52443,12 @@
         "question_id": 3035,
         "original": "Is this a transverse section?",
         "variation": "Is this sectional image perpendicular (as opposed to transverse)?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3035,
         "original": "Is this a transverse section?",
-        "variation": "In what direction does this radiographic view travel: anteriorly and posteriorly or side-to-side (transversely) through the chest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3035,
-        "original": "Is this a transverse section?",
-        "variation": "Does the X-ray show a cross-section cut taken from top to bottom (transversely) or front to back?",
+        "variation": "Does the X-ray show a cross-section cut taken from top to bottom (transversely)?",
         "is_negated": false
     },
     {
@@ -52484,7 +52460,7 @@
     {
         "question_id": 3038,
         "original": "Is this a study of the chest?",
-        "variation": "Is this a non-study of the chest?",
+        "variation": "Is this a study differnt from the chest?",
         "is_negated": true
     },
     {
@@ -52496,7 +52472,7 @@
     {
         "question_id": 3038,
         "original": "Is this a study of the chest?",
-        "variation": "What is the subject of this examination? Is it the chest?",
+        "variation": "Is the chest the subject of this study?",
         "is_negated": false
     },
     {
@@ -52508,7 +52484,7 @@
     {
         "question_id": 3038,
         "original": "Is this a study of the chest?",
-        "variation": "For what body region was this X-ray taken? Was it the chest?",
+        "variation": "Was the main focus of this image the chest?",
         "is_negated": false
     },
     {
@@ -52531,55 +52507,55 @@
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
-        "variation": "Does not the picture contain any ears?",
+        "original": "Do the ears exist in this picture?",
+        "variation": "Does the picture not contain any ears?",
         "is_negated": true
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
+        "original": "Do the ears exist in this picture?",
         "variation": "Are there no visible ears in the given image?",
         "is_negated": true
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
+        "original": "Do the ears exist in this picture?",
         "variation": "Is it true that there are no ears present on the shown X-ray?",
         "is_negated": true
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
+        "original": "Do the ears exist in this picture?",
         "variation": "Can you see anything like ears in this image?",
         "is_negated": false
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
+        "original": "Do the ears exist in this picture?",
         "variation": "Is there a body part resembling an ear in this picture?",
         "is_negated": false
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
-        "variation": "Does the image contain any structure that could be interpreted as an ear?",
+        "original": "Do the ears exist in this picture?",
+        "variation": "Do the image contain any structure that could be interpreted as an ear?",
         "is_negated": false
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
+        "original": "Do the ears exist in this picture?",
         "variation": "Are there auricles visible in this X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
-        "variation": "Does the radiograph depict any pinnae?",
+        "original": "Do the ears exist in this picture?",
+        "variation": "Do the radiograph depict any pinnae?",
         "is_negated": false
     },
     {
         "question_id": 3039,
-        "original": "Does the ears exist in this picture?",
+        "original": "Do the ears exist in this picture?",
         "variation": "Can you spot cymba or concha in the provided image?",
         "is_negated": false
     },
@@ -52592,7 +52568,7 @@
     {
         "question_id": 3040,
         "original": "Does the temporal lobe appear in this image?",
-        "variation": "Is it possible to find the temporal lobe in the given image?",
+        "variation": "Is it not possible to find the temporal lobe in the given image?",
         "is_negated": true
     },
     {
@@ -52610,13 +52586,13 @@
     {
         "question_id": 3040,
         "original": "Does the temporal lobe appear in this image?",
-        "variation": "What structure within the brain is visible where the temporal lobe should be in this image?",
+        "variation": "Is the structure within the brain visible the temporal lobe?",
         "is_negated": false
     },
     {
         "question_id": 3040,
         "original": "Does the temporal lobe appear in this image?",
-        "variation": "Does this chest X-ray contain an image of the temporal lobe?",
+        "variation": "Does this X-ray contain an image of the temporal lobe?",
         "is_negated": false
     },
     {
@@ -52700,19 +52676,19 @@
     {
         "question_id": 3049,
         "original": "Is this a CT scan?",
-        "variation": "What kind of scan is this, not considering if it's a CT scan?",
+        "variation": "Is the image shown an example of a CT scan?",
         "is_negated": false
     },
     {
         "question_id": 3049,
         "original": "Is this a CT scan?",
-        "variation": "What type of imaging test is this, rather than a CT examination?",
+        "variation": "Is it clear, that the image is a CT scan?",
         "is_negated": false
     },
     {
         "question_id": 3051,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Do not the organs in the image exist in the neck?",
+        "variation": "Do the organs in the image not exist in the neck?",
         "is_negated": true
     },
     {
@@ -52790,7 +52766,7 @@
     {
         "question_id": 3055,
         "original": "Does the picture contain eyes?",
-        "variation": "Does the image lack eye-like structures anywhere?",
+        "variation": "Does the image contain eye-like structures anywhere?",
         "is_negated": false
     },
     {
@@ -52832,7 +52808,7 @@
     {
         "question_id": 3062,
         "original": "Does the picture contain the organ that could receive sound?",
-        "variation": "Is it the case that the depicted image does not show an audible-receiving organ?",
+        "variation": "Is it the case that the depicted image does not show an audio-receiving organ?",
         "is_negated": true
     },
     {
@@ -52873,26 +52849,26 @@
     },
     {
         "question_id": 3063,
-        "original": "Is this a X-Ray?",
+        "original": "Is this an X-Ray?",
         "variation": "Is this not an X-Ray?",
         "is_negated": true
     },
     {
         "question_id": 3063,
-        "original": "Is this a X-Ray?",
+        "original": "Is this an X-Ray?",
         "variation": "Is the given image something other than an X-Ray?",
         "is_negated": true
     },
     {
         "question_id": 3063,
-        "original": "Is this a X-Ray?",
-        "variation": "Is the provided image without an X-Ray?",
+        "original": "Is this an X-Ray?",
+        "variation": "Is the provided image not an X-Ray?",
         "is_negated": true
     },
     {
         "question_id": 3063,
-        "original": "Is this a X-Ray?",
-        "variation": "What kind of image is this? Is it an X-Ray?",
+        "original": "Is this an X-Ray?",
+        "variation": "Is this an X-Ray imaging or scan?",
         "is_negated": false
     },
     {
@@ -52904,25 +52880,25 @@
     {
         "question_id": 3063,
         "original": "Is this a X-Ray?",
-        "variation": "Could you tell me if the provided image represents an X-Ray or not?",
+        "variation": "Could you tell me if the provided image represents an X-Ray?",
         "is_negated": false
     },
     {
         "question_id": 3063,
         "original": "Is this a X-Ray?",
-        "variation": "Is the submitted image a radiograph? Is it an X-ray image?",
+        "variation": "Is the submitted image an X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3063,
         "original": "Is this a X-Ray?",
-        "variation": "Is this an example of a chest film or a X-Ray?",
+        "variation": "Is this an example of an X-Ray?",
         "is_negated": false
     },
     {
         "question_id": 3063,
         "original": "Is this a X-Ray?",
-        "variation": "Am I looking at a roentgenogram or is this an X-Ray?",
+        "variation": "Am I looking at an X-Ray?",
         "is_negated": false
     },
     {
@@ -52946,19 +52922,13 @@
     {
         "question_id": 3064,
         "original": "Is this a transverse plane?",
-        "variation": "What kind of plane is depicted in the X-ray – coronal, sagittal or transverse?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3064,
-        "original": "Is this a transverse plane?",
         "variation": "In the provided chest X-ray, is the section through the body parallel to the front-back (transverse) axis?",
         "is_negated": false
     },
     {
         "question_id": 3064,
         "original": "Is this a transverse plane?",
-        "variation": "Is the given image a cross-sectional view of the patient's body (transverse) or not?",
+        "variation": "Is the given image a cross-sectional view of the patient's body (transverse)?",
         "is_negated": false
     },
     {
@@ -52976,7 +52946,7 @@
     {
         "question_id": 3064,
         "original": "Is this a transverse plane?",
-        "variation": "In the image, is the patient's body being looked at from the side or not (is it not transversely cut)?",
+        "variation": "In the image, is the patient's body being looked at from the side (is it transversely cut)?",
         "is_negated": false
     },
     {
@@ -52994,25 +52964,25 @@
     {
         "question_id": 3068,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Can we see the rectum in the given picture (No)?",
+        "variation": "Can we not see the rectum in the given picture?",
         "is_negated": true
     },
     {
         "question_id": 3068,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is the rectum missing from the provided image?",
+        "variation": "Is the rectum present from the provided image?",
         "is_negated": false
     },
     {
         "question_id": 3068,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Is there no sign of the rectum in the given picture?",
+        "variation": "Is there any sign of the rectum in the given picture?",
         "is_negated": false
     },
     {
         "question_id": 3068,
         "original": "Does the rectum appear in this picture?",
-        "variation": "Does the picture display any presence of the rectum (No)?",
+        "variation": "Does the picture display any presence of the rectum?",
         "is_negated": false
     },
     {
@@ -53042,7 +53012,7 @@
     {
         "question_id": 3071,
         "original": "Are there organs in the picture that can detoxicate?",
-        "variation": "Is it not the case that any organs in the picture are capable of detoxifying?",
+        "variation": "Is it the case that no organ in the picture is capable of detoxifying?",
         "is_negated": true
     },
     {
@@ -53090,7 +53060,7 @@
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Does none of the organs in the picture belong to the digestive system?",
+        "variation": "Do none of the organs in the picture belong to the digestive system?",
         "is_negated": true
     },
     {
@@ -53102,43 +53072,43 @@
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Is it not the case that any of the organs in the picture are part of the digestive system?",
+        "variation": "Is it the case that none of the organs in the picture are part of the digestive system?",
         "is_negated": true
     },
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Does every organ in the picture lie outside the digestive system?",
+        "variation": "Does every organ in the picture lie within the digestive system?",
         "is_negated": false
     },
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Are there no organs in the image that are connected to the digestive tract?",
+        "variation": "Are there any organs in the image that are connected to the digestive tract?",
         "is_negated": false
     },
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Do all organs depicted in the X-ray not pertain to the digestive system?",
+        "variation": "Do all organs depicted in the X-ray pertain to the digestive system?",
         "is_negated": false
     },
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Is it true that none of the structures shown in the radiograph are related to the gastrointestinal tract?",
+        "variation": "Is it true that some of the structures shown in the radiograph are related to the gastrointestinal tract?",
         "is_negated": false
     },
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Are any of the objects seen on this chest X-ray unrelated to the alimentary canal?",
+        "variation": "Are any of the objects seen on this chest X-ray related to the alimentary canal?",
         "is_negated": false
     },
     {
         "question_id": 3072,
         "original": "Do any of the organs in the picture belong to the digestive system?",
-        "variation": "Does not a single item depicted in the X-ray belong to the system responsible for ingestion and digestion?",
+        "variation": "Does any single item depicted in the X-ray belong to the system responsible for ingestion and digestion?",
         "is_negated": false
     },
     {
@@ -53162,37 +53132,25 @@
     {
         "question_id": 3073,
         "original": "Is this image taken via CT?",
-        "variation": "Was this image produced by X-ray instead of CT?",
+        "variation": "Was this image produced by CT?",
         "is_negated": false
     },
     {
         "question_id": 3073,
         "original": "Is this image taken via CT?",
-        "variation": "In what manner was this image captured - not via CT?",
+        "variation": "Was the source of this image a CT scanner?",
         "is_negated": false
     },
     {
         "question_id": 3073,
         "original": "Is this image taken via CT?",
-        "variation": "What imaging modality was used for this image, other than CT?",
+        "variation": "Did the acquisition of this picture take place in a CT unit?",
         "is_negated": false
     },
     {
         "question_id": 3073,
         "original": "Is this image taken via CT?",
-        "variation": "Was the source of this image some device OTHER than a CT scanner?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3073,
-        "original": "Is this image taken via CT?",
-        "variation": "Did the acquisition of this picture take place NOT in a CT unit?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3073,
-        "original": "Is this image taken via CT?",
-        "variation": "Was this image created using an alternative technology to CT imaging?",
+        "variation": "Was this image created using CT imaging?",
         "is_negated": false
     },
     {
@@ -53240,13 +53198,13 @@
     {
         "question_id": 3078,
         "original": "Does the picture contain mandible?",
-        "variation": "Is there a lower jawbone (mandible) on the chest X-ray?",
+        "variation": "Is there a lower jawbone (mandible) on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3078,
         "original": "Does the picture contain mandible?",
-        "variation": "Can you find the jaw (mandible) on the chest X-ray image?",
+        "variation": "Can you find the jaw (mandible) on the X-ray image?",
         "is_negated": false
     },
     {
@@ -53306,7 +53264,7 @@
     {
         "question_id": 3085,
         "original": "Are there organs in the picture that can perceive things?",
-        "variation": "Is it not the case that there are no organs in the picture that can perceive things?",
+        "variation": "Is it the case that there are no organs in the picture that can perceive things?",
         "is_negated": true
     },
     {
@@ -53318,7 +53276,7 @@
     {
         "question_id": 3085,
         "original": "Are there organs in the picture that can perceive things?",
-        "variation": "Does the image show any organs that cannot perceive things?",
+        "variation": "Does the image not show any organs that can perceive things?",
         "is_negated": true
     },
     {
@@ -53342,7 +53300,7 @@
     {
         "question_id": 3085,
         "original": "Are there organs in the picture that can perceive things?",
-        "variation": "Do any organs in the picture possess the ability to detect or become aware of things?",
+        "variation": "Do any organs in the picture possess the ability to detect or become aware of their surroundings?",
         "is_negated": false
     },
     {
@@ -53375,40 +53333,29 @@
         "variation": "Did the image originate from a source other than a CT device?",
         "is_negated": true
     },
+    },
     {
         "question_id": 3086,
         "original": "Is this image taken via CT?",
-        "variation": "Was this image captured with an X-ray instead of a CT scan?",
+        "variation": "Is it possible that this image was produced using a Computed Tomography system?",
         "is_negated": false
     },
     {
         "question_id": 3086,
         "original": "Is this image taken via CT?",
-        "variation": "In what type of imaging machine was this image taken, NOT including a CT scanner?",
+        "variation": "Was this picture generated by a CAT scan?",
         "is_negated": false
     },
     {
         "question_id": 3086,
         "original": "Is this image taken via CT?",
-        "variation": "Is it possible that this image was produced using equipment OTHER than a Computed Tomography system?",
+        "variation": "Was this image obtained via Computerized Axial Tomography?",
         "is_negated": false
     },
     {
         "question_id": 3086,
         "original": "Is this image taken via CT?",
-        "variation": "Was this picture generated by a CAT scan or something else?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3086,
-        "original": "Is this image taken via CT?",
-        "variation": "In what manner was this image obtained, other than via Computerized Axial Tomography?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3086,
-        "original": "Is this image taken via CT?",
-        "variation": "Did the imaging technique used to produce this picture differ from tomographic imaging, such as CT?",
+        "variation": "Is it likely, that the imaging technique used to produce this picture was CT?",
         "is_negated": false
     },
     {
@@ -53420,7 +53367,7 @@
     {
         "question_id": 3087,
         "original": "Is this a transverse plane?",
-        "variation": "Aren't we dealing with a transverse section here?",
+        "variation": "Are we not dealing with a transverse section here?",
         "is_negated": true
     },
     {
@@ -53432,38 +53379,26 @@
     {
         "question_id": 3087,
         "original": "Is this a transverse plane?",
-        "variation": "What type of plane is shown in this X-ray, is it NOT a transverse one?",
+        "variation": "Is the type of plain shown in the image a transverse one?",
         "is_negated": false
     },
     {
         "question_id": 3087,
         "original": "Is this a transverse plane?",
-        "variation": "Instead of viewing from a cross section, are we observing the X-ray in a way that is NOT transverse?",
+        "variation": "Can it be said, that this is a tansverse plane?",
         "is_negated": false
     },
     {
         "question_id": 3087,
         "original": "Is this a transverse plane?",
-        "variation": "In this image, are we NOT looking at things as if they were cut through in the horizontal direction?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3087,
-        "original": "Is this a transverse plane?",
-        "variation": "Is this an axial plane rather than a transverse one?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3087,
-        "original": "Is this a transverse plane?",
-        "variation": "Are we observing a sagittal section instead of a transverse one in this X-ray?",
+        "variation": "In this image, are we looking at things as if they were cut through in the horizontal direction?",
         "is_negated": false
     },
     {
         "question_id": 3087,
         "original": "Is this a transverse plane?",
         "variation": "Is this image showing us a longitudinal cut as opposed to a horizontal cross section?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3091,
@@ -53498,7 +53433,7 @@
     {
         "question_id": 3091,
         "original": "Does the picture contain mandible?",
-        "variation": "Is the jawline present or missing on this chest X-ray?",
+        "variation": "Is the jawline present on this X-ray?",
         "is_negated": false
     },
     {
@@ -53594,13 +53529,7 @@
     {
         "question_id": 3099,
         "original": "Is this image taken via CT?",
-        "variation": "What kind of imaging technique was used to generate this picture?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3099,
-        "original": "Is this image taken via CT?",
-        "variation": "How was this image acquired? Was it through a CT scan?",
+        "variation": "Was the image acquired through a CT scan?",
         "is_negated": false
     },
     {
@@ -53613,18 +53542,6 @@
         "question_id": 3099,
         "original": "Is this image taken via CT?",
         "variation": "Was this image produced with the aid of a computed tomography device?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3099,
-        "original": "Is this image taken via CT?",
-        "variation": "From which diagnostic imaging instrument was this picture derived, other than a CAT scanner?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3099,
-        "original": "Is this image taken via CT?",
-        "variation": "In what manner was this image taken, excluding computerized axial tomography?",
         "is_negated": false
     },
     {
@@ -54997,56 +54914,56 @@
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does not have Brian in it?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does not have brain in it?",
         "is_negated": true
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the given picture?",
         "is_negated": true
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you find Brian on this chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you find brain on this chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the X-ray show any sign of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the X-ray show any sign of brain?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an appearance of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an appearance of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it possible to identify Brian from the given picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it possible to identify brain from the given picture?",
         "is_negated": false
     },
     {
         "question_id": 3176,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph reveal Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph reveal brain?",
         "is_negated": false
     },
     {
@@ -57175,56 +57092,56 @@
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no image of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no image of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian absent from the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain absent from the picture?",
         "is_negated": true
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on the picture?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image show brain?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photo feature Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photo feature brain?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian depicted in the photograph?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain depicted in the photograph?",
         "is_negated": false
     },
     {
         "question_id": 3281,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a likeness of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a likeness of brain in the picture?",
         "is_negated": false
     },
     {
@@ -58297,56 +58214,56 @@
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it true that the picture does NOT contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it true that the picture does NOT contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there no sign of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there no sign of brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible on the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible on the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Can you see Brian on this chest X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Can you see brain on this chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the radiograph show any trace of Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the radiograph show any trace of brain?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image include Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image include brain?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there a depiction of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there a depiction of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3352,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the photograph show Brian's presence?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the photograph show brain's presence?",
         "is_negated": false
     },
     {
@@ -60109,56 +60026,56 @@
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the picture not contain Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the picture not contain brain?",
         "is_negated": true
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it false that the picture contains Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it false that the picture contains brain?",
         "is_negated": true
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Isn't there Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Isn't there brain in the picture?",
         "is_negated": true
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian visible in the X-ray image?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain visible in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is Brian present on the X-ray shown?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is brain present on the X-ray shown?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the given chest X-ray show Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the given chest X-ray show brain?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Does the image depict Brian?",
+        "original": "Does the picture contain brain?",
+        "variation": "Does the image depict brain?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is there an appearance of Brian in the picture?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is there an appearance of brain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3469,
-        "original": "Does the picture contain brian?",
-        "variation": "Is it evident that there is Brian in the X-ray?",
+        "original": "Does the picture contain brain?",
+        "variation": "Is it evident that there is brain in the X-ray?",
         "is_negated": false
     },
     {
