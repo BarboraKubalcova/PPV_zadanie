@@ -53565,24 +53565,6 @@
     {
         "question_id": 3100,
         "original": "Is this a transverse section?",
-        "variation": "What type of section is this? Is it a transverse one?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3100,
-        "original": "Is this a transverse section?",
-        "variation": "Can you describe the orientation of the section in the provided image? Is it running across?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3100,
-        "original": "Is this a transverse section?",
-        "variation": "In the provided chest X-ray, what can you tell about the positioning of the slice? Is it lying horizontally?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3100,
-        "original": "Is this a transverse section?",
         "variation": "Is this a crosswise section?",
         "is_negated": false
     },
@@ -53595,7 +53577,7 @@
     {
         "question_id": 3100,
         "original": "Is this a transverse section?",
-        "variation": "Is the depicted cut through the object in a horizontal or transverse manner?",
+        "variation": "Is the depicted cut through the object in a transverse manner?",
         "is_negated": false
     },
     {
@@ -53625,7 +53607,7 @@
     {
         "question_id": 3104,
         "original": "Is there a liver in the image?",
-        "variation": "What is shown in the image – a liver or not?",
+        "variation": "Is the liver visible in this image?",
         "is_negated": false
     },
     {
@@ -53775,25 +53757,13 @@
     {
         "question_id": 3112,
         "original": "Is this sagittal plane?",
-        "variation": "In what way is this not a sagittal view?",
+        "variation": "Can this be considered a sagittal view?",
         "is_negated": true
     },
     {
         "question_id": 3112,
         "original": "Is this sagittal plane?",
-        "variation": "What kind of plane is this (but referred to as a 'view' or 'perspective')?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3112,
-        "original": "Is this sagittal plane?",
-        "variation": "Can you describe the orientation of this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3112,
-        "original": "Is this sagittal plane?",
-        "variation": "Is it possible to determine if this X-ray was taken in the sagittal direction?",
+        "variation": "Was this X-ray was taken in the sagittal direction?",
         "is_negated": false
     },
     {
@@ -53895,19 +53865,19 @@
     {
         "question_id": 3115,
         "original": "Does the picture contain mandible?",
-        "variation": "Is the jaw missing from the chest X-ray?",
+        "variation": "Is the jaw present in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3115,
         "original": "Does the picture contain mandible?",
-        "variation": "Does the given X-ray show no signs of the lower jaw bone (mandible)?",
+        "variation": "Does the given X-ray show signs of the lower jaw bone (mandible)?",
         "is_negated": false
     },
     {
         "question_id": 3115,
         "original": "Does the picture contain mandible?",
-        "variation": "Does the photograph show no sign of the lower jaw (mandible)?",
+        "variation": "Does the photograph have the lower jaw (mandible)?",
         "is_negated": false
     },
     {
@@ -53919,7 +53889,7 @@
     {
         "question_id": 3115,
         "original": "Does the picture contain mandible?",
-        "variation": "Is the X-ray free from mandibles?",
+        "variation": "Is the X-ray in posession from mandibles?",
         "is_negated": false
     },
     {
@@ -53943,37 +53913,37 @@
     {
         "question_id": 3116,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Does every organ depicted in this X-ray come from a non-respiratory system?",
+        "variation": "Does every organ depicted in this X-ray come from a espiratory system?",
         "is_negated": false
     },
     {
         "question_id": 3116,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Are all organs visible on this chest X-ray excludable from the respiratory system?",
+        "variation": "Are any organs visible on this chest X-ray included in the respiratory system?",
         "is_negated": false
     },
     {
         "question_id": 3116,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Is it the case that not a single organ seen in this picture is part of the respiratory system?",
+        "variation": "Is it the case that atleast a single organ seen in this picture is part of the respiratory system?",
         "is_negated": false
     },
     {
         "question_id": 3116,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Does any structure in the image pertain to a different system rather than the respiratory one?",
+        "variation": "Does any structure in the image pertain to the respiratory system?",
         "is_negated": false
     },
     {
         "question_id": 3116,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Are all visualized structures in the X-ray excludable from the pulmonary system?",
+        "variation": "Are any visualized structures in the X-ray from the pulmonary system?",
         "is_negated": false
     },
     {
         "question_id": 3116,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Is it true that none of the depicted structures are elements of the respiratory apparatus?",
+        "variation": "Is it true that some of the depicted structures are elements of the respiratory apparatus?",
         "is_negated": false
     },
     {
@@ -53998,30 +53968,30 @@
         "question_id": 3119,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Is every organ visible in the image positioned somewhere other than the neck?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3119,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Are all the organs shown on the X-ray located away from the neck region?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3119,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Does the chest X-ray exhibit any organ that lies outside of the neck?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3119,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Is it the case that no organs are detectable in the image in the neck area?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3119,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Are there no organs to be found on the image that belong to the neck region?",
+        "variation": "Are there any organs to be found on the image that belong to the neck region?",
         "is_negated": false
     },
     {
@@ -54033,13 +54003,13 @@
     {
         "question_id": 3121,
         "original": "Is this a study of the neck?",
-        "variation": "Is this not a study of the chest?",
+        "variation": "Is this not a study of the neck",
         "is_negated": true
     },
     {
         "question_id": 3121,
         "original": "Is this a study of the neck?",
-        "variation": "Does this image focus on the neck? (No)",
+        "variation": "Does this image not focus on the neck?",
         "is_negated": true
     },
     {
@@ -54047,24 +54017,6 @@
         "original": "Is this a study of the neck?",
         "variation": "Is there no part of this X-ray that involves the neck?",
         "is_negated": true
-    },
-    {
-        "question_id": 3121,
-        "original": "Is this a study of the neck?",
-        "variation": "Where in the body does this X-ray image show? (Neck)",
-        "is_negated": false
-    },
-    {
-        "question_id": 3121,
-        "original": "Is this a study of the neck?",
-        "variation": "What area of the body is being examined in this study? (Neck)",
-        "is_negated": false
-    },
-    {
-        "question_id": 3121,
-        "original": "Is this a study of the neck?",
-        "variation": "In what location within the body is this radiograph taken? (Neck)",
-        "is_negated": false
     },
     {
         "question_id": 3121,
@@ -54081,13 +54033,13 @@
     {
         "question_id": 3121,
         "original": "Is this a study of the neck?",
-        "variation": "Is the thorax not being imaged in this study?",
+        "variation": "Is the thorax being imaged in this study?",
         "is_negated": false
     },
     {
         "question_id": 3129,
         "original": "Do any of the organs in the picture belong to the nervous system?",
-        "variation": "Does none of the organs in the picture belong to the nervous system?",
+        "variation": "Do none of the organs in the picture belong to the nervous system?",
         "is_negated": true
     },
     {
@@ -54123,7 +54075,7 @@
     {
         "question_id": 3129,
         "original": "Do any of the organs in the picture belong to the nervous system?",
-        "variation": "Is it apparent from the picture that any organ is a component of the neurosystem?",
+        "variation": "Is it apparent from the picture that at least some organ is a component of the neurosystem?",
         "is_negated": false
     },
     {
@@ -54147,7 +54099,7 @@
     {
         "question_id": 3130,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Is it true that all organs in the picture are not part of the respiratory system?",
+        "variation": "Is it true that none of the organs in the picture are part of the respiratory system?",
         "is_negated": true
     },
     {
@@ -54189,7 +54141,7 @@
     {
         "question_id": 3130,
         "original": "Do any of the organs in the picture belong to the respiratory system?",
-        "variation": "Is it evident from the X-ray if any organ is associated with the ventilatory organs or airways?",
+        "variation": "Is it evident from the X-ray if at least some organ is associated with the ventilatory organs or airways?",
         "is_negated": false
     },
     {
@@ -54201,7 +54153,7 @@
     {
         "question_id": 3131,
         "original": "Is this a CT?",
-        "variation": "Is a CT what we have here?",
+        "variation": "Is it something other than a CT what we have here?",
         "is_negated": true
     },
     {
@@ -54213,19 +54165,13 @@
     {
         "question_id": 3131,
         "original": "Is this a CT?",
-        "variation": "What kind of scan is shown in this image?",
+        "variation": "Can you tell if it's a CT scan from the provided image?",
         "is_negated": false
     },
     {
         "question_id": 3131,
         "original": "Is this a CT?",
-        "variation": "Can you tell if it's a CT scan from the provided X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3131,
-        "original": "Is this a CT?",
-        "variation": "Is this an example of a Computed Tomography (CT) or another type of imaging?",
+        "variation": "Is this an example of a Computed Tomography (CT)?",
         "is_negated": false
     },
     {
@@ -54268,42 +54214,42 @@
         "question_id": 3137,
         "original": "Does the picture contain brain stem?",
         "variation": "Is the picture free from brain stem?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3137,
         "original": "Does the picture contain brain stem?",
         "variation": "Does the image lack brain stem?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3137,
         "original": "Does the picture contain brain stem?",
-        "variation": "Can you see brain stem on the picture? (No)",
+        "variation": "Can you see brain stem on the picture?",
         "is_negated": false
     },
     {
         "question_id": 3137,
         "original": "Does the picture contain brain stem?",
         "variation": "Does the photo show no sign of medulla oblongata?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3137,
         "original": "Does the picture contain brain stem?",
         "variation": "Is it correct to say that there's no myelencephalon in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3137,
         "original": "Does the picture contain brain stem?",
-        "variation": "Can you confirm that there's no caudal part of the hindbrain in the picture?",
+        "variation": "Can you confirm that there's a caudal part of the hindbrain in the picture?",
         "is_negated": false
     },
     {
         "question_id": 3138,
         "original": "Is there an esophagus in this image?",
-        "variation": "Is there NOT an esophagus in this image?",
+        "variation": "Is there no esophagus in this image?",
         "is_negated": true
     },
     {
@@ -54345,7 +54291,7 @@
     {
         "question_id": 3144,
         "original": "Do any of the organs in the picture belong to the nervous system?",
-        "variation": "Is it true that all organs in the picture are not from the nervous system?",
+        "variation": "Is it true that none of the organs in the picture are from the nervous system?",
         "is_negated": true
     },
     {
@@ -54387,7 +54333,7 @@
     {
         "question_id": 3147,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Do any of the organs shown in the image NOT belong to the neck?",
+        "variation": "Do none of the organs shown in the image belong to the neck?",
         "is_negated": true
     },
     {
@@ -54459,19 +54405,13 @@
     {
         "question_id": 3149,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "What is being studied in this image, not the pelvic cavity?",
+        "variation": "Is the pelvic cavity being studied here?",
         "is_negated": false
     },
     {
         "question_id": 3149,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "In what body area does this X-ray depict, other than the pelvis?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3149,
-        "original": "Is this a study of the pelvic cavity?",
-        "variation": "Where in the human anatomy is the subject of this study located, other than the pelvic cavity?",
+        "variation": "Does this X-ray depict the pelvis?",
         "is_negated": false
     },
     {
@@ -54483,13 +54423,7 @@
     {
         "question_id": 3149,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "In which part of the body is this X-ray taken, other than the pelvipan?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3149,
-        "original": "Is this a study of the pelvic cavity?",
-        "variation": "What anatomical area is being imaged here, other than the pelvic region?",
+        "variation": "Is the anatomical area being imaged here the pelvic region?",
         "is_negated": false
     },
     {
@@ -54501,13 +54435,13 @@
     {
         "question_id": 3151,
         "original": "Are/Is there kidneys in the picture?",
-        "variation": "Does the image show visible kidneys? (No)",
+        "variation": "Does the image show no visible kidneys?",
         "is_negated": true
     },
     {
         "question_id": 3151,
         "original": "Are/Is there kidneys in the picture?",
-        "variation": "Are kidneys present on this X-ray? (No)",
+        "variation": "Are kidneys not present on this X-ray?",
         "is_negated": true
     },
     {
@@ -54555,7 +54489,7 @@
     {
         "question_id": 3152,
         "original": "Does the temporal lobe appear in this image?",
-        "variation": "Is it TRUE that the temporal lobe does not appear in this image?",
+        "variation": "Is it true that the temporal lobe does not appear in this image?",
         "is_negated": true
     },
     {
@@ -54567,19 +54501,13 @@
     {
         "question_id": 3152,
         "original": "Does the temporal lobe appear in this image?",
-        "variation": "Where can I see the temporal lobe on this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3152,
-        "original": "Does the temporal lobe appear in this image?",
         "variation": "Is the temporal lobe clearly present in this X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3152,
         "original": "Does the temporal lobe appear in this image?",
-        "variation": "Could you tell me if the temporal lobe is identifiable from this picture?",
+        "variation": "Is the temporal lobe identifiable from this picture?",
         "is_negated": false
     },
     {
@@ -54609,7 +54537,7 @@
     {
         "question_id": 3157,
         "original": "Are there some organs controlling heartbeat and breathing in this image?",
-        "variation": "Does this image show that there are no organs controlling the rate at which the heart beats or the process of breathing?",
+        "variation": "Does this image show no organs controlling the rate at which the heart beats or the process of breathing?",
         "is_negated": true
     },
     {
@@ -54651,7 +54579,7 @@
     {
         "question_id": 3157,
         "original": "Are there some organs controlling heartbeat and breathing in this image?",
-        "variation": "Is it clear from the image that certain body parts are controlling the beat of the heart and the respiration?",
+        "variation": "Is it clear from the image that certain body parts that control the beat of the heart and the respiration are present?",
         "is_negated": false
     },
     {
@@ -54669,31 +54597,25 @@
     {
         "question_id": 3160,
         "original": "Is this a transverse plane?",
-        "variation": "In what way is this plane non-transverse?",
+        "variation": "Can it be determined, that this is not transverse?",
         "is_negated": true
     },
     {
         "question_id": 3160,
         "original": "Is this a transverse plane?",
-        "variation": "What kind of plane is this (transverse or otherwise)?. Is this plane running across something (transverse) or not?",
+        "variation": "Is the orientation of this plane not transverse?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3160,
+        "original": "Is this a transverse plane?",
+        "variation": "Does this image show a cross-sectional view?",
         "is_negated": false
     },
     {
         "question_id": 3160,
         "original": "Is this a transverse plane?",
-        "variation": "Is the orientation of this plane horizontal or vertical (not transverse)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3160,
-        "original": "Is this a transverse plane?",
-        "variation": "Does this image show a cross-sectional view (if so, it's not transverse)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3160,
-        "original": "Is this a transverse plane?",
-        "variation": "Is this slice parallel to my body (instead of transverse)?. Is the section shown here perpendicular or oblique (not transverse)?. Is this a sagittal or coronal plane, rather than a transverse one?",
+        "variation": "Is this slice transverse?",
         "is_negated": false
     },
     {
@@ -54718,36 +54640,36 @@
         "question_id": 3161,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Are all of the organs in the image located outside the neck?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3161,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Does every structure seen on the X-ray have a position other than the neck?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3161,
         "original": "Do the organs in the image exist in the neck?",
         "variation": "Is it true that nothing in the given X-ray's image is positioned within the neck?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3161,
+        "original": "Do the organs in the image exist in the neck?",
+        "variation": "Are the structures shown in the image present in the cervical region?",
         "is_negated": false
     },
     {
         "question_id": 3161,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Are the structures shown in the image absent from the cervical region?",
+        "variation": "Does the picture reveal at least some anatomies in the vicinity of the neck?",
         "is_negated": false
     },
     {
         "question_id": 3161,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Does the picture reveal no anatomies in the vicinity of the neck?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3161,
-        "original": "Do the organs in the image exist in the neck?",
-        "variation": "Is it accurate to say that there are no visible organs or tissues within the neck on this X-ray?",
+        "variation": "Is it accurate to say that there are visible organs or tissues from the neck area on this X-ray?",
         "is_negated": false
     },
     {
@@ -54777,7 +54699,7 @@
     {
         "question_id": 3164,
         "original": "Does the picture contain brain stem?",
-        "variation": "Is the image of the chest showing the brain stem?",
+        "variation": "Is the image showing the brain stem?",
         "is_negated": false
     },
     {
@@ -54831,7 +54753,7 @@
     {
         "question_id": 3165,
         "original": "Does the trachea exist in this picture?",
-        "variation": "What can be seen instead of the trachea in this X-ray?",
+        "variation": "Can it be determined, that the trachea is in this X-ray?",
         "is_negated": false
     },
     {
@@ -54867,7 +54789,7 @@
     {
         "question_id": 3170,
         "original": "Are there organs in the picture that can perceive things?",
-        "variation": "In the provided image, are there not any organs that can detect or feel sensations?",
+        "variation": "In the provided image, are there no organs that can detect or feel sensations?",
         "is_negated": true
     },
     {
@@ -54939,7 +54861,7 @@
     {
         "question_id": 3176,
         "original": "Does the picture contain brain?",
-        "variation": "Can you find brain on this chest X-ray?",
+        "variation": "Can you find brain on this X-ray?",
         "is_negated": false
     },
     {
@@ -55000,7 +54922,7 @@
         "question_id": 3178,
         "original": "Does the brain look abnormal?",
         "variation": "Is the brain in its expected state, as shown by this X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3178,
@@ -55047,19 +54969,19 @@
     {
         "question_id": 3180,
         "original": "Is this image taken via X-Ray?",
-        "variation": "What method was used to produce this photo – was it an X-Ray?",
+        "variation": "Was the method used to produce this an X-Ray?",
         "is_negated": false
     },
     {
         "question_id": 3180,
         "original": "Is this image taken via X-Ray?",
-        "variation": "In what manner was this graphic obtained – was it via an X-Ray scan?",
+        "variation": "Was this graphic obtained via an X-Ray scan?",
         "is_negated": false
     },
     {
         "question_id": 3180,
         "original": "Is this image taken via X-Ray?",
-        "variation": "Is this image produced by means of radiography (X-Ray)?",
+        "variation": "Was this image produced by means of radiography (X-Ray)?",
         "is_negated": false
     },
     {
@@ -55083,7 +55005,7 @@
     {
         "question_id": 3184,
         "original": "Is this a study of the neck?",
-        "variation": "Does this involve the examination of the neck? (No)",
+        "variation": "Does this not involve the examination of the neck?",
         "is_negated": true
     },
     {
@@ -55096,12 +55018,6 @@
         "question_id": 3184,
         "original": "Is this a study of the neck?",
         "variation": "Is this exam focused on the neck area?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3184,
-        "original": "Is this a study of the neck?",
-        "variation": "What body part is under observation in this study, if not the neck?",
         "is_negated": false
     },
     {
@@ -55125,13 +55041,13 @@
     {
         "question_id": 3184,
         "original": "Is this a study of the neck?",
-        "variation": "Is this study concerned with the neck area or not?",
+        "variation": "Is this study concerned with the neck area?",
         "is_negated": false
     },
     {
         "question_id": 3185,
         "original": "Is there an esophagus in this image?",
-        "variation": "Is there NOT an esophagus in this image?",
+        "variation": "Is there no esophagus in this image?",
         "is_negated": true
     },
     {
@@ -55155,13 +55071,13 @@
     {
         "question_id": 3185,
         "original": "Is there an esophagus in this image?",
-        "variation": "What is visible in this chest X-ray – does it include the esophagus?",
+        "variation": "What is visible in this X-ray – does it include the esophagus?",
         "is_negated": false
     },
     {
         "question_id": 3185,
         "original": "Is there an esophagus in this image?",
-        "variation": "Does the provided chest X-ray show any signs of the esophagus?",
+        "variation": "Does the provided X-ray show any signs of the esophagus?",
         "is_negated": false
     },
     {
@@ -55191,7 +55107,7 @@
     {
         "question_id": 3186,
         "original": "Does the trachea exist in this picture?",
-        "variation": "Does the image show a missing trachea?",
+        "variation": "Does the image not show a trachea?",
         "is_negated": true
     },
     {
@@ -55209,7 +55125,7 @@
     {
         "question_id": 3186,
         "original": "Does the trachea exist in this picture?",
-        "variation": "Can you see the windpipe in this chest X-ray?",
+        "variation": "Can you see the windpipe in this X-ray?",
         "is_negated": false
     },
     {
@@ -55299,7 +55215,7 @@
     {
         "question_id": 3191,
         "original": "Does the picture contain the organ that could promote blood flow?",
-        "variation": "Is it not true that the picture lacks an organ capable of enhancing blood flow?",
+        "variation": "Is it not true that the picture contains an organ capable of enhancing blood flow?",
         "is_negated": true
     },
     {
@@ -55347,7 +55263,7 @@
     {
         "question_id": 3193,
         "original": "Is this sagittal plane?",
-        "variation": "Is not this a sagittal plane?",
+        "variation": "Is this not a sagittal plane?",
         "is_negated": true
     },
     {
@@ -55365,7 +55281,7 @@
     {
         "question_id": 3193,
         "original": "Is this sagittal plane?",
-        "variation": "What is the type of the plane depicted in this X-ray? Is it a sagittal plane?",
+        "variation": "Is it a sagittal plane in this picture?",
         "is_negated": false
     },
     {
@@ -55377,19 +55293,13 @@
     {
         "question_id": 3193,
         "original": "Is this sagittal plane?",
-        "variation": "In this X-ray, what orientation does the displayed plane have? Is it sagittal?",
+        "variation": "Is the orientation sagittal?",
         "is_negated": false
     },
     {
         "question_id": 3193,
         "original": "Is this sagittal plane?",
-        "variation": "Is this cross section parallel to the human body's median plane?,",
-        "is_negated": false
-    },
-    {
-        "question_id": 3193,
-        "original": "Is this sagittal plane?",
-        "variation": "Is this image taken from the side view of the body, which is called the sagittal view?",
+        "variation": "Is this cross section parallel to the human body's median plane, also called the sagittal plane?,",
         "is_negated": false
     },
     {
@@ -55419,37 +55329,37 @@
     {
         "question_id": 3194,
         "original": "Do the organs in the image exist in the head?",
-        "variation": "Is everything shown in the image part of the body, excluding the head?",
-        "is_negated": false
+        "variation": "Is everything shown in the image part of the body excluding the head?",
+        "is_negated": true
     },
     {
         "question_id": 3194,
         "original": "Do the organs in the image exist in the head?",
         "variation": "Are all the objects depicted in the image located below the neck?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3194,
+        "original": "Do the organs in the image exist in the head?",
+        "variation": "Does the given image include any structures that are organs from the head?",
         "is_negated": false
     },
     {
         "question_id": 3194,
         "original": "Do the organs in the image exist in the head?",
-        "variation": "Does the given image include any structures that are not organs from the head?",
+        "variation": "Do the entities displayed in the picture lie within the cranial region?",
         "is_negated": false
     },
     {
         "question_id": 3194,
         "original": "Do the organs in the image exist in the head?",
-        "variation": "Do the entities displayed in the picture lie outside the cranial region?",
+        "variation": "Is it accurate to assert that some of the items shown in the image are associated with the head or brain?",
         "is_negated": false
     },
     {
         "question_id": 3194,
         "original": "Do the organs in the image exist in the head?",
-        "variation": "Is it accurate to assert that none of the items shown in the image are associated with the head or brain?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3194,
-        "original": "Do the organs in the image exist in the head?",
-        "variation": "Are all the depicted structures in the thorax, rather than the head?",
+        "variation": "Are all the depicted structures in the head?",
         "is_negated": false
     },
     {
@@ -55474,7 +55384,7 @@
         "question_id": 3197,
         "original": "Does the picture contain spinal cord?",
         "variation": "Is the image devoid of a spinal cord?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3197,
@@ -55533,13 +55443,13 @@
     {
         "question_id": 3198,
         "original": "Is there small bowel in this image?",
-        "variation": "What is visible in the provided image – the small bowel or not?",
+        "variation": "Is the small bowel visible?",
         "is_negated": false
     },
     {
         "question_id": 3198,
         "original": "Is there small bowel in this image?",
-        "variation": "Does this X-ray show a presence of the small bowel or not?",
+        "variation": "Does this X-ray show a presence of the small bowel?",
         "is_negated": false
     },
     {
