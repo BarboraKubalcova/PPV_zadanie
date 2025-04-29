@@ -146,13 +146,13 @@
     {
         "question_id": 5,
         "original": "Does the picture contain spleen?",
-        "variation": "Does the image show the spleen or not?", ##
+        "variation": "Does the image show the spleen?",
         "is_negated": false
     },
     {
         "question_id": 5,
         "original": "Does the picture contain spleen?",
-        "variation": "Is there a liverspring depicted in the X-ray?", ##
+        "variation": "Is there a liverspring depicted in the X-ray?", 
         "is_negated": false
     },
     {
@@ -176,7 +176,7 @@
     {
         "question_id": 11,
         "original": "Does the picture contain liver?",
-        "variation": "Is it false that the picture contains the liver?", ##
+        "variation": "Is it false that the picture contains the liver?",
         "is_negated": true
     },
     {
@@ -230,7 +230,7 @@
     {
         "question_id": 12,
         "original": "Does the picture contain lung?",
-        "variation": "In the picture, is there no lung present?", ##
+        "variation": "In the picture, is there no lung present?",
         "is_negated": true
     },
     {
@@ -242,14 +242,14 @@
     {
         "question_id": 12,
         "original": "Does the picture contain lung?",
-        "variation": "What can be seen in the picture – any lungs or not?", ##
+        "variation": "What can be seen in the picture is it lungs?",
         "is_negated": false
     },
     {
         "question_id": 12,
         "original": "Does the picture contain lung?",
-        "variation": "Is the X-ray showing only non-lung parts, or does it contain lungs too?", ##
-        "is_negated": false
+        "variation": "Is the X-ray showing only non-lung parts?", 
+        "is_negated": true
     },
     {
         "question_id": 12,
@@ -344,13 +344,13 @@
     {
         "question_id": 14,
         "original": "Is the lung healthy?",
-        "variation": "Is there anything abnormal with the lung as seen on this X-ray?", ##
+        "variation": "Is there anything abnormal with the lung as seen on this X-ray?",
         "is_negated": false
     },
     {
         "question_id": 14,
         "original": "Is the lung healthy?",
-        "variation": "Can you confirm if the lung is free from disease or damage on this image?", ##
+        "variation": "Can you confirm if the lung is free from disease or damage on this image?",
         "is_negated": false
     },
     {
@@ -362,7 +362,7 @@
     {
         "question_id": 14,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung sound in its condition?", ##
+        "variation": "Is the lung sound and in good condition?", 
         "is_negated": false
     },
     {
@@ -374,62 +374,8 @@
     {
         "question_id": 14,
         "original": "Is the lung healthy?",
-        "variation": "Does the X-ray show any indication of a sick lung?", ##
-        "is_negated": false
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In this image, is the lung the smallest among liver, lung, and heart?", ##
+        "variation": "Does the X-ray show any indication of a sick lung?", 
         "is_negated": true
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is the size of the liver greater than that of the heart and lung in this image?", ##
-        "is_negated": true
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Compared to both the liver and the heart, which is not the largest in this chest X-ray image?", ##
-        "is_negated": true
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which organ appears larger on this X-ray, the lung, the liver, or the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is there a noticeable difference in size between the lung, liver, and heart on this radiograph? If so, which one is the largest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "On this chest X-ray, can you identify the most prominent organ among the three: lung, liver, or heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which of these three organs appears to be the largest in this image: pulmonary system, hepatic organ, or cardiac system?",
-        "is_negated": false
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Is it the thoracic cavity's lung, the abdominal organ liver, or the heart that takes up the most space on the X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 15,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which of the respiratory, digestive, or circulatory organs appears to be the biggest in this image: lung, liver, or heart?", ##
-        "is_negated": false
     },
     {
         "question_id": 19,
@@ -494,14 +440,14 @@
     {
         "question_id": 20,
         "original": "Does the picture contain lung?",
-        "variation": "Is there no sign of a lung in the picture?", ##
-        "is_negated": false
+        "variation": "Is there no sign of a lung in the picture?", 
+        "is_negated": true
     },
     {
         "question_id": 20,
         "original": "Does the picture contain lung?",
-        "variation": "Is the picture free from any lung structure?", ##
-        "is_negated": false
+        "variation": "Is the picture free from any lung structure?", 
+        "is_negated": true
     },
     {
         "question_id": 20,
@@ -530,7 +476,7 @@
     {
         "question_id": 26,
         "original": "Does the picture contain liver?",
-        "variation": "Is the picture free from liver?", ##
+        "variation": "Is the picture free from liver?",
         "is_negated": true
     },
     {
@@ -596,7 +542,7 @@
     {
         "question_id": 27,
         "original": "Does the picture contain lung?",
-        "variation": "What is shown in this chest X-ray image – lungs or not?", ##
+        "variation": "What is shown in this chest X-ray image lungs?",
         "is_negated": false
     },
     {
@@ -662,7 +608,7 @@
     {
         "question_id": 28,
         "original": "Does the picture contain heart?",
-        "variation": "Does the image show a heartbeat?", ##
+        "variation": "Does the image show a heartbeat?",
         "is_negated": false
     },
     {
@@ -1088,7 +1034,7 @@
     {
         "question_id": 48,
         "original": "Does the picture contain heart?",
-        "variation": "Can you see a heart within the picture, or is it absent?", ##
+        "variation": "Can you see a heart within the picture?", 
         "is_negated": false
     },
     {
@@ -1160,7 +1106,7 @@
     {
         "question_id": 57,
         "original": "Does the picture contain liver?",
-        "variation": "Does the image depict the liver, or is there no sign of it?", ##
+        "variation": "Does the image depict the liver?",
         "is_negated": false
     },
     {
@@ -1326,60 +1272,6 @@
         "is_negated": false
     },
     {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "Is the lung smaller than the heart in this image?", ##
-        "is_negated": true
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "In this image, is it not the case that the lung is larger than the heart?", ##
-        "is_negated": true
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "Does the size of the heart exceed that of the lung in this given image?", ##
-        "is_negated": true
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "Is the heart bigger than the lung in the provided image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "Which structure in the image, heart or lung, is larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "In the image we see, does one of the structures (heart or lung) appear to be larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "Which of the two, lung or heart, takes up more space in this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "Is it apparent in the X-ray that the cardiac silhouette is smaller than the pulmonary structures?", ##
-        "is_negated": false
-    },
-    {
-        "question_id": 63,
-        "original": "Which is the bigger in this image, lung or heart?",
-        "variation": "In the presented radiograph, does the pulmonary region seem larger than the cardiac region?", ##
-        "is_negated": false
-    },
-    {
         "question_id": 67,
         "original": "Does spleen look abnormal?",
         "variation": "Does the spleen appear normal on the chest X-ray?",
@@ -1400,7 +1292,7 @@
     {
         "question_id": 67,
         "original": "Does spleen look abnormal?",
-        "variation": "Is the spleen enlarged or not on this chest X-ray?", ##
+        "variation": "Is the spleen enlarged on this chest X-ray?",
         "is_negated": false
     },
     {
@@ -1412,8 +1304,8 @@
     {
         "question_id": 67,
         "original": "Does spleen look abnormal?",
-        "variation": "Can you determine from the chest X-ray whether the spleen is normal or not?", ##
-        "is_negated": false
+        "variation": "Can you determine from the chest X-ray whether the spleen is normal?",
+        "is_negated": true
     },
     {
         "question_id": 67,
@@ -1568,7 +1460,7 @@
     {
         "question_id": 76,
         "original": "Does the picture contain liver?",
-        "variation": "What is displayed in the chest X-ray - a liver or something else?",##
+        "variation": "What is displayed in the chest X-ray - a liver?",
         "is_negated": false
     },
     {
@@ -1586,7 +1478,7 @@
     {
         "question_id": 76,
         "original": "Does the picture contain liver?",
-        "variation": "Is it visible in the picture whether there is a liver or not?", ##
+        "variation": "Is it visible in the picture whether there is a liver?",
         "is_negated": false
     },
     {
@@ -1622,7 +1514,7 @@
     {
         "question_id": 77,
         "original": "Does the picture contain lung?",
-        "variation": "What can be seen in the X-ray – is it a lung or something else?", ##
+        "variation": "What can be seen in the X-ray is it a lung?",
         "is_negated": false
     },
     {
@@ -1755,60 +1647,6 @@
         "question_id": 80,
         "original": "Is the lung healthy?",
         "variation": "Is the lung robust and healthy?",
-        "is_negated": false
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?", ##
-        "variation": "In this image, is there no largest organ between lung, liver, and heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Is the size of the lung in this image not greater than that of the liver and heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Regarding this image, does neither the liver nor the heart appear larger than the lung?",
-        "is_negated": true
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Which organ among lung, liver, and heart is not the largest in the given image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Is there any difference in size between the lung, liver, and heart in the provided image, or are they all the same size?",
-        "is_negated": false
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?"
-        "variation": "In this picture, does one of the organs lung, liver, or heart seem larger than the others?",
-        "is_negated": false
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Which organ in this image, lung, liver, or heart, is not the most voluminous?",
-        "is_negated": false
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Is it the case that there is no organ among lung, chest organ, and cardiac organ that seems to be the largest in the depicted image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 82,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "In the provided picture, does one of the organs thoracic organ, visceral organ, or circulatory organ appear the largest compared to the others?",
         "is_negated": false
     },
     {
@@ -1974,36 +1812,6 @@
         "is_negated": false
     },
     {
-        "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Is there no largest organ visible in this image between lung, liver, and heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Which organ is the smallest among the lung, liver, and heart in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Can you tell me which of these three organs appears to be the least sized in the given image: lung, liver, or heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",##
-        "variation": "Is the largest amongst the thoracic organ (lung), hepatic organ (liver), and cardiac organ (heart) visible in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 91,
-        "original": "Which is the biggest in this image,lung,liver or heart?",
-        "variation": "Which is the most prominent amongst the pulmonary structure (lung), hepatic structure (liver), or cardiovascular structure (heart) as observed in this picture?",
-        "is_negated": false
-    },
-    {
         "question_id": 96,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture not contain liver?",
@@ -2077,7 +1885,7 @@
     },
     {
         "question_id": 97,
-        "original": "Does the picture contain lung?", ##
+        "original": "Does the picture contain lung?",
         "variation": "Is the image devoid of a lung or lungs?",
         "is_negated": false
     },
@@ -3107,7 +2915,6 @@
         "variation": "Is it possible to observe the splenic organ in the provided chest X-ray?",
         "is_negated": false
     },
-    ####
     {
         "question_id": 153,
         "original": "Are there abnormalities in this image?",
@@ -3364,13 +3171,13 @@
         "question_id": 167,
         "original": "Are there abnormalities in this image?",
         "variation": "Is this image free from abnormal findings?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 167,
         "original": "Are there abnormalities in this image?",
         "variation": "Are there no distortions or deviations in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 167,
@@ -3405,7 +3212,7 @@
     {
         "question_id": 171,
         "original": "Is the lung healthy?",
-        "variation": "How is the health of the lung? Is it okay?",
+        "variation": "How is the health of the lung okay?",
         "is_negated": false
     },
     {
@@ -3417,19 +3224,19 @@
     {
         "question_id": 171,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung sound?",
+        "variation": "Are the lung sounds normal?",
         "is_negated": false
     },
     {
         "question_id": 171,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung robust or fit?",
+        "variation": "Is the lung robust and fit?",
         "is_negated": false
     },
     {
         "question_id": 171,
         "original": "Is the lung healthy?",
-        "variation": "Is the lung disease-free or sickness-free?",
+        "variation": "Is the lung disease-free?",
         "is_negated": false
     },
     {
@@ -3442,7 +3249,7 @@
         "question_id": 175,
         "original": "Does this image look abnormal?",
         "variation": "Is there anything unusual about this image?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 175,
@@ -3508,7 +3315,7 @@
         "question_id": 179,
         "original": "Is the lung healthy?",
         "variation": "Is there anything abnormal or concerning in the appearance of the lung on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 179,
@@ -3568,7 +3375,7 @@
         "question_id": 185,
         "original": "Are there abnormalities in this image?",
         "variation": "Is the image normal, without any unusual findings?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 185,
@@ -3592,7 +3399,7 @@
         "question_id": 185,
         "original": "Are there abnormalities in this image?",
         "variation": "Is the image free from irregularities or anatomical distortions?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 186,
@@ -3682,7 +3489,7 @@
         "question_id": 189,
         "original": "Are there abnormalities in this image?",
         "variation": "Can you confirm that all features in this chest X-ray are typical?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 189,
@@ -23014,19 +22821,19 @@
         "question_id": 1201,
         "original": "Does the picture contain heart?",
         "variation": "Is the X-ray free of heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1201,
         "original": "Does the picture contain heart?",
         "variation": "Is the picture devoid of heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1201,
         "original": "Does the picture contain heart?",
         "variation": "Is there no evidence of heart in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1215,
@@ -23181,13 +22988,13 @@
     {
         "question_id": 1217,
         "original": "Does the picture contain spleen?",
-        "variation": "Is it evident in the photo whether there is a spleensh or not?",
+        "variation": "Is it evident in the photo whether there is a spleensh?",
         "is_negated": false
     },
     {
         "question_id": 1217,
         "original": "Does the picture contain spleen?",
-        "variation": "Is the radiograph showing the splenic organ or not?",
+        "variation": "Is the radiograph showing the splenic organ?",
         "is_negated": false
     },
     {
@@ -23241,7 +23048,7 @@
     {
         "question_id": 1218,
         "original": "Does the picture contain lung?",
-        "variation": "Is there evidence of a pair of bellows in the given chest X-ray?",
+        "variation": "Is there evidence of a pair of lungs in the given chest X-ray?",
         "is_negated": false
     },
     {
@@ -23349,7 +23156,7 @@
     {
         "question_id": 1225,
         "original": "Is this image normal?",
-        "variation": "Is the depicted chest condition typical or unremarkable in this X-ray?",
+        "variation": "Is the depicted chest condition typical in this X-ray?",
         "is_negated": false
     },
     {
@@ -23416,7 +23223,7 @@
         "question_id": 1228,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image showing a kidney?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1228,
@@ -23457,7 +23264,7 @@
     {
         "question_id": 1228,
         "original": "Does the picture contain kidney?",
-        "variation": "Is the image indicating a kidney structure or not?",
+        "variation": "Is the image indicating a kidney structure?",
         "is_negated": false
     },
     {
@@ -23578,30 +23385,30 @@
         "question_id": 1231,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1231,
         "original": "Does the picture contain heart?",
         "variation": "Is the image free of a heart structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1231,
         "original": "Does the picture contain heart?",
         "variation": "Does the photo lack a heart within it?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1231,
         "original": "Does the picture contain heart?",
         "variation": "Can you see the image devoid of a heart structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1231,
         "original": "Does the picture contain heart?",
-        "variation": "Is it possible to observe a heart in this image, or is it heartless?",
+        "variation": "Is it possible to observe a heart in this image?",
         "is_negated": false
     },
     {
@@ -23609,54 +23416,6 @@
         "original": "Which is bigger in this image, liver or spleen?",
         "variation": "Is the liver smaller than the spleen in this image?",
         "is_negated": true
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Does the size of the liver not exceed that of the spleen on this X-ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this chest X-ray, does the spleen have a greater size compared to the liver?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the spleen larger in this chest X-ray than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "On this image, is it the case that the liver's size is less than that of the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Compared to the spleen on this X-ray, has the liver grown smaller or stayed the same size?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this chest X-ray, does the liver appear smaller than the spleen in terms of dimensions?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "On the basis of the size visualized on this image, is it correct to say that the liver is not as large as the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1236,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Regarding the size depicted in this X-ray, is it accurate to claim that the spleen outmatches the liver?",
-        "is_negated": false
     },
     {
         "question_id": 1244,
@@ -23811,13 +23570,13 @@
     {
         "question_id": 1246,
         "original": "Does the picture contain spleen?",
-        "variation": "Is there a livershown instead of the spleen in the picture?",
+        "variation": "Is there a spleen in the picture?",
         "is_negated": false
     },
     {
         "question_id": 1246,
         "original": "Does the picture contain spleen?",
-        "variation": "Is there any evidence of the pancreas or kidney being mistaken for the spleen in the X-ray image?",
+        "variation": "Is there any evidence of the spleen in the X-ray image?",
         "is_negated": false
     },
     {
@@ -23896,7 +23655,7 @@
         "question_id": 1256,
         "original": "Does this image look normal?",
         "variation": "Does the picture show any signs of irregularity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1256,
@@ -24004,13 +23763,13 @@
         "question_id": 1259,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1259,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image lack a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1259,
@@ -24022,19 +23781,19 @@
         "question_id": 1259,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture devoid of a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1259,
         "original": "Does the picture contain kidney?",
         "variation": "Is the X-ray missing a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1259,
         "original": "Does the picture contain kidney?",
         "variation": "Does the radiograph fail to depict a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1260,
@@ -24166,90 +23925,36 @@
         "question_id": 1262,
         "original": "Does the picture contain heart?",
         "variation": "Is the X-ray free from any sign of a heart?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1262,
+        "original": "Does the picture contain heart?",
+        "variation": "Can you find the heart in this chest X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1262,
         "original": "Does the picture contain heart?",
-        "variation": "Can you find the heart in this chest X-ray? (If not, answer 'No')",
-        "is_negated": false
-    },
-    {
-        "question_id": 1262,
-        "original": "Does the picture contain heart?",
-        "variation": "Does the X-ray show anything that could be interpreted as a heart? (If not, answer 'Yes')",
+        "variation": "Does the X-ray show anything that could be interpreted as a heart?",
         "is_negated": false
     },
     {
         "question_id": 1262,
         "original": "Does the picture contain heart?",
         "variation": "Does the photograph reveal no evidence of a heart?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1262,
+        "original": "Does the picture contain heart?",
+        "variation": "Is it possible to discern a cardiac structure in this X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 1262,
         "original": "Does the picture contain heart?",
-        "variation": "Is it possible to discern a cardiac structure in this X-ray image? (If not, answer 'Yes')",
-        "is_negated": false
-    },
-    {
-        "question_id": 1262,
-        "original": "Does the picture contain heart?",
-        "variation": "Can you identify a heart within the radiograph? (If not, answer 'No')",
-        "is_negated": false
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the liver smaller than the spleen in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this image, does the spleen have a larger size compared to the liver?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In the given image, does the spleen appear to be less extensive than the liver?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the spleen more prominent on this X-ray than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Which one of these two organs takes up more space in the image, the liver or the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this chest X-ray, is the liver or the spleen larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Does the liver in this X-ray appear smaller than the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "On this radiograph, does the spleen exhibit a greater size compared to the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1267,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is it noticeable on this image that the spleen is bigger than the liver?",
+        "variation": "Can you identify a heart within the radiograph?",
         "is_negated": false
     },
     {
@@ -24261,13 +23966,13 @@
     {
         "question_id": 1272,
         "original": "Does this image look normal?",
-        "variation": "Is this image not showing something irregular?",
+        "variation": "Is this image showing something irregular?",
         "is_negated": true
     },
     {
         "question_id": 1272,
         "original": "Does this image look normal?",
-        "variation": "Does this image not depict any unusual findings?",
+        "variation": "Does this image depict any unusual findings?",
         "is_negated": true
     },
     {
@@ -24291,14 +23996,14 @@
     {
         "question_id": 1272,
         "original": "Does this image look normal?",
-        "variation": "Does the imaging not demonstrate a normal aspect?",
+        "variation": "Does the imaging demonstrate a normal aspect?",
         "is_negated": false
     },
     {
         "question_id": 1272,
         "original": "Does this image look normal?",
         "variation": "Is the depicted scene on this X-ray not normal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1272,
@@ -24370,30 +24075,30 @@
         "question_id": 1275,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney seen on this X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1275,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image of the chest not reveal any kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1275,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture devoid of kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1275,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image show the absence of a kidney or kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1275,
         "original": "Does the picture contain kidney?",
-        "variation": "Can we find any renal structures in the X-ray, or is it just chest tissue?",
+        "variation": "Can we find any renal structures in the X-ray?",
         "is_negated": false
     },
     {
@@ -24423,7 +24128,7 @@
     {
         "question_id": 1277,
         "original": "Does the picture contain lung?",
-        "variation": "What does the chest X-ray show with regards to the lungs?",
+        "variation": "Does the chest X-ray show lungs?",
         "is_negated": false
     },
     {
@@ -24688,7 +24393,7 @@
         "question_id": 1293,
         "original": "Does the picture contain lung?",
         "variation": "Is the image void of any visible lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1293,
@@ -24706,13 +24411,13 @@
         "question_id": 1293,
         "original": "Does the picture contain lung?",
         "variation": "Does the image depict no lung structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1293,
         "original": "Does the picture contain lung?",
         "variation": "Is it correct to say the picture does not show a pair of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1293,
@@ -24838,31 +24543,31 @@
         "question_id": 1305,
         "original": "Does the picture contain kidney?",
         "variation": "Is there NO kidney visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1305,
         "original": "Does the picture contain kidney?",
         "variation": "Is it correct to say that the image does not have a kidney within it?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1305,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture devoid of a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1305,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no renal structure present in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1305,
         "original": "Does the picture contain kidney?",
         "variation": "Does the picture lack any sign of a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1306,
@@ -24886,7 +24591,7 @@
         "question_id": 1306,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image free of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1306,
@@ -24897,7 +24602,7 @@
     {
         "question_id": 1306,
         "original": "Does the picture contain spleen?",
-        "variation": "Does the X-ray show the presence or absence of the spleen?",
+        "variation": "Does the X-ray show the presence of the spleen?",
         "is_negated": false
     },
     {
@@ -24915,7 +24620,7 @@
     {
         "question_id": 1306,
         "original": "Does the picture contain spleen?",
-        "variation": "Does the X-ray reveal any sign of the spleens (if there are multiple)?",
+        "variation": "Does the X-ray reveal any sign of the spleens?",
         "is_negated": false
     },
     {
@@ -24982,37 +24687,37 @@
         "question_id": 1308,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1308,
         "original": "Does the picture contain heart?",
         "variation": "Is the image lacking a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1308,
         "original": "Does the picture contain heart?",
         "variation": "Is the depicted scene without a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1308,
         "original": "Does the picture contain heart?",
         "variation": "Is the photograph free of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1308,
         "original": "Does the picture contain heart?",
         "variation": "Does the image show no trace of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1308,
         "original": "Does the picture contain heart?",
         "variation": "Is there no evidence of a heart in the image provided?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1318,
@@ -25024,19 +24729,19 @@
         "question_id": 1318,
         "original": "Does the picture contain liver?",
         "variation": "Is there no liver visible in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1318,
         "original": "Does the picture contain liver?",
         "variation": "Is the image lacking a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1318,
         "original": "Does the picture contain liver?",
         "variation": "Is it the case that the image does not show a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1318,
@@ -25048,7 +24753,7 @@
         "question_id": 1318,
         "original": "Does the picture contain liver?",
         "variation": "Is the photograph devoid of a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1318,
@@ -25101,13 +24806,13 @@
     {
         "question_id": 1319,
         "original": "Does the picture contain kidney?",
-        "variation": "Is there any indication of a nephron or kidney on the image?",
+        "variation": "Is there any indication of a kidney on the image?",
         "is_negated": false
     },
     {
         "question_id": 1319,
         "original": "Does the picture contain kidney?",
-        "variation": "Can you identify kidney beans in the radiograph?",
+        "variation": "Can you identify kidneys in the radiograph?",
         "is_negated": false
     },
     {
@@ -25174,7 +24879,7 @@
         "question_id": 1322,
         "original": "Does this image look normal?",
         "variation": "Is there nothing unusual in this image?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1322,
@@ -25210,7 +24915,7 @@
         "question_id": 1322,
         "original": "Does this image look normal?",
         "variation": "Is the photograph not typical in its appearance for a chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1322,
@@ -25270,60 +24975,6 @@
         "question_id": 1323,
         "original": "Does the picture contain lung?",
         "variation": "Does the given radiograph show any sign of lung tissue?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Is the liver smaller than the heart in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "In this image, doesn't the liver appear larger than the heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Is it the case that the heart is bigger than the liver in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Which organ takes up more space in this X-ray, liver or heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Which of these two organs appears larger on this chest X-ray, liver or heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "In this given X-ray, is the liver more prominent than the heart, or is it the heart that seems larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "On this image, does the liver overshadow the heart in size?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Which organ occupies a greater area on this chest X-ray, hepatic organ or cardiac organ?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1325,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "In this radiograph, is the liver visibly larger than the heart, or does the heart appear to be bigger compared to the liver?",
         "is_negated": false
     },
     {
@@ -25461,7 +25112,7 @@
     {
         "question_id": 1339,
         "original": "Is the liver healthy?",
-        "variation": "How would you describe the state of the liver's wellness? (Options: Good or Not Good)",
+        "variation": "Would you describe the state of the liver's wellness as good?",
         "is_negated": false
     },
     {
@@ -25474,7 +25125,7 @@
         "question_id": 1339,
         "original": "Is the liver healthy?",
         "variation": "Does the liver show any signs of disease or impairment?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1339,
@@ -25486,7 +25137,7 @@
         "question_id": 1339,
         "original": "Is the liver healthy?",
         "variation": "Is there evidence of a damaged or dysfunctional liver on this X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1340,
@@ -25504,7 +25155,7 @@
         "question_id": 1340,
         "original": "Does the kidneys look abnormal?",
         "variation": "Does the kidney show any signs of abnormality in the provided chest X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1340,
@@ -25623,31 +25274,31 @@
     {
         "question_id": 1346,
         "original": "Does this image look normal?",
-        "variation": "Is the image consistent with a normal chest X-ray?",
+        "variation": "Is the image consistent with a normal X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1346,
         "original": "Does this image look normal?",
-        "variation": "Is the image free of any abnormalities or anomalies in a chest X-ray?",
+        "variation": "Is the image free of any abnormalities or anomalies in a X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1346,
         "original": "Does this image look normal?",
-        "variation": "Does this picture look unremarkable?",
+        "variation": "Does this picture look not normal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1346,
+        "original": "Does this image look normal?",
+        "variation": "Is the image showing typical characteristics of X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1346,
         "original": "Does this image look normal?",
-        "variation": "Is the image showing typical characteristics for a chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1346,
-        "original": "Does this image look normal?",
-        "variation": "Is the image showing expected features rather than unexpected ones in the context of a chest X-ray?",
+        "variation": "Is the image showing expected features rather than unexpected ones in the context of a X-ray?",
         "is_negated": false
     },
     {
@@ -25834,7 +25485,7 @@
         "question_id": 1351,
         "original": "Does the picture contain lung?",
         "variation": "Is there no lung visible on the X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1351,
@@ -25875,32 +25526,32 @@
     {
         "question_id": 1352,
         "original": "Does the picture contain heart?",
-        "variation": "Is the image not without a heart?",
+        "variation": "Is the image without a heart?",
         "is_negated": true
     },
     {
         "question_id": 1352,
         "original": "Does the picture contain heart?",
-        "variation": "Is there not no heart in the given picture?",
+        "variation": "Is there no heart in the given picture?",
         "is_negated": true
     },
     {
         "question_id": 1352,
         "original": "Does the picture contain heart?",
         "variation": "Is something other than a heart visible in the X-ray picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1352,
         "original": "Does the picture contain heart?",
         "variation": "Does the chest X-ray image show anything other than the heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1352,
         "original": "Does the picture contain heart?",
         "variation": "Is it possible to see any structure other than the heart on the provided X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1352,
@@ -25948,31 +25599,31 @@
         "question_id": 1356,
         "original": "Does the spleen look normal?",
         "variation": "Does the radiograph of the chest show any indication that the spleen is not normal in size or shape?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1356,
         "original": "Does the spleen look normal?",
         "variation": "On the given chest X-ray, does the spleen appear to be abnormally enlarged or distorted?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1356,
         "original": "Does the spleen look normal?",
         "variation": "Is the spleen depicted on the chest X-ray showing any signs of deviation from its usual dimensions?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1356,
         "original": "Does the spleen look normal?",
         "variation": "Does the radiographic image of the chest show any irregularities in the spleen's typical anatomical features?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1356,
         "original": "Does the spleen look normal?",
         "variation": "According to the findings on the chest X-ray, does the spleen appear to be in a state that is not considered normal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1362,
@@ -25995,7 +25646,7 @@
     {
         "question_id": 1362,
         "original": "Does this image look normal?",
-        "variation": "Is the appearance of this image typical or does it show any irregularities?",
+        "variation": "Is the appearance of this image typical?",
         "is_negated": false
     },
     {
@@ -26019,13 +25670,13 @@
     {
         "question_id": 1362,
         "original": "Does this image look normal?",
-        "variation": "Is the depiction of this chest radiograph regular or deviant?",
+        "variation": "Is the depiction of this chest radiograph regular?",
         "is_negated": false
     },
     {
         "question_id": 1362,
         "original": "Does this image look normal?",
-        "variation": "Does this scan display a usual or uncommon chest appearance?",
+        "variation": "Does this scan display a usual chest appearance?",
         "is_negated": false
     },
     {
@@ -26104,7 +25755,7 @@
         "question_id": 1366,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image devoid of spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1366,
@@ -26134,7 +25785,7 @@
         "question_id": 1366,
         "original": "Does the picture contain spleen?",
         "variation": "Is the photograph free from any signs of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1367,
@@ -26169,7 +25820,7 @@
     {
         "question_id": 1367,
         "original": "Does the picture contain lung?",
-        "variation": "Does the given chest X-ray show lungs or not?",
+        "variation": "Does the given chest X-ray show lungs?",
         "is_negated": false
     },
     {
@@ -26289,7 +25940,7 @@
     {
         "question_id": 1372,
         "original": "Does the spleen look normal?",
-        "variation": "Does the spleen, as visualized by the chest X-ray, seem typical or regular?",
+        "variation": "Does the spleen, as visualized by the chest X-ray, seem typical?",
         "is_negated": false
     },
     {
@@ -26314,7 +25965,7 @@
         "question_id": 1380,
         "original": "Does this image look normal?",
         "variation": "Is this image showing signs of normality?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1380,
@@ -26422,7 +26073,7 @@
         "question_id": 1383,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture free of kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1383,
@@ -26512,19 +26163,19 @@
         "question_id": 1385,
         "original": "Does the picture contain lung?",
         "variation": "Are there no lungs visible on the X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1385,
         "original": "Does the picture contain lung?",
         "variation": "Is it the case that there are no lungs present in the X-ray picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1385,
         "original": "Does the picture contain lung?",
         "variation": "Is the chest X-ray showing no lung structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1385,
@@ -26571,7 +26222,7 @@
     {
         "question_id": 1386,
         "original": "Does the picture contain heart?",
-        "variation": "What can be seen in the X-ray that corresponds to the heart?",
+        "variation": "Can be seen in the X-ray something that corresponds to the heart?",
         "is_negated": false
     },
     {
@@ -26667,7 +26318,7 @@
     {
         "question_id": 1401,
         "original": "Does the picture contain kidney?",
-        "variation": "What can be seen in the image – a kidney or not a kidney?",
+        "variation": "What can be seen in the image a kidney?",
         "is_negated": false
     },
     {
@@ -26788,19 +26439,19 @@
         "question_id": 1403,
         "original": "Does the picture contain lung?",
         "variation": "Does the picture present a lung absence?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1403,
         "original": "Does the picture contain lung?",
         "variation": "Is there no pulmonary manifestation on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1403,
         "original": "Does the picture contain lung?",
         "variation": "Is the image indicative of no visible lung tissue?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1404,
@@ -27003,13 +26654,13 @@
     {
         "question_id": 1416,
         "original": "Does the picture contain lung?",
-        "variation": "Does the picture show the thoracic cavity's respiratory organ (lung)?",
+        "variation": "Does the picture show the thoracic cavity's respiratory organ named lung?",
         "is_negated": false
     },
     {
         "question_id": 1416,
         "original": "Does the picture contain lung?",
-        "variation": "Is there an image of a pulmonary system component (lungs) in this X-ray?",
+        "variation": "Is there an image of a pulmonary system component, lungs, in this X-ray?",
         "is_negated": false
     },
     {
@@ -27256,37 +26907,37 @@
         "question_id": 1429,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image devoid of a spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1429,
         "original": "Does the picture contain spleen?",
         "variation": "Does the radiograph show no spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1429,
         "original": "Does the picture contain spleen?",
         "variation": "Can you confirm there is no visible spleen in the X-ray picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1429,
         "original": "Does the picture contain spleen?",
         "variation": "Does the photo lack a spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1429,
         "original": "Does the picture contain spleen?",
-        "variation": "Is it not present on the film that I see a spleen?",
+        "variation": "Is th spleen not present on the film?",
         "is_negated": false
     },
     {
         "question_id": 1429,
         "original": "Does the picture contain spleen?",
         "variation": "Could one say with certainty that the image does not display a spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1430,
@@ -27309,20 +26960,20 @@
     {
         "question_id": 1430,
         "original": "Does the picture contain lung?",
-        "variation": "Is anything other than lung visible in the picture?",
+        "variation": "Is lung visible in the picture?",
         "is_negated": false
     },
     {
         "question_id": 1430,
         "original": "Does the picture contain lung?",
-        "variation": "What can be observed in the picture that is not a lung?",
-        "is_negated": false
+        "variation": "What can be observed in the picture is not a lung?",
+        "is_negated": true
     },
     {
         "question_id": 1430,
         "original": "Does the picture contain lung?",
         "variation": "Is it the case that the picture does not show any part of the lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1430,
@@ -27334,7 +26985,7 @@
         "question_id": 1430,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray free from depiction of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1430,
@@ -27394,60 +27045,6 @@
         "question_id": 1432,
         "original": "Does the picture contain spine cord?",
         "variation": "Is the spinal cord column visible on the X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Is the liver smaller than the heart in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Does the size of the heart exceed that of the liver in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "In this image, is it the case that the liver is not larger than the heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Which one appears larger on the X-ray, the liver or the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Is the heart more prominent than the liver in this chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "On this X-ray image, which organ seems to be bigger, the liver or the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Which of these two organs appears larger on the X-ray, the hepatic structure or the cardiac structure?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "On the chest radiograph, is it evident that the cardiovascular organ is more expansive than the hepato-biliary organ?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1434,
-        "original": "Which is bigger in this image, liver or heart ?",
-        "variation": "Is it observable from this image that the heart takes up more space than the liver?",
         "is_negated": false
     },
     {
@@ -27657,13 +27254,13 @@
     {
         "question_id": 1446,
         "original": "Does the picture contain spleen?",
-        "variation": "Is the spleEN shown in the picture?",
+        "variation": "Is the spleen shown in the picture?",
         "is_negated": false
     },
     {
         "question_id": 1446,
         "original": "Does the picture contain spleen?",
-        "variation": "Can you identify the splEN in the X-ray?",
+        "variation": "Can you identify the spleen in the X-ray?",
         "is_negated": false
     },
     {
@@ -27775,60 +27372,6 @@
         "is_negated": false
     },
     {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Is the liver smaller than the heart in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "In this image, does the liver have a larger size compared to the heart?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Does the heart appear bigger in the given image compared to the liver?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Which organ is shown more expansive on the chest X-ray, liver or heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Is the heart taking up more space on this X-ray than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "In this X-ray, is it the liver or the heart that appears larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "On this image, does the liver seem to be of greater volume as compared to the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Is the heart shown in this picture as being more substantial than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1454,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "In terms of size, is the liver less prominent on this X-ray when compared with the heart?",
-        "is_negated": false
-    },
-    {
         "question_id": 1462,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture not contain liver?",
@@ -27838,31 +27381,31 @@
         "question_id": 1462,
         "original": "Does the picture contain liver?",
         "variation": "Is there no liver visible in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1462,
         "original": "Does the picture contain liver?",
         "variation": "Is the image lacking liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1462,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture show no liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1462,
         "original": "Does the picture contain liver?",
         "variation": "Does the image depict the absence of a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1462,
         "original": "Does the picture contain liver?",
         "variation": "Is the image free from any indication of a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1463,
@@ -28005,7 +27548,7 @@
     {
         "question_id": 1467,
         "original": "Is the liver healthy?",
-        "variation": "How is the health status of the liver?",
+        "variation": "Is the status of the liver healthy?",
         "is_negated": false
     },
     {
@@ -28161,13 +27704,13 @@
     {
         "question_id": 1473,
         "original": "Does the picture contain kidney?",
-        "variation": "Can you see any organs that could be mistaken for a kidney on the X-ray?",
+        "variation": "Can you see any organ that could be kidney on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1473,
         "original": "Does the picture contain kidney?",
-        "variation": "Does the picture show what appears to be a kidney or any similar structure?",
+        "variation": "Does the picture show what appears to be a kidney?",
         "is_negated": false
     },
     {
@@ -28180,7 +27723,7 @@
         "question_id": 1473,
         "original": "Does the picture contain kidney?",
         "variation": "Does the picture reveal anything that could be confused with a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1473,
@@ -28269,7 +27812,7 @@
     {
         "question_id": 1475,
         "original": "Does the picture contain lung?",
-        "variation": "Can you see the chest X-ray without any lung appearance?",
+        "variation": "Can you see the lungs on the X-ray?",
         "is_negated": false
     },
     {
@@ -28293,7 +27836,7 @@
     {
         "question_id": 1475,
         "original": "Does the picture contain lung?",
-        "variation": "Is it possible to observe the lung tissues within the picture or not?",
+        "variation": "Is it possible to observe the lung tissues within the picture?",
         "is_negated": false
     },
     {
@@ -28348,60 +27891,6 @@
         "question_id": 1476,
         "original": "Does the picture contain heart?",
         "variation": "Is the chest X-ray illustrating my heart structure?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "Is the liver not the smallest in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "Is it not the case that the spleen is the largest in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "Could it be that the kidney is not the tiniest in the given image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "Which organ appears to have the minimum volume or extent on this X-ray, liver, spleen, or kidney.?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "On this chest X-ray, which of these three organs appears to have the minimum size, liver, spleen, or kidney.?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "In this radiographic image, is there any organ that seems to be the smallest among liver, spleen, and kidney.",
-        "is_negated": false
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "Which of liver, spleen, or kidney seems to have the minimum extent on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "In terms of size, which organ appears smallest in the given image, liver, spleen, or kidney?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1481,
-        "original": "Which is the biggest in this image, liver, spleen or kidney?",
-        "variation": "On this radiograph, is there any of these three organs that seems least voluminous or expansive, liver, spleen, or kidney.",
         "is_negated": false
     },
     {
@@ -28593,7 +28082,7 @@
     {
         "question_id": 1493,
         "original": "Does the picture contain spleen?",
-        "variation": "Is the spleen present or absent in the provided picture?",
+        "variation": "Is the spleen present in the provided picture?",
         "is_negated": false
     },
     {
@@ -28642,37 +28131,37 @@
         "question_id": 1494,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray image devoid of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1494,
         "original": "Does the picture contain lung?",
         "variation": "Are lungs absent from the given chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1494,
         "original": "Does the picture contain lung?",
         "variation": "Does the provided chest X-ray show no lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1494,
         "original": "Does the picture contain lung?",
-        "variation": "Does the picture exhibit lungs? (opposite)",
-        "is_negated": false
+        "variation": "Does the picture exhibit lungs?",
+        "is_negated": true
     },
     {
         "question_id": 1494,
         "original": "Does the picture contain lung?",
         "variation": "Are lungs missing from the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1494,
         "original": "Does the picture contain lung?",
         "variation": "Is it shown in the image that there are no lungs present?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1495,
@@ -28726,60 +28215,6 @@
         "question_id": 1495,
         "original": "Does the picture contain heart?",
         "variation": "Is there any evidence of a heart on this radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "In this image, is the heart smaller than the lung?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Is there no size difference between the heart and the lung in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Does the size of the heart exceed that of the lung in this given image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Which one appears larger on the X-ray, the heart or the lung?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "In this chest X-ray, which organ looks bigger: the heart or the lung?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "On this radiograph, is the size of the heart greater than that of the lung?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Which takes up more space on the chest X-ray, the cardiac silhouette or the pulmonary region in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "In this X-ray picture, which area appears to be more expansive: the heart shadow or the lung field?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1496,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "On this radiograph, does the size of the heart outdo that of the lung?",
         "is_negated": false
     },
     {
@@ -28966,7 +28401,7 @@
         "question_id": 1507,
         "original": "Does the picture contain lung?",
         "variation": "Is there no lung visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1507,
@@ -28978,25 +28413,25 @@
         "question_id": 1507,
         "original": "Does the picture contain lung?",
         "variation": "Is the radiograph devoid of lung structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1507,
         "original": "Does the picture contain lung?",
         "variation": "Does the X-ray show no lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1507,
         "original": "Does the picture contain lung?",
         "variation": "Is the photograph free from a depiction of the lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1507,
         "original": "Does the picture contain lung?",
         "variation": "Does the picture reflect absence of the lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1513,
@@ -29133,7 +28568,7 @@
     {
         "question_id": 1516,
         "original": "Does the picture contain kidney?",
-        "variation": "What organ does this chest X-ray show, if not the kidney?",
+        "variation": "What organ does this chest X-ray show kidney?",
         "is_negated": false
     },
     {
@@ -29290,13 +28725,13 @@
         "question_id": 1519,
         "original": "Does the picture contain heart?",
         "variation": "Is the image free of the presence of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1519,
         "original": "Does the picture contain heart?",
         "variation": "Does the X-ray show no heart structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1519,
@@ -29308,19 +28743,19 @@
         "question_id": 1519,
         "original": "Does the picture contain heart?",
         "variation": "Does the picture reveal an absence of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1519,
         "original": "Does the picture contain heart?",
         "variation": "Is the X-ray clear in showing no cardiac structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1519,
         "original": "Does the picture contain heart?",
         "variation": "Is the image devoid of the organ known as the heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1533,
@@ -29344,37 +28779,37 @@
         "question_id": 1533,
         "original": "Does the picture contain liver?",
         "variation": "Is the image devoid of the organ called liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1533,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture lack the liver in it?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1533,
         "original": "Does the picture contain liver?",
         "variation": "Is the picture free from any presence of the liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1533,
         "original": "Does the picture contain liver?",
         "variation": "Does the photograph exhibit the absence of the liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1533,
         "original": "Does the picture contain liver?",
         "variation": "Is there an absence of the hepatic gland in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1533,
         "original": "Does the picture contain liver?",
         "variation": "Is the depiction lacking any trace of the organ called liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1534,
@@ -29392,7 +28827,7 @@
         "question_id": 1534,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image lacking a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1534,
@@ -29404,7 +28839,7 @@
         "question_id": 1534,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture devoid of a kidney structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1535,
@@ -29566,60 +29001,6 @@
         "question_id": 1537,
         "original": "Does the picture contain heart?",
         "variation": "Is the image of the thorax showing any indication of the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "Is the liver smaller than the kidney in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "Does the size of the kidney exceed that of the liver in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "In this image, does the liver have a larger volume compared to the kidney?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "Which one looks bigger in the provided picture between the liver and the kidney?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "Is it apparent from the given image that the liver is smaller than the kidney or not?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "In the presented X-ray, is there a noticeable difference in size between the liver and the kidney, with the kidney appearing larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "Does the liver appear more diminutive than the kidney on this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "Is it discernible from the picture that the liver has a smaller mass compared to the kidney?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1539,
-        "original": "Which is bigger in this image, liver or kidney ?",
-        "variation": "In the depicted X-ray, is the size of the liver less than that of the kidney?",
         "is_negated": false
     },
     {
@@ -29860,7 +29241,7 @@
         "question_id": 1551,
         "original": "Does the picture contain heart?",
         "variation": "Is there a heart missing from the X-ray picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1551,
@@ -29872,7 +29253,7 @@
         "question_id": 1551,
         "original": "Does the picture contain heart?",
         "variation": "Does the radiograph show no sign of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1551,
@@ -29890,60 +29271,6 @@
         "question_id": 1551,
         "original": "Does the picture contain heart?",
         "variation": "Is the picture free from any signs of a heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the liver smaller than the spleen in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Does the spleen have a larger size than the liver on this X-ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this chest X-ray, is it the case that the spleen is not bigger than the liver?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the spleen more prominent in this X-ray compared to the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "On this radiograph, does the spleen appear larger than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this image, which of the two organs, the spleen or the liver, takes up a greater area?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the liver less bulky than the spleen on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Does the size of the spleen exceed that of the liver in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1553,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this chest radiograph, is it the case that the liver does not appear more substantial than the spleen?",
         "is_negated": false
     },
     {
@@ -30094,73 +29421,19 @@
         "question_id": 1566,
         "original": "Does the picture contain spleen?",
         "variation": "Does the picture show no trace of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1566,
         "original": "Does the picture contain spleen?",
         "variation": "Is there an absence of the spleen in the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1566,
         "original": "Does the picture contain spleen?",
         "variation": "Is it correct to say that the image does not depict a spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "Is the spleen smaller than the kidney in this image?",
         "is_negated": true
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "In this image, does the size of the kidney exceed that of the spleen?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "Compared to the spleen, is the kidney not larger in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "Is the size of the kidney greater than the size of the spleen in this X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "Does the image depict a larger kidney or spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "Which one looks bigger, kidney or spleen, on this chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "On this radiograph, is the kidney more voluminous than the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "In this chest X-ray picture, does the kidney occupy a greater area than the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1569,
-        "original": "Which is bigger in this image, kidney or spleen?",
-        "variation": "Which of the two organs, kidney or spleen, appears larger in the given image?",
-        "is_negated": false
     },
     {
         "question_id": 1572,
@@ -30184,13 +29457,13 @@
         "question_id": 1572,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray devoid of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1572,
         "original": "Does the picture contain lung?",
         "variation": "Are lungs absent from this chest radiograph?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1572,
@@ -30243,7 +29516,7 @@
     {
         "question_id": 1573,
         "original": "Does the picture contain heart?",
-        "variation": "What can be seen in the image – a heart or something else?",
+        "variation": "Can be seen in this image heart?",
         "is_negated": false
     },
     {
@@ -30271,60 +29544,6 @@
         "is_negated": false
     },
     {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the liver smaller than the spleen in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Does the size of the spleen exceed that of the liver in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this image, does the liver have a larger dimension compared to the spleen?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the spleen larger in size than the liver as shown in the image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "As depicted in the picture, is it the case that the spleen is bigger than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In the provided image, does the spleen appear larger or smaller than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Which organ has a greater diameter in this X-ray, liver or spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is one of these two organs shown in this X-ray, liver or spleen, more expansive in its dimensions?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1574,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In terms of their size as indicated in the image, which of liver and spleen is larger?",
-        "is_negated": false
-    },
-    {
         "question_id": 1582,
         "original": "Does the picture contain liver?",
         "variation": "Does the picture not contain liver?",
@@ -30346,7 +29565,7 @@
         "question_id": 1582,
         "original": "Does the picture contain liver?",
         "variation": "Is the image devoid of liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1582,
@@ -30364,7 +29583,7 @@
         "question_id": 1582,
         "original": "Does the picture contain liver?",
         "variation": "Does the image show no liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1582,
@@ -30376,7 +29595,7 @@
         "question_id": 1582,
         "original": "Does the picture contain liver?",
         "variation": "Is the picture not displaying a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1583,
@@ -30388,31 +29607,31 @@
         "question_id": 1583,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no sign of a kidney in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1583,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image free from any indication of a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1583,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image show no kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1583,
         "original": "Does the picture contain kidney?",
-        "variation": "Is it possible to observe kidneys within the picture? No.",
+        "variation": "Is it possible to observe kidneys within the picture?",
         "is_negated": false
     },
     {
         "question_id": 1583,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture devoid of kidney visualization?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1584,
@@ -30424,31 +29643,31 @@
         "question_id": 1584,
         "original": "Does the picture contain spleen?",
         "variation": "Is there no spleen in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1584,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image without a spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1584,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image free of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1584,
         "original": "Does the picture contain spleen?",
         "variation": "Does the radiograph lack the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1584,
         "original": "Does the picture contain spleen?",
         "variation": "Is the photograph devoid of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1585,
@@ -30477,7 +29696,7 @@
     {
         "question_id": 1585,
         "original": "Does the picture contain lung?",
-        "variation": "What can be seen in the picture – is it a lung or something else?",
+        "variation": "Can be seen in the picture lung or something else?",
         "is_negated": false
     },
     {
@@ -30526,37 +29745,37 @@
         "question_id": 1586,
         "original": "Does the picture contain heart?",
         "variation": "Is there a heart missing from the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1586,
         "original": "Does the picture contain heart?",
         "variation": "Does the X-ray lack a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1586,
         "original": "Does the picture contain heart?",
         "variation": "Is there an absence of a heart in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1586,
         "original": "Does the picture contain heart?",
         "variation": "Is the picture devoid of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1586,
         "original": "Does the picture contain heart?",
         "variation": "Does the photograph show no evidence of a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1586,
         "original": "Does the picture contain heart?",
         "variation": "Is it apparent that the imaging is without a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1588,
@@ -30579,13 +29798,13 @@
     {
         "question_id": 1588,
         "original": "Is the liver healthy?",
-        "variation": "How would you describe the status of the liver's health?",
+        "variation": "Would you describe the status of the liver as healthy?",
         "is_negated": false
     },
     {
         "question_id": 1588,
         "original": "Is the liver healthy?",
-        "variation": "Is the liver functioning normally or not?",
+        "variation": "Is the liver functioning normally?",
         "is_negated": false
     },
     {
@@ -30597,19 +29816,19 @@
     {
         "question_id": 1588,
         "original": "Is the liver healthy?",
-        "variation": "In what state is the wellbeing of the liver?",
+        "variation": "Is the state of liver good?",
         "is_negated": false
     },
     {
         "question_id": 1588,
         "original": "Is the liver healthy?",
-        "variation": "Is the liver in a sound or an unhealthy condition?",
+        "variation": "Is the liver in a healthy condition?",
         "is_negated": false
     },
     {
         "question_id": 1588,
         "original": "Is the liver healthy?",
-        "variation": "How would you assess the fitness of the liver?",
+        "variation": "Would you say that the liver is well?",
         "is_negated": false
     },
     {
@@ -30676,13 +29895,13 @@
         "question_id": 1597,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney shown in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1597,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture free of kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1597,
@@ -30771,13 +29990,13 @@
     {
         "question_id": 1600,
         "original": "Is the liver healthy?",
-        "variation": "In what way is the liver not healthy?",
+        "variation": "Is the liver not healthy?",
         "is_negated": true
     },
     {
         "question_id": 1600,
         "original": "Is the liver healthy?",
-        "variation": "How would you describe the condition of the liver? (Is it healthy or unhealthy?)",
+        "variation": "Would you describe the condition of the liver as healthy?",
         "is_negated": false
     },
     {
@@ -30801,13 +30020,13 @@
     {
         "question_id": 1600,
         "original": "Is the liver healthy?",
-        "variation": "In what state is the liver, regarding health? (healthy or unhealthy)",
+        "variation": "In what state is the liver, regarding health healthy?",
         "is_negated": false
     },
     {
         "question_id": 1600,
         "original": "Is the liver healthy?",
-        "variation": "What can be said about the liver's well-being? (Is it healthy or not?)",
+        "variation": "What can be said about the liver's well-being? Is it healthy?",
         "is_negated": false
     },
     {
@@ -30898,7 +30117,7 @@
         "question_id": 1605,
         "original": "Does the picture contain liver?",
         "variation": "Is it without a liver in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1606,
@@ -30981,7 +30200,7 @@
     {
         "question_id": 1607,
         "original": "Does the picture contain spleen?",
-        "variation": "What can be seen on the X-ray, the spleen or not?",
+        "variation": "What can be seen on the X-ray, the spleen?",
         "is_negated": false
     },
     {
@@ -31030,19 +30249,19 @@
         "question_id": 1608,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray free of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1608,
         "original": "Does the picture contain lung?",
         "variation": "Are there no lungs visible on the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1608,
         "original": "Does the picture contain lung?",
         "variation": "Does the radiograph show no lung structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1608,
@@ -31095,7 +30314,7 @@
     {
         "question_id": 1609,
         "original": "Does the picture contain heart?",
-        "variation": "Is the subject pictured in the image a heart or part of a heart?",
+        "variation": "Is the subject pictured in the image a heart?",
         "is_negated": false
     },
     {
@@ -31138,37 +30357,37 @@
         "question_id": 1610,
         "original": "Does the picture contain stomach?",
         "variation": "Is there an absence of a stomach in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1610,
         "original": "Does the picture contain stomach?",
         "variation": "Is the picture free from a stomach?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1610,
         "original": "Does the picture contain stomach?",
         "variation": "Does the picture lack a stomach?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1610,
         "original": "Does the picture contain stomach?",
         "variation": "Does the image show no stomach?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1610,
         "original": "Does the picture contain stomach?",
         "variation": "Is the depicted scene stomach-less?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1610,
         "original": "Does the picture contain stomach?",
         "variation": "Is the illustration devoid of a stomach?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1624,
@@ -31180,13 +30399,13 @@
         "question_id": 1624,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart visible in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1624,
         "original": "Does the picture contain heart?",
         "variation": "Is the image lacking a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1624,
@@ -31198,7 +30417,7 @@
         "question_id": 1624,
         "original": "Does the picture contain heart?",
         "variation": "Is the depicted scene free from a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1624,
@@ -31336,91 +30555,37 @@
         "question_id": 1633,
         "original": "Does the picture contain heart?",
         "variation": "Is there no heart in the picture shown?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1633,
         "original": "Does the picture contain heart?",
-        "variation": "What can be seen instead of a heart in the given image?",
+        "variation": "What can be seen in the given image a heart?",
         "is_negated": false
     },
     {
         "question_id": 1633,
         "original": "Does the picture contain heart?",
         "variation": "Is the depicted scene on the X-ray free from a heart?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1633,
         "original": "Does the picture contain heart?",
         "variation": "Does the image hold no heart within it?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1633,
         "original": "Does the picture contain heart?",
         "variation": "Is there an absence of cardiac structure in the picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1633,
         "original": "Does the picture contain heart?",
         "variation": "Is the radiograph devoid of a thoracic organ, specifically the heart?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Is the heart smaller than the lung in this image?",
         "is_negated": true
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "In this image, does the size of the heart exceed that of the lung?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Does the dimension of the lung surpass that of the heart as shown in the image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Which of these two organs, heart or lung, is larger in size on the provided X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "On this chest X-ray, which organ, the heart or lung, appears to be bigger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "In the presented chest X-ray, can you identify which between the lung and heart has a larger appearance?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "Which of these two entities, cardiac organ or pulmonary organ, seems to occupy a greater area in this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "On this X-ray picture, is it the thoracic gland or the diaphragmatic sac that appears larger?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1634,
-        "original": "Which is bigger in this image, heart or lung?",
-        "variation": "In the displayed chest radiograph, does the heart or the lung exhibit a comparatively bigger size?",
-        "is_negated": false
     },
     {
         "question_id": 1643,
@@ -31467,7 +30632,7 @@
     {
         "question_id": 1643,
         "original": "Does the picture contain liver?",
-        "variation": "Is the X-ray depicting the hepatic organ or not?",
+        "variation": "Is the X-ray depicting the hepatic organ?",
         "is_negated": false
     },
     {
@@ -31498,37 +30663,37 @@
         "question_id": 1644,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture free of a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1644,
         "original": "Does the picture contain kidney?",
         "variation": "Is the picture devoid of any kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1644,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image lack a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1644,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image have no renal structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1644,
         "original": "Does the picture contain kidney?",
         "variation": "Is it correct to say the picture is not depicting a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1644,
         "original": "Does the picture contain kidney?",
         "variation": "Is it accurate to state that the picture shows no nephron or kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1646,
@@ -31552,24 +30717,24 @@
         "question_id": 1646,
         "original": "Does the picture contain lung?",
         "variation": "Is the image free from lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1646,
         "original": "Does the picture contain lung?",
         "variation": "Are there no lungs seen on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1646,
         "original": "Does the picture contain lung?",
         "variation": "Is the chest X-ray without lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1646,
         "original": "Does the picture contain lung?",
-        "variation": "Does the radiograph have lungs present or not?",
+        "variation": "Does the radiograph have lungs present?",
         "is_negated": false
     },
     {
@@ -31582,7 +30747,7 @@
         "question_id": 1646,
         "original": "Does the picture contain lung?",
         "variation": "Is the image of the chest devoid of lung tissue?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1647,
@@ -31660,91 +30825,37 @@
         "question_id": 1648,
         "original": "Does this patient have liver cancer?",
         "variation": "Does the patient lack liver cancer?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1648,
         "original": "Does this patient have liver cancer?",
         "variation": "Is it the case that this individual is free from liver cancer?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1648,
         "original": "Does this patient have liver cancer?",
         "variation": "Is it possible to say that this person does not have a diagnosis of liver cancer?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1648,
         "original": "Does this patient have liver cancer?",
         "variation": "Does the patient exhibit signs of no liver cancer?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1648,
         "original": "Does this patient have liver cancer?",
         "variation": "Is there no indication of hepatic carcinoma in this individual?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1648,
         "original": "Does this patient have liver cancer?",
         "variation": "Is this person devoid of any evidence of cancer in the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Is the liver smaller than the heart in this image?",
         "is_negated": true
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "In this image, does the heart have a larger size compared to the liver?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Does the size of the liver fall below that of the heart in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Is the heart larger than the liver as shown in the picture?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Comparing the sizes of the organs in the image, does the heart appear bigger than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "As we observe the image, is it correct that the organ represented by a larger area on the X-ray is the heart rather than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "In this image, which of the organs, liver or heart, has the greater dimension?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "Compared to the liver, does the heart take up more space in the image provided?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1649,
-        "original": "Which is bigger in this image, liver or heart?",
-        "variation": "As illustrated in the given image, is it evident that the heart is larger than the liver?",
-        "is_negated": false
     },
     {
         "question_id": 1657,
@@ -31930,7 +31041,7 @@
         "question_id": 1661,
         "original": "Does the picture contain spleen?",
         "variation": "Is the image devoid of the spleen?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1661,
@@ -32085,8 +31196,8 @@
     {
         "question_id": 1667,
         "original": "Does the patient have liver cancer?",
-        "variation": "Isn't the patient not having liver cancer?",
-        "is_negated": true
+        "variation": "Is the patient having liver cancer?",
+        "is_negated": false
     },
     {
         "question_id": 1667,
@@ -32242,31 +31353,31 @@
         "question_id": 1681,
         "original": "Does the picture contain lung?",
         "variation": "Is there no sign of lung in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1681,
         "original": "Does the picture contain lung?",
         "variation": "Is the image free from any indication of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1681,
         "original": "Does the picture contain lung?",
         "variation": "Does the picture show absence of lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1681,
         "original": "Does the picture contain lung?",
         "variation": "Is there no depiction of lungs in the radiograph?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1681,
         "original": "Does the picture contain lung?",
         "variation": "Is the X-ray devoid of lung structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1686,
@@ -32296,7 +31407,7 @@
         "question_id": 1686,
         "original": "Is the kidney healthy?",
         "variation": "Is there anything wrong with the kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1686,
@@ -32320,7 +31431,7 @@
         "question_id": 1686,
         "original": "Is the kidney healthy?",
         "variation": "Is the kidney free from illness or injury?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1687,
@@ -32344,37 +31455,37 @@
         "question_id": 1687,
         "original": "Does the kidneys look abnormal?",
         "variation": "Is the kidney shown on the chest X-ray typically shaped and functioning correctly?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1687,
         "original": "Does the kidneys look abnormal?",
         "variation": "Does the kidney depicted in the chest X-ray appear to be anatomically and functionally normal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1687,
         "original": "Does the kidneys look abnormal?",
         "variation": "Did the chest X-ray indicate that the kidneys look as expected?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1687,
         "original": "Does the kidneys look abnormal?",
         "variation": "Are the kidneys shown on the chest X-ray free from anomalies?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1687,
         "original": "Does the kidneys look abnormal?",
         "variation": "Does the depicted kidney in the chest X-ray show no deviations or irregularities?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1687,
         "original": "Does the kidneys look abnormal?",
         "variation": "Did the chest X-ray display any normalcy or regularity in the kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1691,
@@ -32548,19 +31659,19 @@
         "question_id": 1705,
         "original": "Does the picture contain liver?",
         "variation": "Is there no liver seen in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1705,
         "original": "Does the picture contain liver?",
         "variation": "Is the X-ray free of any liver structures?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1705,
         "original": "Does the picture contain liver?",
         "variation": "Is the image devoid of a liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1705,
@@ -32584,13 +31695,13 @@
         "question_id": 1706,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney visible in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1706,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image lacking a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1706,
@@ -32602,13 +31713,13 @@
         "question_id": 1706,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image of the thorax devoid of a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1706,
         "original": "Does the picture contain kidney?",
         "variation": "Is the radiograph free from depiction of kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1707,
@@ -32686,7 +31797,7 @@
         "question_id": 1708,
         "original": "Does the picture contain lung?",
         "variation": "Is the image devoid of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1708,
@@ -33085,60 +32196,6 @@
         "is_negated": false
     },
     {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the liver smaller than the spleen in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this image, does the size of the liver exceed that of the spleen?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Does the size of the spleen overtake the size of the liver as seen in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Is the spleen larger than the liver on this X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "On this radiograph, is the liver less expansive than the spleen?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In the provided chest X-ray, does the spleen take up more space than the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "Which of these two organs appears larger in the given image, the hepatocyte or the splenocyte?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "On this radiograph, which of the pair, the liver or the spleen, seems to have a greater size?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1727,
-        "original": "Which is bigger in this image, liver or spleen?",
-        "variation": "In this X-ray, is it the parenchyma of the liver or that of the spleen that appears larger?",
-        "is_negated": false
-    },
-    {
         "question_id": 1733,
         "original": "Does the patient have liver cancer?",
         "variation": "Does the patient not have liver cancer?",
@@ -33363,13 +32420,13 @@
     {
         "question_id": 1741,
         "original": "Is the liver healthy?",
-        "variation": "How would you describe the well-being of the liver?",
+        "variation": "Would you describe the well-being of the liver as healthy?",
         "is_negated": false
     },
     {
         "question_id": 1741,
         "original": "Is the liver healthy?",
-        "variation": "In what state is the liver currently? (unwell, healthy, or somewhere in between)",
+        "variation": "In what state is the liver currently? Healthy?",
         "is_negated": false
     },
     {
@@ -33430,7 +32487,7 @@
         "question_id": 1742,
         "original": "Does the spleen look normal?",
         "variation": "Is there any indication that the spleen is abnormal or not within its expected range on the provided chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1742,
@@ -33448,7 +32505,7 @@
         "question_id": 1742,
         "original": "Does the spleen look normal?",
         "variation": "Is there anything unusual or out of the ordinary about the spleen in the given chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1746,
@@ -33514,19 +32571,19 @@
         "question_id": 1747,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney visible in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1747,
         "original": "Does the picture contain kidney?",
         "variation": "Does the image lack a kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1747,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image devoid of kidney?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1747,
@@ -33538,7 +32595,7 @@
         "question_id": 1747,
         "original": "Does the picture contain kidney?",
         "variation": "Is the given picture free from kidneys?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1748,
@@ -33609,43 +32666,43 @@
     {
         "question_id": 1749,
         "original": "Does the picture contain lung?",
-        "variation": "Could we not say that the picture has a lung as seen?",
+        "variation": "Could we not say that the picture has a lung?",
         "is_negated": true
     },
     {
         "question_id": 1749,
         "original": "Does the picture contain lung?",
         "variation": "Is it visible that there are no lungs on this X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1749,
         "original": "Does the picture contain lung?",
         "variation": "Does the chest X-ray image fail to show any presence of lungs?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1749,
         "original": "Does the picture contain lung?",
         "variation": "Are lungs not clearly displayed in the provided picture?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1749,
         "original": "Does the picture contain lung?",
         "variation": "Does the photo lack lung visibility?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1749,
+        "original": "Does the picture contain lung?",
+        "variation": "Is it evident that lungs are present on the radiograph?",
         "is_negated": false
     },
     {
         "question_id": 1749,
         "original": "Does the picture contain lung?",
-        "variation": "Is it not evident that lungs are present on the radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1749,
-        "original": "Does the picture contain lung?",
-        "variation": "Can we not see any part of the lungs on this X-ray film?",
+        "variation": "Can we see any part of the lungs on this X-ray film?",
         "is_negated": false
     },
     {
@@ -33963,7 +33020,7 @@
     {
         "question_id": 1770,
         "original": "Does the picture contain liver?",
-        "variation": "Is the picture revealing the presence or absence of the liver?",
+        "variation": "Is the picture revealing the presence of the liver?",
         "is_negated": false
     },
     {
@@ -33982,7 +33039,7 @@
         "question_id": 1771,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney visible in the image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1771,
@@ -34000,7 +33057,7 @@
         "question_id": 1771,
         "original": "Does the picture contain kidney?",
         "variation": "Is the image devoid of a kidney structure?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1771,
@@ -34171,60 +33228,6 @@
         "is_negated": false
     },
     {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Is there no difference in size between the liver, heart, and lung in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Does the liver, heart, and lung have the same size in this image?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "In this image, does none of the organs (liver, heart, or lung) appear larger than the others?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Which organ among liver, heart, and lung appears largest in this X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Can you identify which one out of these three organs (liver, heart, and lung) is the biggest on this X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "On this chest X-ray, is it possible to discern that the liver, heart, or lung is the largest among them?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Which of these organs, hepatic gland, cardiac muscle, or pulmonary organ, shows up larger on this radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Is it the liver (the hepatocyte) that appears to be bigger than both heart and lung in this chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1775,
-        "original": "Which is bigger in this image, liver, heart or lung?",
-        "variation": "Does the lung, respiratory organ, appear smaller than both the heart and liver in this given X-ray image?",
-        "is_negated": false
-    },
-    {
         "question_id": 1781,
         "original": "Does the patient have liver cancer?",
         "variation": "Does the patient not have liver cancer?",
@@ -34354,18 +33357,18 @@
         "question_id": 1786,
         "original": "Does the picture contain kidney?",
         "variation": "Is there no kidney in the picture?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1786,
+        "original": "Does the picture contain kidney?",
+        "variation": "Is there kidney in the picture?",
         "is_negated": false
     },
     {
         "question_id": 1786,
         "original": "Does the picture contain kidney?",
-        "variation": "What can be said about the presence of a kidney in the image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1786,
-        "original": "Does the picture contain kidney?",
-        "variation": "Does the given image show a kidney or not?",
+        "variation": "Does the given image show a kidney?",
         "is_negated": false
     },
     {
@@ -34461,38 +33464,38 @@
     {
         "question_id": 1792,
         "original": "Is this an MRI scan?",
-        "variation": "What kind of scan is this, NOT an MRI?",
-        "is_negated": false
+        "variation": "Is this, NOT an MRI?",
+        "is_negated": true
     },
     {
         "question_id": 1792,
         "original": "Is this an MRI scan?",
         "variation": "Is this scan type DIFFERENT from an MRI?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1792,
         "original": "Is this an MRI scan?",
         "variation": "Can we confirm if the test performed was NOT an MRI?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1792,
         "original": "Is this an MRI scan?",
         "variation": "Is this a scan that's not called MRI?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1792,
         "original": "Is this an MRI scan?",
-        "variation": "What do we call this scan, if NOT MRI?",
+        "variation": "We call this scan MRI?",
         "is_negated": false
     },
     {
         "question_id": 1792,
         "original": "Is this an MRI scan?",
         "variation": "Is the nature of this examination something other than Magnetic Resonance Imaging?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1800,
@@ -34569,38 +33572,38 @@
     {
         "question_id": 1807,
         "original": "Is this image taken via CT?",
-        "variation": "What method was used to acquire this picture? Is it NOT a CT scan?",
-        "is_negated": false
+        "variation": "Is it NOT a CT scan?",
+        "is_negated": true
     },
     {
         "question_id": 1807,
         "original": "Is this image taken via CT?",
-        "variation": "How was this X-ray produced? Was it NOT taken using CT technology?",
-        "is_negated": false
+        "variation": "Was it NOT taken using CT technology?",
+        "is_negated": true
     },
     {
         "question_id": 1807,
         "original": "Is this image taken via CT?",
-        "variation": "In what way was this image captured? Was it NOT through a CT scanner?",
-        "is_negated": false
+        "variation": "Was it NOT through a CT scanner?",
+        "is_negated": true
     },
     {
         "question_id": 1807,
         "original": "Is this image taken via CT?",
         "variation": "Was the image obtained from any source OTHER than a CT scanner?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1807,
         "original": "Is this image taken via CT?",
         "variation": "Did they use an ALTERNATIVE method to CT for this X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1807,
         "original": "Is this image taken via CT?",
         "variation": "Was the image produced via SOME other imaging technique rather than CT?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1808,
@@ -34611,7 +33614,7 @@
     {
         "question_id": 1808,
         "original": "Is this sagittal plane?",
-        "variation": "What kind of plane is this, if not sagittal?",
+        "variation": "Is this not sagittal plane?",
         "is_negated": true
     },
     {
@@ -34623,37 +33626,37 @@
     {
         "question_id": 1808,
         "original": "Is this sagittal plane?",
-        "variation": "What type of view does this X-ray show, other than the sagittal plane?",
-        "is_negated": false
+        "variation": "Is this type of X-ray view other than the sagittal plane?",
+        "is_negated": true
     },
     {
         "question_id": 1808,
         "original": "Is this sagittal plane?",
         "variation": "Is there any other plane represented in this image besides the sagittal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1808,
+        "original": "Is this sagittal plane?",
+        "variation": "Is this projection NOT X-ray of saggital plane?",
         "is_negated": false
     },
     {
         "question_id": 1808,
         "original": "Is this sagittal plane?",
-        "variation": "Can you describe what kind of projection this chest X-ray is NOT?",
+        "variation": "Is the orientation of this X-ray anything esle than sagittal?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1808,
+        "original": "Is this sagittal plane?",
+        "variation": "What specific view has been utilized for this X-ray sagittal view?",
         "is_negated": false
     },
     {
         "question_id": 1808,
         "original": "Is this sagittal plane?",
-        "variation": "Is the orientation of this X-ray anything but sagittal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1808,
-        "original": "Is this sagittal plane?",
-        "variation": "What specific view has been utilized for this X-ray other than the sagittal view?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1808,
-        "original": "Is this sagittal plane?",
-        "variation": "In what way is the presentation of this chest radiograph NOT along the vertical plane passing through the sagittal axis?",
+        "variation": "In what way is the presentation of this chest radiograph along the vertical plane passing through the sagittal axis?",
         "is_negated": false
     },
     {
@@ -34677,19 +33680,19 @@
     {
         "question_id": 1812,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "What is the focus of this study – is it the pelvic cavity?",
+        "variation": "What is the focus of this study is it the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 1812,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "In what area does this study concentrate – is it the pelvic cavity?",
+        "variation": "In what area does this study concentrate is it the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 1812,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "Is this investigation dealing with the pelvic cavity or a different region?",
+        "variation": "Is this investigation dealing with the pelvic cavity?",
         "is_negated": false
     },
     {
@@ -34701,7 +33704,7 @@
     {
         "question_id": 1812,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "What body part does this exploration zero in on, and is it the pelvis?",
+        "variation": "What body part does this show the pelvis?",
         "is_negated": false
     },
     {
@@ -34732,37 +33735,37 @@
         "question_id": 1814,
         "original": "Are there abnormalities in this image?",
         "variation": "Is the X-ray of the chest normal without any abnormalities?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1814,
         "original": "Are there abnormalities in this image?",
         "variation": "Does the image not display anything irregular or abnormal in the chest?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1814,
         "original": "Are there abnormalities in this image?",
         "variation": "Are there no unusual features visible on this chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1814,
         "original": "Are there abnormalities in this image?",
-        "variation": "Is there nothing amiss or out of place in this chest X-ray picture?",
-        "is_negated": false
+        "variation": "Is there nothing amiss in this chest X-ray picture?",
+        "is_negated": true
     },
     {
         "question_id": 1814,
         "original": "Are there abnormalities in this image?",
         "variation": "Does the given image exhibit no uncommon or abnormal aspects in the chest area?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1814,
         "original": "Are there abnormalities in this image?",
         "variation": "Are there no deviations from the norm or irregularities found in this chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1816,
@@ -34851,8 +33854,8 @@
     {
         "question_id": 1824,
         "original": "Do the organs in the image exist in the chest?",
-        "variation": "Is it correct to say that there are no organs shown outside of the chest in the provided image?",
-        "is_negated": false
+        "variation": "Is it correct to say that there are no organs shown in the chest in the provided image?",
+        "is_negated": true
     },
     {
         "question_id": 1824,
@@ -34888,7 +33891,7 @@
         "question_id": 1829,
         "original": "Is/Are there abnormalities in the patient's left lung?",
         "variation": "Does the patient's left lung show any irregularities or abnormalities?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1829,
@@ -34905,7 +33908,7 @@
     {
         "question_id": 1829,
         "original": "Is/Are there abnormalities in the patient's left lung?",
-        "variation": "Does the left lung on the patient's X-ray appear normal or display any abnormalities?",
+        "variation": "Does the left lung on the patient's X-ray display any abnormalities?",
         "is_negated": false
     },
     {
@@ -34989,49 +33992,49 @@
     {
         "question_id": 1838,
         "original": "Is this a transverse section?",
-        "variation": "Aren't we dealing with not a transverse section here?",
+        "variation": "Are we dealing with not a transverse section here?",
         "is_negated": true
     },
     {
         "question_id": 1838,
         "original": "Is this a transverse section?",
-        "variation": "Is it not the case that this is not a transverse section?",
+        "variation": "Is it not the case that this is a transverse section?",
         "is_negated": true
     },
     {
         "question_id": 1838,
         "original": "Is this a transverse section?",
-        "variation": "What kind of section is this – coronal, sagittal, or transverse?",
+        "variation": "Is this transverse?",
         "is_negated": false
     },
     {
         "question_id": 1838,
         "original": "Is this a transverse section?",
-        "variation": "Can you tell me if the slice shown in this X-ray is cross-sectional?",
+        "variation": "Can you tell me if the slice shown in this X-ray is transverse section?",
         "is_negated": false
     },
     {
         "question_id": 1838,
         "original": "Is this a transverse section?",
-        "variation": "Is the depicted section in this X-ray oriented horizontally?",
+        "variation": "Is the depicted section in this X-ray oriented transverse?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1838,
+        "original": "Is this a transverse section?",
+        "variation": "Is this a section not tranverse?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1838,
+        "original": "Is this a transverse section?",
+        "variation": "In this X-ray, is the displayed slice taken transverse to the body?",
         "is_negated": false
     },
     {
         "question_id": 1838,
         "original": "Is this a transverse section?",
-        "variation": "Is this a horizontal section or not?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1838,
-        "original": "Is this a transverse section?",
-        "variation": "In this X-ray, is the displayed slice taken perpendicularly to the body or otherwise?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1838,
-        "original": "Is this a transverse section?",
-        "variation": "Is it correct to say that the depicted area in this chest X-ray is cross-sectional?",
+        "variation": "Is it correct to say that the depicted area in this chest X-ray is tranverse?",
         "is_negated": false
     },
     {
@@ -35080,7 +34083,7 @@
         "question_id": 1845,
         "original": "Is this image normal?",
         "variation": "Is there any deviation or irregularity in this image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1845,
@@ -35115,7 +34118,7 @@
     {
         "question_id": 1846,
         "original": "Can nodule be observed on the upper right lung in this picture?",
-        "variation": "Is an abnormality seen in the upper right portion of the X-ray that resembles a nodule?",
+        "variation": "Can be seen in the upper right portion of the X-ray that resembles a nodule?",
         "is_negated": false
     },
     {
@@ -35193,7 +34196,7 @@
     {
         "question_id": 1855,
         "original": "Does the picture contain liver?",
-        "variation": "Is there a live in the picture's X-ray?",
+        "variation": "Is there a liver in the picture's X-ray?",
         "is_negated": false
     },
     {
@@ -35488,12 +34491,12 @@
         "question_id": 1866,
         "original": "Is the liver healthy?",
         "variation": "Is there any health issue with the liver?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1866,
         "original": "Is the liver healthy?",
-        "variation": "How would you describe the state of the liver in terms of its health?",
+        "variation": "Would you describe the state of the liver in terms of its health as healthy?",
         "is_negated": false
     },
     {
@@ -35518,61 +34521,7 @@
         "question_id": 1866,
         "original": "Is the liver healthy?",
         "variation": "Is there any sickness or disorder affecting the liver?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the image not scanned in a transverse plane?",
         "is_negated": true
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the image not scanned in a coronal plane?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the plane of the image neither transverse nor coronal?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the plane along which the image was scanned horizontal (transverse) or vertical (coronal)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Did they use a horizontal section or a vertical section to take this image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "What type of axial orientation does the chest X-ray image have, is it transverse or coronal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Which plane was utilized for the scan of this image, cross-sectional (transverse) or frontal (coronal)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "In what direction was the image sliced during scanning, sagittal (transverse) or axial (coronal)?.",
-        "is_negated": false
-    },
-    {
-        "question_id": 1868,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "What kind of anatomical orientation is depicted in this X-ray, transaxial (transverse) or coronal?",
-        "is_negated": false
     },
     {
         "question_id": 1869,
@@ -35596,7 +34545,7 @@
         "question_id": 1869,
         "original": "Do the organs in the image exist in the pelvic cavity?",
         "variation": "Are all the organs in the image outside of the pelvic cavity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1869,
@@ -35608,7 +34557,7 @@
         "question_id": 1869,
         "original": "Do the organs in the image exist in the pelvic cavity?",
         "variation": "Could you say that none of the organs visible in the image are positioned within the pelvic cavity?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1869,
@@ -35638,13 +34587,13 @@
         "question_id": 1874,
         "original": "Does the lung look abnormal?",
         "variation": "Is the lung showing any signs of deviation from normal in the X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1874,
         "original": "Does the lung look abnormal?",
         "variation": "Is the X-ray indicating that the lung is not abnormal?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1874,
@@ -35662,7 +34611,7 @@
         "question_id": 1874,
         "original": "Does the lung look abnormal?",
         "variation": "On the provided chest X-ray, does the lung appear to be within expected parameters?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1874,
@@ -35727,7 +34676,7 @@
     {
         "question_id": 1875,
         "original": "Is/Are there abnormalities in the patient's left lung?",
-        "variation": "Is the left lobe of the patient's lungs unaffected or abnormal on the X-ray?",
+        "variation": "Is the left lobe of the patient's lungs abnormal on the X-ray?",
         "is_negated": false
     },
     {
@@ -35841,7 +34790,7 @@
     {
         "question_id": 1882,
         "original": "Is this a CT?",
-        "variation": "Did a CAT scan produce this radiograph?",
+        "variation": "Did a CT scan produce this radiograph?",
         "is_negated": false
     },
     {
@@ -35859,25 +34808,25 @@
     {
         "question_id": 1883,
         "original": "Is this a coronal plane?",
-        "variation": "Is the imaging technique perpendicular to the coronal plane?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1883,
-        "original": "Is this a coronal plane?",
-        "variation": "What type of X-ray view is shown here?",
+        "variation": "Is the imaging technique showing the coronal plane?",
         "is_negated": false
     },
     {
         "question_id": 1883,
         "original": "Is this a coronal plane?",
-        "variation": "In which orientation was this chest X-ray taken?",
+        "variation": "Is this coronal plane type of X-ray view is shown here?",
         "is_negated": false
     },
     {
         "question_id": 1883,
         "original": "Is this a coronal plane?",
-        "variation": "Can you identify if the image is a frontal, sagittal or transverse section?",
+        "variation": "In coronal plane was this chest X-ray taken?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1883,
+        "original": "Is this a coronal plane?",
+        "variation": "Can you identify if the image is a coronal plane?",
         "is_negated": false
     },
     {
@@ -35889,19 +34838,19 @@
     {
         "question_id": 1883,
         "original": "Is this a coronal plane?",
-        "variation": "What angle does the X-ray beam make with the coronal plane?",
+        "variation": "Does the X-ray beam make the coronal plane?",
         "is_negated": false
     },
     {
         "question_id": 1883,
         "original": "Is this a coronal plane?",
-        "variation": "Is this radiograph oriented parallel to the coronal anatomic plane?",
+        "variation": "Is this radiograph oriented to the coronal anatomic plane?",
         "is_negated": false
     },
     {
         "question_id": 1891,
         "original": "Can atelectasis be observed on the lower right lung in this picture?",
-        "variation": "Is it not the case that there is no evidence of atelectasis in the lower right lung in this picture?",
+        "variation": "Is it the case that there is no evidence of atelectasis in the lower right lung in this picture?",
         "is_negated": true
     },
     {
@@ -35967,43 +34916,43 @@
     {
         "question_id": 1898,
         "original": "Is this a transverse plane?",
-        "variation": "Is the X-ray taken perpendicularly to the subject's body, rather than across it?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1898,
-        "original": "Is this a transverse plane?",
-        "variation": "In what direction is the plane in this X-ray? Is it along the length or across the body?",
+        "variation": "Is the X-ray taken in transverse plane to the subject's body?",
         "is_negated": false
     },
     {
         "question_id": 1898,
         "original": "Is this a transverse plane?",
-        "variation": "What type of sectional view does this chest X-ray display? Is it a frontal or transverse view?",
+        "variation": "In what direction is the plane in this X-ray? Is it along the transverse plane across the body?",
         "is_negated": false
     },
     {
         "question_id": 1898,
         "original": "Is this a transverse plane?",
-        "variation": "Is the X-ray showing me a slice of the subject's body from side to side or from front to back?",
+        "variation": "What type of sectional view does this chest X-ray display transverse view?",
         "is_negated": false
     },
     {
         "question_id": 1898,
         "original": "Is this a transverse plane?",
-        "variation": "Is this image depicting a cross-sectional view of the subject's thorax?",
+        "variation": "Is the X-ray showing me a slice of the subject's body from transverse plane?",
         "is_negated": false
     },
     {
         "question_id": 1898,
         "original": "Is this a transverse plane?",
-        "variation": "Is the orientation of the plane in this X-ray sagittal or transverse?",
+        "variation": "Is this image not depicting a transverse plane view of the subject's thorax?",
         "is_negated": false
     },
     {
         "question_id": 1898,
         "original": "Is this a transverse plane?",
-        "variation": "Does this radiograph show a section of the subject's body perpendicular to its long axis?",
+        "variation": "Is the orientation of the plane in this X-ray transverse?",
+        "is_negated": false
+    },
+    {
+        "question_id": 1898,
+        "original": "Is this a transverse plane?",
+        "variation": "Does this radiograph show a section of the subject's body transverse plane to its long axis?",
         "is_negated": false
     },
     {
@@ -36015,8 +34964,8 @@
     {
         "question_id": 1903,
         "original": "Is this a study of the chest?",
-        "variation": "Is this an examination outside the chest area?",
-        "is_negated": true
+        "variation": "Is this an examination of the chest area?",
+        "is_negated": false
     },
     {
         "question_id": 1903,
@@ -36027,7 +34976,7 @@
     {
         "question_id": 1903,
         "original": "Is this a study of the chest?",
-        "variation": "What body part is being examined in this study? (Is it the chest?)",
+        "variation": "Is the chest body part is being examined in this study?",
         "is_negated": false
     },
     {
@@ -36039,7 +34988,7 @@
     {
         "question_id": 1903,
         "original": "Is this a study of the chest?",
-        "variation": "In what region of the human anatomy does the study's scope lie, if not the chest?",
+        "variation": "Is the chest region of the human anatomy in the study's scope?",
         "is_negated": false
     },
     {
@@ -36057,7 +35006,7 @@
     {
         "question_id": 1903,
         "original": "Is this a study of the chest?",
-        "variation": "Is the area under scrutiny during this analysis the breast area or lungs?",
+        "variation": "Is the area under scrutiny during this analysis the breast area?",
         "is_negated": false
     },
     {
@@ -36076,25 +35025,25 @@
         "question_id": 1904,
         "original": "Is the lung abnormal?",
         "variation": "Is there any sign of abnormality in the lung as shown on the X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1904,
         "original": "Is the lung abnormal?",
         "variation": "Is the structure of the lung within the expected parameters on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1904,
         "original": "Is the lung abnormal?",
         "variation": "Does the X-ray of the chest show a typical lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1904,
         "original": "Is the lung abnormal?",
         "variation": "Is the image of the lung on the X-ray consistent with a normal lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1904,
@@ -36136,78 +35085,36 @@
         "question_id": 1906,
         "original": "Can infiltration be observed on the upper right lung in this picture?",
         "variation": "Is infiltration present in any other area of the X-ray except for the upper right lung?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1906,
         "original": "Can infiltration be observed on the upper right lung in this picture?",
-        "variation": "Does this X-ray depict an infiltration on the upper right lung, or is it clear?",
+        "variation": "Does this X-ray depict an infiltration on the upper right lung?",
         "is_negated": false
     },
     {
         "question_id": 1906,
         "original": "Can infiltration be observed on the upper right lung in this picture?",
         "variation": "Is there evidence of infiltration anywhere else besides the upper right lung on this X-ray?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1906,
+        "original": "Can infiltration be observed on the upper right lung in this picture?",
+        "variation": "Is there no evidence of infiltration anywhere else besides the upper right lung on this X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1906,
         "original": "Can infiltration be observed on the upper right lung in this picture?",
-        "variation": "Can one detect intrusion in the superior right pulmonary region of this radiograph?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1906,
-        "original": "Can infiltration be observed on the upper right lung in this picture?",
-        "variation": "Does the supero-right pulmonary area of this image reveal any invasion?",
+        "variation": "Does the upper right pulmonary area of this image reveal any invasion?",
         "is_negated": false
     },
     {
         "question_id": 1906,
         "original": "Can infiltration be observed on the upper right lung in this picture?",
         "variation": "Is there penetration noticeable on the upper right lobe of the lung in this picture?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the scanned image neither a transverse plane nor a coronal plane?",
-        "is_negated": true
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "What type of plane was NOT used to scan the image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Was the image scanned in a way that is not parallel to our body's front and back (transverse) or head to toe (coronal)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is it possible that the image was scanned from a perspective that neither goes side-to-side (transverse) nor front-to-back (coronal)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "In what orientation was the image NOT scanned, sagittal or transverse or coronal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Was the image scanning method not axial, sagittal, or coronal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1913,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Did they not take the image in a cross-sectional plane (transverse) or longitudinal plane (coronal or sagittal)?",
         "is_negated": false
     },
     {
@@ -36309,13 +35216,13 @@
     {
         "question_id": 1927,
         "original": "Is this image taken via CT?",
-        "variation": "Did I get this picture from the tomograph?",
+        "variation": "Did I get this picture from the computed tomograph?",
         "is_negated": false
     },
     {
         "question_id": 1927,
         "original": "Is this image taken via CT?",
-        "variation": "Was this photo generated using axial tomography or cross-sectional imaging, otherwise known as CT?",
+        "variation": "Was this photo generated using axial computed tomography, otherwise known as CT?",
         "is_negated": false
     },
     {
@@ -36339,38 +35246,38 @@
     {
         "question_id": 1928,
         "original": "Is this a transverse plane?",
-        "variation": "What type of sectional view is this showing (other than transverse)?",
+        "variation": "Is this other than transverse plane?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1928,
+        "original": "Is this a transverse plane?",
+        "variation": "Is this NOT transversely?",
+        "is_negated": true
+    },
+    {
+        "question_id": 1928,
+        "original": "Is this a transverse plane?",
+        "variation": "Is the image cut through the body in a plane of a transverse section?",
         "is_negated": false
     },
     {
         "question_id": 1928,
         "original": "Is this a transverse plane?",
-        "variation": "In what direction is the chest X-ray slice oriented, NOT transversely?",
+        "variation": "Is this slice other than ctransverse?",
         "is_negated": false
     },
     {
         "question_id": 1928,
         "original": "Is this a transverse plane?",
-        "variation": "Is the image cut through the body in a plane perpendicular to that of a transverse section?",
-        "is_negated": false
+        "variation": "Does this differ from the transverse plane?",
+        "is_negated": true
     },
     {
         "question_id": 1928,
         "original": "Is this a transverse plane?",
-        "variation": "Is this slice other than cross-sectional or axial?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1928,
-        "original": "Is this a transverse plane?",
-        "variation": "What kind of imaging orientation does this chest X-ray have, apart from the transverse plane?",
-        "is_negated": false
-    },
-    {
-        "question_id": 1928,
-        "original": "Is this a transverse plane?",
-        "variation": "In what way is the image NOT showing a transverse or front-to-back section?",
-        "is_negated": false
+        "variation": "Is the way of the image NOT showing a transverse section?",
+        "is_negated": true
     },
     {
         "question_id": 1934,
@@ -36394,12 +35301,12 @@
         "question_id": 1934,
         "original": "Is the lung normal appearing?",
         "variation": "Are there any abnormalities observed in the lung on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1934,
         "original": "Is the lung normal appearing?",
-        "variation": "Does the structure of the lung appear as expected according to the X-ray image?",
+        "variation": "Does the structure of the lung appear as normal expected according to the X-ray image?",
         "is_negated": false
     },
     {
@@ -36424,7 +35331,7 @@
         "question_id": 1934,
         "original": "Is the lung normal appearing?",
         "variation": "Are there any abnormal deviations in the lung's presentation on the X-ray image?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1949,
@@ -36693,7 +35600,7 @@
     {
         "question_id": 1964,
         "original": "Is the liver healthy?",
-        "variation": "Is the condition of my liver normal or abnormal?",
+        "variation": "Is the condition of my liver normal?",
         "is_negated": false
     },
     {
@@ -36723,7 +35630,7 @@
     {
         "question_id": 1968,
         "original": "Is this image taken via CT?",
-        "variation": "Was this X-ray generated with the aid of a computerized axial tomography (CAT)?",
+        "variation": "Was this X-ray generated with the aid of a computerized tomography (CT)?",
         "is_negated": false
     },
     {
@@ -36759,8 +35666,8 @@
     {
         "question_id": 1969,
         "original": "Is this a transverse section?",
-        "variation": "In what direction does the plane of this X-ray cut through my body - from front to back or side to side?",
-        "is_negated": false
+        "variation": "Is this not a transverse section?",
+        "is_negated": true
     },
     {
         "question_id": 1969,
@@ -36771,13 +35678,13 @@
     {
         "question_id": 1969,
         "original": "Is this a transverse section?",
-        "variation": "Is this a crosswise section?",
+        "variation": "Is this a transverse section?",
         "is_negated": false
     },
     {
         "question_id": 1969,
         "original": "Is this a transverse section?",
-        "variation": "Is this a picture taken perpendicularly to the median plane of the body?",
+        "variation": "Is this a picture taken perpendicularly named as transverse section?",
         "is_negated": false
     },
     {
@@ -36814,7 +35721,7 @@
         "question_id": 1976,
         "original": "Is the lung normal appearing?",
         "variation": "Are there any anomalies or abnormalities visible in the lung on the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1976,
@@ -36825,19 +35732,19 @@
     {
         "question_id": 1976,
         "original": "Is the lung normal appearing?",
-        "variation": "Does the lung show a normal appearance or does it display anything unusual?",
+        "variation": "Does the lung show a normal appearance?",
         "is_negated": false
     },
     {
         "question_id": 1976,
         "original": "Is the lung normal appearing?",
-        "variation": "Is there evidence of normality in the lung's structure, or is it deviating from the typical pattern?",
+        "variation": "Is there evidence of normality in the lung's structure?",
         "is_negated": false
     },
     {
         "question_id": 1976,
         "original": "Is the lung normal appearing?",
-        "variation": "Are the characteristics of the lung within the normal range, or does it exhibit any signs of abnormality?",
+        "variation": "Are the characteristics of the lung within the normal range?",
         "is_negated": false
     },
     {
@@ -36909,31 +35816,31 @@
     {
         "question_id": 1984,
         "original": "Is this a transverse plane?",
-        "variation": "Is the orientation of the plane vertical or sagittal instead of transverse?",
+        "variation": "Is the orientation of the plane transverse?",
         "is_negated": true
     },
     {
         "question_id": 1984,
         "original": "Is this a transverse plane?",
-        "variation": "What kind of plane is this? Is it a transverse one?",
+        "variation": "Is it a transverse one plane?",
         "is_negated": false
     },
     {
         "question_id": 1984,
         "original": "Is this a transverse plane?",
-        "variation": "In what way is the plane positioned on the X-ray image? Is it running across (transversely) or along (coronal/sagittal)?",
+        "variation": "In what way is the plane positioned on the X-ray image? Is it running across (transversely)?",
         "is_negated": false
     },
     {
         "question_id": 1984,
         "original": "Is this a transverse plane?",
-        "variation": "Is the imaging section going sideways (transverse) or front to back (sagittal) or top to bottom (coronal) in this X-ray?",
+        "variation": "Is the imaging section going sideways (transverse)?",
         "is_negated": false
     },
     {
         "question_id": 1984,
         "original": "Is this a transverse plane?",
-        "variation": "Is the plane depicted in this X-ray perpendicular to my body?",
+        "variation": "Is the plane depicted in this X-ray transverse to my body?",
         "is_negated": false
     },
     {
@@ -36945,7 +35852,7 @@
     {
         "question_id": 1984,
         "original": "Is this a transverse plane?",
-        "variation": "In what orientation is the plane that's being scanned in this X-ray – axial, coronal, or sagittal?",
+        "variation": "In what orientation is the plane that's being scanned in this X-ray transverse?",
         "is_negated": false
     },
     {
@@ -36957,8 +35864,8 @@
     {
         "question_id": 1989,
         "original": "Is this a study of the abdomen?",
-        "variation": "Does this examination focus on the abdomen rather than the chest?",
-        "is_negated": true
+        "variation": "Does this examination focus on the abdomen?",
+        "is_negated": false
     },
     {
         "question_id": 1989,
@@ -36999,7 +35906,7 @@
     {
         "question_id": 1989,
         "original": "Is this a study of the abdomen?",
-        "variation": "In this radiograph, what region or area of the body's core is being inspected - the mid-body or abdomen?",
+        "variation": "In this radiograph, what region or area of the body's core is being inspected - the abdomen?",
         "is_negated": false
     },
     {
@@ -37036,7 +35943,7 @@
         "question_id": 1990,
         "original": "Does the patient have any abnormalities?",
         "variation": "Does the patient show no signs of abnormality on the chest X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 1990,
@@ -37072,7 +35979,7 @@
         "question_id": 1991,
         "original": "Is the lung abnormal?",
         "variation": "Is there an abnormality detected in the lung not on the provided X-ray?",
-        "is_negated": true
+        "is_negated": false
     },
     {
         "question_id": 1991,
@@ -37089,13 +35996,13 @@
     {
         "question_id": 1991,
         "original": "Is the lung abnormal?",
-        "variation": "Is there something that appears out of the ordinary in the lung as shown on the X-ray, but not typically expected?",
+        "variation": "Is there something that appears out of the ordinary in the lung as shown on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 1991,
         "original": "Is the lung abnormal?",
-        "variation": "Is the lung not normal or irregular on this X-ray?",
+        "variation": "Is the lung not normal on this X-ray?",
         "is_negated": false
     },
     {
