@@ -58641,19 +58641,19 @@
     {
         "question_id": 3418,
         "original": "Is this a CT scan?",
-        "variation": "Is there no label suggesting that this is a CT scan?",
+        "variation": "Is there nothing suggesting that this is a CT scan?",
         "is_negated": true
     },
     {
         "question_id": 3418,
         "original": "Is this a CT scan?",
-        "variation": "What kind of scan is this?",
+        "variation": "Could the provided material be considered a CT scan?",
         "is_negated": false
     },
     {
         "question_id": 3418,
         "original": "Is this a CT scan?",
-        "variation": "Can you tell if this is a CT or another type of scan?",
+        "variation": "Can you tell if this is a CT?",
         "is_negated": false
     },
     {
@@ -58707,25 +58707,19 @@
     {
         "question_id": 3421,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "In which part of the body are the organs from the provided X-ray located, excluding the neck?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3421,
-        "original": "Do the organs in the image exist in the neck?",
         "variation": "Can you find any organs on this radiograph that lie within or near the neck region?",
         "is_negated": false
     },
     {
         "question_id": 3421,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Are any of the structures in the image housed inside the throat (neck)?",
+        "variation": "Are any of the structures in the image housed inside the throat?",
         "is_negated": false
     },
     {
         "question_id": 3421,
         "original": "Do the organs in the image exist in the neck?",
-        "variation": "Do any bodily components depicted in the scan reside in the cervix (neck)?",
+        "variation": "Do any bodily components depicted in the scan reside in the cervical region (neck)?",
         "is_negated": false
     },
     {
@@ -58755,19 +58749,13 @@
     {
         "question_id": 3423,
         "original": "Is this a study of the chest?",
-        "variation": "What is the subject matter of this study? Is it the chest?",
+        "variation": "Could this research be about the chest area?",
         "is_negated": false
     },
     {
         "question_id": 3423,
         "original": "Is this a study of the chest?",
-        "variation": "In this investigation, what body part was focused on? Was it the chest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3423,
-        "original": "Is this a study of the chest?",
-        "variation": "For which region of the human anatomy was this research undertaken? Was it the chest?",
+        "variation": "Was the region of interest in this research the chest?",
         "is_negated": false
     },
     {
@@ -58803,37 +58791,37 @@
     {
         "question_id": 3428,
         "original": "Is this image taken via CT?",
-        "variation": "Did this image originate from a CT scanner, or is that false?",
+        "variation": "Did this image not originate from a CT scanner?",
         "is_negated": true
     },
     {
         "question_id": 3428,
         "original": "Is this image taken via CT?",
-        "variation": "Was this image produced by an X-ray machine instead of a CT scanner?",
+        "variation": "Was this image produced by a CT machine?",
         "is_negated": false
     },
     {
         "question_id": 3428,
         "original": "Is this image taken via CT?",
         "variation": "Is the method used to obtain this image something other than a computed tomography scan?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3428,
         "original": "Is this image taken via CT?",
         "variation": "Did they use an X-ray to take this picture instead of doing a CT imaging?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3428,
+        "original": "Is this image taken via CT?",
+        "variation": "Was this imaging technique for this photo computed tomography?",
         "is_negated": false
     },
     {
         "question_id": 3428,
         "original": "Is this image taken via CT?",
-        "variation": "Was this imaging technique for this photo a plain radiograph rather than computed tomography?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3428,
-        "original": "Is this image taken via CT?",
-        "variation": "Is the procedure involved in creating this image not computed axial tomography but plain X-ray?",
+        "variation": "Is the procedure involved in creating this image computed axial tomography?",
         "is_negated": false
     },
     {
@@ -58845,7 +58833,7 @@
     {
         "question_id": 3429,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is this not an MRI image?",
+        "variation": "Is this not an MRI image T1 weighted?",
         "is_negated": true
     },
     {
@@ -58863,37 +58851,13 @@
     {
         "question_id": 3429,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "What type of imaging is this, other than T1 weighted MRI?",
+        "variation": "Is this MR image using T1-weighting?",
         "is_negated": false
     },
     {
         "question_id": 3429,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is this image showing T2 or another weighting instead of T1 on an MRI scan?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3429,
-        "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Can you tell me if the weighting for this MRI image is not T1?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3429,
-        "original": "Is this an MRI image with T1 weighted?",
-        "variation": "What contrast is used in this MRI, other than T1-weighted?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3429,
-        "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is this MR image using any weighting other than T1-weighting?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3429,
-        "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Does this Magnetic Resonance Imaging use a different weight from T1-weight?",
+        "variation": "Does this Magnetic Resonance Imaging use T1-weighing?",
         "is_negated": false
     },
     {
@@ -58905,7 +58869,7 @@
     {
         "question_id": 3430,
         "original": "Is this a transverse plane?",
-        "variation": "Aren't we dealing with a transverse section here?",
+        "variation": "Are we not dealing with a transverse section here?",
         "is_negated": true
     },
     {
@@ -58917,169 +58881,91 @@
     {
         "question_id": 3430,
         "original": "Is this a transverse plane?",
-        "variation": "What kind of section is displayed in the X-ray (transverse, sagittal or coronal)?",
+        "variation": "Is the kind of section being displayed transversal in the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3430,
         "original": "Is this a transverse plane?",
-        "variation": "Is the plane shown in this X-ray running across (transverse) or lengthwise (sagittal, coronal) the body part?",
+        "variation": "Can you describe the orientation of the X-ray section as transverse?",
         "is_negated": false
     },
     {
         "question_id": 3430,
         "original": "Is this a transverse plane?",
-        "variation": "Can you describe the orientation of the X-ray section as transverse, sagittal or coronal?",
+        "variation": "Is this a transverse view?",
         "is_negated": false
     },
     {
         "question_id": 3430,
         "original": "Is this a transverse plane?",
-        "variation": "Is this a cross-sectional view?",
+        "variation": "Does the plane in the image go side to side?",
         "is_negated": false
     },
     {
         "question_id": 3430,
         "original": "Is this a transverse plane?",
-        "variation": "Does the plane in the image go side to side (transversely)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3430,
-        "original": "Is this a transverse plane?",
-        "variation": "Is this X-ray showing a lateral section of the body part?",
+        "variation": "Is this X-ray showing a transverse section of the body part?",
         "is_negated": false
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
-        "variation": "Is this image normal?",
+        "variation": "Is this image abnormal?",
         "is_negated": true
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
-        "variation": "Does the image exhibit any regularity?",
+        "variation": "Does the image exhibit any irregularity?",
         "is_negated": true
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
-        "variation": "Does this image conform to expectations?",
+        "variation": "Does this image not conform to expectations?",
         "is_negated": true
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
-        "variation": "Is this X-ray picture abnormal?",
+        "variation": "Is this scan normal?",
         "is_negated": false
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
         "variation": "Does the radiograph show any irregularities in this case?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
-        "variation": "Does the chest X-ray have any unusual findings?",
+        "variation": "Does the CT have usual findings?",
         "is_negated": false
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
         "variation": "Does this image deviate from the standard?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3434,
+        "original": "Is this image normal?",
+        "variation": "Is there no anomaly in the X-ray image?",
         "is_negated": false
     },
     {
         "question_id": 3434,
         "original": "Is this image normal?",
-        "variation": "Is there an anomaly in the X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3434,
-        "original": "Is this image normal?",
-        "variation": "Does the photograph of the chest differ from normal findings?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the image scanned NOT a transverse plane?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Isn't the image scanned a coronal plane?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Has the image been scanned in any plane other than the transverse or coronal planes?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "What kind of plane is the X-ray image NOT taken from? (Either transverse or coronal)",
-        "is_negated": false
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the radiograph scan performed along a plane that is not parallel to a horizontal section through the body (transverse) or a vertical section (coronal)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "In what manner is the X-ray slice taken, neither in a cross-sectional view (transverse) nor in an anatomical front-back view (coronal)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the image scanned in any plane other than the cross-sectional or axial plane?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "In what way is the X-ray picture NOT obtained from a sagittal or horizontal section through the body?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3439,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the X-ray slice taken neither in a coronal nor transversal view?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3441,
-        "original": "Which hemisphere is abnormal,left or right?",
-        "variation": "Is neither the left nor the right hemisphere abnormal?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3441,
-        "original": "Which hemisphere is abnormal,left or right?",
-        "variation": "Is there no abnormality in either the left or right hemisphere of the chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3441,
-        "original": "Which hemisphere is abnormal,left or right?",
-        "variation": "Is it not the case that one of the two hemispheres, be it the left or the right, shows any irregularity on this chest X-ray?",
+        "variation": "Does the photograph of the chest not differ from normal findings?",
         "is_negated": false
     },
     {
         "question_id": 3443,
         "original": "Is/Are there abnormalities in the patient's right brain lobe?",
-        "variation": "Is it normal for the patient's right brain lobe to appear without any abnormalities on the X-ray?",
+        "variation": "Is it correct to say the patient's right brain lobe is without any abnormalities on the X-ray?",
         "is_negated": true
     },
     {
@@ -59091,14 +58977,14 @@
     {
         "question_id": 3443,
         "original": "Is/Are there abnormalities in the patient's right brain lobe?",
-        "variation": "Are there no irregularities or anomalies in the patient's right brain lobe, as seen on the chest X-ray?",
+        "variation": "Are there no irregularities or anomalies in the patient's right brain lobe, as seen on the X-ray?",
         "is_negated": true
     },
     {
         "question_id": 3443,
         "original": "Is/Are there abnormalities in the patient's right brain lobe?",
         "variation": "Is the right brain lobe of the patient normal according to the X-ray?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3443,
@@ -59193,7 +59079,7 @@
     {
         "question_id": 3446,
         "original": "Is this a CT?",
-        "variation": "Aren't we dealing with a CT here?",
+        "variation": "Are we not dealing with a CT here?",
         "is_negated": true
     },
     {
@@ -59205,13 +59091,13 @@
     {
         "question_id": 3446,
         "original": "Is this a CT?",
-        "variation": "What kind of scan is this? (CT)",
+        "variation": "One might assume this is a CT, is it true?",
         "is_negated": false
     },
     {
         "question_id": 3446,
         "original": "Is this a CT?",
-        "variation": "What imaging technique was used for this test? (Computed Tomography)",
+        "variation": "Was Computed Tomography used for this test?",
         "is_negated": false
     },
     {
@@ -59239,30 +59125,6 @@
         "is_negated": false
     },
     {
-        "question_id": 3450,
-        "original": "Which lobe is abnormal,left or right?",
-        "variation": "Is neither the left nor the right lobe abnormal?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3450,
-        "original": "Which lobe is abnormal,left or right?",
-        "variation": "Is the left lobe normal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3450,
-        "original": "Which lobe is abnormal,left or right?",
-        "variation": "Is the right lobe normal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3450,
-        "original": "Which lobe is abnormal,left or right?",
-        "variation": "Which of the two lobes, the left or the right, is not showing any abnormality?",
-        "is_negated": false
-    },
-    {
         "question_id": 3451,
         "original": "Is this a study of the head?",
         "variation": "Is this NOT a study of the head?",
@@ -59283,19 +59145,19 @@
     {
         "question_id": 3451,
         "original": "Is this a study of the head?",
-        "variation": "Is this about the head instead?",
+        "variation": "Is this about the head?",
         "is_negated": false
     },
     {
         "question_id": 3451,
         "original": "Is this a study of the head?",
-        "variation": "What part of the body is this focusing on, if not the head?",
+        "variation": "Is the part of human body this research focuses on the head?",
         "is_negated": false
     },
     {
         "question_id": 3451,
         "original": "Is this a study of the head?",
-        "variation": "Can you confirm whether this pertains to the head or another area?",
+        "variation": "Is it possible, that this study pertains to the head?",
         "is_negated": false
     },
     {
@@ -59319,7 +59181,7 @@
     {
         "question_id": 3452,
         "original": "Is this image normal?",
-        "variation": "Is this image abnormal?",
+        "variation": "Is this image abnormal appearing?",
         "is_negated": true
     },
     {
@@ -59343,7 +59205,7 @@
     {
         "question_id": 3452,
         "original": "Is this image normal?",
-        "variation": "Can you confirm that this image represents a regular chest X-ray appearance?",
+        "variation": "Can you confirm that this image is representative?",
         "is_negated": false
     },
     {
