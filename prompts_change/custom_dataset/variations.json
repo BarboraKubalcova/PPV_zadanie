@@ -57177,7 +57177,7 @@
     {
         "question_id": 3300,
         "original": "Is the brain healthy?",
-        "variation": "Aren't brains usually healthy?",
+        "variation": "Is the depicted brain unhealthy?",
         "is_negated": true
     },
     {
@@ -57202,7 +57202,7 @@
         "question_id": 3300,
         "original": "Is the brain healthy?",
         "variation": "Is the brain showing any signs of disease or damage?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3300,
@@ -57231,19 +57231,19 @@
     {
         "question_id": 3303,
         "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "Is this NOT a T2 weighted MRI image?",
+        "variation": "Is this NOT a T1 or T2 weighted MRI image?",
         "is_negated": true
     },
     {
         "question_id": 3303,
         "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "Is this BOTH a T1 and T2 weighted MRI image?",
+        "variation": "Has this image been created by some other technique than a T1 and T2 MRI weighing?",
         "is_negated": true
     },
     {
         "question_id": 3303,
         "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "What type of MRI image is this - T1 or T2 weighted?",
+        "variation": "Is the type of the shown image an MRI with T1 or T2 weighing?",
         "is_negated": false
     },
     {
@@ -57255,43 +57255,37 @@
     {
         "question_id": 3303,
         "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "Can you determine if this image is a T1 or T2 weighted MRI?",
+        "variation": "Is it apparent if this image is a T1 or T2 weighted MRI?",
         "is_negated": false
     },
     {
         "question_id": 3303,
         "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "Is this an MR imaging using T1 weighting?",
+        "variation": "Is this an MR imaging using T1 or T2 weighing?",
         "is_negated": false
     },
     {
         "question_id": 3303,
         "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "Is this an MR imaging employing T2 weighting?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3303,
-        "original": "Is this a T1 weighted or T2 weighted MRI image?",
-        "variation": "What type of magnetic resonance weighting does this image utilize - T1 or T2?",
+        "variation": "Is this an MR imaging employing T1 or T2 weighing techniques?",
         "is_negated": false
     },
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "Is the brain not abnormal appearing?",
+        "variation": "Is the brain abnormal appearing?",
         "is_negated": true
     },
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "Does the brain not show signs of irregularity?",
+        "variation": "Does the brain show signs of irregularity?",
         "is_negated": true
     },
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "Is there nothing unusual in the appearance of the brain?",
+        "variation": "Is there something unusual in the appearance of the brain?",
         "is_negated": true
     },
     {
@@ -57303,25 +57297,25 @@
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "Is the structure of the brain as expected based on the chest X-ray?",
+        "variation": "Is the structure of the brain as expected based on the X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "On the provided chest X-ray, does the brain appear as it typically would?",
+        "variation": "On the provided X-ray, does the brain appear as it typically would?",
         "is_negated": false
     },
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "Does the brain exhibit a normal appearance in the X-ray?",
-        "is_negated": false
+        "variation": "Does the brain exhibit an abnormal appearance in the X-ray?",
+        "is_negated": true
     },
     {
         "question_id": 3308,
         "original": "Is the brain normal appearing?",
-        "variation": "Is the brain's structure typical on the given chest X-ray?",
+        "variation": "Is the brain's structure typical on the given X-ray?",
         "is_negated": false
     },
     {
@@ -57363,7 +57357,7 @@
     {
         "question_id": 3309,
         "original": "Is the tumor enhancing?",
-        "variation": "Does the radiologist note any significant difference between the tumor and normal tissue on the enhanced image?",
+        "variation": "Would a radiologist note any significant difference between the tumor and normal tissue on the enhanced image?",
         "is_negated": false
     },
     {
@@ -57393,49 +57387,37 @@
     {
         "question_id": 3311,
         "original": "Is this an MRI?",
-        "variation": "Is there no MRI in this image?",
+        "variation": "Could one say this is something other than an MRI image?",
         "is_negated": true
     },
     {
         "question_id": 3311,
         "original": "Is this an MRI?",
-        "variation": "Is the given image lacking an MRI?",
+        "variation": "Is the given image not an MRI image?",
         "is_negated": true
     },
     {
         "question_id": 3311,
         "original": "Is this an MRI?",
-        "variation": "What kind of scan is this? (Is it not an MRI?)",
-        "is_negated": false
-    },
-    {
-        "question_id": 3311,
-        "original": "Is this an MRI?",
-        "variation": "What type of imaging test has been done here? (Is it other than MRI?)",
-        "is_negated": false
-    },
-    {
-        "question_id": 3311,
-        "original": "Is this an MRI?",
-        "variation": "What sort of picture am I looking at? (Is it not a magnetic resonance image?)",
+        "variation": "Can the provided scan be considered an MRI?",
         "is_negated": false
     },
     {
         "question_id": 3311,
         "original": "Is this an MRI?",
         "variation": "Is the depicted image a non-MRI scan?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3311,
         "original": "Is this an MRI?",
         "variation": "Is this radiological examination anything but an MRI?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3311,
         "original": "Is this an MRI?",
-        "variation": "Am I viewing a magnetic resonance imaging alternative here?",
+        "variation": "Am I viewing a magnetic resonance imaging here?",
         "is_negated": false
     },
     {
@@ -57447,49 +57429,49 @@
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "Is this an axial or sagittal section instead of coronal?",
+        "variation": "Is this some other section instead of coronal?",
         "is_negated": true
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "Is the plane of sectioning horizontal, not vertical as in coronal?",
+        "variation": "Does the image appear to be a different section from coronal?",
         "is_negated": true
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "What type of X-ray section is shown here? Is it a coronal?",
+        "variation": "Is the type of X-ray section shown here coronal?",
         "is_negated": false
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "In the provided image, is the slice taken through the body vertically or horizontally? Is it coronal if it's horizontal?",
+        "variation": "In the provided image, is the slice coronal?",
         "is_negated": false
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "I see an X-ray section in the image. Can you tell me whether this is a frontal (coronal) section?",
+        "variation": "Is this with certainty a frontal (coronal) section?",
         "is_negated": false
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "Is the depicted section on the chest radiograph sagittal or coronal?",
+        "variation": "Is the depicted section on the chest radiograph coronal?",
         "is_negated": false
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "Is the cut through the body shown in the X-ray image transverse, oblique, or coronal?",
+        "variation": "Is the cut through the body shown in the X-ray image coronal?",
         "is_negated": false
     },
     {
         "question_id": 3313,
         "original": "Is this a coronal section?",
-        "variation": "In this X-ray section of the thorax, is it a cross section perpendicular to the long axis (coronal) or parallel to it?",
+        "variation": "In this X-ray section of the thorax, is it a cross section perpendicular to the long axis (coronal)?",
         "is_negated": false
     },
     {
@@ -57513,31 +57495,25 @@
     {
         "question_id": 3316,
         "original": "Is this a study of the head?",
-        "variation": "What is this image showing, other than the head?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3316,
-        "original": "Is this a study of the head?",
         "variation": "Is this an X-ray of any body part other than the head?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3316,
         "original": "Is this a study of the head?",
         "variation": "Am I correct in assuming that this is not a head-related study?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3316,
+        "original": "Is this a study of the head?",
+        "variation": "Is this a depiction of the cranium?",
         "is_negated": false
     },
     {
         "question_id": 3316,
         "original": "Is this a study of the head?",
-        "variation": "Is this a depiction of something other than the cranium?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3316,
-        "original": "Is this a study of the head?",
-        "variation": "Is this an examination of any part of the body except for the head?",
+        "variation": "Is this an examination of the head?",
         "is_negated": false
     },
     {
@@ -57549,163 +57525,109 @@
     {
         "question_id": 3317,
         "original": "Is this image normal?",
-        "variation": "Is this image not abnormal?",
+        "variation": "Is this image abnormal?",
         "is_negated": true
     },
     {
         "question_id": 3317,
         "original": "Is this image normal?",
-        "variation": "Does this image not show any deviation from normal?",
+        "variation": "Does this image show any deviation from normal?",
         "is_negated": true
     },
     {
         "question_id": 3317,
         "original": "Is this image normal?",
-        "variation": "Is there not anything unusual or pathological in this image?",
+        "variation": "Is there somethingthing unusual or pathological in this image?",
         "is_negated": true
     },
     {
         "question_id": 3317,
         "original": "Is this image normal?",
-        "variation": "Does this chest X-ray not appear as expected?",
+        "variation": "Does this X-ray not appear as expected?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3317,
+        "original": "Is this image normal?",
+        "variation": "Is the X-ray not consistent with a normal appearance?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3317,
+        "original": "Is this image normal?",
+        "variation": "Is the image of the chest in this X-ray within the usual range?",
         "is_negated": false
     },
     {
         "question_id": 3317,
         "original": "Is this image normal?",
-        "variation": "Is the chest X-ray not consistent with a normal appearance?",
+        "variation": "Does this chest X-ray portray a typical chest scenario?",
         "is_negated": false
     },
     {
         "question_id": 3317,
         "original": "Is this image normal?",
-        "variation": "Is the image of the chest in this X-ray not within the usual range?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3317,
-        "original": "Is this image normal?",
-        "variation": "Does this X-ray not portray a typical chest scenario?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3317,
-        "original": "Is this image normal?",
-        "variation": "Is the chest as seen in this X-ray not standard or normal?",
+        "variation": "Is the chest as seen in this X-ray standard or normal?",
         "is_negated": false
     },
     {
         "question_id": 3317,
         "original": "Is this image normal?",
         "variation": "Does the X-ray not depict the chest in its usual condition?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3321,
-        "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is this NOT an MRI image with T1 weighting?",
         "is_negated": true
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Does this image NOT have T1 weighting within an MRI scan?",
+        "variation": "Is this NOT an MRI image with T1 weighing?",
         "is_negated": true
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is it FALSE that this is an MRI image with T1 weighting?",
+        "variation": "Does this image NOT have T1 weighing within an MRI scan?",
         "is_negated": true
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "What kind of image is this NOT – an MRI T1-weighted image?",
+        "variation": "Is it FALSE that this is an MRI image with T1 weighing?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3321,
+        "original": "Is this an MRI image with T1 weighted?",
+        "variation": "Is it true that this is an MRI image with T1 weighing?",
         "is_negated": false
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Does the image show T1 weighting characteristics or NOT within an MRI scan?",
+        "variation": "Does this image have T1 weighing within an MRI scan?",
         "is_negated": false
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is this a standard MRI image with T1 weighting applied or NOT?",
+        "variation": "Is this a standard MRI image with T1 weighing applied?",
         "is_negated": false
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
         "variation": "Is the picture a non-T1-weighted MRI image?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3321,
+        "original": "Is this an MRI image with T1 weighted?",
+        "variation": "Does the imaging depict T1 weighing in an MRI scan?",
         "is_negated": false
     },
     {
         "question_id": 3321,
         "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Does the imaging depict anything other than T1 weighting in an MRI scan?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3321,
-        "original": "Is this an MRI image with T1 weighted?",
-        "variation": "Is it accurate to say that this is NOT an image with T1 weighting within an MRI?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "Is both the left and right lobes normal in this chest X-ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "Is neither the left nor the right lobe abnormal on this chest X-ray?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "In this chest X-ray, are neither the left nor the right lobe showing any abnormality?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "Is there anything unusual with the left lung lobe on this X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "How about the right lung lobe in this radiograph – is it normal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "Can you tell if there's any abnormality present in either the left or right lung lobes of the chest X-ray?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "On this chest X-ray, which of the following lungs is not showing any irregularity: left or right?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "Is it possible to identify an anomaly in the left or right portion of the thorax on the provided X-ray image?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3324,
-        "original": "Which lobe is abnormal, left or right?",
-        "variation": "In the given X-ray of the chest, does the left or right lung lobe appear to have some deviation from normal structure?",
+        "variation": "Is it accurate to say that this is an image with T1 weighing within an MRI?",
         "is_negated": false
     },
     {
@@ -57729,37 +57651,37 @@
     {
         "question_id": 3334,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "What is the study here about, other than the pelvic cavity?",
+        "variation": "What is the study here about the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 3334,
         "original": "Is this a study of the pelvic cavity?",
         "variation": "Is the subject in question something other than the pelvic cavity?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3334,
+        "original": "Is this a study of the pelvic cavity?",
+        "variation": "Does this examination concentrate on the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 3334,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "Where does this examination concentrate, apart from the pelvic cavity?",
+        "variation": "Could the shown study be considered to be one with the main focus on the pelvic cavity?",
         "is_negated": false
     },
     {
         "question_id": 3334,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "Is this an analysis of the female reproductive system instead?",
+        "variation": "Does this investigation concern the lower abdominal cavity?",
         "is_negated": false
     },
     {
         "question_id": 3334,
         "original": "Is this a study of the pelvic cavity?",
-        "variation": "Does this investigation concern anything other than the lower abdominal cavity?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3334,
-        "original": "Is this a study of the pelvic cavity?",
-        "variation": "What is the area of focus in this study, other than the pelvic basin?",
+        "variation": "Is it correct to say, that the main focus of this study is the pelvic basin?",
         "is_negated": false
     },
     {
@@ -57777,97 +57699,37 @@
     {
         "question_id": 3340,
         "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is the weighting of this MRI image not T2?",
+        "variation": "Is the weighing of this MRI image not T2?",
         "is_negated": true
     },
     {
         "question_id": 3340,
         "original": "Is this an MRI image with T2 weighted?",
-        "variation": "What type of imaging technique is not used for this scan (T2 weighted MRI)?",
+        "variation": "Was the type of imaging technique used here a T2 weighted MRI?",
         "is_negated": false
     },
     {
         "question_id": 3340,
         "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Does this scan not use a weighting method called T2 weighting?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3340,
-        "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is the specific weighting used in this image not T2 weighting?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3340,
-        "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is the weight of this MRI image not associated with T2 (T2-weighted)?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3340,
-        "original": "Is this an MRI image with T2 weighted?",
-        "variation": "What is the nature of the imaging weight for this scan, not T2?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3340,
-        "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Does this picture use a type of MRI contrast, not T2 weighting?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the image not scanned in a transverse plane?",
+        "variation": "Does this MRI scan not use a weighting method called T2 weighting?",
         "is_negated": true
     },
     {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Was the image not scanned on a coronal plane?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Is the image unrelated to both transverse and coronal planes?",
-        "is_negated": true
-    },
-    {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "What type of plane was the X-ray image not taken on, transverse or coronal?",
+        "question_id": 3340,
+        "original": "Is this an MRI image with T2 weighted?",
+        "variation": "Is the specific weighting used in this image T2 weighting?",
         "is_negated": false
     },
     {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "In what direction was the X-ray slice not made, parallel or perpendicular to the chest?",
+        "question_id": 3340,
+        "original": "Is this an MRI image with T2 weighted?",
+        "variation": "Would a radiologist consider this scan an MRI with T2-weighted?",
         "is_negated": false
     },
     {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Can you specify if the X-ray image does not depict a transverse or coronal section of the chest?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "On which plane was the picture NOT taken, axial or transversal plane?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "In what orientation was the slice NOT made, frontal or sagittal plane?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3341,
-        "original": "Which plane is the image scanned, transverse plane or coronal plane?",
-        "variation": "Was the image acquired in a different plane than the planes you mentioned, cross-sectional or longitudinal plane?",
+        "question_id": 3340,
+        "original": "Is this an MRI image with T2 weighted?",
+        "variation": "Does this picture use a type of MRI T2 weighing?",
         "is_negated": false
     },
     {
@@ -57909,8 +57771,8 @@
     {
         "question_id": 3342,
         "original": "Do the organs in the image exist in the head?",
-        "variation": "Can you identify an organ in the picture that resides within the skull?",
-        "is_negated": false
+        "variation": "Can you identify an organ in the picture that resides outside the skull?",
+        "is_negated": true
     },
     {
         "question_id": 3342,
@@ -58042,30 +57904,30 @@
         "question_id": 3362,
         "original": "Is the abnormality hyperdense or hypodense?",
         "variation": "Is the density of the abnormality regular, not either hyperdense or hypodense?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3362,
         "original": "Is the abnormality hyperdense or hypodense?",
         "variation": "In terms of its density, does the abnormality show normal values, and not be either hyperdense or hypodense?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3362,
         "original": "Is the abnormality hyperdense or hypodense?",
-        "variation": "Does the abnormality display isodensity rather than being hyperdense or hypodense?",
+        "variation": "Does the abnormality appear to be hyperdense or hypodense?",
         "is_negated": false
     },
     {
         "question_id": 3362,
         "original": "Is the abnormality hyperdense or hypodense?",
         "variation": "Is the density of the abnormality equivalent to the surrounding tissue, instead of being hyperdense or hypodense?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3362,
         "original": "Is the abnormality hyperdense or hypodense?",
-        "variation": "Is the radiopacity of the abnormality similar to that of the normal tissues, not being either hyperdense or hypodense?",
+        "variation": "Is the radiopacity of the abnormality different to that of the normal tissues, being either hyperdense or hypodense?",
         "is_negated": false
     },
     {
@@ -58089,37 +57951,37 @@
     {
         "question_id": 3365,
         "original": "Is this an MRI?",
-        "variation": "What kind of scan is displayed here, NOT an MRI?",
+        "variation": "Is an MRI being displayed here?",
         "is_negated": false
     },
     {
         "question_id": 3365,
         "original": "Is this an MRI?",
-        "variation": "Is the depicted image a type of magnetic resonance imaging test or something else?",
+        "variation": "Is the depicted image a type of magnetic resonance imaging?",
         "is_negated": false
     },
     {
         "question_id": 3365,
         "original": "Is this an MRI?",
         "variation": "Is this a diagnostic image taken using a technique other than Magnetic Resonance Imaging (MRI)?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3365,
         "original": "Is this an MRI?",
         "variation": "Is this picture an example of a different diagnostic modality rather than MRI?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3365,
+        "original": "Is this an MRI?",
+        "variation": "Is the type of radiological examination is displayed here an MRI?",
         "is_negated": false
     },
     {
         "question_id": 3365,
         "original": "Is this an MRI?",
-        "variation": "What type of radiological examination is displayed here, instead of MRI?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3365,
-        "original": "Is this an MRI?",
-        "variation": "Could the depicted image be obtained from any imaging technique other than Magnetic Resonance Imaging (MRI)?",
+        "variation": "Could the depicted image be obtained from Magnetic Resonance Imaging (MRI)?",
         "is_negated": false
     },
     {
@@ -58143,37 +58005,31 @@
     {
         "question_id": 3366,
         "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is this MRI picture taken without T2 weighting?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3366,
-        "original": "Is this an MRI image with T2 weighted?",
-        "variation": "What type of weighting is used in this MRI image, other than T2 weighting?",
-        "is_negated": false
+        "variation": "Is this MRI picture taken without T2 weighing?",
+        "is_negated": true
     },
     {
         "question_id": 3366,
         "original": "Is this an MRI image with T2 weighted?",
         "variation": "Is the imaging in this MRI scan performed using anything other than T2 weighting?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3366,
+        "original": "Is this an MRI image with T2 weighted?",
+        "variation": "Is the imaging modality for this MRI scan T2-weighted?",
         "is_negated": false
     },
     {
         "question_id": 3366,
         "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is the imaging modality for this MRI scan NOT T2-weighted?",
+        "variation": "Is there T2 weighing applied to the images from this MRI scan?",
         "is_negated": false
     },
     {
         "question_id": 3366,
         "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is there no T2 weighting applied to the images from this MRI scan?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3366,
-        "original": "Is this an MRI image with T2 weighted?",
-        "variation": "Is the image contrast in this MRI not generated through T2 weighting?",
+        "variation": "Is the image contrast in this MRI generated through T2 weighing?",
         "is_negated": false
     },
     {
@@ -58197,37 +58053,37 @@
     {
         "question_id": 3370,
         "original": "Is this a study of the neck?",
-        "variation": "What body part is being examined in this X-ray? (neck)",
+        "variation": "Is the neck being examined in this X-ray?",
         "is_negated": false
     },
     {
         "question_id": 3370,
         "original": "Is this a study of the neck?",
-        "variation": "What area of the body is being imaged in this study? (neck)",
+        "variation": "Is the neck being imaged in this study?",
         "is_negated": false
     },
     {
         "question_id": 3370,
         "original": "Is this a study of the neck?",
-        "variation": "To which region does this X-ray pertain? (neck)",
+        "variation": "Does this X-ray pertain to the cervical region",
         "is_negated": false
     },
     {
         "question_id": 3370,
         "original": "Is this a study of the neck?",
-        "variation": "Is the subject of this X-ray the neck or its surrounding structures?",
+        "variation": "Is the subject of this X-ray the neck and its surrounding structures?",
         "is_negated": false
     },
     {
         "question_id": 3370,
         "original": "Is this a study of the neck?",
-        "variation": "In this radiograph, what is the primary focus or main target area? (cervix)",
+        "variation": "In this radiograph, is the primary focus the neck area?",
         "is_negated": false
     },
     {
         "question_id": 3370,
         "original": "Is this a study of the neck?",
-        "variation": "What anatomical location is under observation in this examination? (neck region)",
+        "variation": "Is the neck region under investigation in this study?",
         "is_negated": false
     },
     {
@@ -58305,7 +58161,7 @@
     {
         "question_id": 3380,
         "original": "Is the abnormality hyperdense or hypodense?",
-        "variation": "Is the abnormality too dense (hyperdense) or not dense enough (hypodense) as compared to the surrounding tissue in the chest X-ray?",
+        "variation": "Is the abnormality too dense (hyperdense) or not dense enough (hypodense) as compared to the surrounding tissue in the X-ray?",
         "is_negated": false
     },
     {
@@ -58347,7 +58203,7 @@
     {
         "question_id": 3382,
         "original": "Is this image taken via CT?",
-        "variation": "Was this image taken outside a CT scanner?",
+        "variation": "Was this image taken with something other than a CT scanner?",
         "is_negated": true
     },
     {
@@ -58360,37 +58216,37 @@
         "question_id": 3382,
         "original": "Is this image taken via CT?",
         "variation": "Was the method used to obtain this image something other than CT scanning?",
+        "is_negated": true
+    },
+    {
+        "question_id": 3382,
+        "original": "Is this image taken via CT?",
+        "variation": "Was this image produced using a CT device?",
         "is_negated": false
     },
     {
         "question_id": 3382,
         "original": "Is this image taken via CT?",
-        "variation": "Was this image produced using any equipment other than a CT device?",
+        "variation": "Was this image acquired through a CT scan?",
         "is_negated": false
     },
     {
         "question_id": 3382,
         "original": "Is this image taken via CT?",
-        "variation": "In what way was this image acquired, not through a CT scan?",
+        "variation": "Did this image result from a Computed Tomography procedure?",
         "is_negated": false
     },
     {
         "question_id": 3382,
         "original": "Is this image taken via CT?",
-        "variation": "Did this image result from a Computed Tomography procedure or another method?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3382,
-        "original": "Is this image taken via CT?",
-        "variation": "Was the imaging technique for this picture different from Computerized Axial Tomography?",
+        "variation": "Was the imaging technique for this picture Computerized Axial Tomography?",
         "is_negated": false
     },
     {
         "question_id": 3382,
         "original": "Is this image taken via CT?",
         "variation": "Was this image created via a modality other than Computed Tomography?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3391,
@@ -58401,31 +58257,31 @@
     {
         "question_id": 3391,
         "original": "Is this an MRI?",
-        "variation": "Is there an MRI in this image? (No)",
+        "variation": "Is this not an MRI imaging?",
         "is_negated": true
     },
     {
         "question_id": 3391,
         "original": "Is this an MRI?",
-        "variation": "What type of scan is this, if not an MRI?",
+        "variation": "Is this scan not an MRI type?",
         "is_negated": true
     },
     {
         "question_id": 3391,
         "original": "Is this an MRI?",
-        "variation": "What kind of imaging test is displayed here? Is it an MRI?",
+        "variation": "Is the imaging here an MRI?",
         "is_negated": false
     },
     {
         "question_id": 3391,
         "original": "Is this an MRI?",
-        "variation": "In this picture, is there a radiological examination called Magnetic Resonance Imaging (MRI)?",
+        "variation": "Was this picture created by a radiological examination called Magnetic Resonance Imaging (MRI)?",
         "is_negated": false
     },
     {
         "question_id": 3391,
         "original": "Is this an MRI?",
-        "variation": "Is the image showing a diagnostic procedure known as Magnetic Resonance Imaging (MRI)?",
+        "variation": "Is the image consisten with any image created by a procedure known as Magnetic Resonance Imaging (MRI)?",
         "is_negated": false
     },
     {
@@ -58437,7 +58293,7 @@
     {
         "question_id": 3391,
         "original": "Is this an MRI?",
-        "variation": "Is this a scan done using magnetic field and radio waves instead of X-rays?",
+        "variation": "Is this a scan done using magnetic field and radio waves?",
         "is_negated": false
     },
     {
@@ -58467,25 +58323,13 @@
     {
         "question_id": 3393,
         "original": "Is this a coronal section?",
-        "variation": "What type of X-ray section is this not?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3393,
-        "original": "Is this a coronal section?",
-        "variation": "In what direction does this section cut through the body, except for coronal?",
-        "is_negated": false
-    },
-    {
-        "question_id": 3393,
-        "original": "Is this a coronal section?",
         "variation": "Is it possible that this is an image of a different plane section other than coronal?",
-        "is_negated": false
+        "is_negated": true
     },
     {
         "question_id": 3393,
         "original": "Is this a coronal section?",
-        "variation": "Is this NOT a frontal projection in the chest X-ray?",
+        "variation": "Is this a coronal section X-ray?",
         "is_negated": false
     },
     {
