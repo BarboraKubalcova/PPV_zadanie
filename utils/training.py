@@ -217,19 +217,31 @@ class Training:
 if __name__ == '__main__':
     random_state = 42
 
-    json_path = "../prompts_change/custom_dataset/variations.json"
+    json_path = "../prompts_change/custom_dataset/variations.fixed.json"
+    slake_json_path = "../prompts_change/custom_dataset/slake.dataset.json"
+
+    with open(slake_json_path, 'r', encoding='utf-8') as slake_file:
+        slake_data = json.load(slake_file)
 
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    item_ids = list(set(map(lambda item: item['question_id'], data)))
+    item_ids = set(map(lambda item: item['question_id'], data))
+    slake_ids = set(map(lambda item: item['question_id'], slake_data)).difference(item_ids)
 
-    train_ids, validation_ids = train_test_split(item_ids, test_size=0.3, random_state=random_state)
+    slake_train_ids, slake_validation_ids = train_test_split(list(slake_ids), test_size=0.2, random_state=random_state)
+    slake_test_ids, slake_validation_ids = train_test_split(slake_validation_ids, test_size=0.33, random_state=random_state)
+
+    train_ids, validation_ids = train_test_split(list(item_ids), test_size=0.3, random_state=random_state)
     test_ids, validation_ids = train_test_split(validation_ids, test_size=0.33, random_state=random_state)
 
-    test_data = list(filter(lambda item: item['question_id'] in test_ids, data))
-    train_data = list(filter(lambda item: item['question_id'] in train_ids, data))
-    validation_data = list(filter(lambda item: item['question_id'] in validation_ids, data))
+    train_ids += slake_train_ids
+    validation_ids += slake_validation_ids
+    test_ids += slake_test_ids
+
+    test_data = list(filter(lambda item: item['question_id'] in test_ids, data)) + list(filter(lambda item: item['question_id'] in test_ids, slake_data))
+    train_data = list(filter(lambda item: item['question_id'] in train_ids, data)) + list(filter(lambda item: item['question_id'] in train_ids, slake_data))
+    validation_data = list(filter(lambda item: item['question_id'] in validation_ids, data)) + list(filter(lambda item: item['question_id'] in validation_ids, slake_data))
 
     preprocessing_model = T5WithInversionHead.from_pretrained('t5-base')
 
