@@ -226,13 +226,13 @@ if __name__ == '__main__':
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    item_ids = set(map(lambda item: item['question_id'], data))
-    slake_ids = set(map(lambda item: item['question_id'], slake_data)).difference(item_ids)
+    item_ids = list(set(map(lambda item: item['question_id'], data)))
+    slake_ids = list(set(map(lambda item: item['question_id'], slake_data)).difference(item_ids))
 
-    slake_train_ids, slake_validation_ids = train_test_split(list(slake_ids), test_size=0.2, random_state=random_state)
+    slake_train_ids, slake_validation_ids = train_test_split(slake_ids, test_size=0.2, random_state=random_state)
     slake_test_ids, slake_validation_ids = train_test_split(slake_validation_ids, test_size=0.33, random_state=random_state)
 
-    train_ids, validation_ids = train_test_split(list(item_ids), test_size=0.3, random_state=random_state)
+    train_ids, validation_ids = train_test_split(item_ids, test_size=0.3, random_state=random_state)
     test_ids, validation_ids = train_test_split(validation_ids, test_size=0.33, random_state=random_state)
 
     train_ids += slake_train_ids
@@ -255,7 +255,7 @@ if __name__ == '__main__':
         output_dir="./postproc-checkpoints",
         per_device_train_batch_size=9,
         per_device_eval_batch_size=9,
-        num_train_epochs=20,
+        num_train_epochs=100,
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=1e-5,
@@ -272,4 +272,4 @@ if __name__ == '__main__':
     )
 
     training_pipeline = Training()
-    training_pipeline(preprocessing_model, train_dataset, validation_dataset, test_dataset, early_stopping=5, training_args=training_arguments, wandb_login_key=wandb_key)
+    training_pipeline(preprocessing_model, train_dataset, validation_dataset, test_dataset, early_stopping=10, training_args=training_arguments, wandb_login_key=wandb_key)
