@@ -115,9 +115,71 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
 
         return model
 
+    def canonicalize_and_classify_from_text(self, input_text: str, max_length: int = 128):
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+        self.eval()
+        self.to(device)
+
+        # inputs = self.tokenizer(input_text,
+        #                               max_length=max_length,
+        #                               padding='max_length',
+        #                               truncation=True,
+        #                               return_tensors='pt'
+        #                         )
+        inputs = self.tokenizer(
+                input_text,
+                return_tensors="pt",
+                max_length=max_length,
+                padding='max_length',
+        ).to(device)
+
+        # tokenized_input = inputs['input_ids'].to(device)
+        # attention_mask = inputs['attention_mask'].to(device)
+
+        # Generate canonical form (without labels)
+        # generated_ids = self.generate(
+        #     input_ids=tokenized_input,
+        #     attention_mask=attention_mask,
+        #     max_length=max_length,
+        #     num_beams=4,
+        #     early_stopping=True
+        # )
+        generated_ids = self.generate(
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            max_length=max_length,
+            num_beams=4,
+            early_stopping=True
+        )
+        # Use self.forward() to get inversion logits
+        # dummy_labels = tokenized_input.clone()
+        # dummy_labels[dummy_labels == self.tokenizer.pad_token_id] = -100
+
+        # _, inversion_logits = self.forward(
+        #     input_ids=tokenized_input,
+        #     attention_mask=attention_mask,
+        #     labels=dummy_labels
+        # )
+
+        # inv_flag_pred = (inversion_logits > 0).long()
+
+        # Decode generated text
+        generated_ids[generated_ids == -100] = self.tokenizer.pad_token_id
+        # canonical_text = self.tokenizer.decode(generated_ids[0], skip_special_tokens=True)
+        canonical_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        return canonical_text, None
+
+
 if __name__ == "__main__":
     model_name = 't5-base'
 
-    model_with_inversion = T5WithInversionHead.from_pretrained(model_name)
-    model_with_inversion.save_pretrained("./my-t5-with-head")
+    # model_with_inversion = T5WithInversionHead.from_pretrained(model_name)
+    # model_with_inversion.save_pretrained("./my-t5-with-head")
     model_with_inversion = T5WithInversionHead.from_pretrained("./my-t5-with-head")
+
+    text = "Is the heart unhealthy?"
+    canonical, inverted = model_with_inversion.canonicalize_and_classify_from_text(text)
+    print(f"Canonical: {canonical}")
+    print(f"Inverted: {inverted}")
