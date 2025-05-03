@@ -163,6 +163,7 @@ class Training:
             )
 
             training_args.report_to = "wandb"
+            training_args.output_dir = f"{wandb.run.name}-{training_args.output_dir}"
 
         trainer = CustomTrainer(
             model=model,
@@ -252,7 +253,7 @@ if __name__ == '__main__':
     wandb_key = "a9f105e8b3bc98e07700e93201d4b02c1c75106d"
 
     training_arguments = Seq2SeqTrainingArguments(
-        output_dir="./postproc-checkpoints",
+        output_dir="postproc-checkpoints",
         per_device_train_batch_size=9,
         per_device_eval_batch_size=9,
         num_train_epochs=100,
