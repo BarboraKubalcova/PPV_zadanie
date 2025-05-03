@@ -115,9 +115,48 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
 
         return model
 
-if __name__ == "__main__":
-    model_name = 't5-base'
+    def canonicalize_and_classify_from_text(self, input_text: str, max_length: int = 128):
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    model_with_inversion = T5WithInversionHead.from_pretrained(model_name)
-    model_with_inversion.save_pretrained("./my-t5-with-head")
-    model_with_inversion = T5WithInversionHead.from_pretrained("./my-t5-with-head")
+        self.eval()
+        self.to(device)
+
+        inputs = self.tokenizer(
+            input_text,
+            return_tensors="pt",
+            max_length=max_length,
+            padding='max_length',
+        ).to(device)
+
+        generated_ids = self.generate(
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            max_length=max_length,
+            num_beams=4,
+        )
+
+        dummy_labels = inputs["input_ids"].clone()
+        dummy_labels[dummy_labels == self.tokenizer.pad_token_id] = -100
+
+        _, inversion_logits = self.forward(
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            labels=dummy_labels
+        )
+
+        inv_flag_pred = (inversion_logits > 0).long()
+
+        generated_ids[generated_ids == -100] = self.tokenizer.pad_token_id
+        canonical_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        return canonical_text, inv_flag_pred.item() == 1
+
+
+if __name__ == "__main__":
+    # model_name = 't5-base'
+    model_with_inversion = T5WithInversionHead.from_pretrained("./checkpoint-12915")
+
+    text = "Does the picture not contain brain?"
+    canonical, inverted = model_with_inversion.canonicalize_and_classify_from_text(text)
+    print(f"Canonical: {canonical}")
+    print(f"Inverted: {inverted}")
