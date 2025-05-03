@@ -149,13 +149,14 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
         generated_ids[generated_ids == -100] = self.tokenizer.pad_token_id
         canonical_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
-        return canonical_text, inv_flag_pred
+        return canonical_text, inv_flag_pred.item() == 1
+
 
 if __name__ == "__main__":
     # model_name = 't5-base'
-    model_with_inversion = T5WithInversionHead.from_pretrained("../utils/vital-meadow-45-postproc-checkpoints/checkpoint-12915")
+    model_with_inversion = T5WithInversionHead.from_pretrained("./checkpoint-12915")
 
-    text = "Does the picture contain brain?"
+    text = "Does the picture not contain brain?"
     canonical, inverted = model_with_inversion.canonicalize_and_classify_from_text(text)
     print(f"Canonical: {canonical}")
     print(f"Inverted: {inverted}")
