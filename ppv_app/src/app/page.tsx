@@ -8,6 +8,8 @@ export default function Home() {
   const [image, setImage] = useState<string | null>(null);
   const [message, setMessage] = useState("");
   const [isDragging, setIsDragging] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [response, setResponse] = useState("No response yet");
 
   const handleDragOver = useCallback((e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
@@ -64,10 +66,56 @@ export default function Home() {
     setMessage(e.target.value);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Process message here when implementing functionality
-    console.log({ image, message });
+    
+    if (!image && !message) {
+      alert("Please upload an image or enter a message");
+      return;
+    }
+    
+    setIsLoading(true);
+    
+    try {
+      const formData = new FormData();
+      
+      if (message) {
+        formData.append("message", message);
+      }
+      
+      if (image) {
+        const imageData = image.split(',')[1];
+        const byteCharacters = atob(imageData);
+        const byteArrays = [];
+        
+        for (let i = 0; i < byteCharacters.length; i++) {
+          byteArrays.push(byteCharacters.charCodeAt(i));
+        }
+        
+        const byteArray = new Uint8Array(byteArrays);
+        const blob = new Blob([byteArray], { type: 'image/jpeg' });
+        
+        formData.append("image", blob, "image.jpg");
+      }
+      
+      const response = await fetch("http://localhost:5000/process", {
+        method: "POST",
+        body: formData,
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      setResponse(data.result || JSON.stringify(data));
+      
+    } catch (error) {
+      console.error("Error submitting data:", error);
+      setResponse(`Error: ${error instanceof Error ? error.message : "Unknown error occurred"}`);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -123,16 +171,21 @@ export default function Home() {
             onChange={handleMessageChange}
             placeholder="Enter your prompt"
             className={styles.messageInput}
+            disabled={isLoading}
           />
-          <button type="submit" className={styles.submitButton}>
-            Send
+          <button 
+            type="submit" 
+            className={styles.submitButton}
+            disabled={isLoading}
+          >
+            {isLoading ? "Processing..." : "Send"}
           </button>
         </form>
         
         <div className={styles.responseSection}>
           <h2 className={styles.responseTitle}>Response of the model:</h2>
           <div className={styles.responseContent}>
-            default
+            {isLoading ? "Processing..." : response}
           </div>
         </div>
       </main>
