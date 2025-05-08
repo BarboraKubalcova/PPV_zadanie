@@ -10,7 +10,7 @@ from preprocessing_model import T5WithInversionHead
 from colours import bcolors
 
 base_image_path = "../dataset/Slake/Slake1.0/imgs/"
-input_file = "data/test_data_original_and_inverted.json"
+mixed_file = "data/test_data_original_and_inverted.json"
 inverted_data = "data/inverted_test_data_filtered.json"
 original_data = "data/original_test_data_filtered.json"
 
@@ -109,10 +109,19 @@ def main():
     print("\nTesting Xagent on inverted testing data with correction")
     output_with_correction = test_xeagent(data, "inverted_test_results_with_correction.json", with_correction=True)
 
+    print("\nTesting Xagent on mixed testing data without correction")
+    data = read_vqa_json(mixed_file)
+    output_without_correction_mixed = test_xeagent(data, "mixed_test_results_without_correction.json")
+
+    print("\nTesting Xagent on mixed testing data with correction")
+    output_with_correction_mixed = test_xeagent(data, "mixed_test_results_with_correction.json", with_correction=True)
+
     print("-------------------------------------------------------")
     print(f"{output_on_original["accuracy"]}: Accuracy for original questions without negation.")
     print(f"{output_without_correction["accuracy"]}: Accuracy for inverted questions without correction.")
     print(f"{output_with_correction["accuracy"]}: Accuracy for inverted questions with correction.")
+    print(f"{output_without_correction_mixed["accuracy"]}: Accuracy for mixed questions with correction.")
+    print(f"{output_with_correction_mixed["accuracy"]}: Accuracy for mixed questions with correction.")
     print("-------------------------------------------------------")
 
 
