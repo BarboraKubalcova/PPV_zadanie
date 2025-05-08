@@ -20,28 +20,39 @@ def validate():
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_name = "t5-base"  # or "t5-base", or even a GPT model
 tokenizer = T5Tokenizer.from_pretrained(model_name)
+special_tokens_dict = {'additional_special_tokens': ['<check_if_negated>', '<original>', '<variation>']}
 model = T5ForConditionalGeneration.from_pretrained(model_name)
+
+num_added_tokens = tokenizer.add_special_tokens(special_tokens_dict)
+model.resize_token_embeddings(len(tokenizer))
 
 model.to(device)
 
-with open('dataset/check_if_negated_dataset.json', 'r') as fp:
-    examples = json.load(fp)
+with open('../prompts_change/custom_dataset/variations.fixed.json', 'r') as fp:
+    examples1 = json.load(fp)
 
-inputs = tokenizer([ex["input_text"] for ex in examples], padding=True, truncation=True, return_tensors="pt")
-labels = tokenizer([ex["target_text"] for ex in examples], padding=True, truncation=True, return_tensors="pt").input_ids
+with open('../prompts_change/custom_dataset/slake.dataset.json', 'r') as fp:
+    examples2 = json.load(fp)
+
+examples = examples1 + examples2
+
+inputs = tokenizer([f'<check_if_negated> <variation> {ex["variation"]}' for ex in examples[:]], padding=True, truncation=True, return_tensors="pt")
+labels = tokenizer([str(ex["is_negated"]) for ex in examples[:]], padding=True, truncation=True, return_tensors="pt").input_ids
+e0 = [f'<check_if_negated> <variation> {ex["variation"]}' for ex in examples[:1]][0]
+print(f'example input 0: {e0}')
 labels[labels == tokenizer.pad_token_id] = -100  # Ignore padding in loss
 dataset = TensorDataset(inputs.input_ids, inputs.attention_mask, torch.tensor(labels))
 
 generator1 = torch.Generator().manual_seed(42)
 train, val, test = random_split(dataset, [0.7, 0.1, 0.2], generator=generator1)
-train_loader = DataLoader(train, batch_size=2, shuffle=True)
+train_loader = DataLoader(train, batch_size=8, shuffle=True)
 val_loader = DataLoader(val, batch_size=1, shuffle=False)
 
 def main():
     optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
     model.train()
 
-    num_epochs = 3
+    num_epochs = 10
     epoch_losses = []
 
     val_loss_lst = []
@@ -67,15 +78,6 @@ def main():
         # Print training loss
         now = datetime.datetime.now().isoformat()
         print(f'[{epoch + 1}/{num_epochs}] {now}: training loss={train_loss:.4f}')
-        # TODO Implement a better early stop
-        # if (epoch + 1) % 4 == 0:
-        #     val_loss = validate()
-        #     val_loss_lst.append(val_loss)
-        #     if len(val_loss_lst) == 1:
-        #         pass
-        #     elif val_loss_lst[-1] > val_loss_lst[-2]:
-        #         print('early stopping')
-        #         break
 
     # Testing loop
     test_loader = DataLoader(test, batch_size=1, shuffle=False)
