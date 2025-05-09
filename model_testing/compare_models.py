@@ -120,7 +120,7 @@ def main():
     print(f"{output_on_original["accuracy"]}: Accuracy for original questions without negation.")
     print(f"{output_without_correction["accuracy"]}: Accuracy for inverted questions without correction.")
     print(f"{output_with_correction["accuracy"]}: Accuracy for inverted questions with correction.")
-    print(f"{output_without_correction_mixed["accuracy"]}: Accuracy for mixed questions with correction.")
+    print(f"{output_without_correction_mixed["accuracy"]}: Accuracy for mixed questions without correction.")
     print(f"{output_with_correction_mixed["accuracy"]}: Accuracy for mixed questions with correction.")
     print("-------------------------------------------------------")
 
