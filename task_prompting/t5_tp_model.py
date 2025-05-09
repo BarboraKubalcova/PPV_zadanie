@@ -18,13 +18,14 @@ def validate():
     return val_loss
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_name = "t5-base"  # or "t5-base", or even a GPT model
+model_name = "t5-small"
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 special_tokens_dict = {'additional_special_tokens': ['<check_if_negated>', '<original>', '<variation>', '<canonize>']}
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 num_added_tokens = tokenizer.add_special_tokens(special_tokens_dict)
 model.resize_token_embeddings(len(tokenizer))
+
 
 model.to(device)
 
@@ -55,14 +56,14 @@ train, val, test = random_split(dataset, [0.7, 0.1, 0.2], generator=generator1)
 train_loader = DataLoader(train, batch_size=8, shuffle=True)
 val_loader = DataLoader(val, batch_size=1, shuffle=False)
 
-def main():
+def main(num_epochs):
     optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
     model.train()
 
-    num_epochs = 20
-    epoch_losses = []
-
-    val_loss_lst = []
+    best_val_loss = 1e10
+    patience = 0
+    max_patience = 3
+    best_state_dict = None
     for epoch in range(num_epochs):
         loss_lst = []
         neg_loss_lst = []
@@ -97,11 +98,27 @@ def main():
         # Print training loss
         now = datetime.datetime.now().isoformat()
         print(f'[{epoch + 1}/{num_epochs}] {now}: total={train_loss:.4f}; neg={neg_loss:.4f}; can={can_loss:.4f}')
+        val_loss = validate()
+        if val_loss <= best_val_loss:
+            best_val_loss = val_loss
+            patience = 0
+            model.save_pretrained('weights/weights_9.5.25')
+            tokenizer.save_pretrained("weights/weights_9.5.25")
+        else:
+            patience += 1
+            if max_patience == patience:
+                print(f'max patience reached, early stopping')
+                break
+        # validate()
 
-    # Testing loop
+    test_model = T5ForConditionalGeneration.from_pretrained('weights/weights_9.5.25')
+    test_tokenizer = T5Tokenizer.from_pretrained('weights/weights_9.5.25')
+    test_model.to(device)
     test_loader = DataLoader(test, batch_size=1, shuffle=False)
-    correct = 0
-    incorrect = 0
+    correct_neg = 0
+    incorrect_neg = 0
+    correct_can = 0
+    incorrect_can = 0
     for test_item in test_loader:
         test_item_tokens = test_item[0].to(device)
         test_labels = test_item[2].to(device)
@@ -109,23 +126,37 @@ def main():
         # THIS IS THE FIX ##################
         test_labels[test_labels == -100] = 0
         ####################################
-        outputs = model.generate(test_item_tokens)
+        outputs = test_model.generate(test_item_tokens)
 
-        out_str = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        ti_gt = tokenizer.decode(test_labels[0], skip_special_tokens=True)
-
+        out_str = test_tokenizer.decode(outputs[0], skip_special_tokens=True)
+        ti_gt = test_tokenizer.decode(test_labels[0], skip_special_tokens=True)
+        input_str = test_tokenizer.decode(test_item_tokens[0], skip_special_tokens=False)
+        # print(input_str)
         is_correct = ti_gt == out_str
+
         hit_str = 'WRONG'
-        incorrect += 1
-        if is_correct:
-            hit_str = 'CORRECT'
-            correct += 1
-            incorrect -= 1
+        if '<canonize>' in input_str:
+            incorrect_can += 1
+            if is_correct:
+                hit_str = 'CORRECT'
+                correct_can += 1
+                incorrect_can -= 1
+        else:
+            incorrect_neg += 1
+            if is_correct:
+                hit_str = 'CORRECT'
+                correct_neg += 1
+                incorrect_neg -= 1
         # Print results
         # print(
         #     f'[{hit_str}] Input: {tokenizer.decode(test_item_tokens[0], skip_special_tokens=True)} -> Output: {out_str}')
 
-    print(f'Accuracy: {correct}/{incorrect + correct}')
+    print(f'Accuracy can: {correct_can}/{incorrect_can + correct_can}')
+    print(f'Accuracy neg: {correct_neg}/{incorrect_neg + correct_neg}')
+    correct_total = correct_can + correct_neg
+    all_total = incorrect_can + correct_can + incorrect_neg + correct_neg
+    print(f'Accuracy total: {correct_total}/{all_total}')
 
 if __name__ == '__main__':
-    main()
+    num_epochs = 15
+    main(num_epochs)
