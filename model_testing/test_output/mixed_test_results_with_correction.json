@@ -1,7 +1,7 @@
 {
-    "accuracy": 98.95833333333334,
+    "accuracy": 99.47916666666666,
     "total_questions": 192,
-    "correct_predictions": 190,
+    "correct_predictions": 191,
     "results": [
         {
             "question": "Are there no abnormalities in this image?",
@@ -822,8 +822,8 @@
         {
             "question": "Can pneumonia be observed on the right lung in this picture?",
             "correct_answer": "Yes",
-            "model_answer": "No",
-            "match": false
+            "model_answer": "Yes",
+            "match": true
         },
         {
             "question": "Do the organs in the image exist in the abdomen?",

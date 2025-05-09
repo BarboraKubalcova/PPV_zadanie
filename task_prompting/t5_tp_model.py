@@ -18,7 +18,7 @@ def validate():
     return val_loss
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_name = "t5-small"
+model_name = "t5-base"
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 special_tokens_dict = {'additional_special_tokens': ['<check_if_negated>', '<original>', '<variation>', '<canonize>']}
 model = T5ForConditionalGeneration.from_pretrained(model_name)
@@ -40,21 +40,21 @@ q_ids = [ex['question_id'] for ex in examples[:]] + [ex['question_id'] for ex in
 to_input1 = [f'<check_if_negated> <variation> {ex["variation"]}' for ex in examples[:]]
 to_input2 = [f'<canonize> <variation> {ex["variation"]}' for ex in examples[:]]
 to_input = to_input1 + to_input2
-to_label1 = [str(ex["is_negated"]) for ex in examples[:]]
+to_label1 = ["Yes" if ex["is_negated"] else "No" for ex in examples[:]]
 to_label2 = [ex["original"] for ex in examples[:]]
 to_label = to_label1 + to_label2
 
 
-to_json = []
-for q_id, input, label in zip(q_ids, to_input, to_label):
-    to_json.append({
-        'question_id': q_id,
-        'input': input,
-        'target': label,
-    })
-
-with open('mixed_tasks.json', 'w') as fp:
-    json.dump(to_json, fp, indent=4)
+# to_json = []
+# for q_id, input, label in zip(q_ids, to_input, to_label):
+#     to_json.append({
+#         'question_id': q_id,
+#         'input': input,
+#         'target': label,
+#     })
+#
+# with open('mixed_tasks.json', 'w') as fp:
+#     json.dump(to_json, fp, indent=4)
 
 
 inputs = tokenizer(to_input, padding=True, truncation=True, return_tensors="pt")
@@ -66,12 +66,13 @@ dataset = TensorDataset(inputs.input_ids, inputs.attention_mask, torch.tensor(la
 
 generator1 = torch.Generator().manual_seed(42)
 train, val, test = random_split(dataset, [0.7, 0.1, 0.2], generator=generator1)
-train_loader = DataLoader(train, batch_size=8, shuffle=True)
-val_loader = DataLoader(val, batch_size=1, shuffle=False)
+train_loader = DataLoader(train, batch_size=16, shuffle=True)
+val_loader = DataLoader(val, batch_size=16, shuffle=False)
 
 def main(num_epochs):
     optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
     model.train()
+    to_save  = 'w_t5_09.05.25'
 
     best_val_loss = 1e10
     patience = 0
