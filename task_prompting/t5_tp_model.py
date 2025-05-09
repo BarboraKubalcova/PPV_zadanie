@@ -44,6 +44,7 @@ to_label1 = [str(ex["is_negated"]) for ex in examples[:]]
 to_label2 = [ex["original"] for ex in examples[:]]
 to_label = to_label1 + to_label2
 
+
 to_json = []
 for q_id, input, label in zip(q_ids, to_input, to_label):
     to_json.append({
