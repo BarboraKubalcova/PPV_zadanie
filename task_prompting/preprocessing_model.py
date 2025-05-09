@@ -41,16 +41,17 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
         super().__init__(config)
         self.t5_model = T5ForConditionalGeneration(config)
         self.tokenizer = T5Tokenizer.from_pretrained(config.tokenizer)
-        self.inversion_classifier = nn.Linear(config.d_model, 1)
+        # self.inversion_classifier = nn.Linear(config.d_model, 1)
 
         self.post_init()
 
-        self.t5_model.config.output_hidden_states = True
+        # self.t5_model.config.output_hidden_states = True
 
-        self.config.output_hidden_states = True
+        # self.config.output_hidden_states = True
 
     def forward(self, input_ids, attention_mask=None, labels=None):
         outputs = self.t5_model(input_ids, attention_mask=attention_mask, labels=labels, output_hidden_states=True)
+        input_str = self.tokenizer.decode(input_ids[0], skip_special_tokens=False)
 
         canonical_question = outputs.logits
 

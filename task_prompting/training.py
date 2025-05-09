@@ -6,6 +6,8 @@ import pandas as pd
 from torch import nn
 from transformers.utils import logging
 from sklearn.metrics import accuracy_score
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+from torch.utils.data import DataLoader, TensorDataset, random_split
 from sklearn.model_selection import train_test_split
 from transformers import (
     Seq2SeqTrainingArguments,
@@ -18,7 +20,7 @@ from transformers import (
     Trainer
 )
 
-from model.preprocessing_model import T5WithInversionHead
+from task_prompting.preprocessing_model import T5WithInversionHead
 from dataloaders.CheXAgentDatataset import CheXAgentDataset
 
 logger = logging.get_logger(__name__)
@@ -218,6 +220,15 @@ class Training:
 if __name__ == '__main__':
     random_state = 42
 
+    # model_name = "t5-base"
+    # tokenizer = T5Tokenizer.from_pretrained(model_name)
+    # special_tokens_dict = {
+    #     'additional_special_tokens': ['<check_if_negated>', '<original>', '<variation>', '<canonize>']}
+    # model = T5ForConditionalGeneration.from_pretrained(model_name)
+    #
+    # num_added_tokens = tokenizer.add_special_tokens(special_tokens_dict)
+    # model.resize_token_embeddings(len(tokenizer))
+
     json_path = "../prompts_change/custom_dataset/variations.fixed.json"
     slake_json_path = "../prompts_change/custom_dataset/slake.dataset.json"
 
@@ -227,11 +238,21 @@ if __name__ == '__main__':
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
+    examples = data + slake_data
+
+    to_input1 = [f'<check_if_negated> <variation> {ex["variation"]}' for ex in examples[:]]
+    to_input2 = [f'<canonize> <variation> {ex["variation"]}' for ex in examples[:]]
+    to_input = to_input1 + to_input2
+    to_label1 = [str(ex["is_negated"]) for ex in examples[:]]
+    to_label2 = [ex["original"] for ex in examples[:]]
+    to_label = to_label1 + to_label2
+
     item_ids = list(set(map(lambda item: item['question_id'], data)))
     slake_ids = list(set(map(lambda item: item['question_id'], slake_data)).difference(item_ids))
 
     slake_train_ids, slake_validation_ids = train_test_split(slake_ids, test_size=0.2, random_state=random_state)
-    slake_test_ids, slake_validation_ids = train_test_split(slake_validation_ids, test_size=0.33, random_state=random_state)
+    slake_test_ids, slake_validation_ids = train_test_split(slake_validation_ids, test_size=0.33,
+                                                            random_state=random_state)
 
     train_ids, validation_ids = train_test_split(item_ids, test_size=0.3, random_state=random_state)
     test_ids, validation_ids = train_test_split(validation_ids, test_size=0.33, random_state=random_state)
@@ -240,10 +261,12 @@ if __name__ == '__main__':
     validation_ids += slake_validation_ids
     test_ids += slake_test_ids
 
-    test_data = list(filter(lambda item: item['question_id'] in test_ids, data)) + list(filter(lambda item: item['question_id'] in test_ids, slake_data))
-    train_data = list(filter(lambda item: item['question_id'] in train_ids, data)) + list(filter(lambda item: item['question_id'] in train_ids, slake_data))
-    validation_data = list(filter(lambda item: item['question_id'] in validation_ids, data)) + list(filter(lambda item: item['question_id'] in validation_ids, slake_data))
-
+    test_data = list(filter(lambda item: item['question_id'] in test_ids, data)) + list(
+        filter(lambda item: item['question_id'] in test_ids, slake_data))
+    train_data = list(filter(lambda item: item['question_id'] in train_ids, data)) + list(
+        filter(lambda item: item['question_id'] in train_ids, slake_data))
+    validation_data = list(filter(lambda item: item['question_id'] in validation_ids, data)) + list(
+        filter(lambda item: item['question_id'] in validation_ids, slake_data))
     preprocessing_model = T5WithInversionHead.from_pretrained('t5-base')
 
     test_dataset = CheXAgentDataset(test_data, preprocessing_model)

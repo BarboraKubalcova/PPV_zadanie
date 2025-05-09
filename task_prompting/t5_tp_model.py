@@ -36,13 +36,25 @@ with open('../prompts_change/custom_dataset/slake.dataset.json', 'r') as fp:
     examples2 = json.load(fp)
 
 examples = examples1 + examples2
-
+q_ids = [ex['question_id'] for ex in examples[:]] + [ex['question_id'] for ex in examples[:]]
 to_input1 = [f'<check_if_negated> <variation> {ex["variation"]}' for ex in examples[:]]
 to_input2 = [f'<canonize> <variation> {ex["variation"]}' for ex in examples[:]]
 to_input = to_input1 + to_input2
 to_label1 = [str(ex["is_negated"]) for ex in examples[:]]
 to_label2 = [ex["original"] for ex in examples[:]]
 to_label = to_label1 + to_label2
+
+to_json = []
+for q_id, input, label in zip(q_ids, to_input, to_label):
+    to_json.append({
+        'question_id': q_id,
+        'input': input,
+        'target': label,
+    })
+
+with open('mixed_tasks.json', 'w') as fp:
+    json.dump(to_json, fp, indent=4)
+
 
 inputs = tokenizer(to_input, padding=True, truncation=True, return_tensors="pt")
 labels = tokenizer(to_label, padding=True, truncation=True, return_tensors="pt").input_ids
