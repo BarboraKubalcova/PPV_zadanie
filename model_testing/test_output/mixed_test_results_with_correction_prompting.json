@@ -1,0 +1,1160 @@
+{
+    "accuracy": 94.27083333333334,
+    "answered_questions": 192,
+    "total_questions": 192,
+    "correct_predictions": 181,
+    "results": [
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the lung look unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does this image look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "No",
+            "match": false
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does this image look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does this image look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does this image look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is/Are there no abnormalities in the patient's right lung?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pneumothorax not be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal plane?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the chest?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is/Are there no abnormalities in the patient's right lung?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can atelectasis not be observed on the upper right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image not taken via X-Ray?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal plane?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the chest?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the pelvic cavity?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can mass not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a transverse section?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the neck?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the patient have no abnormalities?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can atelectasis not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not image taken via X-Ray?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the lung look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia not be observed on the right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image not exist in the abdomen?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can cardiomegaly not be observed on the heart in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal plane?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the lung look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pulmonary infiltration not be observed on the upper right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung abnormal appearing?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can nodule not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the patient have no abnormalities?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can nodule not be observed on the upper right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not an MRI scan?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a transverse plane?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image exist in the abdomen?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung abnormal appearing?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is/Are there no abnormalities in the patient's left lung?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pneumothorax not be observed on the lower right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not an X-Ray?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image not exist in the abdomen?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pneumothorax not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image not taken via X-Ray?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can nodule not be observed on the lower right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image not taken via X-Ray?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung unhealthy?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia not be observed on the upper right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not a coronal plane?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the neck?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the lung look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there no abnormalities in this image?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia not be observed on the upper right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a transverse section?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the chest?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung abnormal appearing?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia not be observed on the lower right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image not taken via CT?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not a transverse plane?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is/Are there no abnormalities in the patient's left lung?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can infiltration not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image not taken via X-Ray?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a coronal section?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the head?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the patient not have any abnormalities?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the lung look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can effusion not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image not exist in the chest?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the abdomen?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this not a study of the pelvic cavity?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can effusion not be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the lung look healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does this image look normal?",
+            "correct_answer": "No",
+            "model_answer": "Yes",
+            "match": false
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does this image look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does this image look normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does this image look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is/Are there abnormalities in the patient's right lung?",
+            "correct_answer": "Yes",
+            "model_answer": "No",
+            "match": false
+        },
+        {
+            "question": "Is this image normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a transverse plane?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the chest?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is/Are there abnormalities in the patient's right lung?",
+            "correct_answer": "Yes",
+            "model_answer": "No",
+            "match": false
+        },
+        {
+            "question": "Can atelectasis be observed on the upper right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image taken via X-Ray?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a transverse plane?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the chest?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the pelvic cavity?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can mass be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal section?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the neck?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the patient have any abnormalities?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can atelectasis be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image taken via X-Ray?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the lung look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia be observed on the right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image exist in the abdomen?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can cardiomegaly be observed on the heart in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this sagittal plane?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the lung look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pulmonary infiltration be observed on the upper right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung normal appearing?",
+            "correct_answer": "No",
+            "model_answer": "Yes",
+            "match": false
+        },
+        {
+            "question": "Is this image normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can nodule be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the patient have any abnormalities?",
+            "correct_answer": "Yes",
+            "model_answer": "No",
+            "match": false
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can nodule be observed on the upper right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this an MRI scan?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal plane?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image exist in the chest?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung normal appearing?",
+            "correct_answer": "No",
+            "model_answer": "Yes",
+            "match": false
+        },
+        {
+            "question": "Is/Are there abnormalities in the patient's left lung?",
+            "correct_answer": "Yes",
+            "model_answer": "No",
+            "match": false
+        },
+        {
+            "question": "Can pneumothorax be observed on the lower right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a X-Ray?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image exist in the abdomen?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image taken via X-Ray?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is the lung abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can nodule be observed on the lower right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "Yes",
+            "match": false
+        },
+        {
+            "question": "Is this image taken via X-Ray?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung healthy?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia be observed on the upper right lung in this picture?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal plane?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the neck?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the lung look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Are there abnormalities in this image?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can pneumonia be observed on the upper right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a transverse section?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the chest?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is the lung normal appearing?",
+            "correct_answer": "No",
+            "model_answer": "Yes",
+            "match": false
+        },
+        {
+            "question": "Can pneumonia be observed on the lower right lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image taken via CT?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a transverse plane?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is/Are there abnormalities in the patient's left lung?",
+            "correct_answer": "Yes",
+            "model_answer": "No",
+            "match": false
+        },
+        {
+            "question": "Can infiltration be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this image taken via X-Ray?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a coronal section?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the head?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Does the patient have any abnormalities?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Does the lung look abnormal?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Can effusion be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Do the organs in the image exist in the chest?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the abdomen?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this a study of the pelvic cavity?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Is this image normal?",
+            "correct_answer": "No",
+            "model_answer": "No",
+            "match": true
+        },
+        {
+            "question": "Can effusion be observed on the lower left lung in this picture?",
+            "correct_answer": "Yes",
+            "model_answer": "Yes",
+            "match": true
+        }
+    ]
+}
