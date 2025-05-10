@@ -151,9 +151,7 @@ class TrainEvalCallback(TrainerCallback):
 
 class Training:
     def __call__(self, model, training_dataset, valid_dataset, testing_dataset, early_stopping, training_args: Seq2SeqTrainingArguments, wandb_login_key: str | None = None):
-        training_args.report_to = "none"
-
-        if wandb_login_key is not None:
+        if wandb_login_key is not None and wandb.run is None:
             wandb.login(key=wandb_login_key)
 
             wandb.init(
@@ -162,8 +160,9 @@ class Training:
                 config=training_args.to_dict(),
             )
 
-            training_args.report_to = "wandb"
             training_args.output_dir = f"{wandb.run.name}-{training_args.output_dir}"
+
+        training_args.report_to = "none" if wandb.run is None else "wandb"
 
         trainer = CustomTrainer(
             model=model,
