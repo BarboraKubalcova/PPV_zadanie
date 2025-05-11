@@ -53333,7 +53333,6 @@
         "variation": "Did the image originate from a source other than a CT device?",
         "is_negated": true
     },
-    },
     {
         "question_id": 3086,
         "original": "Is this image taken via CT?",
