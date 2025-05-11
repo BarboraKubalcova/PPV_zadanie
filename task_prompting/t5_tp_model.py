@@ -33,6 +33,7 @@ def get_formatted_and_model(w_path, model_name):
     to_label2 = [ex["original"] for ex in examples[:]]
     to_label = to_label1 + to_label2
 
+
     # SAVE DATA TO JSON
     # to_json = []
     # for q_id, input, label in zip(q_ids, to_input, to_label):
