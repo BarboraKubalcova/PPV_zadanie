@@ -1,0 +1,1202 @@
+[
+  {
+    "input_text": "<check_if_negated> Is there evidence of shortness of breath?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any asthma?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing asthma?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking skin rash?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the dizziness functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking dizziness?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from high blood pressure?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the dehydration functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking skin rash?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with joint pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from chest pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be shortness of breath?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of joint pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the dehydration functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of swelling?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any medication?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the fatigue functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the dizziness functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any weight loss?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any skin rash?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from asthma?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be medication?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be asthma?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the asthma functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking high blood pressure?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from allergies?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of allergies?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the headache functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of weight loss?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no joint pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with allergies?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of high blood pressure?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the nausea functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing chest pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from allergies?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of skin rash?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the dizziness functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from medication?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any high blood pressure?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from medication?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing shortness of breath?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the chest pain functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with high blood pressure?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of nausea?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing chest pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the allergies functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the allergies functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from asthma?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be shortness of breath?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with anemia?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing high blood pressure?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with asthma?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any medication?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking asthma?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the diabetes functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking weight loss?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of anemia?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from skin rash?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with shortness of breath?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any headache?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no asthma?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of allergies?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the vomiting functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the fever functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any headache?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no joint pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from asthma?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any high blood pressure?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no headache?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking weight loss?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing anemia?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the asthma functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with dizziness?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any anemia?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no infection?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of dizziness?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing high blood pressure?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of nausea?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing skin rash?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with infection?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be chest pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking skin rash?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the shortness of breath functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any high blood pressure?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the vomiting functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with asthma?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of allergies?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be joint pain?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the diabetes functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be skin rash?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing dizziness?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no dehydration?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any chest pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any high blood pressure?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Was there a sign of fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the infection functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the diabetes functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with allergies?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from skin rash?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it likely to be allergies?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with chest pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the joint pain functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be shortness of breath?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from fatigue?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the asthma functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no infection?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of headache?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the high blood pressure functioning normally?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been any vomiting?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she taking shortness of breath?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing joint pain?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing high blood pressure?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking weight loss?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has there been no swelling?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from diabetes?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with swelling?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the anemia functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient reported any fever?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with medication?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there no evidence of fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking fatigue?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient not experiencing anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any diabetes?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from asthma?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking headache?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of anemia?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the chest pain functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with dehydration?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Has the patient not reported any fever?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Isn't the dehydration functioning normally?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from dizziness?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Aren't the symptoms consistent with nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is it not likely to be high blood pressure?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of vomiting?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is the patient experiencing anemia?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Is there evidence of infection?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Was there no sign of anemia?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Are the symptoms consistent with allergies?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from nausea?",
+    "target_text": "False"
+  },
+  {
+    "input_text": "<check_if_negated> Doesn't the individual suffer from nausea?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Is she not taking weight loss?",
+    "target_text": "True"
+  },
+  {
+    "input_text": "<check_if_negated> Does the individual suffer from fever?",
+    "target_text": "False"
+  }
+]
