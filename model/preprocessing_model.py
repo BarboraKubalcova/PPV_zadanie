@@ -91,7 +91,7 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
         )
 
     @classmethod
-    def from_pretrained(cls, pretrained_model_name_or_path: str, *args, **kwargs):
+    def from_pretrained(cls, pretrained_model_name_or_path: str, *args, **kwargs) -> "T5WithInversionHead":
         head_file = os.path.join(pretrained_model_name_or_path, "inversion_classifier.bin")
         is_wrapper = os.path.isdir(pretrained_model_name_or_path)
         possible_tuple = T5WithInversionHeadConfig.from_pretrained(pretrained_model_name_or_path, *args, **kwargs)
@@ -115,9 +115,7 @@ class T5WithInversionHead(T5PreTrainedModel, GenerationMixin):
 
         return model
 
-    def canonicalize_and_classify_from_text(self, input_text: str, max_length: int = 128):
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+    def canonicalize_and_classify_from_text(self, input_text: str, max_length: int = 128, device = torch.device("cuda" if torch.cuda.is_available() else "cpu")):
         self.eval()
         self.to(device)
 

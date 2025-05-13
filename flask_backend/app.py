@@ -1,71 +1,78 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+import re
 import os
 import sys
-from werkzeug.utils import secure_filename
-import time
+import torch
+import uvicorn
+import tempfile
+from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, File, UploadFile, Form
 
-# Pridanie cesty k modelom
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-# Import modelu pre spracovanie obrázka
-try:
-    from models.chexagent import ChexAgent
-    model_available = True
-except ImportError:
-    print("Upozornenie: Model ChexAgent nie je k dispozícii. Použijeme náhradnú odpoveď.")
-    model_available = False
+from assignment1.models.chexagent import CheXagent
+from assignment1.model.CheXAgentWrapper import CheXAgentWrapper
+from assignment1.model.preprocessing_model import T5WithInversionHead
 
-app = Flask(__name__)
-CORS(app)  # Povolí Cross-Origin Resource Sharing pre komunikáciu s Next.js
 
-UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+sys.path.append('models/')
 
-if not os.path.exists(UPLOAD_FOLDER):
-    os.makedirs(UPLOAD_FOLDER)
+app = FastAPI()
 
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+def post_processing(prompt: str) -> str:
+    if prompt.lower() == "no":
+        return "Yes"
+    elif prompt.lower() == "yes":
+        return "No"
+    else:
+        leading_ws = re.match(r'^\s*', prompt).group(0)
+        body = prompt[len(leading_ws):]
 
-@app.route('/process', methods=['POST'])
-def process_request():
-    # Získanie správy (ak existuje)
-    message = request.form.get('message', 'No message provided')
-    
-    # Získanie obrázka (ak existuje)
-    if 'image' not in request.files:
-        return jsonify({
-            'result': f"Spracovaná správa: {message}. Nebol poskytnutý žiadny obrázok."
-        })
-    
-    file = request.files['image']
-    
-    # Ak nebol vybraný žiadny súbor
-    if file.filename == '':
-        return jsonify({
-            'result': f"Spracovaná správa: {message}. Nebol poskytnutý žiadny obrázok."
-        })
-    
-    if file and allowed_file(file.filename):
-        filename = secure_filename(file.filename)
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        file.save(filepath)
-        
-        # Tu by ste mali pridať kód na spracovanie obrázka
-        # Napríklad, zavolanie funkcie vo vašom PPV modeli
-        # result = your_model.process_image(filepath, message)
-        
-        # Pre ukážku vrátime jednoduchú odpoveď
-        return jsonify({
-            'result': f"Spracovaná správa: '{message}'. Obrázok prijatý a uložený ako '{filename}'."
-        })
-    
-    return jsonify({
-        'result': "Nepodporovaný formát súboru. Povolené typy: png, jpg, jpeg, gif"
-    })
+        m = re.match(r'([A-Za-z]+)(.*)', body, re.DOTALL)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+        if m:
+            first, rest = m.group(1), m.group(2)
+
+            if not first.isupper():
+                first = first.lower()
+
+            new_body = f"Not {first}{rest}"
+        else:
+            new_body = f"Not {body}"
+
+        return leading_ws + new_body
+
+@app.on_event("startup")
+def load_model():
+    preprocessing_model = T5WithInversionHead.from_pretrained('t5-base')
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+    app.state.model = CheXAgentWrapper(lambda x: preprocessing_model.canonicalize_and_classify_from_text(x, device=device), post_processing, device=device)
+    app.state.model = CheXagent(device="cpu")
+
+@app.post("/process")
+async def process_with_tempdir(
+    image: UploadFile = File(None),
+    message: str = Form("")
+):
+    img_bytes = await image.read() if image else None
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        path = os.path.join(tmpdir, "upload.jpg")
+        if img_bytes:
+            with open(path, "wb") as f:
+                f.write(img_bytes)
+
+        model = app.state.model
+        result = model.generate(path, message, do_sample=False)
+
+    return JSONResponse({"result": result})
+
+if __name__ == "__main__":
+    uvicorn.run("app:app", host="0.0.0.0", port=5000, reload=True)
