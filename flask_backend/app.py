@@ -8,9 +8,8 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, File, UploadFile, Form
 
-from assignment1.models.chexagent import CheXagent
-from assignment1.model.CheXAgentWrapper import CheXAgentWrapper
-from assignment1.model.preprocessing_model import T5WithInversionHead
+from model.CheXAgentWrapper import CheXAgentWrapper
+from model.preprocessing_model import T5WithInversionHead
 
 
 sys.path.append('models/')
@@ -19,7 +18,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -50,11 +49,10 @@ def post_processing(prompt: str) -> str:
 
 @app.on_event("startup")
 def load_model():
-    preprocessing_model = T5WithInversionHead.from_pretrained('t5-base')
+    preprocessing_model = T5WithInversionHead.from_pretrained('/home/mm637oq/PycharmProjects/PPV_zadanie/utils/vital-meadow-45-postproc-checkpoints/checkpoint-12915')
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     app.state.model = CheXAgentWrapper(lambda x: preprocessing_model.canonicalize_and_classify_from_text(x, device=device), post_processing, device=device)
-    app.state.model = CheXagent(device="cpu")
 
 @app.post("/process")
 async def process_with_tempdir(
@@ -70,9 +68,9 @@ async def process_with_tempdir(
                 f.write(img_bytes)
 
         model = app.state.model
-        result = model.generate(path, message, do_sample=False)
+        result = model(message, path)
 
     return JSONResponse({"result": result})
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=5000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=3000, reload=True)

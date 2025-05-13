@@ -1,11 +1,11 @@
 import torch
 from typing import Callable
 
-from assignment1.models.chexagent import CheXagent
+from models.chexagent import CheXagent
 
 
 class CheXAgentWrapper:
-    def __init__(self, preprocessing: Callable[[str], (str, bool)], postprocessing: Callable[[str], str], device: torch.device = torch.device("cpu")):
+    def __init__(self, preprocessing: Callable[[str], tuple[str, bool]], postprocessing: Callable[[str], str], device: torch.device = torch.device("cpu")):
         self.preprocessing = preprocessing
         self.postprocessing = postprocessing
 

@@ -98,7 +98,7 @@ export default function Home() {
         formData.append("image", blob, "image.jpg");
       }
       
-      const response = await fetch("http://localhost:5000/process", {
+      const response = await fetch("http://coca.cit.fei.tuke.sk:32775/process", {
         method: "POST",
         body: formData,
       });

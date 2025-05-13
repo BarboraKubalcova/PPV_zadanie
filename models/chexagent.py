@@ -2,7 +2,7 @@ import torch
 from rich import print
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from baseLM import BaseLM
+from models.baseLM import BaseLM
 
 
 class CheXagent(BaseLM):
