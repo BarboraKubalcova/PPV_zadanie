@@ -193,7 +193,7 @@ class Training:
         decoded_preds = model.tokenizer.batch_decode(gen_ids, skip_special_tokens=True)
         decoded_labels = model.tokenizer.batch_decode(label_ids, skip_special_tokens=True)
 
-        orig_inputs = [ex["variation"] for ex in test_data]
+        orig_inputs = [ex["variation"] for ex in testing_dataset.data]
 
         table = wandb.Table(columns=[
             "input_question",
