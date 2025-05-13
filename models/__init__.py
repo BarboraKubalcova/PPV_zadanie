@@ -1,3 +1,3 @@
-from baseLM import BaseLM
-from chexagent import CheXagent
+from models.baseLM import BaseLM
+from models.chexagent import CheXagent
 
